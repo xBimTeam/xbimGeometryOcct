@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <OcctBuildPath>$(SolutionDir)/Install/</OcctBuildPath>
+    <OcctBuildPath64>$(OcctBuildPath)win64/vc14</OcctBuildPath64>
+    <OcctBuildPath86>$(OcctBuildPath)win32/vc14</OcctBuildPath86>
+    <IsPackable>true</IsPackable>
+    <Title>Redistribution of the OCCT libraries required by Xbim Geometry engine</Title>
+    <Authors>Open CASCADE. Compiled and packaged by Xbim Ltd</Authors>
+    <Description>Redistribution of the Open CASCADE Technology (OCCT) libraries required by Xbim Geometry engine, supporting x86 and x64 platforms</Description>
+    <Copyright>Open CASCADE Technology</Copyright>
+    <PackageIcon>xbim-toolkit-icon.png</PackageIcon>
+    <PackageTags>Xbim;Geometry;OCCT;OpenCascade</PackageTags>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <FileVersion>7.7.1.0</FileVersion>
+    <Version>7.7.1-beta</Version>
+    <PackageLicenseExpression>LGPL-2.1-only WITH OCCT-exception-1.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>docs/Readme.md</PackageReadmeFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <BaseNames Include="TKBO;TKBOOL;TKBRep;TKernel;TKFillet;TKG2d;TKG3d;TKGeomAlgo;TKGeomBase;TKMath;TKMesh;TKOffset;TKPrim;TKShHealing;TKTopAlgo;TKCAF;TKCDF;TKHLR;TKLCAF;TKV3d;TKVCAF;TKXCAF;TKService;TKXDESTEP;TKSTEPBase;TKSTEP;TKXSBase;TKSTEPAttr;TKSTEP209;TKRWMesh;TKBin;TKBinL;TKBinXCAF;TKFeat" />
+  </ItemGroup>
+  <ItemGroup>
+
+
+    <None Include="$(OcctBuildPath)inc/*.hxx" Exclude="$(OcctBuildPath)inc/AIS*;$(OcctBuildPath)inc\Vrml*">
+      <Pack>true</Pack>
+      <PackagePath>build\native\include\</PackagePath>
+      <Link>include\%(FileName)%(Extension)</Link>
+    </None>
+    <!--dll files-->
+    <None Include="@(BaseNames->'$(OcctBuildPath64)\bin\%(FileName).dll')">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\x64\Release\</PackagePath>
+      <Link>win-x64\%(FileName)%(Extension)</Link>
+    </None>
+    <!--<Content Include="@(BaseNames->'..\win64\vc14\bind\%(FileName).dll')">
+			<Pack>true</Pack>
+			<PackagePath>lib\native\v143\x64\Debug\</PackagePath>
+		</Content>-->
+
+    <None Include="@(BaseNames->'$(OcctBuildPath86)\bin\%(FileName).dll')">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
+      <Link>win-x86\%(FileName)%(Extension)</Link>
+    </None>
+
+    <!--<Content Include="@(LibNames->'..\win32\vc14\bind\%(FileName).dll')">
+			<Pack>true</Pack>
+			<PackagePath>lib\native\v143\x86\Debug\</PackagePath>
+		</Content>-->
+
+    <None Include="@(BaseNames->'$(OcctBuildPath64)\lib\%(FileName).lib')">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\x64\Release\</PackagePath>
+      <Link>win-x64\%(FileName)%(Extension)</Link>
+    </None>
+    <!--<Content Include="@(BaseNames->'$(OcctBuildPath64)\vc14\libd\%(FileName).lib')">
+			<Pack>true</Pack>
+			<PackagePath>lib\native\v143\x64\Debug\</PackagePath>
+		</Content>-->
+
+    <None Include="@(BaseNames->'$(OcctBuildPath86)\lib\%(FileName).lib')">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
+      <Link>win-x86\%(FileName)%(Extension)</Link>
+    </None>
+    <!--<Content Include="@(BaseNames->'..\win32\vc14\libd\%(FileName).lib')">
+			<Pack>true</Pack>
+			<PackagePath>lib\native\v143\x86\Debug\</PackagePath>
+		</Content>-->
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\"></Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xbim-toolkit-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>docs</PackagePath>
+    </None>
+    <None Include="Xbim.Geometry.Occt.targets">
+      <Pack>True</Pack>
+      <PackagePath>build</PackagePath>
+    </None>
+    <None Include="$(OcctBuildPath)LICENSE_LGPL_21.txt">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="$(OcctBuildPath)OCCT_LGPL_EXCEPTION.txt">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

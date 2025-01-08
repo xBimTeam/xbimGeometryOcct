@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ClCompile>
+	</ItemDefinitionGroup>
+
+
+	<ItemGroup>
+		<BaseNames  Include="TKBO;TKBOOL;TKBRep;TKernel;TKFillet;TKG2d;TKG3d;TKGeomAlgo;TKGeomBase;TKMath;TKMesh;TKOffset;TKPrim;TKShHealing;TKTopAlgo;TKCAF;TKCDF;TKHLR;TKLCAF;TKV3d;TKVCAF;TKXCAF;TKService;TKXDESTEP;TKSTEPBase;TKSTEP;TKXSBase;TKSTEPAttr;TKSTEP209;TKRWMesh;TKBin;TKBinL;TKBinXCAF;TKFeat"/>
+	</ItemGroup>
+
+	<Target Name="BuildLibAndDllNames" AfterTargets="ComputeCLGeneratedLinkInputs">
+		<ItemGroup>
+			<LibNames Include="@(BaseNames->'%(FileName).lib')"/>
+			<DllNames Include="@(BaseNames->'%(FileName).dll')"/>
+			<Link>
+				<AdditionalDependencies>@(LibNames);%(Link.AdditionalDependencies)</AdditionalDependencies>
+			</Link>
+		</ItemGroup>
+		<Message Text="PlatformTarget = $(PlatformTarget)" Importance = "High"></Message>
+		<ItemGroup Condition="$(PlatformTarget)=='x86'">
+			<Link>
+				<AdditionalLibraryDirectories >$(MSBuildThisFileDirectory)..\lib\native\v143\Win32\Release\;%(Link.AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			</Link>
+		</ItemGroup>
+		<ItemGroup Condition="$(PlatformTarget)=='x64'">
+			<Link>
+				<AdditionalLibraryDirectories >$(MSBuildThisFileDirectory)..\lib\native\v143\x64\Release\;%(Link.AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			</Link>
+		</ItemGroup>
+	</Target>
+	<ItemGroup Condition="$(PlatformTarget)=='x86'">
+		<None  Include="$(MSBuildThisFileDirectory)..\lib\native\v143\Win32\Release\*.dll">
+			<Visible>false</Visible>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None >
+	</ItemGroup>
+
+	<ItemGroup Condition="$(PlatformTarget)=='x64'">
+		<None  Include="$(MSBuildThisFileDirectory)..\lib\native\v143\x64\Release\*.dll">
+			<Visible>false</Visible>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None >
+	</ItemGroup>
+</Project>
