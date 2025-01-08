@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D63E20F1-C7C0-3D67-835F-B0261674A238}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKFeat</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKFeat.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKFeat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKFeat.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKFeat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKFeat.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKFeat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__LocOpe_DLL;__BRepFeat_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKFeat_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__LocOpe_DLL;__BRepFeat_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKFeat_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKBool.lib;..\..\win64\vc14\lib\TKBO.lib;..\..\win64\vc14\lib\TKPrim.lib;..\..\win64\vc14\lib\TKShHealing.lib;..\..\win64\vc14\lib\TKTopAlgo.lib;..\..\win64\vc14\lib\TKGeomAlgo.lib;..\..\win64\vc14\lib\TKBRep.lib;..\..\win64\vc14\lib\TKGeomBase.lib;..\..\win64\vc14\lib\TKG3d.lib;..\..\win64\vc14\lib\TKG2d.lib;..\..\win64\vc14\lib\TKMath.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;psapi.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKFeat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKFeat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__LocOpe_DLL;__BRepFeat_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKFeat_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__LocOpe_DLL;__BRepFeat_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKFeat_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKBool.lib;..\..\win64\vc14\libd\TKBO.lib;..\..\win64\vc14\libd\TKPrim.lib;..\..\win64\vc14\libd\TKShHealing.lib;..\..\win64\vc14\libd\TKTopAlgo.lib;..\..\win64\vc14\libd\TKGeomAlgo.lib;..\..\win64\vc14\libd\TKBRep.lib;..\..\win64\vc14\libd\TKGeomBase.lib;..\..\win64\vc14\libd\TKG3d.lib;..\..\win64\vc14\libd\TKG2d.lib;..\..\win64\vc14\libd\TKMath.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;psapi.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKFeat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKFeat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__LocOpe_DLL;__BRepFeat_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKFeat_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__LocOpe_DLL;__BRepFeat_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKFeat_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKBool.lib;..\..\win64\vc14\libi\TKBO.lib;..\..\win64\vc14\libi\TKPrim.lib;..\..\win64\vc14\libi\TKShHealing.lib;..\..\win64\vc14\libi\TKTopAlgo.lib;..\..\win64\vc14\libi\TKGeomAlgo.lib;..\..\win64\vc14\libi\TKBRep.lib;..\..\win64\vc14\libi\TKGeomBase.lib;..\..\win64\vc14\libi\TKG3d.lib;..\..\win64\vc14\libi\TKG2d.lib;..\..\win64\vc14\libi\TKMath.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;psapi.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKFeat.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKFeat.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildWires.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CSIntersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CurveShapeIntersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DPrism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdges.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdgesInFace.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GeneratedShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Generator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GluedShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Gluer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_LinearForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Pipe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Prism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Revol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_RevolutionForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitDrafts.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Spliter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_WiresOnShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Builder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Form.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Gluer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeCylindricalHole.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeDPrism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeLinearForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePipe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePrism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevolutionForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_RibSlot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_SplitShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_trace.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildWires.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CSIntersector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CurveShapeIntersector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DataMapIteratorOfDataMapOfShapePnt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DataMapOfShapePnt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DPrism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdges.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdgesInFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GeneratedShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Generator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GluedShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Gluer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_LinearForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Operation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Pipe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_PntFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Prism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Revol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_RevolutionForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SequenceOfCirc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SequenceOfLin.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SequenceOfPntFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitDrafts.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Spliter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_WiresOnShape.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildShape.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CSIntersector.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CurveShapeIntersector.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdges.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdgesInFace.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Generator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Gluer.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_LinearForm.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Pipe.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Spliter.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitShape.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_WiresOnShape.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Builder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Form.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Gluer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeCylindricalHole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeDPrism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeLinearForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePipe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePrism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevolutionForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_PerfSelection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_RibSlot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_SplitShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Status.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_StatusError.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Form.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Gluer.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeCylindricalHole.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeLinearForm.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePipe.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePrism.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevol.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevolutionForm.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_RibSlot.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_SplitShape.lxx">
+    </None>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKFeat.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBO\TKBO.vcxproj">
+      <Project>{00634628-9ECC-3F5F-AA97-ADED4EC2D993}</Project>
+      <Name>TKBO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBRep\TKBRep.vcxproj">
+      <Project>{685E9983-BEB7-3CC2-9379-F489FF803CD5}</Project>
+      <Name>TKBRep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBool\TKBool.vcxproj">
+      <Project>{DD5C66DD-8254-3222-AD9C-37CBC03216D4}</Project>
+      <Name>TKBool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG2d\TKG2d.vcxproj">
+      <Project>{8A116F82-5414-31F2-95DA-8B5DC25105EE}</Project>
+      <Name>TKG2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG3d\TKG3d.vcxproj">
+      <Project>{EF204F9E-4354-3394-8240-7E20C7577C78}</Project>
+      <Name>TKG3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomAlgo\TKGeomAlgo.vcxproj">
+      <Project>{9CEEF9F3-145B-3253-A56B-34BBC67B6B15}</Project>
+      <Name>TKGeomAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomBase\TKGeomBase.vcxproj">
+      <Project>{A5B7C8A5-23F9-3C18-AFF8-D3549F46A599}</Project>
+      <Name>TKGeomBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKPrim\TKPrim.vcxproj">
+      <Project>{C2CF74F5-6901-3727-B82E-616B15D46E06}</Project>
+      <Name>TKPrim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKShHealing\TKShHealing.vcxproj">
+      <Project>{CC994EDA-8C98-3784-805B-3984D10F8199}</Project>
+      <Name>TKShHealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKTopAlgo\TKTopAlgo.vcxproj">
+      <Project>{A0937AF0-D5FD-34F5-BDB6-97D2C38A1F95}</Project>
+      <Name>TKTopAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

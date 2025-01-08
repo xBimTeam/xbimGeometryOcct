@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{896D895D-2885-3961-8893-3B1DEE943ED0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKFillet</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKFillet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKFillet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKFillet.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKFillet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKFillet.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKFillet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__ChFiDS_DLL;__ChFi2d_DLL;__ChFi3d_DLL;__ChFiKPart_DLL;__Blend_DLL;__BRepBlend_DLL;__BlendFunc_DLL;__BRepFilletAPI_DLL;__FilletSurf_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKFillet_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__ChFiDS_DLL;__ChFi2d_DLL;__ChFi3d_DLL;__ChFiKPart_DLL;__Blend_DLL;__BRepBlend_DLL;__BlendFunc_DLL;__BRepFilletAPI_DLL;__FilletSurf_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKFillet_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKBool.lib;..\..\win64\vc14\lib\TKBO.lib;..\..\win64\vc14\lib\TKShHealing.lib;..\..\win64\vc14\lib\TKPrim.lib;..\..\win64\vc14\lib\TKTopAlgo.lib;..\..\win64\vc14\lib\TKGeomAlgo.lib;..\..\win64\vc14\lib\TKBRep.lib;..\..\win64\vc14\lib\TKGeomBase.lib;..\..\win64\vc14\lib\TKG3d.lib;..\..\win64\vc14\lib\TKG2d.lib;..\..\win64\vc14\lib\TKMath.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKFillet.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKFillet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__ChFiDS_DLL;__ChFi2d_DLL;__ChFi3d_DLL;__ChFiKPart_DLL;__Blend_DLL;__BRepBlend_DLL;__BlendFunc_DLL;__BRepFilletAPI_DLL;__FilletSurf_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKFillet_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__ChFiDS_DLL;__ChFi2d_DLL;__ChFi3d_DLL;__ChFiKPart_DLL;__Blend_DLL;__BRepBlend_DLL;__BlendFunc_DLL;__BRepFilletAPI_DLL;__FilletSurf_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKFillet_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKBool.lib;..\..\win64\vc14\libd\TKBO.lib;..\..\win64\vc14\libd\TKShHealing.lib;..\..\win64\vc14\libd\TKPrim.lib;..\..\win64\vc14\libd\TKTopAlgo.lib;..\..\win64\vc14\libd\TKGeomAlgo.lib;..\..\win64\vc14\libd\TKBRep.lib;..\..\win64\vc14\libd\TKGeomBase.lib;..\..\win64\vc14\libd\TKG3d.lib;..\..\win64\vc14\libd\TKG2d.lib;..\..\win64\vc14\libd\TKMath.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKFillet.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKFillet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__ChFiDS_DLL;__ChFi2d_DLL;__ChFi3d_DLL;__ChFiKPart_DLL;__Blend_DLL;__BRepBlend_DLL;__BlendFunc_DLL;__BRepFilletAPI_DLL;__FilletSurf_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKFillet_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__ChFiDS_DLL;__ChFi2d_DLL;__ChFi3d_DLL;__ChFiKPart_DLL;__Blend_DLL;__BRepBlend_DLL;__BlendFunc_DLL;__BRepFilletAPI_DLL;__FilletSurf_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKFillet_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKBool.lib;..\..\win64\vc14\libi\TKBO.lib;..\..\win64\vc14\libi\TKShHealing.lib;..\..\win64\vc14\libi\TKPrim.lib;..\..\win64\vc14\libi\TKTopAlgo.lib;..\..\win64\vc14\libi\TKGeomAlgo.lib;..\..\win64\vc14\libi\TKBRep.lib;..\..\win64\vc14\libi\TKGeomBase.lib;..\..\win64\vc14\libi\TKG3d.lib;..\..\win64\vc14\libi\TKG2d.lib;..\..\win64\vc14\libi\TKMath.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKFillet.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKFillet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ChamfSpine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_CircSection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_CommonPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ElSpine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_FaceInterference.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_FilSpine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Map.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Regul.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Spine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Stripe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_StripeMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SurfData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_AnaFilletAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_Builder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_Builder_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_ChamferAPI.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_FilletAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_FilletAPI.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_2.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_6.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_C1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_C2.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_CnCrn.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_NotImp.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_SpKP.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_ChBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_ChBuilder_C2.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_ChBuilder_C3.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Debug.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_FilBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_FilBuilder_C2.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_FilBuilder_C3.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_SearchSing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChAsymPlnCon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChAsymPlnCyl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChAsymPlnPln.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChPlnCon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChPlnCyl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChPlnPln.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_CS.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_Fcts.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_FilPlnCon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_FilPlnCyl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_FilPlnPln.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_Rotule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_Sphere.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_AppFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_CSFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_CurvPointFuncInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Debug.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_FuncInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Function.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Point.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_RstRstFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SurfCurvFuncInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SurfPointFuncInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SurfRstFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFunc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFuncRoot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFuncRst.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFuncRstRst.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_BlendTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_CSWalking_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_CurvPointRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Extremity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_HCurve2dTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_HCurveTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Line.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_PointOnRst.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstConstRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstEvolRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstLineBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfCurvConstRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfCurvEvolRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfPointConstRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfPointEvolRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstConstRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstEvolRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstLineBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Walking_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_GenChamfer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_GenChamfInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Chamfer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ChamfInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ChAsym.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ChAsymInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Corde.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_CSCircular.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_CSConstRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_EvolRad.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_EvolRadInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Ruled.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_RuledInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Tensor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroat.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroatInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroatWithPenetration.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroatWithPenetrationInv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeChamfer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeFillet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeFillet2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_Builder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_InternalBuilder.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ChamfMethod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ChamfMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ChamfSpine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_CircSection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_CommonPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ElSpine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ErrorStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_FaceInterference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_FilSpine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_HData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ListIteratorOfListOfHElSpine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ListIteratorOfListOfStripe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ListIteratorOfRegularities.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ListOfHElSpine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_ListOfStripe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Map.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Regul.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Regularities.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SecArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SecHArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SequenceOfSpine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SequenceOfSurfData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Spine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_State.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Stripe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_StripeArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_StripeMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SurfData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_TypeOfConcavity.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_FaceInterference.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Spine.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_Stripe.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_StripeMap.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiDS\ChFiDS_SurfData.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_AnaFilletAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_Builder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_ChamferAPI.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_ConstructionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_FilletAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_FilletAPI.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi2d\ChFi2d_Builder.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_Builder_0.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_ChBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_FilBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_FilletShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFi3d\ChFi3d_SearchSing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChAsymPlnCon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChAsymPlnCyl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChAsymPlnPln.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChPlnCon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChPlnCyl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_ChPlnPln.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_CS.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_Fcts.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_FilPlnCon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_FilPlnCyl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_FilPlnPln.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_Rotule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_ComputeData_Sphere.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_DataMapIteratorOfRstMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ChFiKPart\ChFiKPart_RstMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_AppFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_CSFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_CurvPointFuncInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_DecrochStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_FuncInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Function.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Point.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_RstRstFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SequenceOfPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Status.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SurfCurvFuncInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SurfPointFuncInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_SurfRstFunction.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_CSWalking.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Point.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Blend\Blend_Walking.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFunc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFuncRoot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFuncRst.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppFuncRstRst.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_BlendTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Chamfer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ChamfInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ConstThroat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ConstThroatInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ConstThroatWithPenetration.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ConstThroatWithPenetrationInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ChAsym.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ChAsymInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ConstRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_ConstRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_CSCircular.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_CSConstRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_CSWalking.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_CurvPointRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_EvolRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_EvolRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Extremity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_HCurve2dTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_HCurveTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Line.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_PointOnRst.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstConstRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstEvolRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstLineBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Ruled.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RuledInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SequenceOfLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SequenceOfPointOnRst.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfCurvConstRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfCurvEvolRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfPointConstRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfPointEvolRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstConstRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstEvolRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstLineBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Walking.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_AppSurface.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_BlendTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Extremity.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_HCurve2dTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_HCurveTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_Line.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_PointOnRst.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_RstRstLineBuilder.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBlend\BRepBlend_SurfRstLineBuilder.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_GenChamfer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_GenChamfInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Chamfer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ChamfInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ChAsym.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ChAsymInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Corde.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_CSCircular.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_CSConstRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_EvolRad.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_EvolRadInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Ruled.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_RuledInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_SectionShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Tensor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroatInv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroatWithPenetration.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_ConstThroatWithPenetrationInv.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BlendFunc\BlendFunc_Tensor.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_LocalOperation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeChamfer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeFillet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeFillet2d.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFilletAPI\BRepFilletAPI_MakeFillet2d.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_Builder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_ErrorTypeStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_InternalBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_StatusDone.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FilletSurf\FilletSurf_StatusType.hxx" />
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKFillet.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBO\TKBO.vcxproj">
+      <Project>{00634628-9ECC-3F5F-AA97-ADED4EC2D993}</Project>
+      <Name>TKBO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBRep\TKBRep.vcxproj">
+      <Project>{685E9983-BEB7-3CC2-9379-F489FF803CD5}</Project>
+      <Name>TKBRep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBool\TKBool.vcxproj">
+      <Project>{DD5C66DD-8254-3222-AD9C-37CBC03216D4}</Project>
+      <Name>TKBool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG2d\TKG2d.vcxproj">
+      <Project>{8A116F82-5414-31F2-95DA-8B5DC25105EE}</Project>
+      <Name>TKG2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG3d\TKG3d.vcxproj">
+      <Project>{EF204F9E-4354-3394-8240-7E20C7577C78}</Project>
+      <Name>TKG3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomAlgo\TKGeomAlgo.vcxproj">
+      <Project>{9CEEF9F3-145B-3253-A56B-34BBC67B6B15}</Project>
+      <Name>TKGeomAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomBase\TKGeomBase.vcxproj">
+      <Project>{A5B7C8A5-23F9-3C18-AFF8-D3549F46A599}</Project>
+      <Name>TKGeomBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKPrim\TKPrim.vcxproj">
+      <Project>{C2CF74F5-6901-3727-B82E-616B15D46E06}</Project>
+      <Name>TKPrim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKShHealing\TKShHealing.vcxproj">
+      <Project>{CC994EDA-8C98-3784-805B-3984D10F8199}</Project>
+      <Name>TKShHealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKTopAlgo\TKTopAlgo.vcxproj">
+      <Project>{A0937AF0-D5FD-34F5-BDB6-97D2C38A1F95}</Project>
+      <Name>TKTopAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

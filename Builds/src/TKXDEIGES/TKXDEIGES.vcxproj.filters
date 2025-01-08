@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl.cxx">
+      <Filter>Source Files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.cxx">
+      <Filter>Source Files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Provider.cxx">
+      <Filter>Source Files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Reader.cxx">
+      <Filter>Source Files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Writer.cxx">
+      <Filter>Source Files\IGESCAFControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl.hxx">
+      <Filter>Header Files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.hxx">
+      <Filter>Header Files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Provider.hxx">
+      <Filter>Header Files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Reader.hxx">
+      <Filter>Header Files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Writer.hxx">
+      <Filter>Header Files\IGESCAFControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXDEIGES.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IGESCAFControl">
+      <UniqueIdentifier>{75BB19B2-C484-3134-925E-0F9829183E30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IGESCAFControl">
+      <UniqueIdentifier>{3285715D-43F3-36F0-9995-5EC9F41A8D72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

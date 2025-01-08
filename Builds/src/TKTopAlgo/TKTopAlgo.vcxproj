@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0937AF0-D5FD-34F5-BDB6-97D2C38A1F95}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKTopAlgo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKTopAlgo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKTopAlgo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKTopAlgo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKTopAlgo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKTopAlgo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKTopAlgo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__IntCurvesFace_DLL;__MAT_DLL;__MAT2d_DLL;__Bisector_DLL;__BRepMAT2d_DLL;__BRepCheck_DLL;__BRepBndLib_DLL;__BRepExtrema_DLL;__BRepClass_DLL;__BRepClass3d_DLL;__BRepLib_DLL;__BRepGProp_DLL;__BRepIntCurveSurface_DLL;__BRepTopAdaptor_DLL;__BRepBuilderAPI_DLL;__BRepApprox_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKTopAlgo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__IntCurvesFace_DLL;__MAT_DLL;__MAT2d_DLL;__Bisector_DLL;__BRepMAT2d_DLL;__BRepCheck_DLL;__BRepBndLib_DLL;__BRepExtrema_DLL;__BRepClass_DLL;__BRepClass3d_DLL;__BRepLib_DLL;__BRepGProp_DLL;__BRepIntCurveSurface_DLL;__BRepTopAdaptor_DLL;__BRepBuilderAPI_DLL;__BRepApprox_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKTopAlgo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKGeomAlgo.lib;..\..\win64\vc14\lib\TKBRep.lib;..\..\win64\vc14\lib\TKGeomBase.lib;..\..\win64\vc14\lib\TKG3d.lib;..\..\win64\vc14\lib\TKG2d.lib;..\..\win64\vc14\lib\TKMath.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKTopAlgo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKTopAlgo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__IntCurvesFace_DLL;__MAT_DLL;__MAT2d_DLL;__Bisector_DLL;__BRepMAT2d_DLL;__BRepCheck_DLL;__BRepBndLib_DLL;__BRepExtrema_DLL;__BRepClass_DLL;__BRepClass3d_DLL;__BRepLib_DLL;__BRepGProp_DLL;__BRepIntCurveSurface_DLL;__BRepTopAdaptor_DLL;__BRepBuilderAPI_DLL;__BRepApprox_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKTopAlgo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__IntCurvesFace_DLL;__MAT_DLL;__MAT2d_DLL;__Bisector_DLL;__BRepMAT2d_DLL;__BRepCheck_DLL;__BRepBndLib_DLL;__BRepExtrema_DLL;__BRepClass_DLL;__BRepClass3d_DLL;__BRepLib_DLL;__BRepGProp_DLL;__BRepIntCurveSurface_DLL;__BRepTopAdaptor_DLL;__BRepBuilderAPI_DLL;__BRepApprox_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKTopAlgo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKGeomAlgo.lib;..\..\win64\vc14\libd\TKBRep.lib;..\..\win64\vc14\libd\TKGeomBase.lib;..\..\win64\vc14\libd\TKG3d.lib;..\..\win64\vc14\libd\TKG2d.lib;..\..\win64\vc14\libd\TKMath.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKTopAlgo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKTopAlgo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__IntCurvesFace_DLL;__MAT_DLL;__MAT2d_DLL;__Bisector_DLL;__BRepMAT2d_DLL;__BRepCheck_DLL;__BRepBndLib_DLL;__BRepExtrema_DLL;__BRepClass_DLL;__BRepClass3d_DLL;__BRepLib_DLL;__BRepGProp_DLL;__BRepIntCurveSurface_DLL;__BRepTopAdaptor_DLL;__BRepBuilderAPI_DLL;__BRepApprox_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKTopAlgo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__IntCurvesFace_DLL;__MAT_DLL;__MAT2d_DLL;__Bisector_DLL;__BRepMAT2d_DLL;__BRepCheck_DLL;__BRepBndLib_DLL;__BRepExtrema_DLL;__BRepClass_DLL;__BRepClass3d_DLL;__BRepLib_DLL;__BRepGProp_DLL;__BRepIntCurveSurface_DLL;__BRepTopAdaptor_DLL;__BRepBuilderAPI_DLL;__BRepApprox_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKTopAlgo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKGeomAlgo.lib;..\..\win64\vc14\libi\TKBRep.lib;..\..\win64\vc14\libi\TKGeomBase.lib;..\..\win64\vc14\libi\TKG3d.lib;..\..\win64\vc14\libi\TKG2d.lib;..\..\win64\vc14\libi\TKMath.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKTopAlgo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKTopAlgo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntCurvesFace\IntCurvesFace_Intersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntCurvesFace\IntCurvesFace_ShapeIntersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Arc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_BasicElt.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Bisector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Edge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Graph.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_ListOfBisector_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_ListOfEdge_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Node.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_TListNodeOfListOfBisector_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_TListNodeOfListOfEdge_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Zone.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_BiInt.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Circuit.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Connexion.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_CutCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Mat2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_MiniPath.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Tool2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_Bisec.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_BisecAna.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_BisecCC.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_BisecPC.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_Curve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_FunctionH.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_FunctionInter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_Inter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_PointOnBis.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_PolyBis.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_BisectingLocus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_Explorer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_LinkTopoBilo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Analyzer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Edge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Face.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Result.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Shell.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Solid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Vertex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Wire.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBndLib\BRepBndLib.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBndLib\BRepBndLib_1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_DistanceSS.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_DistShapeShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtCC.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtCF.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtFF.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtPC.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtPF.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_OverlapTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_Poly.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ProximityValueTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ProximityDistTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_SelfIntersection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ShapeProximity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_TriangleSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_Edge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FaceClassifier.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FaceExplorer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FacePassiveClassifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FClass2dOfFClassifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FClassifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_Intersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_BndBoxTree.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_Intersector3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SClassifier.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SolidClassifier.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SolidExplorer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SolidPassiveClassifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_CheckCurveOnSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_Command.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_FindSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_FuseEdges.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeEdge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeEdge2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeFace.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakePolygon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeShell.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeSolid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeVertex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeWire.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeWire_1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_PointCloudShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_ToolTriangulatedShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_ValidateEdge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Cinert.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Domain.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_EdgeTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Face.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Gauss.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Sinert.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_TFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_UFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Vinert.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_VinertGK.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_MeshCinert.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_MeshProps.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepIntCurveSurface\BRepIntCurveSurface_Inter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_FClass2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_HVertex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_Tool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_TopolTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Collect.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Command.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Copy.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_FastSewing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_FindPlane.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_GTransform.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge2d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeFace.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakePolygon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeShapeOnMesh.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeShell.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeSolid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeVertex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeWire.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_ModifyShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_NurbsConvert.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Sewing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Transform.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_Approx_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ApproxLine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_MyBSplGradientOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_MyGradientbisOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_MyGradientOfTheComputeLineBezierOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_SurfaceTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheComputeLineBezierOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheComputeLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheImpPrmSvSurfacesOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheMultiLineOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ThePrmPrmSvSurfacesOfApprox_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox_0.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntCurvesFace\IntCurvesFace_Intersector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntCurvesFace\IntCurvesFace_ShapeIntersector.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntCurvesFace\IntCurvesFace_Intersector.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Arc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_BasicElt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Bisector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerBisector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapOfIntegerArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapOfIntegerBasicElt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapOfIntegerBisector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_DataMapOfIntegerNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Edge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Graph.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_ListOfBisector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_ListOfEdge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Node.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_SequenceOfArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_SequenceOfBasicElt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Side.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_TListNodeOfListOfBisector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_TListNodeOfListOfEdge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_Zone.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_TList.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT\MAT_TListNode.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Array2OfConnexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_BiInt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Circuit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Connexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_CutCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerPnt2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerSequenceOfConnexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfBiIntInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfBiIntSequenceOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfIntegerBisec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfIntegerConnexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfIntegerPnt2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfIntegerSequenceOfConnexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_DataMapOfIntegerVec2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_MapBiIntHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Mat2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_MiniPath.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_SequenceOfConnexion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_SequenceOfSequenceOfCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_SequenceOfSequenceOfGeometry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_Tool2d.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MAT2d\MAT2d_MapBiIntHasher.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_Bisec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_BisecAna.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_BisecCC.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_BisecPC.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_Curve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_FunctionH.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_FunctionInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_Inter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_PointOnBis.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bisector\Bisector_PolyBis.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_BisectingLocus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_DataMapIteratorOfDataMapOfShapeSequenceOfBasicElt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_DataMapOfBasicEltShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_Explorer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMAT2d\BRepMAT2d_LinkTopoBilo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Analyzer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_DataMapOfShapeListOfStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Edge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Face.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_IndexedDataMapOfShapeResult.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_ListIteratorOfListOfStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_ListOfStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Result.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Shell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Solid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Status.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Vertex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepCheck\BRepCheck_Wire.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBndLib\BRepBndLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_DistanceSS.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_DistShapeShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ElementFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtCC.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtCF.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtFF.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtPC.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ExtPF.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_MapOfIntegerPackedMapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_OverlapTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_Poly.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ProximityValueTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ProximityDistTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_SelfIntersection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_SeqOfSolution.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_ShapeProximity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_SolutionElem.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_SupportType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_TriangleSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepExtrema\BRepExtrema_UnCompatibleShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_Edge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FaceClassifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FaceExplorer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FacePassiveClassifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FClass2dOfFClassifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FClassifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_Intersector.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_Edge.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass\BRepClass_FaceExplorer.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_BndBoxTree.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_DataMapIteratorOfMapOfInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_Intersector3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_MapOfInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SClassifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SolidClassifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SolidExplorer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_SolidPassiveClassifier.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepClass3d\BRepClass3d_Intersector3d.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_CheckCurveOnSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_Command.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_EdgeError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_FaceError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_FindSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_FuseEdges.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeEdge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeEdge2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakePolygon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeShell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeSolid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeVertex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_MakeWire.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_PointCloudShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_ShapeModification.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_ShellError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_ToolTriangulatedShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_ValidateEdge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLib\BRepLib_WireError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Cinert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Domain.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_EdgeTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Face.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Gauss.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Sinert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_TFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_UFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Vinert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_VinertGK.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_MeshCinert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_MeshProps.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Domain.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_Face.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_TFunction.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepGProp\BRepGProp_UFunction.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepIntCurveSurface\BRepIntCurveSurface_Inter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_FClass2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_HVertex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_MapOfShapeTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_SeqOfPtr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_Tool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_TopolTool.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTopAdaptor\BRepTopAdaptor_HVertex.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_BndBoxTreeSelector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_CellFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Collect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Command.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Copy.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_EdgeError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_FaceError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_FastSewing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_FindPlane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_GTransform.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge2d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakePolygon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeShapeOnMesh.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeShell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeSolid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeVertex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_MakeWire.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_ModifyShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_NurbsConvert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_PipeError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Sewing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_ShapeModification.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_ShellError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Transform.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_TransitionMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_VertexInspector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_WireError.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepBuilderAPI\BRepBuilderAPI_Sewing.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_Approx.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ApproxLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientOfTheComputeLineBezierOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_MyBSplGradientOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_MyGradientOfTheComputeLineBezierOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientOfTheComputeLineBezierOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientOfTheComputeLineBezierOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_SurfaceTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheComputeLineBezierOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheComputeLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheMultiLineOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheMultiLineToolOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_ThePrmPrmSvSurfacesOfApprox.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepApprox\BRepApprox_SurfaceTool.lxx">
+    </None>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKTopAlgo.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBRep\TKBRep.vcxproj">
+      <Project>{685E9983-BEB7-3CC2-9379-F489FF803CD5}</Project>
+      <Name>TKBRep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG2d\TKG2d.vcxproj">
+      <Project>{8A116F82-5414-31F2-95DA-8B5DC25105EE}</Project>
+      <Name>TKG2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG3d\TKG3d.vcxproj">
+      <Project>{EF204F9E-4354-3394-8240-7E20C7577C78}</Project>
+      <Name>TKG3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomAlgo\TKGeomAlgo.vcxproj">
+      <Project>{9CEEF9F3-145B-3253-A56B-34BBC67B6B15}</Project>
+      <Name>TKGeomAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomBase\TKGeomBase.vcxproj">
+      <Project>{A5B7C8A5-23F9-3C18-AFF8-D3549F46A599}</Project>
+      <Name>TKGeomBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

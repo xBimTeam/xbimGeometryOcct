@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25078909-3DDD-3352-B48B-6BA98DA3672F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKHLR</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKHLR.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKHLR</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKHLR.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKHLR</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKHLR.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKHLR</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__HLRTopoBRep_DLL;__HLRBRep_DLL;__HLRAlgo_DLL;__HLRAppli_DLL;__Intrv_DLL;__TopBas_DLL;__TopCnx_DLL;__Contap_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKHLR_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__HLRTopoBRep_DLL;__HLRBRep_DLL;__HLRAlgo_DLL;__HLRAppli_DLL;__Intrv_DLL;__TopBas_DLL;__TopCnx_DLL;__Contap_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKHLR_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKTopAlgo.lib;..\..\win64\vc14\lib\TKGeomAlgo.lib;..\..\win64\vc14\lib\TKBRep.lib;..\..\win64\vc14\lib\TKGeomBase.lib;..\..\win64\vc14\lib\TKG3d.lib;..\..\win64\vc14\lib\TKG2d.lib;..\..\win64\vc14\lib\TKMath.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKHLR.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKHLR.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__HLRTopoBRep_DLL;__HLRBRep_DLL;__HLRAlgo_DLL;__HLRAppli_DLL;__Intrv_DLL;__TopBas_DLL;__TopCnx_DLL;__Contap_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKHLR_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__HLRTopoBRep_DLL;__HLRBRep_DLL;__HLRAlgo_DLL;__HLRAppli_DLL;__Intrv_DLL;__TopBas_DLL;__TopCnx_DLL;__Contap_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKHLR_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKTopAlgo.lib;..\..\win64\vc14\libd\TKGeomAlgo.lib;..\..\win64\vc14\libd\TKBRep.lib;..\..\win64\vc14\libd\TKGeomBase.lib;..\..\win64\vc14\libd\TKG3d.lib;..\..\win64\vc14\libd\TKG2d.lib;..\..\win64\vc14\libd\TKMath.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKHLR.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKHLR.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__HLRTopoBRep_DLL;__HLRBRep_DLL;__HLRAlgo_DLL;__HLRAppli_DLL;__Intrv_DLL;__TopBas_DLL;__TopCnx_DLL;__Contap_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKHLR_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__HLRTopoBRep_DLL;__HLRBRep_DLL;__HLRAlgo_DLL;__HLRAppli_DLL;__Intrv_DLL;__TopBas_DLL;__TopCnx_DLL;__Contap_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKHLR_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKTopAlgo.lib;..\..\win64\vc14\libi\TKGeomAlgo.lib;..\..\win64\vc14\libi\TKBRep.lib;..\..\win64\vc14\libi\TKGeomBase.lib;..\..\win64\vc14\libi\TKG3d.lib;..\..\win64\vc14\libi\TKG2d.lib;..\..\win64\vc14\libi\TKMath.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKHLR.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKHLR.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_Data.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DSFiller.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceIsoLiner.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_OutLiner.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_VData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Algo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_AreaLimit.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BCurveTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BSurfaceTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLProps_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Curve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CurveTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Data.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeFaceTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeIList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeInterferenceTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Hider.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_HLRToShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_IntConicCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InternalAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Intersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyHLRToShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeBounds.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeToHLR.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLProps_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Surface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SurfaceTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCSFunctionOfInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheExactInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntConicCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheInterferenceOfInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntPCurvePCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonOfInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonToolOfInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronOfInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronToolOfInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheProjPCurOfCInter_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvExactInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_VertexList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_BiPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgesBlock.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeStatus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Interference_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Intersection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyShellData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Projector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_WiresBlock.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAppli\HLRAppli_ReflectLines.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Interval.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Intervals.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_TestInterference_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopCnx\TopCnx_EdgeFaceTransition.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ArcFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ContAna.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Contour.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HContTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HCurve2dTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Line.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Point.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfProps.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWalking_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWLineOfTheIWalking_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ThePathPointOfTheSearch_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearch_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearchInside_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSegmentOfTheSearch_0.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_Data.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DataMapIteratorOfDataMapOfShapeFaceData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DataMapOfShapeFaceData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DSFiller.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceIsoLiner.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_ListIteratorOfListOfVData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_ListOfVData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_MapOfShapeListOfVData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_OutLiner.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_VData.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_Data.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceData.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_OutLiner.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_VData.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Algo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_AreaLimit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Array1OfEData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Array1OfFData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BCurveTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BiPnt2D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BiPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BSurfaceTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLProps.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLPropsATool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Curve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CurveTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Data.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeFaceTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeIList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeInterferenceTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Hider.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_HLRToShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_IntConicCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InternalAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Intersector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_LineTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListIteratorOfListOfBPnt2D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListIteratorOfListOfBPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListOfBPnt2D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListOfBPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyHLRToShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SeqOfShapeBounds.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeBounds.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeToHLR.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLProps.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLPropsATool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Surface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SurfaceTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCSFunctionOfInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheExactInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntConicCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheInterferenceOfInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntPCurvePCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonOfInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonToolOfInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronOfInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronToolOfInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheProjPCurOfCInter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvExactInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_VertexList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TypeOfResultingEdge.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BCurveTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BSurfaceTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLPropsATool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Curve.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CurveTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Data.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeData.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeInterferenceTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceData.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceIterator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_HLRToShape.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_LineTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyHLRToShape.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeBounds.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLPropsATool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Surface.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SurfaceTool.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfPHDat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfPINod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfPISeg.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfTData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_BiPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Coincidence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgesBlock.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfPHDat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfPINod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfPISeg.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfTData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Interference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_InterferenceList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Intersection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_ListIteratorOfInterferenceList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_ListIteratorOfListOfBPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_ListOfBPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyHidingData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalSegment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyMask.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyShellData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Projector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_TriangleData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_WiresBlock.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeIterator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Intersection.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyData.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalData.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Projector.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAppli\HLRAppli_ReflectLines.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Interval.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Intervals.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Position.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_SequenceOfInterval.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Interval.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Intervals.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_ListIteratorOfListOfTestInterference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_ListOfTestInterference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_TestInterference.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_Interference.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopCnx\TopCnx_EdgeFaceTransition.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ArcFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ContAna.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Contour.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HContTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HCurve2dTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_IType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Line.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Point.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SequenceOfIWLineOfTheIWalking.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SequenceOfPathPointOfTheSearch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SequenceOfSegmentOfTheSearch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfProps.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheHSequenceOfPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWalking.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWLineOfTheIWalking.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ThePathPointOfTheSearch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearchInside.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSegmentOfTheSearch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSequenceOfLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSequenceOfPoint.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ArcFunction.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ContAna.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Contour.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HCurve2dTool.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Line.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Point.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfFunction.lxx">
+    </None>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKHLR.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBRep\TKBRep.vcxproj">
+      <Project>{685E9983-BEB7-3CC2-9379-F489FF803CD5}</Project>
+      <Name>TKBRep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG2d\TKG2d.vcxproj">
+      <Project>{8A116F82-5414-31F2-95DA-8B5DC25105EE}</Project>
+      <Name>TKG2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG3d\TKG3d.vcxproj">
+      <Project>{EF204F9E-4354-3394-8240-7E20C7577C78}</Project>
+      <Name>TKG3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomAlgo\TKGeomAlgo.vcxproj">
+      <Project>{9CEEF9F3-145B-3253-A56B-34BBC67B6B15}</Project>
+      <Name>TKGeomAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomBase\TKGeomBase.vcxproj">
+      <Project>{A5B7C8A5-23F9-3C18-AFF8-D3549F46A599}</Project>
+      <Name>TKGeomBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKTopAlgo\TKTopAlgo.vcxproj">
+      <Project>{A0937AF0-D5FD-34F5-BDB6-97D2C38A1F95}</Project>
+      <Name>TKTopAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

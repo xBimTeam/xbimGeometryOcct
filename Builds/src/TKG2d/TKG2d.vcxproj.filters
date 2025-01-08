@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_AxisPlacement.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BezierCurve.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BoundedCurve.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BSplineCurve.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BSplineCurve_1.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_CartesianPoint.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Circle.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Conic.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Curve.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Direction.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Ellipse.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Geometry.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Hyperbola.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Line.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_OffsetCurve.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Parabola.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Point.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Transformation.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_TrimmedCurve.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Vector.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_VectorWithMagnitude.cxx">
+      <Filter>Source Files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_AnalyticCurInf.cxx">
+      <Filter>Source Files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_CurAndInf.cxx">
+      <Filter>Source Files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Adaptor2d\Adaptor2d_Curve2d.cxx">
+      <Filter>Source Files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Adaptor2d\Adaptor2d_Line2d.cxx">
+      <Filter>Source Files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Adaptor2d\Adaptor2d_OffsetCurve.cxx">
+      <Filter>Source Files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_CLProps2d_0.cxx">
+      <Filter>Source Files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_CurAndInf2d.cxx">
+      <Filter>Source Files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_Curve2dTool.cxx">
+      <Filter>Source Files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_FuncCurExt.cxx">
+      <Filter>Source Files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_FuncCurNul.cxx">
+      <Filter>Source Files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_NumericCurInf2d.cxx">
+      <Filter>Source Files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dAdaptor\Geom2dAdaptor.cxx">
+      <Filter>Source Files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dAdaptor\Geom2dAdaptor_Curve.cxx">
+      <Filter>Source Files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dEvaluator\Geom2dEvaluator_OffsetCurve.cxx">
+      <Filter>Source Files\Geom2dEvaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dEvaluator\Geom2dEvaluator.cxx">
+      <Filter>Source Files\Geom2dEvaluator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_AxisPlacement.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BezierCurve.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BoundedCurve.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_BSplineCurve.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_CartesianPoint.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Circle.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Conic.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Curve.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Direction.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Ellipse.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Geometry.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Hyperbola.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Line.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_OffsetCurve.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Parabola.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Point.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Transformation.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_TrimmedCurve.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_UndefinedDerivative.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_UndefinedValue.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_Vector.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2d\Geom2d_VectorWithMagnitude.hxx">
+      <Filter>Header Files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_AnalyticCurInf.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_BadContinuity.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_CIType.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_CurAndInf.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_NotDefined.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_SequenceOfCIType.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LProp\LProp_Status.hxx">
+      <Filter>Header Files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_Array1OfBezierCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_Array1OfBSplineCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_Array1OfCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_HArray1OfBezierCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_HArray1OfBSplineCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_HArray1OfCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_HSequenceOfBoundedCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_HSequenceOfCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_SequenceOfBoundedCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_SequenceOfCurve.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColGeom2d\TColGeom2d_SequenceOfGeometry.hxx">
+      <Filter>Header Files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Adaptor2d\Adaptor2d_Curve2d.hxx">
+      <Filter>Header Files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Adaptor2d\Adaptor2d_Line2d.hxx">
+      <Filter>Header Files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Adaptor2d\Adaptor2d_OffsetCurve.hxx">
+      <Filter>Header Files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_CLProps2d.hxx">
+      <Filter>Header Files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_CurAndInf2d.hxx">
+      <Filter>Header Files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_Curve2dTool.hxx">
+      <Filter>Header Files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_FuncCurExt.hxx">
+      <Filter>Header Files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_FuncCurNul.hxx">
+      <Filter>Header Files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dLProp\Geom2dLProp_NumericCurInf2d.hxx">
+      <Filter>Header Files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dAdaptor\Geom2dAdaptor.hxx">
+      <Filter>Header Files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dAdaptor\Geom2dAdaptor_Curve.hxx">
+      <Filter>Header Files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dEvaluator\Geom2dEvaluator_Curve.hxx">
+      <Filter>Header Files\Geom2dEvaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dEvaluator\Geom2dEvaluator_OffsetCurve.hxx">
+      <Filter>Header Files\Geom2dEvaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dEvaluator\Geom2dEvaluator.hxx">
+      <Filter>Header Files\Geom2dEvaluator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKG2d.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Adaptor2d">
+      <UniqueIdentifier>{459A3310-7E7A-3ECA-954A-1CF876F5B6BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geom2d">
+      <UniqueIdentifier>{6E26F0AB-D335-395D-AE8F-826D6F175DDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geom2dAdaptor">
+      <UniqueIdentifier>{5DBD7AF7-320B-35AD-9775-4EB0818109D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geom2dEvaluator">
+      <UniqueIdentifier>{230BA02F-0FB9-3E31-8820-D03757AB453C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geom2dLProp">
+      <UniqueIdentifier>{0313C81E-8999-3F03-BB65-48708D77C10D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LProp">
+      <UniqueIdentifier>{1906AFF8-B488-3D69-BD57-EEA5A1AC4D4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TColGeom2d">
+      <UniqueIdentifier>{DB2E0F46-29B3-3155-9A7D-8BDEFD9DDB41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Adaptor2d">
+      <UniqueIdentifier>{AF6F3DDC-E8B9-3C1C-9FAF-A338DEAB0592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geom2d">
+      <UniqueIdentifier>{599627AE-1AFD-3EAE-AB16-42D916EE5C58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geom2dAdaptor">
+      <UniqueIdentifier>{9D4D7554-9A0E-37A0-B52E-085550833333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geom2dEvaluator">
+      <UniqueIdentifier>{0D6F0933-393B-3724-9F7F-6B4A3FFEBABE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geom2dLProp">
+      <UniqueIdentifier>{7DA141D6-BFA5-3208-A28B-5262D9C6D304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LProp">
+      <UniqueIdentifier>{3E747BEF-22B6-398E-84B1-E333538FADB5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

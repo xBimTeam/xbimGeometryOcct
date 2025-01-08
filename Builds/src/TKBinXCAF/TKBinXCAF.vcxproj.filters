@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinXCAFDrivers\BinXCAFDrivers.cxx">
+      <Filter>Source Files\BinXCAFDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinXCAFDrivers\BinXCAFDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source Files\BinXCAFDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinXCAFDrivers\BinXCAFDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source Files\BinXCAFDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_AssemblyItemRefDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_CentroidDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_ColorDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_DatumDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_DimTolDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_GraphNodeDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_LengthUnitDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_LocationDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_MaterialDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_NoteDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_NoteCommentDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_NoteBinDataDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialToolDriver.cxx">
+      <Filter>Source Files\BinMXCAFDoc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinXCAFDrivers\BinXCAFDrivers.hxx">
+      <Filter>Header Files\BinXCAFDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinXCAFDrivers\BinXCAFDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header Files\BinXCAFDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinXCAFDrivers\BinXCAFDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header Files\BinXCAFDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_AssemblyItemRefDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_CentroidDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_ColorDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_DatumDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_DimTolDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_GraphNodeDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_LengthUnitDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_LocationDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_MaterialDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_NoteDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_NoteCommentDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_NoteBinDataDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialToolDriver.hxx">
+      <Filter>Header Files\BinMXCAFDoc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKBinXCAF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMXCAFDoc">
+      <UniqueIdentifier>{1DD50F59-05D6-3068-8395-592D52AFADFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinXCAFDrivers">
+      <UniqueIdentifier>{4D840076-DCBB-3D42-923A-0ACFC5F15D65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMXCAFDoc">
+      <UniqueIdentifier>{87C77BC7-E215-3617-83B4-CAA346091DCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinXCAFDrivers">
+      <UniqueIdentifier>{67719D55-6130-3FBA-A25F-A6C48929B76A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

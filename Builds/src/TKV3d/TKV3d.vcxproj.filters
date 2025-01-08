@@ -1,0 +1,1717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_AmbientLight.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_CircularGrid.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_DirectionalLight.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Plane.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_PositionalLight.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_PositionLight.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_RectangularGrid.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_SpotLight.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Trihedron.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_View.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Viewer.cxx">
+      <Filter>Source Files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_InteriorSensitivePointSet.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveBox.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveCircle.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveCurve.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveCylinder.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveEntity.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveFace.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveGroup.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitivePoint.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitivePoly.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitivePrimitiveArray.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveSegment.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveSet.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveSphere.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveTriangle.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveTriangulation.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveWire.cxx">
+      <Filter>Source Files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Arrow.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ArrowAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_BasicAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_BndBox.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DatumAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DimensionAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Drawer.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_IsoAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_LineAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_PlaneAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_PointAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_PresentationShadow.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ShadingAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Text.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_TextAspect.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolDisk.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolCylinder.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolQuadric.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolSector.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolSphere.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolTorus.cxx">
+      <Filter>Source Files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_BRepFont.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_BRepTextBuilder.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Curve.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_DeflectionCurve.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRPolyShape.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRShape.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRShapeI.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRToolShape.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Isolines.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Plane.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_PoleCurve.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ShadedShape.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ShadedSurface.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ShapeTool.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolPoint.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolRFace.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolTriangulatedShape.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolVertex.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFDeflectionRestrictedFace.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFDeflectionSurface.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFPoleSurface.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFRestrictedFace.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFShape.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFSurface.cxx">
+      <Filter>Source Files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectBasics\SelectBasics_SelectingVolumeManager.cxx">
+      <Filter>Source Files\SelectBasics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_AndFilter.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_AndOrFilter.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_AxisIntersector.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_BaseIntersector.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_BaseFrustum.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_BVHThreadPool.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_CompositionFilter.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_EntityOwner.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_Filter.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_FrustumBuilder.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_OrFilter.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_RectangularFrustum.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectableObject.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectableObjectSet.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectingVolumeManager.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_Selection.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectionImageFiller.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectionManager.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SensitiveEntity.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SensitiveEntitySet.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ToleranceMap.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TriangularFrustum.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TriangularFrustumSet.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ViewClipRange.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ViewerSelector.cxx">
+      <Filter>Source Files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_PresentableObject.cxx">
+      <Filter>Source Files\PrsMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_Presentation.cxx">
+      <Filter>Source Files\PrsMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_PresentationManager.cxx">
+      <Filter>Source Files\PrsMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Animation.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AnimationCamera.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AnimationObject.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AttributeFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Axis.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_BadEdgeFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_C0RegularityFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_CameraFrustum.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Circle.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ColoredShape.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ColorScale.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ConnectedInteractive.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ExclusionFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_GlobalStatus.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_GraphicTool.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_InteractiveContext.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_InteractiveObject.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_LightSource.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Line.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Manipulator.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ManipulatorOwner.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MediaPlayer.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MultipleConnectedInteractive.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Plane.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_PlaneTrihedron.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Point.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_PointCloud.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_RubberBand.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Selection.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Shape.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_SignatureFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TextLabel.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TexturedShape.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Triangulation.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Trihedron.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TrihedronOwner.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TypeFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ViewController.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ViewCube.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_XRTrackedDevice.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_BRepOwner.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_BRepSelectionTool.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_EdgeFilter.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_FaceFilter.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_Shape.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_ShapeTypeFilter.cxx">
+      <Filter>Source Files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_AnglePresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_Chamf2dPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ConcentricPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_DatumPrs.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_DiameterPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_EllipseRadiusPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_EqualDistancePresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_EqualRadiusPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_FilletRadiusPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_FixPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_IdenticPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_LengthPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_MidPointPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_OffsetPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ParalPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_PerpenPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_RadiusPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ShadedPlanePresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ShapeDirPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_SymbPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_SymmetricPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_TangentPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_XYZAxisPresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_XYZPlanePresentation.cxx">
+      <Filter>Source Files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_AngleDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Chamf2dDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Chamf3dDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_ConcentricRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_DiameterDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Dimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_DimensionOwner.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_EllipseRadiusDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_EqualDistanceRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_EqualRadiusRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_FixRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_IdenticRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_LengthDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_MaxRadiusDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_MidPointRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_MinRadiusDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_OffsetDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_ParallelRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_PerpendicularRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_RadiusDimension.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Relation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_SymmetricRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_TangentRelation.cxx">
+      <Filter>Source Files\PrsDim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_AmbientLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_BadValue.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_CircularGrid.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_DirectionalLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_ImageDumpOptions.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Light.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_ListOfLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_ListOfView.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Plane.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_PositionalLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_PositionLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_RectangularGrid.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_SpotLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_StereoDumpOptions.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Trihedron.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfAxe.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfBackfacingModel.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfLight.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfOrientation.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfShadingModel.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfView.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_TypeOfVisualization.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_UnMapped.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_View.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_Viewer.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\V3d\V3d_ViewerPointer.hxx">
+      <Filter>Header Files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_BndBox3d.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_BVHBuilder3d.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_BVHIndexBuffer.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_EntitySequence.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_IndexedMapOfEntity.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_InteriorSensitivePointSet.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_Pnt.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_PointData.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveBox.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveCircle.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveCurve.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveCylinder.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveEntity.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveFace.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveGroup.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitivePoint.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitivePoly.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitivePrimitiveArray.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveSegment.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveSet.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveSphere.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveTriangle.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveTriangulation.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_SensitiveWire.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Select3D\Select3D_TypeOfSensitivity.hxx">
+      <Filter>Header Files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Arrow.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ArrowAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_BasicAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_BndBox.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DatumAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DatumAttribute.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DatumAxes.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DatumMode.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DatumParts.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DimensionArrowOrientation.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DimensionAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DimensionTextHorizontalPosition.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DimensionTextVerticalPosition.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_DimensionUnits.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Drawer.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_InvalidAngle.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_IsoAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_LineAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_NListOfSequenceOfPnt.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_PlaneAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Point.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_PointAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Presentation.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_PresentationShadow.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Root.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ShadingAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ShapeTool.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_Text.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_TextAspect.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolDisk.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolCylinder.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolQuadric.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolSector.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolSphere.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_ToolTorus.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_TypeOfHighlight.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_TypeOfHLR.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_TypeOfLinePicking.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Prs3d\Prs3d_VertexDrawMode.hxx">
+      <Filter>Header Files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_BRepFont.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_BRepTextBuilder.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_BndBox.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Curve.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_DeflectionCurve.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRPolyShape.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRShape.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRShapeI.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_HLRToolShape.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Isolines.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Plane.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Point.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_PoleCurve.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ShadedShape.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ShadedSurface.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ShapeTool.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolPoint.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolRFace.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolTriangulatedShape.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_ToolVertex.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Vertex.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_Volume.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFDeflectionRestrictedFace.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFDeflectionSurface.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFPoleSurface.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFRestrictedFace.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFShape.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPrs\StdPrs_WFSurface.hxx">
+      <Filter>Header Files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectBasics\SelectBasics.hxx">
+      <Filter>Header Files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectBasics\SelectBasics_EntityOwner.hxx">
+      <Filter>Header Files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectBasics\SelectBasics_PickResult.hxx">
+      <Filter>Header Files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectBasics\SelectBasics_SelectingVolumeManager.hxx">
+      <Filter>Header Files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectBasics\SelectBasics_SensitiveEntity.hxx">
+      <Filter>Header Files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_AndFilter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_AndOrFilter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_AxisIntersector.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_BaseIntersector.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_BaseFrustum.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_BVHThreadPool.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_CompositionFilter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_EntityOwner.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_Filter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_FilterType.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_Frustum.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_FrustumBuilder.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_IndexedDataMapOfOwnerCriterion.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_IndexedMapOfOwner.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ListIteratorOfListOfFilter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ListOfFilter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_OrFilter.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_PickingStrategy.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_RectangularFrustum.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectableObject.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectableObjectSet.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectingVolumeManager.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_Selection.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectionImageFiller.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectionManager.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SelectionType.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SensitiveEntity.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SensitiveEntitySet.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SequenceOfOwner.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SequenceOfSelection.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_SortCriterion.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_StateOfSelection.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ToleranceMap.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TriangularFrustum.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TriangularFrustumSet.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TypeOfBVHUpdate.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TypeOfDepthTolerance.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_TypeOfUpdate.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_VectorTypes.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ViewClipRange.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ViewerSelector.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_ViewerSelector3d.hxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_DisplayStatus.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_ListOfPresentableObjects.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_ListOfPresentations.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_PresentableObject.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_Presentation.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_Presentation3d.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_PresentationManager.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_PresentationManager3d.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_Presentations.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsMgr\PrsMgr_TypeOfPresentation3d.hxx">
+      <Filter>Header Files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Animation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AnimationTimer.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AnimationCamera.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AnimationObject.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AttributeFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Axis.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_BadEdgeFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_C0RegularityFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_CameraFrustum.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Circle.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ColoredDrawer.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ColoredShape.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DataMapOfShapeDrawer.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ColorScale.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ConnectedInteractive.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DataMapIteratorOfDataMapOfIOStatus.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DataMapOfIOStatus.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DisplayMode.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DisplayStatus.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DragAction.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ExclusionFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_GlobalStatus.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_GraphicTool.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_InteractiveContext.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_InteractiveObject.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_KindOfInteractive.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_LightSource.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Line.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ListIteratorOfListOfInteractive.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ListOfInteractive.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Manipulator.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ManipulatorMode.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ManipulatorOwner.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MediaPlayer.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MouseGesture.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MultipleConnectedInteractive.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_NavigationMode.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_NArray1OfEntityOwner.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_NListOfEntityOwner.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Plane.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_PlaneTrihedron.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Point.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_PointCloud.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_RotationMode.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_RubberBand.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Selection.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_SelectStatus.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_SelectionModesConcurrency.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_SelectionScheme.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Shape.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_SignatureFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_StatusOfDetection.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_StatusOfPick.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TextLabel.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TexturedShape.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Triangulation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Trihedron.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TrihedronOwner.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TrihedronSelectionMode.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TypeFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TypeOfAttribute.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TypeOfAxis.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TypeOfIso.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TypeOfPlane.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ViewController.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ViewInputBuffer.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ViewCube.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_WalkDelta.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_AngleDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Chamf2dDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Chamf3dDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ConcentricRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DiameterDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Dimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_DimensionOwner.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_EllipseRadiusDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_EqualDistanceRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_EqualRadiusRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_FixRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_IdenticRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_LengthDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MaxRadiusDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MidPointRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_MinRadiusDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_OffsetDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_ParallelRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_PerpendicularRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_RadiusDimension.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_Relation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_SymmetricRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_TangentRelation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AIS\AIS_XRTrackedDevice.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_BRepOwner.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_BRepSelectionTool.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_EdgeFilter.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_FaceFilter.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_Shape.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_ShapeTypeFilter.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_TypeOfEdge.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_TypeOfFace.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_TypeOfSelectionImage.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdSelect\StdSelect_ViewerSelector3d.hxx">
+      <Filter>Header Files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_AnglePresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ArrowSide.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_Chamf2dPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ConcentricPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_DatumPrs.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_DiameterPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_EllipseRadiusPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_EqualDistancePresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_EqualRadiusPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_FilletRadiusPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_FixPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_IdenticPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_LengthPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_MidPointPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_OffsetPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ParalPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_PerpenPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_RadiusPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ShadedPlanePresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_ShapeDirPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_SymbPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_SymmetricPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_TangentPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_XYZAxisPresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DsgPrs\DsgPrs_XYZPlanePresentation.hxx">
+      <Filter>Header Files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_AngleDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Chamf2dDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Chamf3dDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_ConcentricRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_DiameterDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Dimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_DimensionOwner.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_EllipseRadiusDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_EqualDistanceRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_EqualRadiusRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_FixRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_IdenticRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_LengthDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_MaxRadiusDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_MidPointRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_MinRadiusDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_OffsetDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_ParallelRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_PerpendicularRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_RadiusDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_Relation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_SymmetricRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_TangentRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_DimensionSelectionMode.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_DisplaySpecialSymbol.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_KindOfDimension.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_KindOfRelation.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_KindOfSurface.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_TypeOfAngle.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_TypeOfAngleArrowVisibility.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PrsDim\PrsDim_TypeOfDist.hxx">
+      <Filter>Header Files\PrsDim</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\SelectMgr\SelectMgr_Frustum.lxx">
+      <Filter>Header Files\SelectMgr</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKV3d.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AIS">
+      <UniqueIdentifier>{2ED0FFBA-0117-34FA-B8B2-1F72CB74CC65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DsgPrs">
+      <UniqueIdentifier>{076BB60B-C66F-39C9-AB56-7052CE3077C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prs3d">
+      <UniqueIdentifier>{51918683-5F84-3903-B724-E74781FED846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PrsDim">
+      <UniqueIdentifier>{8EE8CDCF-1526-366C-A59C-FEE19AE14014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PrsMgr">
+      <UniqueIdentifier>{1039D4AC-359B-33B4-BE56-9C8B95996AFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Select3D">
+      <UniqueIdentifier>{856954F0-5C50-3A7B-842B-D08FB48CC829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SelectBasics">
+      <UniqueIdentifier>{2B316CF9-15C5-336B-A0CA-F448A4C668C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SelectMgr">
+      <UniqueIdentifier>{F4FE88BA-CAE4-3201-9F83-2316D22C87E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdPrs">
+      <UniqueIdentifier>{2044EB9C-4130-36F9-962E-8F13D61B4EF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdSelect">
+      <UniqueIdentifier>{55A5B1DD-F31D-363A-A2C6-9A5F97A7D40D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\V3d">
+      <UniqueIdentifier>{7806CAAD-BFC9-3DE4-9F30-FDF7D0D2B4BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AIS">
+      <UniqueIdentifier>{19EE0BC2-AAEB-3B34-92E9-2A0F20AF561C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DsgPrs">
+      <UniqueIdentifier>{AF1C2DD9-D12F-36CE-B646-150A62C5199F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Prs3d">
+      <UniqueIdentifier>{2D16F00D-B0CE-3FE6-A8C7-A3150FEA0644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PrsDim">
+      <UniqueIdentifier>{788699D2-B5A3-3952-B07A-71D63D358B98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PrsMgr">
+      <UniqueIdentifier>{D40414A7-102E-3FAE-8E55-00E743CACB6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Select3D">
+      <UniqueIdentifier>{6E861AD2-3382-3053-A463-639CF78163A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SelectBasics">
+      <UniqueIdentifier>{5A1E0C60-44ED-3D39-8FD6-6E1A8E0B76BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SelectMgr">
+      <UniqueIdentifier>{20725644-E1A3-3515-9A21-160B3EBABCD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdPrs">
+      <UniqueIdentifier>{162843B5-908C-3FA2-A5CF-CE7F86BC11BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdSelect">
+      <UniqueIdentifier>{B357D1D0-AFCB-3DE0-BC35-8D22BA2753D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V3d">
+      <UniqueIdentifier>{2C2AB88A-658C-30CF-9464-E2E4D45BC21E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_AISPresentation.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_AISViewer.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_AxisDriver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_ConstraintDriver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_ConstraintTools.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_Driver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_DriverTable.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_GeometryDriver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_NamedShapeDriver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_PlaneDriver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_PointDriver.cxx">
+      <Filter>Source Files\TPrsStd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_AISPresentation.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_AISViewer.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_AxisDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_ConstraintDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_ConstraintTools.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_DataMapIteratorOfDataMapOfGUIDDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_DataMapOfGUIDDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_Driver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_DriverTable.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_GeometryDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_NamedShapeDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_PlaneDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TPrsStd\TPrsStd_PointDriver.hxx">
+      <Filter>Header Files\TPrsStd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKVCAF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TPrsStd">
+      <UniqueIdentifier>{A4F62140-2C0F-38F0-86D3-309091A35FDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TPrsStd">
+      <UniqueIdentifier>{8E5F5780-E199-3D5A-8035-B885A4A6635D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

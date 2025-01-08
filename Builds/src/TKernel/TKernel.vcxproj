@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89A49687-B696-32B2-92EA-33FCF035DDBB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKernel</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKernel.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKernel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKernel.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKernel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKernel.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKernel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__FSD_DLL;__OSD_DLL;__Plugin_DLL;__Quantity_DLL;__Resource_DLL;__Standard_DLL;__StdFail_DLL;__Storage_DLL;__TColStd_DLL;__TCollection_DLL;__TShort_DLL;__Units_DLL;__UnitsAPI_DLL;__UnitsMethods_DLL;__NCollection_DLL;__Message_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKernel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__FSD_DLL;__OSD_DLL;__Plugin_DLL;__Quantity_DLL;__Resource_DLL;__Standard_DLL;__StdFail_DLL;__Storage_DLL;__TColStd_DLL;__TCollection_DLL;__TShort_DLL;__Units_DLL;__UnitsAPI_DLL;__UnitsMethods_DLL;__NCollection_DLL;__Message_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKernel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKernel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKernel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__FSD_DLL;__OSD_DLL;__Plugin_DLL;__Quantity_DLL;__Resource_DLL;__Standard_DLL;__StdFail_DLL;__Storage_DLL;__TColStd_DLL;__TCollection_DLL;__TShort_DLL;__Units_DLL;__UnitsAPI_DLL;__UnitsMethods_DLL;__NCollection_DLL;__Message_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKernel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__FSD_DLL;__OSD_DLL;__Plugin_DLL;__Quantity_DLL;__Resource_DLL;__Standard_DLL;__StdFail_DLL;__Storage_DLL;__TColStd_DLL;__TCollection_DLL;__TShort_DLL;__Units_DLL;__UnitsAPI_DLL;__UnitsMethods_DLL;__NCollection_DLL;__Message_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKernel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKernel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKernel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__FSD_DLL;__OSD_DLL;__Plugin_DLL;__Quantity_DLL;__Resource_DLL;__Standard_DLL;__StdFail_DLL;__Storage_DLL;__TColStd_DLL;__TCollection_DLL;__TShort_DLL;__Units_DLL;__UnitsAPI_DLL;__UnitsMethods_DLL;__NCollection_DLL;__Message_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKernel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__FSD_DLL;__OSD_DLL;__Plugin_DLL;__Quantity_DLL;__Resource_DLL;__Standard_DLL;__StdFail_DLL;__Storage_DLL;__TColStd_DLL;__TCollection_DLL;__TShort_DLL;__Units_DLL;__UnitsAPI_DLL;__UnitsMethods_DLL;__NCollection_DLL;__Message_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKernel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKernel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKernel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_Base64.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_BinaryFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_CmpFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_File.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_CachedFileSystem.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Chronometer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Directory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_DirectoryIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Disk.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Environment.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Error.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_File.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileSystem.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileSystemSelector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Host.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_LocalFileSystem.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_MAllocHook.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_MemInfo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_OpenFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Parallel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Parallel_TBB.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Parallel_Threads.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Path.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_PerfMeter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Process.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Protection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SharedLibrary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_signal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Thread.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_ThreadPool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Timer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_WNT.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Plugin\Plugin.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Color.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_ColorRGBA.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Date.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Period.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_ConvertUnicode.c" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_LexicalCompare.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_Manager.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_Unicode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ArrayStreamBuffer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_CLocaleSentry.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Condition.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_CString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Dump.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ErrorHandler.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ExtString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Failure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_GUID.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_math.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrOpt.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrRaw.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrRoot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrTBBalloc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Mutex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_OutOfMemory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Persistent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Real.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ShortReal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_StackTrace.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Strtod.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Transient.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Type.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_BaseDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_CallBack.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Data.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_DefaultCallBack.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_HeaderData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_InternalData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Root.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_RootData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Schema.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_TypeData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_TypedCallBack.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HPackedMapOfInteger.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_PackedMapOfInteger.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_AsciiString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_ExtendedString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_HAsciiString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_HExtendedString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Dimensions.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Explorer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Lexicon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_MathSentence.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Measurement.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Quantity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Sentence.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_ShiftedToken.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_ShiftedUnit.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Token.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Unit.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsDictionary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitSentence.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsLexicon.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsSystem.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\UnitsAPI\UnitsAPI.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\UnitsMethods\UnitsMethods.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_AccAllocator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_AlignedAllocator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseAllocator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseSequence.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseVector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_HeapAllocator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_IncAllocator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_SparseArrayBase.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UtfString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_WinHeapAllocator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Alert.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AlertExtended.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Algorithm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Attribute.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AttributeMeter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AttributeObject.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AttributeStream.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_CompositeAlerts.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Level.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Messenger.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Msg.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_MsgFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Printer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_PrinterOStream.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_PrinterSystemLog.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_PrinterToReport.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ProgressIndicator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Report.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_Base64.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_BinaryFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_BStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_CmpFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_File.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_FileHeader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FSD\FSD_FStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_CachedFileSystem.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Chronometer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Directory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_DirectoryIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Disk.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Environment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Error.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_ErrorList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_ACCESS_VIOLATION.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_ARRAY_BOUNDS_EXCEEDED.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_CTRL_BREAK.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_ILLEGAL_INSTRUCTION.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_IN_PAGE_ERROR.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_INT_OVERFLOW.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_INVALID_DISPOSITION.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_NONCONTINUABLE_EXCEPTION.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_PRIV_INSTRUCTION.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_STACK_OVERFLOW.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Exception_STATUS_NO_MEMORY.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_File.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileSystem.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FileSystemSelector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_FromWhere.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Function.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Host.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_KindFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_LoadMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_LocalFileSystem.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_LockType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_MAllocHook.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_MemInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_OEMType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_OpenFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_OpenMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_OSDError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Parallel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Path.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_PerfMeter.h" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_PerfMeter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Process.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Protection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_PThread.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SharedLibrary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGBUS.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGHUP.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGILL.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGINT.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGKILL.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Signal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGQUIT.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGSEGV.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SIGSYS.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SingleProtection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_StreamBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SysType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Thread.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_ThreadPool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_ThreadFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_Timer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_WhoAmI.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_WNT.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\OSD\OSD_SignalMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Plugin\Plugin.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Plugin\Plugin_DataMapIteratorOfMapOfFunctions.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Plugin\Plugin_Failure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Plugin\Plugin_Macro.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Plugin\Plugin_MapOfFunctions.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Array1OfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Color.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_ColorHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_ColorRGBA.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_ColorRGBAHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Date.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_DateDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_HArray1OfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_NameOfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_Period.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_PeriodDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Quantity\Quantity_TypeOfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_ConvertUnicode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_DataMapOfAsciiStringAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_DataMapOfAsciiStringExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_FormatType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_LexicalCompare.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_Manager.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_NoSuchResource.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Resource\Resource_Unicode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_AbortiveTransaction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Address.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ArrayStreamBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Assert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Atomic.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Boolean.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Byte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Character.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_CLocaleSentry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Condition.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ConstructionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_CString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DefineAlloc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DefineException.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DefineHandle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DimensionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DimensionMismatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DivideByZero.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_DomainError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Dump.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ErrorHandler.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ExtCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ExtString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Failure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_WarningDisableFunctionCast.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_GUID.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Handle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_HandlerStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ImmutableObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Integer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_IStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_JmpBuf.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_LicenseError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_LicenseNotFound.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Macro.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_math.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrOpt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrRaw.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrRoot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MMgrTBBalloc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_MultiplyDefined.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Mutex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NegativeValue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NoMoreObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NoSuchObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NotImplemented.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NullObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NullValue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_NumericError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_OStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_OutOfMemory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_OutOfRange.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Overflow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_PByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_PCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_PErrorHandler.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Persistent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_PExtCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_PrimitiveTypes.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ProgramError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_RangeError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ReadBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ReadLineBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Real.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Size.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_SStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Std.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Stream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_ThreadId.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Time.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Transient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Type.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_TypeDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_TypeMismatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Underflow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_UUID.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_values.h" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_Version.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_WarningsDisable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Standard\Standard_WarningsRestore.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdFail\StdFail_InfiniteSolutions.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdFail\StdFail_NotDone.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdFail\StdFail_Undefined.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdFail\StdFail_UndefinedDerivative.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdFail\StdFail_UndefinedValue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_ArrayOfCallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_ArrayOfSchema.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_BaseDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_BucketOfPersistent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_CallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Data.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_DataMapIteratorOfMapOfCallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_DataMapIteratorOfMapOfPers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_DefaultCallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Error.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_HArrayOfCallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_HArrayOfSchema.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_HeaderData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_HPArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_HSeqOfRoot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_InternalData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Macros.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_MapOfCallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_MapOfPers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_OpenMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_PArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Position.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_PType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Root.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_RootData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_Schema.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_SeqOfRoot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_SolveMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamExtCharParityError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamFormatError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamModeError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamReadError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamTypeMismatchError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamUnknownTypeError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_StreamWriteError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_TypeData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Storage\Storage_TypedCallBack.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfBoolean.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfListOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array1OfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array2OfBoolean.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array2OfCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array2OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array2OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_Array2OfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfIntegerReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapIteratorOfDataMapOfTransientTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfAsciiStringInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfIntegerInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfIntegerListOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfIntegerReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfIntegerTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfStringInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_DataMapOfTransientTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfBoolean.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfListOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray1OfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray2OfBoolean.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray2OfCharacter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray2OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray2OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HArray2OfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HPackedMapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfHAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfHExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HSequenceOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_IndexedDataMapOfStringString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_IndexedDataMapOfTransientTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_IndexedMapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_IndexedMapOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_IndexedMapOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListIteratorOfListOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListIteratorOfListOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListIteratorOfListOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListIteratorOfListOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_ListOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapIntegerHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapIteratorOfMapOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapIteratorOfMapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapIteratorOfMapOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapIteratorOfMapOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapIteratorOfPackedMapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapRealHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_MapTransientHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_PackedMapOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfAddress.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfBoolean.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfHAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfHExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_SequenceOfTransient.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TColStd\TColStd_HPackedMapOfInteger.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_AsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_ExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_HAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_HExtendedString.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_AsciiString.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TCollection\TCollection_HAsciiString.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TShort\TShort_Array1OfShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TShort\TShort_Array2OfShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TShort\TShort_HArray1OfShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TShort\TShort_HArray2OfShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TShort\TShort_HSequenceOfShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TShort\TShort_SequenceOfShortReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Dimensions.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Explorer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Lexicon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_MathSentence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Measurement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_NoSuchType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_NoSuchUnit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Operators.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_QtsSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_QuantitiesSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Quantity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Sentence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_ShiftedToken.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_ShiftedUnit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_TksSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Token.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_TokensSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Unit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsDictionary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitSentence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsLexicon.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsSystem.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UtsSequence.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Dimensions.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Lexicon.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Quantity.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Sentence.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Token.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_Unit.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsDictionary.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Units\Units_UnitsLexicon.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\UnitsAPI\UnitsAPI.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\UnitsAPI\UnitsAPI_SystemUnits.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\UnitsMethods\UnitsMethods.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\UnitsMethods\UnitsMethods_LengthUnit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_AccAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_AliasedArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_AlignedAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Array1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Array2.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_BaseVector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Buffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_CellFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefaultHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineAlloc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineArray2.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineDoubleMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineHArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineHArray2.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineHSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineIndexedDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineIndexedMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DefineVector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_DoubleMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_EBTree.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Haft.h" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Handle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_HArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_HArray2.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_HeapAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_HSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_IncAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_IndexedDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_IndexedMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Lerp.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_List.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_ListNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_LocalArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Map.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Mat3.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Mat4.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Sequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Shared.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_SparseArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_SparseArrayBase.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_StdAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_StlIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_String.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_TListIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_TListNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_TypeDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UBTree.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UBTreeFiller.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UtfIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UtfString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Vec2.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Vec3.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Vec4.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_Vector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_WinHeapAllocator.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UtfIterator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\NCollection\NCollection_UtfString.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Alert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AlertExtended.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Algorithm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ConsoleColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Attribute.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AttributeMeter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AttributeObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_AttributeStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_CompositeAlerts.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ExecStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Gravity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_HArrayOfMsg.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_LazyProgressScope.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Level.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ListIteratorOfListOfMsg.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ListOfMsg.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Messenger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_MetricType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Msg.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_MsgFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Printer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_PrinterOStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_PrinterSystemLog.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_PrinterToReport.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ProgressIndicator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ProgressRange.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ProgressScope.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ProgressSentry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_SequenceOfPrinters.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Status.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_StatusType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_ListOfAlert.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Report.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Algorithm.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Message\Message_Msg.lxx">
+    </None>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKernel.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

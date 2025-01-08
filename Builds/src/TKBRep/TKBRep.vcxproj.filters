@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_AlertAttribute.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Builder.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_HShape.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Iterator.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Shape.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TCompound.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TCompSolid.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TEdge.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TFace.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TShape.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TShell.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TSolid.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TVertex.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TWire.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_AlertWithShape.cxx">
+      <Filter>Source Files\TopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopExp\TopExp.cxx">
+      <Filter>Source Files\TopExp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopExp\TopExp_Explorer.cxx">
+      <Filter>Source Files\TopExp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools.cxx">
+      <Filter>Source Files\TopTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_LocationSet.cxx">
+      <Filter>Source Files\TopTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_MutexForShapeProvider.cxx">
+      <Filter>Source Files\TopTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ShapeSet.cxx">
+      <Filter>Source Files\TopTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Builder.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Curve3D.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOn2Surfaces.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOnClosedSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOnSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveRepresentation.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_GCurve.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointOnCurve.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointOnCurveOnSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointOnSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointRepresentation.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointsOnSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Polygon3D.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnClosedSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnClosedTriangulation.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnSurface.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnTriangulation.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TEdge.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TFace.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Tool.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TVertex.cxx">
+      <Filter>Source Files\BRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp.cxx">
+      <Filter>Source Files\BRepLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_CLProps_0.cxx">
+      <Filter>Source Files\BRepLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_CurveTool.cxx">
+      <Filter>Source Files\BRepLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_SLProps_0.cxx">
+      <Filter>Source Files\BRepLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_SurfaceTool.cxx">
+      <Filter>Source Files\BRepLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_CompCurve.cxx">
+      <Filter>Source Files\BRepAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Curve.cxx">
+      <Filter>Source Files\BRepAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Curve2d.cxx">
+      <Filter>Source Files\BRepAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Surface.cxx">
+      <Filter>Source Files\BRepAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_CopyModification.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Debug.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_GTrsfModification.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_History.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Modification.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Modifier.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_NurbsConvertModification.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Quilt.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_ReShape.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_ShapeSet.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Substitution.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_TrsfModification.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_WireExplorer.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_PurgeLocations.cxx">
+      <Filter>Source Files\BRepTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_Curve2dSet.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_CurveSet.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_IStream.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_LocationSet.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeSet.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeSetBase.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_SurfaceSet.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_OStream.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeReader.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeWriter.cxx">
+      <Filter>Source Files\BinTools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_AlertAttribute.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Builder.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Compound.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_CompSolid.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Edge.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Face.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_FrozenShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_HShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Iterator.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_ListIteratorOfListOfShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_ListOfShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_LockedShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Shape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Shell.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Solid.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TCompound.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TCompSolid.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TEdge.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TFace.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TShell.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TSolid.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TVertex.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TWire.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_UnCompatibleShapes.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Vertex.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Wire.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_AlertWithShape.hxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopExp\TopExp.hxx">
+      <Filter>Header Files\TopExp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopExp\TopExp_Explorer.hxx">
+      <Filter>Header Files\TopExp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopExp\TopExp_Stack.hxx">
+      <Filter>Header Files\TopExp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_Array1OfListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_Array1OfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_Array2OfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfIntegerShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfShapeReal.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfShapeSequenceOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfIntegerListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfIntegerShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfOrientedShapeInteger.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfOrientedShapeShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeBox.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeInteger.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeListOfInteger.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeReal.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeSequenceOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_DataMapOfShapeShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_FormatVersion.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_HArray1OfListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_HArray1OfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_HArray2OfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_HSequenceOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_IndexedDataMapOfShapeAddress.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_IndexedDataMapOfShapeListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_IndexedDataMapOfShapeReal.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_IndexedDataMapOfShapeShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_IndexedMapOfOrientedShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_IndexedMapOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ListIteratorOfListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ListOfListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ListOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_LocationSet.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_LocationSetPtr.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_MapIteratorOfMapOfOrientedShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_MapIteratorOfMapOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_MapOfOrientedShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_MapOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_MutexForShapeProvider.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_OrientedShapeMapHasher.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_SequenceOfShape.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ShapeMapHasher.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ShapeSet.hxx">
+      <Filter>Header Files\TopTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Builder.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Curve3D.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOn2Surfaces.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOnClosedSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOnSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveRepresentation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_GCurve.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_ListIteratorOfListOfCurveRepresentation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_ListIteratorOfListOfPointRepresentation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_ListOfCurveRepresentation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_ListOfPointRepresentation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointOnCurve.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointOnCurveOnSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointOnSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointRepresentation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointsOnSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Polygon3D.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnClosedSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnClosedTriangulation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnSurface.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PolygonOnTriangulation.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TEdge.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TFace.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Tool.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TVertex.hxx">
+      <Filter>Header Files\BRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp.hxx">
+      <Filter>Header Files\BRepLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_CLProps.hxx">
+      <Filter>Header Files\BRepLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_CurveTool.hxx">
+      <Filter>Header Files\BRepLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_SLProps.hxx">
+      <Filter>Header Files\BRepLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepLProp\BRepLProp_SurfaceTool.hxx">
+      <Filter>Header Files\BRepLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Array1OfCurve.hxx">
+      <Filter>Header Files\BRepAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_CompCurve.hxx">
+      <Filter>Header Files\BRepAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Curve.hxx">
+      <Filter>Header Files\BRepAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Curve2d.hxx">
+      <Filter>Header Files\BRepAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_HArray1OfCurve.hxx">
+      <Filter>Header Files\BRepAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepAdaptor\BRepAdaptor_Surface.hxx">
+      <Filter>Header Files\BRepAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_CopyModification.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_DataMapIteratorOfMapOfVertexPnt2d.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_GTrsfModification.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_History.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_MapOfVertexPnt2d.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Modification.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Modifier.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_NurbsConvertModification.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Quilt.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_ReShape.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_ShapeSet.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Substitution.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_TrsfModification.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_WireExplorer.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_PurgeLocations.hxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_Curve2dSet.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_CurveSet.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_FormatVersion.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_IStream.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_LocationSet.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_LocationSetPtr.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeSet.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeSetBase.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_SurfaceSet.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ObjectType.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_OStream.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeReader.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinTools\BinTools_ShapeWriter.hxx">
+      <Filter>Header Files\BinTools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Builder.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Compound.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_CompSolid.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Edge.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Face.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_HShape.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Shell.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Solid.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TCompound.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TCompSolid.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TEdge.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TFace.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TShell.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TSolid.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TVertex.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_TWire.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Vertex.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDS\TopoDS_Wire.lxx">
+      <Filter>Header Files\TopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_OrientedShapeMapHasher.lxx">
+      <Filter>Header Files\TopTools</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopTools\TopTools_ShapeMapHasher.lxx">
+      <Filter>Header Files\TopTools</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_Builder.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOnClosedSurface.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveOnSurface.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_CurveRepresentation.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_GCurve.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_PointRepresentation.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TEdge.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRep\BRep_TVertex.lxx">
+      <Filter>Header Files\BRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepTools\BRepTools_Modifier.lxx">
+      <Filter>Header Files\BRepTools</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKBRep.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRep">
+      <UniqueIdentifier>{97B690A4-3CC2-368C-900B-830F86EF0FF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepAdaptor">
+      <UniqueIdentifier>{3753BA3C-C9AB-33C1-A296-09D59249A2A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepLProp">
+      <UniqueIdentifier>{2DFC7250-3848-3289-9FB6-2CB012E47556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepTools">
+      <UniqueIdentifier>{00DC06A7-7CCF-379C-A5B1-54702CE3187E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinTools">
+      <UniqueIdentifier>{58C4B7AC-5420-324B-868F-FE333ED0A208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopExp">
+      <UniqueIdentifier>{AB8B2E9D-29AA-38DD-8ECD-08BF5A7161BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopTools">
+      <UniqueIdentifier>{09504198-48C6-36C9-9291-97BEB9860CEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopoDS">
+      <UniqueIdentifier>{944DBF4E-23BA-3095-AC28-7633888046D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRep">
+      <UniqueIdentifier>{E367EB71-FD56-32B6-8D40-60CCACB86110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepAdaptor">
+      <UniqueIdentifier>{D0030186-8CB5-39AB-A4E0-4812FFBE2B4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepLProp">
+      <UniqueIdentifier>{C821C0DD-C512-3C95-BFED-477DE0ABA257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepTools">
+      <UniqueIdentifier>{47C0EE3C-6884-3F10-9AF2-5FACEF2A5319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinTools">
+      <UniqueIdentifier>{DDD3ABF4-C94D-31F7-AFFF-6E2EB7ABF99B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopExp">
+      <UniqueIdentifier>{EF4D2EC7-03A2-366A-93D4-B53FB6179669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopTools">
+      <UniqueIdentifier>{C68F92E9-8E10-3408-AF50-0BF2F2967155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopoDS">
+      <UniqueIdentifier>{70A45C0F-5380-3892-BC20-07A08C4D6B2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

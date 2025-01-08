@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3D41FDD-26B7-37C8-B0B8-B0CA00921643}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKCDF</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKCDF.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKCDF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKCDF.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKCDF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKCDF.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKCDF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__CDM_DLL;__PCDM_DLL;__CDF_DLL;__UTL_DLL;__LDOM_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__CDM_DLL;__PCDM_DLL;__CDF_DLL;__UTL_DLL;__LDOM_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKCDF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKCDF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__CDM_DLL;__PCDM_DLL;__CDF_DLL;__UTL_DLL;__LDOM_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__CDM_DLL;__PCDM_DLL;__CDF_DLL;__UTL_DLL;__LDOM_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKCDF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKCDF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__CDM_DLL;__PCDM_DLL;__CDF_DLL;__UTL_DLL;__LDOM_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKCDF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__CDM_DLL;__PCDM_DLL;__CDF_DLL;__UTL_DLL;__LDOM_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKCDF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKCDF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKCDF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Application.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Document.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MetaData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Reference.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ReferenceIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Document.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_DOMHeaderParser.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReaderFilter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter_1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reference.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReferenceIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_RetrievalDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_StorageDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Writer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Application.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Directory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_DirectoryIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_FWOSDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriverFactory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Store.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_StoreList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\UTL\UTL.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Attr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicAttribute.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicElement.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicText.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharacterData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharReference.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Document.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Element.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_LDOMImplementation.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_MemManager.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Node.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_NodeList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_OSStream.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlReader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlWriter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMBasicString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMParser.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMString.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Application.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_CanCloseStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_DataMapIteratorOfMetaDataLookUpTable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Document.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_DocumentHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_DocumentPointer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListIteratorOfListOfDocument.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListIteratorOfListOfReferences.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListOfDocument.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListOfReferences.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MapIteratorOfMapOfDocument.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MapOfDocument.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MetaData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MetaDataLookUpTable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_NamesDirectory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Reference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ReferenceIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_BaseDriverPointer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Document.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_DOMHeaderParser.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_DriverError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReaderFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReaderStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter_1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReferenceIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_RetrievalDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_SequenceOfDocument.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_SequenceOfReference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_StorageDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_StoreStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_TypeOfFileDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Writer.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reader.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Application.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Directory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_DirectoryIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_FWOSDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriverFactory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Store.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_StoreList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_StoreSetNameStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_SubComponentStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_TryStoreStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_TypeOfActivation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\UTL\UTL.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Attr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicAttribute.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicText.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CDATASection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharacterData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharReference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Comment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_DeclareSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Document.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_DocumentType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Element.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_LDOMImplementation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_MemManager.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Node.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_NodeList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_OSStream.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Text.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlReader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlWriter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMBasicString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMParser.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMString.hxx" />
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKCDF.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

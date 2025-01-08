@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdDrivers\StdDrivers.cxx">
+      <Filter>Source Files\StdDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdDrivers\StdDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source Files\StdDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_Location.cxx">
+      <Filter>Source Files\StdObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_Shape.cxx">
+      <Filter>Source Files\StdObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_DataXtd.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_DataXtd_Constraint.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_DataXtd_PatternStd.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_Naming.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_PPrsStd.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_TopLoc.cxx">
+      <Filter>Source Files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_Data.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_HeaderData.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_Root.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_RootData.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_TypeData.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_BacketOfPersistent.cxx">
+      <Filter>Source Files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_BRep.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom_Curve.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom_Surface.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom2d.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom2d_Curve.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_HSequence.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Poly.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_TopoDS.cxx">
+      <Filter>Source Files\ShapePersistent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdDrivers\StdDrivers.hxx">
+      <Filter>Header Files\StdDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdDrivers\StdDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header Files\StdDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_gp_Axes.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_gp_Curves.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_gp_Surfaces.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_gp_Trsfs.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_gp_Vectors.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_Location.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObject\StdObject_Shape.hxx">
+      <Filter>Header Files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_DataXtd.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_DataXtd_Constraint.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_DataXtd_PatternStd.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_HArray1.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_Naming.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_PPrsStd.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_TopLoc.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdPersistent\StdPersistent_TopoDS.hxx">
+      <Filter>Header Files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_Data.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_HeaderData.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_Root.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_RootData.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_HSequenceOfRoots.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_SequenceOfRoots.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_MapOfRoots.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_TypeData.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_MapOfTypes.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdStorage\StdStorage_BacketOfPersistent.hxx">
+      <Filter>Header Files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_BRep.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom_Curve.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom_Surface.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom2d.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Geom2d_Curve.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_HArray1.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_HArray2.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_HSequence.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_Poly.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_TopoDS.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapePersistent\ShapePersistent_TriangleMode.hxx">
+      <Filter>Header Files\ShapePersistent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKStd.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapePersistent">
+      <UniqueIdentifier>{BD758F24-88A1-3866-A077-F0BF52633165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdDrivers">
+      <UniqueIdentifier>{654572DB-B135-39D4-A65B-15C21C65E109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdObject">
+      <UniqueIdentifier>{66B94BCA-0220-3480-9D8F-89330B66AB2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdPersistent">
+      <UniqueIdentifier>{F491A8DA-6A74-389C-B463-67191613B772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdStorage">
+      <UniqueIdentifier>{122DD2F5-0ABE-3A9B-B791-A3EEEBD3850F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapePersistent">
+      <UniqueIdentifier>{92A8C779-8667-30A6-8AD7-3EDA10165C33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdDrivers">
+      <UniqueIdentifier>{5AB4B147-4967-36CF-BF05-02763B7223B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdObject">
+      <UniqueIdentifier>{B415F879-8604-3F6F-A8E2-7C8FD3D9B583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdPersistent">
+      <UniqueIdentifier>{7F1F1024-FBBA-3EBB-958B-A81F94A76594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdStorage">
+      <UniqueIdentifier>{F75B14DF-5443-34F2-8FB5-2A7BD0F586A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

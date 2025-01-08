@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI.cxx">
+      <Filter>Source Files\StlAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Reader.cxx">
+      <Filter>Source Files\StlAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Writer.cxx">
+      <Filter>Source Files\StlAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl.cxx">
+      <Filter>Source Files\RWStl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Reader.cxx">
+      <Filter>Source Files\RWStl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_ConfigurationNode.cxx">
+      <Filter>Source Files\RWStl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Provider.cxx">
+      <Filter>Source Files\RWStl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI.hxx">
+      <Filter>Header Files\StlAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Reader.hxx">
+      <Filter>Header Files\StlAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Writer.hxx">
+      <Filter>Header Files\StlAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl.hxx">
+      <Filter>Header Files\RWStl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Reader.hxx">
+      <Filter>Header Files\RWStl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_ConfigurationNode.hxx">
+      <Filter>Header Files\RWStl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Provider.hxx">
+      <Filter>Header Files\RWStl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKSTL.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWStl">
+      <UniqueIdentifier>{EA6F0B7D-B732-3F8C-81FD-EFB917D9647D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StlAPI">
+      <UniqueIdentifier>{BE8C7A3A-EE39-3479-AC33-16C08DDD65B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWStl">
+      <UniqueIdentifier>{25A4D630-F085-3669-8202-FF4155DC9789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StlAPI">
+      <UniqueIdentifier>{124BB2B0-A8FD-3471-8F72-BB4DE1405BFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild.cxx">
+      <Filter>Source Files\ShapeBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild_Edge.cxx">
+      <Filter>Source Files\ShapeBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild_ReShape.cxx">
+      <Filter>Source Files\ShapeBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild_Vertex.cxx">
+      <Filter>Source Files\ShapeBuild</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_BasicMsgRegistrator.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_ComplexCurve.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_CompositeSurface.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_Explorer.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_MsgRegistrator.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_WireData.cxx">
+      <Filter>Source Files\ShapeExtend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct.cxx">
+      <Filter>Source Files\ShapeConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct_Curve.cxx">
+      <Filter>Source Files\ShapeConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct_MakeTriangulation.cxx">
+      <Filter>Source Files\ShapeConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct_ProjectCurveOnSurface.cxx">
+      <Filter>Source Files\ShapeConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_BSplineRestriction.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_ConvertToBSpline.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_ConvertToRevolution.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Curve.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Curve2d.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_DirectModification.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Modification.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_RestrictionParameters.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Surface.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_SweptToElementary.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_TrsfModification.cxx">
+      <Filter>Source Files\ShapeCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_BoxBndTree.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_CheckSmallFace.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Curve.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Edge.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBoundData.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBounds.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBoundsProperties.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Geom.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_ShapeContents.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_ShapeTolerance.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Shell.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Surface.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_TransferParameters.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_TransferParametersProj.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Wire.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_WireOrder.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_WireVertex.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_CanonicalRecognition.cxx">
+      <Filter>Source Files\ShapeAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_ComposeShell.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Edge.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_EdgeConnect.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_EdgeProjAux.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Face.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FaceConnect.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FixSmallFace.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FixSmallSolid.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FreeBounds.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_IntersectionTool.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Root.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Shape.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_ShapeTolerance.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Shell.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Solid.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_SplitCommonVertex.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_SplitTool.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wire.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wire_1.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wireframe.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_WireSegment.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_WireVertex.cxx">
+      <Filter>Source Files\ShapeFix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ClosedEdgeDivide.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ClosedFaceDivide.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertCurve2dToBezier.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertCurve3dToBezier.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertSurfaceToBezierBasis.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_EdgeDivide.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FaceDivide.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FaceDivideArea.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FixSmallBezierCurves.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FixSmallCurves.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_RemoveInternalWires.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_RemoveLocations.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeConvertToBezier.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivide.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideAngle.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideArea.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideClosed.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideClosedEdges.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideContinuity.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShellSewing.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve2d.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve2dContinuity.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve3d.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve3dContinuity.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurface.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceAngle.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceArea.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceContinuity.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_Tool.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_UnifySameDomain.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_WireDivide.cxx">
+      <Filter>Source Files\ShapeUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo.cxx">
+      <Filter>Source Files\ShapeAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo_AlgoContainer.cxx">
+      <Filter>Source Files\ShapeAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo_ToolContainer.cxx">
+      <Filter>Source Files\ShapeAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess.cxx">
+      <Filter>Source Files\ShapeProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_Context.cxx">
+      <Filter>Source Files\ShapeProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_Operator.cxx">
+      <Filter>Source Files\ShapeProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_OperLibrary.cxx">
+      <Filter>Source Files\ShapeProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_ShapeContext.cxx">
+      <Filter>Source Files\ShapeProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_UOperator.cxx">
+      <Filter>Source Files\ShapeProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcessAPI\ShapeProcessAPI_ApplySequence.cxx">
+      <Filter>Source Files\ShapeProcessAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild.hxx">
+      <Filter>Header Files\ShapeBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild_Edge.hxx">
+      <Filter>Header Files\ShapeBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild_ReShape.hxx">
+      <Filter>Header Files\ShapeBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeBuild\ShapeBuild_Vertex.hxx">
+      <Filter>Header Files\ShapeBuild</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_BasicMsgRegistrator.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_ComplexCurve.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_CompositeSurface.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_DataMapIteratorOfDataMapOfTransientListOfMsg.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_DataMapOfShapeListOfMsg.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_DataMapOfTransientListOfMsg.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_Explorer.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_MsgRegistrator.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_Parametrisation.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_Status.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_WireData.hxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct.hxx">
+      <Filter>Header Files\ShapeConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct_Curve.hxx">
+      <Filter>Header Files\ShapeConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct_MakeTriangulation.hxx">
+      <Filter>Header Files\ShapeConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeConstruct\ShapeConstruct_ProjectCurveOnSurface.hxx">
+      <Filter>Header Files\ShapeConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_BSplineRestriction.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_ConvertToBSpline.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_ConvertToRevolution.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Curve.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Curve2d.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_DirectModification.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Modification.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_RestrictionParameters.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Surface.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_SweptToElementary.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_TrsfModification.hxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_BoxBndTree.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_CheckSmallFace.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Curve.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_DataMapOfShapeListOfReal.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Edge.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBoundData.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBounds.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBoundsProperties.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Geom.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_HSequenceOfFreeBounds.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_SequenceOfFreeBounds.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_ShapeContents.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_ShapeTolerance.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Shell.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Surface.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_TransferParameters.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_TransferParametersProj.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Wire.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_WireOrder.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_WireVertex.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_CanonicalRecognition.hxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_ComposeShell.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_DataMapIteratorOfDataMapOfShapeBox2d.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_DataMapOfShapeBox2d.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Edge.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_EdgeConnect.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_EdgeProjAux.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Face.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FaceConnect.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FixSmallFace.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FixSmallSolid.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FreeBounds.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_IntersectionTool.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Root.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_SequenceOfWireSegment.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Shape.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_ShapeTolerance.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Shell.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Solid.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_SplitCommonVertex.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_SplitTool.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wire.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wireframe.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_WireSegment.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_WireVertex.hxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ClosedEdgeDivide.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ClosedFaceDivide.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertCurve2dToBezier.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertCurve3dToBezier.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_EdgeDivide.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FaceDivide.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FaceDivideArea.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FixSmallBezierCurves.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FixSmallCurves.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_RemoveInternalWires.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_RemoveLocations.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeConvertToBezier.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivide.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideAngle.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideArea.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideClosed.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideClosedEdges.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideContinuity.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShellSewing.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve2d.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve2dContinuity.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve3d.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitCurve3dContinuity.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurface.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceAngle.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceArea.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceContinuity.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_Tool.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_UnifySameDomain.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_WireDivide.hxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo.hxx">
+      <Filter>Header Files\ShapeAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo_AlgoContainer.hxx">
+      <Filter>Header Files\ShapeAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo_ToolContainer.hxx">
+      <Filter>Header Files\ShapeAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_Context.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_Operator.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_OperFunc.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_OperLibrary.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_ShapeContext.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcess\ShapeProcess_UOperator.hxx">
+      <Filter>Header Files\ShapeProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeProcessAPI\ShapeProcessAPI_ApplySequence.hxx">
+      <Filter>Header Files\ShapeProcessAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_ComplexCurve.lxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeExtend\ShapeExtend_MsgRegistrator.lxx">
+      <Filter>Header Files\ShapeExtend</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_BSplineRestriction.lxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_RestrictionParameters.lxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeCustom\ShapeCustom_Surface.lxx">
+      <Filter>Header Files\ShapeCustom</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_CheckSmallFace.lxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBoundData.lxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBounds.lxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_FreeBoundsProperties.lxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Surface.lxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAnalysis\ShapeAnalysis_Wire.lxx">
+      <Filter>Header Files\ShapeAnalysis</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Face.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_FreeBounds.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_IntersectionTool.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Root.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Shape.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Shell.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wire.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeFix\ShapeFix_Wireframe.lxx">
+      <Filter>Header Files\ShapeFix</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertCurve3dToBezier.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ConvertSurfaceToBezierBasis.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_EdgeDivide.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_FaceDivideArea.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_RemoveInternalWires.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_RemoveLocations.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeConvertToBezier.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_ShapeDivideArea.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_SplitSurfaceArea.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeUpgrade\ShapeUpgrade_Tool.lxx">
+      <Filter>Header Files\ShapeUpgrade</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ShapeAlgo\ShapeAlgo_AlgoContainer.lxx">
+      <Filter>Header Files\ShapeAlgo</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKShHealing.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeAlgo">
+      <UniqueIdentifier>{733A3393-8DEC-39ED-837D-1917B04C690F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeAnalysis">
+      <UniqueIdentifier>{90E055F8-3AA0-3831-8F29-A43C33E7D622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeBuild">
+      <UniqueIdentifier>{8ED26ADF-C481-375C-BA5E-5F720DF71058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeConstruct">
+      <UniqueIdentifier>{11A2D0B1-496F-3FCD-A903-140249EE0C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeCustom">
+      <UniqueIdentifier>{4355A67E-910D-3E39-9AD2-41DD2925E83D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeExtend">
+      <UniqueIdentifier>{A93BFA5B-6A23-3C5D-858B-8187F7CF2C4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeFix">
+      <UniqueIdentifier>{0440F38B-2F09-34F3-BF6B-AA29C4F9D8BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeProcess">
+      <UniqueIdentifier>{76099D4C-C771-320E-8BD8-D874A8D9EE5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeProcessAPI">
+      <UniqueIdentifier>{582A5EA4-09B9-39CB-AEBD-99D14EEA8117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeUpgrade">
+      <UniqueIdentifier>{2B81731A-8594-39F3-98DF-793917CDEF88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeAlgo">
+      <UniqueIdentifier>{BEF64764-F792-3959-9AE9-A10924409083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeAnalysis">
+      <UniqueIdentifier>{6BDBFC45-3E30-3C68-AF26-2BA9C425C670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeBuild">
+      <UniqueIdentifier>{C98EA292-D6D8-3542-B249-D50A94E4269C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeConstruct">
+      <UniqueIdentifier>{8A9E6567-2356-3525-92CE-2AB9E2FB402D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeCustom">
+      <UniqueIdentifier>{69C6DCAF-CBB9-363B-A3FE-76E9C66C4D76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeExtend">
+      <UniqueIdentifier>{E6B0E373-9EA3-3E1D-BFF9-1FAE32A9FBD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeFix">
+      <UniqueIdentifier>{B08B96A9-4789-399A-A33E-8B3BF47CF445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeProcess">
+      <UniqueIdentifier>{10958DD9-D694-3D37-B32C-829127DBED64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeProcessAPI">
+      <UniqueIdentifier>{56522FAE-5306-3F9F-B053-3AF884FA6B1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeUpgrade">
+      <UniqueIdentifier>{E156E4DB-B379-31B4-905D-070EB43C9382}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Axis.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Constraint.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Geometry.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Pattern.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_PatternStd.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Placement.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Plane.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Point.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Position.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Presentation.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Shape.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Triangulation.cxx">
+      <Filter>Source Files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_CopyShape.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DeltaOnModification.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DeltaOnRemoval.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Identifier.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Localizer.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Name.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NamedShape.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Naming.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NamingTool.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Scope.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Selector.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ShapesSet.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Tool.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_TranslateTool.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Translator.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_UsedShapes.cxx">
+      <Filter>Source Files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppStd\AppStd_Application.cxx">
+      <Filter>Source Files\AppStd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Array1OfTrsf.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Axis.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Constraint.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_ConstraintEnum.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Geometry.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_GeometryEnum.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_HArray1OfTrsf.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Pattern.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_PatternStd.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Placement.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Plane.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Point.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Position.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Presentation.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Shape.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_Triangulation.hxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Builder.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_CopyShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DataMapOfShapePtrRefShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DataMapOfShapeShapesSet.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DeltaOnModification.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_DeltaOnRemoval.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Evolution.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Identifier.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Iterator.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_IteratorOnShapesSet.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ListIteratorOfListOfMapOfShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ListIteratorOfListOfNamedShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ListOfMapOfShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ListOfNamedShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Localizer.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_MapIteratorOfMapOfNamedShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_MapOfNamedShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Name.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NamedShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NamedShapeHasher.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NameType.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Naming.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NamingTool.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NCollections.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NewShapeIterator.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_OldShapeIterator.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_PtrAttribute.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_PtrNode.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_PtrRefShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_RefShape.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_SameShapeIterator.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Scope.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Selector.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ShapesSet.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Tool.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_TranslateTool.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Translator.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_UsedShapes.hxx">
+      <Filter>Header Files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppStd\AppStd_Application.hxx">
+      <Filter>Header Files\AppStd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataXtd\TDataXtd_PatternStd.lxx">
+      <Filter>Header Files\TDataXtd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_Iterator.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_IteratorOnShapesSet.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NamedShape.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_NewShapeIterator.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_OldShapeIterator.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_RefShape.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_SameShapeIterator.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_ShapesSet.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TNaming\TNaming_UsedShapes.lxx">
+      <Filter>Header Files\TNaming</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKCAF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppStd">
+      <UniqueIdentifier>{C9D0E73B-C6A6-3041-A726-ABAF5A88EB6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TDataXtd">
+      <UniqueIdentifier>{54B48C42-C0C7-3EC7-B918-3C1B85C8BDF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TNaming">
+      <UniqueIdentifier>{2CD22820-ABCF-305A-B8ED-24EBC15C9C9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppStd">
+      <UniqueIdentifier>{690CBC62-050B-3D0B-9EE3-51CFCDA56C44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TDataXtd">
+      <UniqueIdentifier>{2269033B-FD00-32ED-8BC3-C1CDC54C1688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TNaming">
+      <UniqueIdentifier>{52C234AD-20CD-3010-A177-CF890B2328BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

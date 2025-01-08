@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Alias.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Boolean.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_ComplexType.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Entity.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Enum.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Field.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Integer.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Item.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Logical.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_NamedType.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_PredefinedType.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Real.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Reference.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Schema.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Select.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_String.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Type.cxx">
+      <Filter>Source Files\Express</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Alias.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Array.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Bag.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Boolean.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_ComplexType.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_DataMapOfAsciiStringItem.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Entity.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Enum.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Field.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_HSequenceOfEntity.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_HSequenceOfField.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_HSequenceOfItem.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Integer.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Item.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_List.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Logical.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_NamedType.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Number.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_PredefinedType.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Real.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Reference.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Schema.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Select.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_SequenceOfEntity.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_SequenceOfField.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_SequenceOfItem.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Set.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_String.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Express\Express_Type.hxx">
+      <Filter>Header Files\Express</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKExpress.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Express">
+      <UniqueIdentifier>{AB10E427-4ABD-3B92-BC01-1F704E4DCF55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Express">
+      <UniqueIdentifier>{72336C80-A52F-3576-A462-99D7D06ABC22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedApprovalAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedDateAndTimeAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedDateAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedDocumentReference.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedExternalIdentificationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedGroupAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedOrganizationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedPersonAndOrganizationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedPresentedItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedSecurityClassificationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ApprovalItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignActualDateAndTimeAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignActualDateAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignApprovalAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDateAndPersonAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDateAndPersonItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDateAndTimeItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDatedItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDocumentReference.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignGeneralOrgItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignGroupAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignGroupedItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignNominalDateAndTimeAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignNominalDateAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignOrganizationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignOrganizationItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignPersonAndOrganizationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignPresentedItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignPresentedItemSelect.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignReferencingItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignSecurityClassificationAssignment.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Class.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_DateAndTimeItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_DateItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_DocumentReferenceItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ExternalIdentificationItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ExternallyDefinedClass.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ExternallyDefinedGeneralProperty.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_GroupItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_OrganizationItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_PersonAndOrganizationItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_PresentedItemSelect.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Protocol.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_RepItemGroup.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_SecurityClassificationItem.cxx">
+      <Filter>Source Files\StepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_GeneralModule.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_ReadWriteModule.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedApprovalAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedDateAndTimeAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedDateAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedDocumentReference.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedExternalIdentificationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedGroupAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedOrganizationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedPersonAndOrganizationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedPresentedItem.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedSecurityClassificationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignActualDateAndTimeAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignActualDateAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignApprovalAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignDateAndPersonAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignDocumentReference.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignGroupAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignNominalDateAndTimeAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignNominalDateAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignOrganizationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignPersonAndOrganizationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignPresentedItem.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignSecurityClassificationAssignment.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWClass.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWExternallyDefinedClass.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWExternallyDefinedGeneralProperty.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWRepItemGroup.cxx">
+      <Filter>Source Files\RWStepAP214</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ApprovedItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignApproval.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignCertification.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignContract.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignDateAndTimeAssignment.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignPersonAndOrganizationAssignment.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignSecurityClassification.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignSpecificationReference.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CertifiedItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Change.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ChangeRequest.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ChangeRequestItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ClassifiedItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ContractedItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_DateTimeItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_PersonOrganizationItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_SpecifiedItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_StartRequest.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_StartRequestItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_StartWork.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_WorkItem.cxx">
+      <Filter>Source Files\StepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignApproval.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignCertification.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignContract.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignDateAndTimeAssignment.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignPersonAndOrganizationAssignment.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignSecurityClassification.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignSpecificationReference.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWChange.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWChangeRequest.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWStartRequest.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWStartWork.cxx">
+      <Filter>Source Files\RWStepAP203</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_AP203Context.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Assembly.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_ContextTool.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_ExternRefs.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Part.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_PointHasher.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Styles.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Tool.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_UnitContext.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_ValidationProps.cxx">
+      <Filter>Source Files\STEPConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPEdit\STEPEdit.cxx">
+      <Filter>Source Files\STEPEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPEdit\STEPEdit_EditContext.cxx">
+      <Filter>Source Files\STEPEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPEdit\STEPEdit_EditSDR.cxx">
+      <Filter>Source Files\STEPEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeAxis1Placement.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeAxis2Placement2d.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeAxis2Placement3d.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBoundedCurve.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBoundedSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineCurveWithKnots.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineCurveWithKnotsAndRationalBSplineCurve.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineSurfaceWithKnots.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCartesianPoint.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCircle.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeConic.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeConicalSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCurve.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCylindricalSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeDirection.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeElementarySurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeEllipse.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeHyperbola.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeLine.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeParabola.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakePlane.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakePolyline.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeRectangularTrimmedSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSphericalSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSurfaceOfLinearExtrusion.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSurfaceOfRevolution.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSweptSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeToroidalSurface.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeVector.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_Root.cxx">
+      <Filter>Source Files\GeomToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToGeom\StepToGeom.cxx">
+      <Filter>Source Files\StepToGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Builder.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_CartesianPointHasher.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_GeometricTool.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_MakeTransformed.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_NMTool.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_PointPair.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_PointPairHasher.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Root.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Tool.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateCompositeCurve.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateCurveBoundedSurface.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateEdge.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateEdgeLoop.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateFace.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslatePolyLoop.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateShell.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateSolid.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateVertex.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateVertexLoop.cxx">
+      <Filter>Source Files\StepToTopoDS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_Builder.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_FacetedTool.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeBrepWithVoids.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeFacetedBrep.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeGeometricCurveSet.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeManifoldSolidBrep.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeShellBasedSurfaceModel.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepEdge.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepFace.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepVertex.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepWire.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_Root.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_Tool.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_WireframeBuilder.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeTessellatedItem.cxx">
+      <Filter>Source Files\TopoDSToStep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_ActorRead.cxx">
+      <Filter>Source Files\STEPControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_ActorWrite.cxx">
+      <Filter>Source Files\STEPControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_Controller.cxx">
+      <Filter>Source Files\STEPControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_Reader.cxx">
+      <Filter>Source Files\STEPControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_Writer.cxx">
+      <Filter>Source Files\STEPControl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyComponent.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyExplorer.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyLink.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_Counter.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectAssembly.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectDerived.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectFaces.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectForTransfer.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectGSCurves.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectInstances.cxx">
+      <Filter>Source Files\STEPSelections</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP209\StepAP209_Construct.cxx">
+      <Filter>Source Files\StepAP209</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWDraughtingModelItemAssociation.cxx">
+      <Filter>Source Files\RWStepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWGeometricItemSpecificUsage.cxx">
+      <Filter>Source Files\RWStepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWIdAttribute.cxx">
+      <Filter>Source Files\RWStepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWItemIdentifiedRepresentationUsage.cxx">
+      <Filter>Source Files\RWStepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_DraughtingModelItemAssociation.cxx">
+      <Filter>Source Files\StepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_GeometricItemSpecificUsage.cxx">
+      <Filter>Source Files\StepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_IdAttribute.cxx">
+      <Filter>Source Files\StepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_IdAttributeSelect.cxx">
+      <Filter>Source Files\StepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_ItemIdentifiedRepresentationUsage.cxx">
+      <Filter>Source Files\StepAP242</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_ItemIdentifiedRepresentationUsageDefinition.cxx">
+      <Filter>Source Files\StepAP242</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedApprovalAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedDateAndTimeAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedDateAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedDocumentReference.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedExternalIdentificationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedGroupAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedOrganizationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedPersonAndOrganizationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedPresentedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AppliedSecurityClassificationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ApprovalItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfApprovalItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignDateAndPersonItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignDateAndTimeItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignDatedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignGeneralOrgItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignGroupedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignPresentedItemSelect.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfAutoDesignReferencingItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfDateAndTimeItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfDateItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfDocumentReferenceItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfExternalIdentificationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfGroupItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfOrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfPersonAndOrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfPresentedItemSelect.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Array1OfSecurityClassificationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignActualDateAndTimeAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignActualDateAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignApprovalAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDateAndPersonAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDateAndPersonItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDateAndTimeItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDatedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignDocumentReference.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignGeneralOrgItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignGroupAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignGroupedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignNominalDateAndTimeAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignNominalDateAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignOrganizationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignOrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignPersonAndOrganizationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignPresentedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignPresentedItemSelect.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignReferencingItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_AutoDesignSecurityClassificationAssignment.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Class.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_DateAndTimeItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_DateItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_DocumentReferenceItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ExternalIdentificationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ExternallyDefinedClass.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_ExternallyDefinedGeneralProperty.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_GroupItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfApprovalItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignDateAndTimeItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignDatedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignGroupedItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfAutoDesignReferencingItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfDateAndTimeItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfDateItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfDocumentReferenceItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfExternalIdentificationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfGroupItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfOrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfPersonAndOrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfPresentedItemSelect.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_HArray1OfSecurityClassificationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_OrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_PersonAndOrganizationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_PresentedItemSelect.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_Protocol.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_RepItemGroup.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP214\StepAP214_SecurityClassificationItem.hxx">
+      <Filter>Header Files\StepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_GeneralModule.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_ReadWriteModule.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedApprovalAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedDateAndTimeAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedDateAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedDocumentReference.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedExternalIdentificationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedGroupAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedOrganizationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedPresentedItem.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignActualDateAndTimeAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignActualDateAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignApprovalAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignDateAndPersonAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignDocumentReference.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignGroupAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignNominalDateAndTimeAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignNominalDateAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignOrganizationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignPersonAndOrganizationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignPresentedItem.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWClass.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWExternallyDefinedClass.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWExternallyDefinedGeneralProperty.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP214\RWStepAP214_RWRepItemGroup.hxx">
+      <Filter>Header Files\RWStepAP214</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ApprovedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfApprovedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfCertifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfChangeRequestItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfClassifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfContractedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfDateTimeItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfPersonOrganizationItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfSpecifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfStartRequestItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Array1OfWorkItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignApproval.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignCertification.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignContract.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignDateAndTimeAssignment.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignPersonAndOrganizationAssignment.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignSecurityClassification.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CcDesignSpecificationReference.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_CertifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_Change.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ChangeRequest.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ChangeRequestItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ClassifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_ContractedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_DateTimeItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfApprovedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfCertifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfChangeRequestItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfClassifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfContractedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfDateTimeItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfPersonOrganizationItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfSpecifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfStartRequestItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_HArray1OfWorkItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_PersonOrganizationItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_SpecifiedItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_StartRequest.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_StartRequestItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_StartWork.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP203\StepAP203_WorkItem.hxx">
+      <Filter>Header Files\StepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignApproval.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignCertification.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignContract.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignDateAndTimeAssignment.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignPersonAndOrganizationAssignment.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignSecurityClassification.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWCcDesignSpecificationReference.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWChange.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWChangeRequest.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWStartRequest.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP203\RWStepAP203_RWStartWork.hxx">
+      <Filter>Header Files\RWStepAP203</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_AP203Context.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Assembly.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_ContextTool.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_DataMapIteratorOfDataMapOfPointTransient.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_DataMapOfAsciiStringTransient.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_DataMapOfPointTransient.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_ExternRefs.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Part.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_PointHasher.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Styles.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Tool.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_UnitContext.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_ValidationProps.hxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPEdit\STEPEdit.hxx">
+      <Filter>Header Files\STEPEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPEdit\STEPEdit_EditContext.hxx">
+      <Filter>Header Files\STEPEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPEdit\STEPEdit_EditSDR.hxx">
+      <Filter>Header Files\STEPEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeAxis1Placement.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeAxis2Placement2d.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeAxis2Placement3d.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBoundedCurve.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBoundedSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineCurveWithKnots.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineCurveWithKnotsAndRationalBSplineCurve.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineSurfaceWithKnots.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCartesianPoint.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCircle.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeConic.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeConicalSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCurve.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeCylindricalSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeDirection.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeElementarySurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeEllipse.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeHyperbola.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeLine.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeParabola.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakePlane.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakePolyline.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeRectangularTrimmedSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSphericalSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSurfaceOfLinearExtrusion.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSurfaceOfRevolution.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeSweptSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeToroidalSurface.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_MakeVector.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomToStep\GeomToStep_Root.hxx">
+      <Filter>Header Files\GeomToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToGeom\StepToGeom.hxx">
+      <Filter>Header Files\StepToGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Builder.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_BuilderError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_CartesianPointHasher.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapIteratorOfDataMapOfRI.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapIteratorOfDataMapOfTRI.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapIteratorOfPointEdgeMap.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapIteratorOfPointVertexMap.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapOfRI.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapOfRINames.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_DataMapOfTRI.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_GeometricTool.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_GeometricToolError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_MakeTransformed.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_NMTool.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_PointEdgeMap.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_PointPair.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_PointPairHasher.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_PointVertexMap.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Root.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Tool.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateCompositeCurve.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateCurveBoundedSurface.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateEdge.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateEdgeError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateEdgeLoop.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateEdgeLoopError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateFace.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateFaceError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslatePolyLoop.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslatePolyLoopError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateShell.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateShellError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateSolid.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateSolidError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateVertex.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateVertexError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateVertexLoop.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateVertexLoopError.hxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_Builder.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_BuilderError.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_FacetedError.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_FacetedTool.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeBrepWithVoids.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeEdgeError.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeFaceError.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeFacetedBrep.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeGeometricCurveSet.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeManifoldSolidBrep.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeShellBasedSurfaceModel.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepEdge.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepFace.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepVertex.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeStepWire.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeVertexError.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeWireError.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_Root.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_Tool.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_WireframeBuilder.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopoDSToStep\TopoDSToStep_MakeTessellatedItem.hxx">
+      <Filter>Header Files\TopoDSToStep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_ActorRead.hxx">
+      <Filter>Header Files\STEPControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_ActorWrite.hxx">
+      <Filter>Header Files\STEPControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_Controller.hxx">
+      <Filter>Header Files\STEPControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_Reader.hxx">
+      <Filter>Header Files\STEPControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_StepModelType.hxx">
+      <Filter>Header Files\STEPControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPControl\STEPControl_Writer.hxx">
+      <Filter>Header Files\STEPControl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyComponent.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyExplorer.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyLink.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_Counter.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_HSequenceOfAssemblyLink.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectAssembly.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectDerived.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectFaces.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectForTransfer.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectGSCurves.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SelectInstances.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SequenceOfAssemblyComponent.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_SequenceOfAssemblyLink.hxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP209\StepAP209_Construct.hxx">
+      <Filter>Header Files\StepAP209</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWDraughtingModelItemAssociation.hxx">
+      <Filter>Header Files\RWStepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWGeometricItemSpecificUsage.hxx">
+      <Filter>Header Files\RWStepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWIdAttribute.hxx">
+      <Filter>Header Files\RWStepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStepAP242\RWStepAP242_RWItemIdentifiedRepresentationUsage.hxx">
+      <Filter>Header Files\RWStepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_DraughtingModelItemAssociation.hxx">
+      <Filter>Header Files\StepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_GeometricItemSpecificUsage.hxx">
+      <Filter>Header Files\StepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_IdAttribute.hxx">
+      <Filter>Header Files\StepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_IdAttributeSelect.hxx">
+      <Filter>Header Files\StepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_ItemIdentifiedRepresentationUsage.hxx">
+      <Filter>Header Files\StepAP242</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepAP242\StepAP242_ItemIdentifiedRepresentationUsageDefinition.hxx">
+      <Filter>Header Files\StepAP242</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_PointHasher.lxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPConstruct\STEPConstruct_Tool.lxx">
+      <Filter>Header Files\STEPConstruct</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_Root.lxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\StepToTopoDS\StepToTopoDS_TranslateCompositeCurve.lxx">
+      <Filter>Header Files\StepToTopoDS</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyComponent.lxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyExplorer.lxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_AssemblyLink.lxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPSelections\STEPSelections_Counter.lxx">
+      <Filter>Header Files\STEPSelections</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKSTEP.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeomToStep">
+      <UniqueIdentifier>{B007E6E4-4CB6-3355-8CFF-57B1664B6414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWStepAP203">
+      <UniqueIdentifier>{608F94C4-78F2-3E25-9BD1-6E1390D49BF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWStepAP214">
+      <UniqueIdentifier>{8AE94719-D71E-3295-B8FC-9186F1B70E25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWStepAP242">
+      <UniqueIdentifier>{0FE4C24F-33B6-35BE-84ED-721916263232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STEPConstruct">
+      <UniqueIdentifier>{1E3B91F4-1EBF-3FFE-93F3-59C480D04800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STEPControl">
+      <UniqueIdentifier>{AB026158-FD29-3B2D-A571-6403FCFAEB3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STEPEdit">
+      <UniqueIdentifier>{AFA54B78-2C05-33AC-968B-320A2AB53B38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STEPSelections">
+      <UniqueIdentifier>{15B04159-DD01-3014-BDD3-B8C188157916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepAP203">
+      <UniqueIdentifier>{FD7DAF9C-C389-3DF8-B0AF-981075EB0954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepAP209">
+      <UniqueIdentifier>{C472A4CF-DE3B-3FCD-AC19-46E0D823602B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepAP214">
+      <UniqueIdentifier>{B9874D98-C869-3C45-82C3-AB83D250A7FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepAP242">
+      <UniqueIdentifier>{04BB4B8F-A439-3901-8A4C-6444567B7925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepToGeom">
+      <UniqueIdentifier>{DCDBC8C7-EA5E-322D-8A4E-893E0F7D2A6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StepToTopoDS">
+      <UniqueIdentifier>{FA2C7EC7-33B5-35EE-A1D8-E8B3F71D9262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopoDSToStep">
+      <UniqueIdentifier>{7BF88E34-92CC-3ED0-8D13-113702B6D9CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeomToStep">
+      <UniqueIdentifier>{5D4555FF-C2CD-3F49-80CE-CFF3737FE342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWStepAP203">
+      <UniqueIdentifier>{D83A49A3-A577-3355-850A-2B6FE1A92FB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWStepAP214">
+      <UniqueIdentifier>{936CDDD6-2F90-33F1-A7FF-3A08E30E7BC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWStepAP242">
+      <UniqueIdentifier>{CBAE61EA-FDA5-3F6E-86B7-E1604DDA07B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STEPConstruct">
+      <UniqueIdentifier>{1273CDF8-AFEE-3CFF-AE03-7F7C65B461D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STEPControl">
+      <UniqueIdentifier>{084DDE15-DB44-34D1-B548-7EBAD6A5B60A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STEPEdit">
+      <UniqueIdentifier>{2A4768B5-0631-3E1A-9DA5-04B7608360AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STEPSelections">
+      <UniqueIdentifier>{6EDFA383-7E7E-35FB-9BE9-516D5FD9FD21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepAP203">
+      <UniqueIdentifier>{F5512037-268D-3867-B05B-BD999EC4CF54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepAP209">
+      <UniqueIdentifier>{49BED43F-EFE1-3871-8B2A-E21F898CC008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepAP214">
+      <UniqueIdentifier>{D9B413EC-A59F-3604-979B-4D0E0E4DFE1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepAP242">
+      <UniqueIdentifier>{9B187D73-9FEA-34E4-A402-7BFB15E9915A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepToGeom">
+      <UniqueIdentifier>{DF7962A8-572E-37C8-92D1-B24B5FA81D2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StepToTopoDS">
+      <UniqueIdentifier>{E16D52E2-3D14-3CE5-9058-8E69754EEC63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopoDSToStep">
+      <UniqueIdentifier>{383CEC46-951F-3D7A-AC56-3D3616897AA0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

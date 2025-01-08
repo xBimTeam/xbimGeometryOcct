@@ -1,0 +1,1996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BFGS.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BissecNewton.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BracketedRoot.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BracketMinimum.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BrentMinimum.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_ComputeGaussPointsAndWeights.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_ComputeKronrodPointsAndWeights.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Crout.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_DirectPolynomialRoots.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_DoubleTab.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_EigenValuesSearcher.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FRPR.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Function.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionAllRoots.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionRoot.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionRoots.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSample.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSet.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSetRoot.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionWithDerivative.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Gauss.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussLeastSquare.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussMultipleIntegration.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussSetIntegration.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussSingleIntegration.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GlobOptMin.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Householder.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_IntegerVector.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Jacobi.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Kronrod.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_KronrodSingleIntegration.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Matrix.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_MultipleVarFunction.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonFunctionRoot.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonFunctionSetRoot.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonMinimum.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Powell.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_PSO.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_PSOParticlesPool.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Recipes.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_SVD.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_TrigonometricFunctionRoots.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Uzawa.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Vector.cxx">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ElCLib\ElCLib.cxx">
+      <Filter>Source Files\ElCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ElSLib\ElSLib.cxx">
+      <Filter>Source Files\ElSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib.cxx">
+      <Filter>Source Files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_1.cxx">
+      <Filter>Source Files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_2.cxx">
+      <Filter>Source Files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_3.cxx">
+      <Filter>Source Files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_BzSyntaxes.cxx">
+      <Filter>Source Files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_Cache.cxx">
+      <Filter>Source Files\BSplCLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib.cxx">
+      <Filter>Source Files\BSplSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib_BzSyntaxes.cxx">
+      <Filter>Source Files\BSplSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib_Cache.cxx">
+      <Filter>Source Files\BSplSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib.cxx">
+      <Filter>Source Files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_Base.cxx">
+      <Filter>Source Files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_DoubleJacobiPolynomial.cxx">
+      <Filter>Source Files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_HermitJacobi.cxx">
+      <Filter>Source Files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_JacobiPolynomial.cxx">
+      <Filter>Source Files\PLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_ArrayOfNodes.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_ArrayOfUVNodes.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentLink.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentNode.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentTriangle.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentTriangulation.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentTriPtr.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Connect.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_MakeLoops.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_MergeNodesTool.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Polygon2D.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Polygon3D.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_PolygonOnTriangulation.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_TriangulationParameters.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Triangulation.cxx">
+      <Filter>Source Files\Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib.cxx">
+      <Filter>Source Files\CSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib_Class2d.cxx">
+      <Filter>Source Files\CSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib_NormalPolyDef.cxx">
+      <Filter>Source Files\CSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CircleToBSplineCurve.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CompBezierCurves2dToBSplineCurve2d.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CompBezierCurvesToBSplineCurve.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CompPolynomialToPoles.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ConeToBSplineSurface.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ConicToBSplineCurve.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CylinderToBSplineSurface.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ElementarySurfaceToBSplineSurface.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_EllipseToBSplineCurve.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_GridPolynomialToPoles.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_HyperbolaToBSplineCurve.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ParabolaToBSplineCurve.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_PolynomialCosAndSin.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_SphereToBSplineSurface.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_TorusToBSplineSurface.cxx">
+      <Filter>Source Files\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B2d_0.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B2f_0.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B3d_0.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B3f_0.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_BoundSortBox.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Box.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Box2d.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_OBB.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Range.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Sphere.cxx">
+      <Filter>Source Files\Bnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH.cxx">
+      <Filter>Source Files\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BuildQueue.cxx">
+      <Filter>Source Files\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BuildThread.cxx">
+      <Filter>Source Files\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Properties.cxx">
+      <Filter>Source Files\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax1.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax2.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax3.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax22d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Circ.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Circ2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Cone.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Cylinder.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Dir.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Dir2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Elips.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Elips2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_GTrsf.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_GTrsf2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Hypr.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Hypr2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Lin.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Lin2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Mat.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Mat2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Parab.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Parab2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Pln.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Pnt.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Pnt2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Quaternion.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Sphere.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Torus.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Trsf.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Trsf2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Vec.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Vec2d.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_XY.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_XYZ.cxx">
+      <Filter>Source Files\gp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_Datum3D.cxx">
+      <Filter>Source Files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_ItemLocation.cxx">
+      <Filter>Source Files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_Location.cxx">
+      <Filter>Source Files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_SListNodeOfItemLocation.cxx">
+      <Filter>Source Files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_SListOfItemLocation.cxx">
+      <Filter>Source Files\TopLoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Absolute.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArcCosine.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArcSine.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArcTangent.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArgCosh.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArgSinh.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArgTanh.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_BinaryExpression.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_BinaryFunction.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Cosh.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Cosine.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Difference.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Different.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Division.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Equal.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Exponential.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Exponentiate.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_FunctionDerivative.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GeneralExpression.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GeneralFunction.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GeneralRelation.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GreaterThan.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GreaterThanOrEqual.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LessThan.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LessThanOrEqual.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LogOf10.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LogOfe.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedConstant.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedExpression.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedFunction.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedUnknown.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NumericValue.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Operators.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_PolyExpression.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_PolyFunction.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Product.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_RelationIterator.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_RUIterator.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sign.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sine.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SingleRelation.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sinh.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Square.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SquareRoot.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sum.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SystemRelation.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Tangent.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Tanh.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryExpression.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryFunction.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryMinus.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnknownIterator.cxx">
+      <Filter>Source Files\Expr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp.tab.c">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_Analysis.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_Generator.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_GenExp.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_GenFct.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_GenRel.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_yaccintrf.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_yacclex.cxx">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\lex.ExprIntrp.c">
+      <Filter>Source Files\ExprIntrp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Array1OfValueAndWeight.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BFGS.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BissecNewton.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BracketedRoot.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BracketMinimum.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BrentMinimum.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BullardGenerator.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_ComputeGaussPointsAndWeights.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_ComputeKronrodPointsAndWeights.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Crout.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_DirectPolynomialRoots.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_DoubleTab.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_EigenValuesSearcher.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FRPR.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Function.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionAllRoots.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionRoot.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionRoots.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSample.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSet.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSetRoot.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionSetWithDerivatives.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionWithDerivative.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Gauss.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussLeastSquare.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussMultipleIntegration.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussSetIntegration.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussSingleIntegration.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GlobOptMin.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Householder.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_IntegerVector.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Jacobi.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_KronrodSingleIntegration.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Matrix.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_MultipleVarFunction.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_MultipleVarFunctionWithGradient.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_MultipleVarFunctionWithHessian.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonFunctionRoot.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonFunctionSetRoot.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonMinimum.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NotSquare.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Powell.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_PSO.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_PSOParticlesPool.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Recipes.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_SingularMatrix.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Status.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_SVD.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_TrigonometricFunctionRoots.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_TrigonometricEquationFunction.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Uzawa.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_ValueAndWeight.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Vector.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ElCLib\ElCLib.hxx">
+      <Filter>Header Files\ElCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ElSLib\ElSLib.hxx">
+      <Filter>Header Files\ElSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib.hxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_Cache.hxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_CacheParams.hxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_EvaluatorFunction.hxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_KnotDistribution.hxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib_MultDistribution.hxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib.hxx">
+      <Filter>Header Files\BSplSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib_Cache.hxx">
+      <Filter>Header Files\BSplSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib_EvaluatorFunction.hxx">
+      <Filter>Header Files\BSplSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib.hxx">
+      <Filter>Header Files\PLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_Base.hxx">
+      <Filter>Header Files\PLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_DoubleJacobiPolynomial.hxx">
+      <Filter>Header Files\PLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_HermitJacobi.hxx">
+      <Filter>Header Files\PLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_JacobiPolynomial.hxx">
+      <Filter>Header Files\PLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Precision\Precision.hxx">
+      <Filter>Header Files\Precision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomAbs\GeomAbs_BSplKnotDistribution.hxx">
+      <Filter>Header Files\GeomAbs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomAbs\GeomAbs_CurveType.hxx">
+      <Filter>Header Files\GeomAbs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomAbs\GeomAbs_IsoType.hxx">
+      <Filter>Header Files\GeomAbs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomAbs\GeomAbs_JoinType.hxx">
+      <Filter>Header Files\GeomAbs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomAbs\GeomAbs_Shape.hxx">
+      <Filter>Header Files\GeomAbs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomAbs\GeomAbs_SurfaceType.hxx">
+      <Filter>Header Files\GeomAbs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Array1OfTriangle.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_ArrayOfNodes.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_ArrayOfUVNodes.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentLink.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentNode.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentTriangle.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentTriangulation.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_CoherentTriPtr.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Connect.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_HArray1OfTriangle.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_ListOfTriangulation.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_MakeLoops.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_MeshPurpose.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_MergeNodesTool.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Polygon2D.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Polygon3D.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_PolygonOnTriangulation.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Triangle.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_TriangulationParameters.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Poly\Poly_Triangulation.hxx">
+      <Filter>Header Files\Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib.hxx">
+      <Filter>Header Files\CSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib_Class2d.hxx">
+      <Filter>Header Files\CSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib_DerivativeStatus.hxx">
+      <Filter>Header Files\CSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib_NormalPolyDef.hxx">
+      <Filter>Header Files\CSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CSLib\CSLib_NormalStatus.hxx">
+      <Filter>Header Files\CSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CircleToBSplineCurve.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CompBezierCurves2dToBSplineCurve2d.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CompBezierCurvesToBSplineCurve.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CompPolynomialToPoles.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ConeToBSplineSurface.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ConicToBSplineCurve.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CosAndSinEvalFunction.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_CylinderToBSplineSurface.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ElementarySurfaceToBSplineSurface.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_EllipseToBSplineCurve.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_GridPolynomialToPoles.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_HyperbolaToBSplineCurve.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ParabolaToBSplineCurve.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_ParameterisationType.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_PolynomialCosAndSin.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_SequenceOfArray1OfPoles.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_SequenceOfArray1OfPoles2d.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_SphereToBSplineSurface.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Convert\Convert_TorusToBSplineSurface.hxx">
+      <Filter>Header Files\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Array1OfBox.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Array1OfBox2d.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Array1OfSphere.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B2d.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B2f.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B3d.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B3f.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_BoundSortBox.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Box.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Box2d.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_HArray1OfBox.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_HArray1OfBox2d.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_HArray1OfSphere.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_OBB.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Range.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Sphere.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Tools.hxx">
+      <Filter>Header Files\Bnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BinnedBuilder.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Box.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BoxSet.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Builder.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BuildQueue.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BuildThread.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Constants.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Distance.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_DistanceField.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Geometry.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_IndexedBoxSet.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_LinearBuilder.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Object.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_ObjectSet.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_PairDistance.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_PrimitiveSet.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_PrimitiveSet3d.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Properties.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_QueueBuilder.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Ray.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Set.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Sorter.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_QuickSorter.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_RadixSorter.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_SpatialMedianBuilder.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_SweepPlaneBuilder.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Tools.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Traverse.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Tree.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_BinaryTree.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_QuadTree.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Triangulation.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Types.hxx">
+      <Filter>Header Files\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax1.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax2.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax3.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Ax22d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Circ.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Circ2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Cone.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Cylinder.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Dir.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Dir2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Elips.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Elips2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_EulerSequence.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_GTrsf.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_GTrsf2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Hypr.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Hypr2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Lin.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Lin2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Mat.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Mat2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Parab.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Parab2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Pln.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Pnt.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Pnt2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Quaternion.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_QuaternionNLerp.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_QuaternionSLerp.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Sphere.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Torus.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Trsf.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Trsf2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_TrsfForm.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_TrsfNLerp.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Vec.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Vec2d.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Vec2f.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_Vec3f.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_VectorWithNullMagnitude.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_XY.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gp\gp_XYZ.hxx">
+      <Filter>Header Files\gp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfCirc2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfDir.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfDir2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfLin2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfPnt.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfVec.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfVec2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfXY.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array1OfXYZ.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfCirc2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfDir.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfDir2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfLin2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfPnt.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfVec.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfVec2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfXY.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_Array2OfXYZ.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfCirc2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfDir.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfDir2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfLin2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfPnt.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfVec.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfVec2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfXY.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray1OfXYZ.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfCirc2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfDir.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfDir2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfLin2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfPnt.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfVec.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfVec2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfXY.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HArray2OfXYZ.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfDir.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfDir2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfPnt.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfVec.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfVec2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfXY.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_HSequenceOfXYZ.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfArray1OfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfAx1.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfDir.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfDir2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfPnt.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfPnt2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfVec.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfVec2d.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfXY.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TColgp\TColgp_SequenceOfXYZ.hxx">
+      <Filter>Header Files\TColgp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_Datum3D.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_IndexedMapOfLocation.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_ItemLocation.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_Location.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_MapIteratorOfMapOfLocation.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_MapLocationHasher.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_MapOfLocation.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_SListNodeOfItemLocation.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_SListOfItemLocation.hxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Absolute.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArcCosine.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArcSine.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArcTangent.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArgCosh.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArgSinh.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ArgTanh.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Array1OfGeneralExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Array1OfNamedUnknown.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Array1OfSingleRelation.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_BinaryExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_BinaryFunction.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Cosh.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Cosine.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Difference.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Different.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Division.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Equal.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Exponential.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Exponentiate.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_ExprFailure.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_FunctionDerivative.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GeneralExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GeneralFunction.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GeneralRelation.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GreaterThan.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_GreaterThanOrEqual.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_InvalidAssignment.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_InvalidFunction.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_InvalidOperand.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LessThan.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LessThanOrEqual.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LogOf10.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_LogOfe.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_MapOfNamedUnknown.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedConstant.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedFunction.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedUnknown.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NotAssigned.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NotEvaluable.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NumericValue.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Operators.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_PolyExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_PolyFunction.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Product.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_RelationIterator.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_RUIterator.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SequenceOfGeneralExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SequenceOfGeneralRelation.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sign.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sine.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SingleRelation.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sinh.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Square.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SquareRoot.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Sum.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_SystemRelation.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Tangent.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_Tanh.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryExpression.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryFunction.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryMinus.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnknownIterator.hxx">
+      <Filter>Header Files\Expr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp.tab.h">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_Analysis.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_Generator.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_GenExp.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_GenFct.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_GenRel.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_ListIteratorOfStackOfGeneralExpression.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_ListIteratorOfStackOfGeneralFunction.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_ListIteratorOfStackOfGeneralRelation.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_SequenceOfNamedExpression.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_SequenceOfNamedFunction.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_StackOfGeneralExpression.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_StackOfGeneralFunction.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_StackOfGeneralRelation.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_SyntaxError.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_yaccanal.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExprIntrp\ExprIntrp_yaccintrf.hxx">
+      <Filter>Header Files\ExprIntrp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BFGS.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BissecNewton.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BracketedRoot.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BracketMinimum.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_BrentMinimum.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Crout.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_DirectPolynomialRoots.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_DoubleTab.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FRPR.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionAllRoots.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionRoot.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_FunctionRoots.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussLeastSquare.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussMultipleIntegration.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussSetIntegration.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_GaussSingleIntegration.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Householder.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Jacobi.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_KronrodSingleIntegration.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Matrix.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonFunctionRoot.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonFunctionSetRoot.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_NewtonMinimum.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Powell.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_SVD.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_TrigonometricFunctionRoots.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\math\math_Uzawa.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ElCLib\ElCLib.lxx">
+      <Filter>Header Files\ElCLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\ElSLib\ElSLib.lxx">
+      <Filter>Header Files\ElSLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplCLib\BSplCLib.lxx">
+      <Filter>Header Files\BSplCLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BSplSLib\BSplSLib.lxx">
+      <Filter>Header Files\BSplSLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_DoubleJacobiPolynomial.lxx">
+      <Filter>Header Files\PLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_HermitJacobi.lxx">
+      <Filter>Header Files\PLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\PLib\PLib_JacobiPolynomial.lxx">
+      <Filter>Header Files\PLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B2x.lxx">
+      <Filter>Header Files\Bnd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_B3x.lxx">
+      <Filter>Header Files\Bnd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Bnd\Bnd_Sphere.lxx">
+      <Filter>Header Files\Bnd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_DistanceField.lxx">
+      <Filter>Header Files\BVH</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BVH\BVH_Traverse.lxx">
+      <Filter>Header Files\BVH</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_Location.lxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopLoc\TopLoc_SListNodeOfItemLocation.lxx">
+      <Filter>Header Files\TopLoc</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_BinaryExpression.lxx">
+      <Filter>Header Files\Expr</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedConstant.lxx">
+      <Filter>Header Files\Expr</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_NamedUnknown.lxx">
+      <Filter>Header Files\Expr</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_PolyExpression.lxx">
+      <Filter>Header Files\Expr</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Expr\Expr_UnaryExpression.lxx">
+      <Filter>Header Files\Expr</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKMath.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BSplCLib">
+      <UniqueIdentifier>{15E66667-D859-3770-8AD8-066102CA3753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BSplSLib">
+      <UniqueIdentifier>{E10BFE93-BE0B-3FB2-A3F5-632B62ED03A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BVH">
+      <UniqueIdentifier>{ED8FB36F-8552-33D2-BF22-FBF78EF8D718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bnd">
+      <UniqueIdentifier>{84800137-B0A3-3D0B-B41C-5A2A63FB2236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CSLib">
+      <UniqueIdentifier>{AAC834E9-00F2-3B6D-80A4-AB5B92137458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Convert">
+      <UniqueIdentifier>{11009986-BD6E-310C-BCB9-B903D02C4B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ElCLib">
+      <UniqueIdentifier>{399B81A1-08B9-3A2D-A174-310EEDD00FDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ElSLib">
+      <UniqueIdentifier>{C545E0C8-59B3-3EEA-8E9C-752BADD4C8AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expr">
+      <UniqueIdentifier>{AC7BF152-5550-3970-BB2B-8924B360DB14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExprIntrp">
+      <UniqueIdentifier>{ECDEA60F-72BA-3AC5-BAE0-9C7EDA88476D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeomAbs">
+      <UniqueIdentifier>{980CE92D-216C-3EB7-BB5C-94574D5B147C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLib">
+      <UniqueIdentifier>{E8A94E50-C2AA-3DB0-BEB0-DC5F5AB6AD45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Poly">
+      <UniqueIdentifier>{081CCD9F-42A1-38AF-A002-5AB020A2AF7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Precision">
+      <UniqueIdentifier>{E9AC7ECF-BB20-33E9-9764-30FF88C43FE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TColgp">
+      <UniqueIdentifier>{E9B68D1C-9497-3F51-A407-7BAC99A7DAAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopLoc">
+      <UniqueIdentifier>{97EA286F-A4FA-35D5-BD49-3B630B2935FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gp">
+      <UniqueIdentifier>{ACA5B39F-4049-34D5-8FA8-CB0563533FE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{E298CC40-DD62-31BF-A0B9-91A9F849A48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BSplCLib">
+      <UniqueIdentifier>{EA8B3D14-B3E1-3761-B37F-8D02F3621A34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BSplSLib">
+      <UniqueIdentifier>{506D0031-B4AD-3B34-9B6F-6D6A54E4C9B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BVH">
+      <UniqueIdentifier>{94A498B1-B3D2-3681-B39D-C894BBF54710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bnd">
+      <UniqueIdentifier>{3D76DB18-59C7-33AB-B27A-A0982168C5E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSLib">
+      <UniqueIdentifier>{9EAEBA02-6A5C-3749-BD02-727E3DB56BB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Convert">
+      <UniqueIdentifier>{E314F286-A5ED-39FA-86CC-4101DE9285C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ElCLib">
+      <UniqueIdentifier>{E0DA19A4-94B1-3BC9-99D3-A0D845736CD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ElSLib">
+      <UniqueIdentifier>{1C5BE97B-5CFB-38FB-8DBC-1604F05784E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Expr">
+      <UniqueIdentifier>{34E91F69-5FF0-3082-B64E-3817C281F6D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExprIntrp">
+      <UniqueIdentifier>{6F8BE93B-0498-3132-9BA8-E0723E9A94AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLib">
+      <UniqueIdentifier>{52FB2302-B9B3-3606-B338-0C9E4B868D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Poly">
+      <UniqueIdentifier>{213C934F-A90D-3153-8F14-D942607A201E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopLoc">
+      <UniqueIdentifier>{5E934D87-093C-3B04-9D12-D6FD8E679CE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gp">
+      <UniqueIdentifier>{F466A2D9-1724-3CD5-94EE-3119E30F2FEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{98BFCCD9-0871-317B-BBD8-2AA9381EE4A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

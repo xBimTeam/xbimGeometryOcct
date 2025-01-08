@@ -1,0 +1,2122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_CompProjectedCurve.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ComputeApprox.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ComputeApproxOnPolarSurface.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Cone.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Cylinder.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Plane.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_PrjFunc.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_PrjResolve.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ProjectedCurve.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ProjectOnPlane.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ProjectOnSurface.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Projector.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Sphere.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Torus.cxx">
+      <Filter>Source Files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomProjLib\GeomProjLib.cxx">
+      <Filter>Source Files\GeomProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_AbscissaPoint.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_QuasiUniformAbscissa.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_QuasiUniformDeflection.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_TangentialDeflection.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_UniformAbscissa.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_UniformDeflection.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_DistFunction.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_DistFunction2d.cxx">
+      <Filter>Source Files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_AbscissaPoint.cxx">
+      <Filter>Source Files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_MyGaussFunction.cxx">
+      <Filter>Source Files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_MyRootFunction.cxx">
+      <Filter>Source Files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_UniformDeflection.cxx">
+      <Filter>Source Files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Curve2d.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Curve3d.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_CurveOnSurface.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_CurvilinearParameter.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_CurvlinFunc.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_FitAndDivide2d_0.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_FitAndDivide_0.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_MCurvesToBSpCurve.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SameParameter.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SweepApproximation.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SweepFunction.cxx">
+      <Filter>Source Files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves.cxx">
+      <Filter>Source Files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_ConstraintCouple.cxx">
+      <Filter>Source Files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiBSpCurve.cxx">
+      <Filter>Source Files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiCurve.cxx">
+      <Filter>Source Files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiPoint.cxx">
+      <Filter>Source Files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_Assembly.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_Curve.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ElementaryCriterion.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ElementsOfRefMatrix.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_LinearFlexion.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_LinearJerk.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_LinearTension.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ProfileMatrix.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_SparseMatrix.cxx">
+      <Filter>Source Files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_ContMatrices.cxx">
+      <Filter>Source Files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_ContMatrices_1.cxx">
+      <Filter>Source Files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_ContMatrices_2.cxx">
+      <Filter>Source Files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_ContMatrices_3.cxx">
+      <Filter>Source Files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_ContMatrices_4.cxx">
+      <Filter>Source Files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_LeastSquare.cxx">
+      <Filter>Source Files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CCLocFOfLocECC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CCLocFOfLocECC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Curve2dTool.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CurveTool.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ECC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ECC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ELPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ELPCOfLocateExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtCC.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtCC2d.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtCS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElC.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElC2d.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElCS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElSS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPElC.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPElC2d.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPElS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPExtS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPRevS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtSS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncExtCS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncPSNorm.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncPSDist.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncExtSS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenExtCS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenExtPS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenExtSS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenLocateExtCS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenLocateExtPS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenLocateExtSS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncCC.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncCS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncConicS.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncCQuadric.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtCC.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtCC2d.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocECC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocECC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocEPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocEPCOfLocateExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnCurv2d_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnCurv_0.cxx">
+      <Filter>Source Files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Curve.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Int3Pln.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntConicQuad.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntLinTorus.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntQuadQuad.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_QuadQuadGeo.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Quadric.cxx">
+      <Filter>Source Files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_1.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_2.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_3.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_4.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_5.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_6.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_7.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection_8.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_Conic.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_IntPoint.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_Outils.cxx">
+      <Filter>Source Files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_1.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_ApproxCurve.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_ApproxSurface.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineCurveKnotSplitting.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineCurveToBezierCurve.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineSurfaceKnotSplitting.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineSurfaceToBezierSurface.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CompBezierSurfacesToBSplineSurface.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CompCurveToBSplineCurve.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_Units.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CurveToAnaCurve.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_SurfToAnaSurf.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_FuncSphereLSDist.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_FuncCylinderLSDist.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_FuncConeLSDist.cxx">
+      <Filter>Source Files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_ApproxAFunc2Var.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_ApproxF2var.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Context.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Criterion.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_0.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_1.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_2.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_3.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_4.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_5.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_6.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_7.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Framework.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Iso.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_MathBase.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_MathBase_mathinit.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Network.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Node.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Patch.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_SysBase.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_SysBase_baseinit.cxx">
+      <Filter>Source Files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Check2dBSplineCurve.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_CheckCurveOnSurface.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_CheckBSplineCurve.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_DenominatorMultiplier.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Interpolate.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_IsPlanarSurface.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_LogSample.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_MakeCurvefromApprox.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_PolyFunc.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Tool.cxx">
+      <Filter>Source Files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_ApproxArcsSegments.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_ApproxCurve.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_BSplineCurveKnotSplitting.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_BSplineCurveToBezierCurve.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_CompCurveToBSplineCurve.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_PPoint.cxx">
+      <Filter>Source Files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Hermit\Hermit.cxx">
+      <Filter>Source Files\Hermit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib.cxx">
+      <Filter>Source Files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib_Add2dCurve.cxx">
+      <Filter>Source Files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib_Add3dCurve.cxx">
+      <Filter>Source Files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib_AddSurface.cxx">
+      <Filter>Source Files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Compute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Gradient_BFGSOfMyGradientOfCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Gradient_BFGSOfTheGradient_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_LinearCriteria.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MultiLine.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MultiPointConstraint.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyGradientOfCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyLineTool.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParFunctionOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParFunctionOfMyGradientOfCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParFunctionOfTheGradient_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParLeastSquareOfMyGradientOfCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParLeastSquareOfTheGradient_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ResConstraintOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ResConstraintOfMyGradientOfCompute_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ResConstraintOfTheGradient_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_SmoothCriterion.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheFunction_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheGradient_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheLeastSquares_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheResol_0.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Variational.cxx">
+      <Filter>Source Files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools.cxx">
+      <Filter>Source Files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_Curve2dSet.cxx">
+      <Filter>Source Files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_CurveSet.cxx">
+      <Filter>Source Files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_Debug.cxx">
+      <Filter>Source Files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_SurfaceSet.cxx">
+      <Filter>Source Files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_UndefinedTypeHandler.cxx">
+      <Filter>Source Files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfCircle.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfEllipse.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfHyperbola.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfParabola.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeCircle.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeConicalSurface.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeCylindricalSurface.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeEllipse.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeHyperbola.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeLine.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeMirror.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakePlane.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeRotation.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeScale.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeSegment.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeTranslation.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeTrimmedCone.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeTrimmedCylinder.cxx">
+      <Filter>Source Files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfCircle.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfEllipse.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfHyperbola.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfParabola.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeCircle.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeEllipse.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeHyperbola.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeLine.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeMirror.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeParabola.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeRotation.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeScale.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeSegment.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeTranslation.cxx">
+      <Filter>Source Files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCirc.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCirc2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCone.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCylinder.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeDir.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeDir2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeElips.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeElips2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeHypr.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeHypr2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeLin.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeLin2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeMirror.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeMirror2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeParab.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeParab2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakePln.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeRotation.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeRotation2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeScale.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeScale2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeTranslation.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeTranslation2d.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_Root.cxx">
+      <Filter>Source Files\gce</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_CompProjectedCurve.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ComputeApprox.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ComputeApproxOnPolarSurface.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Cone.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Cylinder.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_HCompProjectedCurve.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_HProjectedCurve.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_HSequenceOfHSequenceOfPnt.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Plane.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_PrjFunc.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_PrjResolve.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ProjectedCurve.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ProjectOnPlane.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_ProjectOnSurface.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Projector.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_SequenceOfHSequenceOfPnt.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Sphere.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ProjLib\ProjLib_Torus.hxx">
+      <Filter>Header Files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomProjLib\GeomProjLib.hxx">
+      <Filter>Header Files\GeomProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_AbscissaPoint.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_AbscissaType.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_DeflectionType.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_QuasiUniformAbscissa.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_QuasiUniformDeflection.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_TangentialDeflection.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_TCurveTypes.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_UniformAbscissa.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_UniformDeflection.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_DistFunction.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCPnts\GCPnts_DistFunction2d.hxx">
+      <Filter>Header Files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_AbscissaPoint.hxx">
+      <Filter>Header Files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_MyGaussFunction.hxx">
+      <Filter>Header Files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_MyRootFunction.hxx">
+      <Filter>Header Files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_RealFunction.hxx">
+      <Filter>Header Files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_UniformDeflection.hxx">
+      <Filter>Header Files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Array1OfAdHSurface.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Array1OfGTrsf2d.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Curve2d.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Curve3d.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_CurveOnSurface.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_CurvilinearParameter.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_CurvlinFunc.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_FitAndDivide.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_FitAndDivide2d.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_HArray1OfAdHSurface.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_HArray1OfGTrsf2d.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_MCurvesToBSpCurve.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_ParametrizationType.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SameParameter.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SequenceOfHArray1OfReal.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_Status.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SweepApproximation.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SweepFunction.hxx">
+      <Filter>Header Files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_Array1OfConstraintCouple.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_Array1OfMultiBSpCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_Array1OfMultiCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_Array1OfMultiPoint.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_Constraint.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_ConstraintCouple.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_HArray1OfConstraintCouple.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_HArray1OfMultiBSpCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_HArray1OfMultiCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_HArray1OfMultiPoint.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiBSpCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiPoint.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_SequenceOfMultiBSpCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_SequenceOfMultiCurve.hxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_Assembly.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_AssemblyTable.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_Curve.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ElementaryCriterion.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ElementsOfRefMatrix.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_HAssemblyTable.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_LinearFlexion.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_LinearJerk.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_LinearTension.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ListIteratorOfListOfVectors.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ListOfVectors.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_ProfileMatrix.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_SeqOfLinConstr.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\FEmTool\FEmTool_SparseMatrix.hxx">
+      <Filter>Header Files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_ContMatrices.hxx">
+      <Filter>Header Files\AppCont</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_Function.hxx">
+      <Filter>Header Files\AppCont</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppCont\AppCont_LeastSquare.hxx">
+      <Filter>Header Files\AppCont</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array1OfPOnCurv.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array1OfPOnCurv2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array1OfPOnSurf.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array2OfPOnCurv.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array2OfPOnCurv2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array2OfPOnSurf.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Array2OfPOnSurfParams.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CCLocFOfLocECC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CCLocFOfLocECC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Curve2dTool.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CurveTool.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ECC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ECC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ElementType.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ELPCOfLocateExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ELPCOfLocateExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_EPCOfExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtAlgo.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtCC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtCC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtCS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElCS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtElSS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtFlag.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPElC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPElC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPElS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPExtS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPRevS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtPS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_ExtSS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncExtCS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncPSNorm.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncPSDist.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncExtSS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenExtCS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenExtPS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenExtSS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenLocateExtCS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenLocateExtPS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GenLocateExtSS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncCC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncCS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncConicS.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_GlobOptFuncCQuadric.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HArray1OfPOnCurv.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HArray1OfPOnCurv2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HArray1OfPOnSurf.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HArray2OfPOnCurv.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HArray2OfPOnCurv2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HArray2OfPOnSurf.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_HUBTreeOfSphere.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtCC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtCC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocateExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocECC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocECC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocEPCOfLocateExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_LocEPCOfLocateExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCFOfEPCOfExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnCurv.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnCurv2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnSurf.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnSurfParams.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_SequenceOfPOnCurv.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_SequenceOfPOnCurv2d.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_SequenceOfPOnSurf.hxx">
+      <Filter>Header Files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Curve.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Int3Pln.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntConicQuad.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntLinTorus.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntQuadQuad.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_ListIteratorOfListOfCurve.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_ListOfCurve.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_QuadQuadGeo.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Quadric.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_ResultType.hxx">
+      <Filter>Header Files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection.hxx">
+      <Filter>Header Files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_Conic.hxx">
+      <Filter>Header Files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_IntPoint.hxx">
+      <Filter>Header Files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_Outils.hxx">
+      <Filter>Header Files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_ApproxCurve.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_ApproxSurface.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineCurveKnotSplitting.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineCurveToBezierCurve.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineSurfaceKnotSplitting.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_BSplineSurfaceToBezierSurface.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CompBezierSurfacesToBSplineSurface.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CompCurveToBSplineCurve.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_Units.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CurveToAnaCurve.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_SurfToAnaSurf.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_ConvType.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_FuncSphereLSDist.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_FuncCylinderLSDist.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_FuncConeLSDist.hxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_ApproxAFunc2Var.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_ApproxF2var.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Context.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Criterion.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_CriterionRepartition.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_CriterionType.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Data_f2c.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_EvaluatorFunc2Var.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Framework.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Iso.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_MathBase.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Network.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Node.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Patch.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_SequenceOfNode.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_SequenceOfPatch.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_SequenceOfStrip.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_Strip.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_SysBase.hxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Array1OfMat.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Check2dBSplineCurve.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_CheckCurveOnSurface.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_CheckBSplineCurve.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_DenominatorMultiplier.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_DenominatorMultiplierPtr.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Interpolate.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_InterpolationErrors.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_IsPlanarSurface.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_LogSample.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_MakeCurvefromApprox.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_PolyFunc.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Tool.hxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_ApproxArcsSegments.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_ApproxCurve.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_BSplineCurveKnotSplitting.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_BSplineCurveToBezierCurve.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_CompCurveToBSplineCurve.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_PPoint.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Geom2dConvert\Geom2dConvert_SequenceOfPPoint.hxx">
+      <Filter>Header Files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Hermit\Hermit.hxx">
+      <Filter>Header Files\Hermit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib.hxx">
+      <Filter>Header Files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib_Add2dCurve.hxx">
+      <Filter>Header Files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib_Add3dCurve.hxx">
+      <Filter>Header Files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BndLib\BndLib_AddSurface.hxx">
+      <Filter>Header Files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Array1OfMultiPointConstraint.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Compute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Gradient_BFGSOfTheGradient.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_HArray1OfMultiPointConstraint.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_LinearCriteria.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MultiLine.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MultiPointConstraint.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyGradientOfCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_MyLineTool.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParFunctionOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParFunctionOfMyGradientOfCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParFunctionOfTheGradient.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParLeastSquareOfMyGradientOfCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ParLeastSquareOfTheGradient.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ResConstraintOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ResConstraintOfMyGradientOfCompute.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_ResConstraintOfTheGradient.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_SmoothCriterion.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheFunction.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheGradient.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheLeastSquares.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_TheResol.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppDef\AppDef_Variational.hxx">
+      <Filter>Header Files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools.hxx">
+      <Filter>Header Files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_Curve2dSet.hxx">
+      <Filter>Header Files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_CurveSet.hxx">
+      <Filter>Header Files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_SurfaceSet.hxx">
+      <Filter>Header Files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomTools\GeomTools_UndefinedTypeHandler.hxx">
+      <Filter>Header Files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfCircle.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfEllipse.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfHyperbola.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeArcOfParabola.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeCircle.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeConicalSurface.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeCylindricalSurface.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeEllipse.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeHyperbola.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeLine.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeMirror.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakePlane.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeRotation.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeScale.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeSegment.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeTranslation.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeTrimmedCone.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_MakeTrimmedCylinder.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_Root.hxx">
+      <Filter>Header Files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfCircle.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfEllipse.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfHyperbola.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeArcOfParabola.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeCircle.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeEllipse.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeHyperbola.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeLine.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeMirror.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeParabola.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeRotation.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeScale.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeSegment.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_MakeTranslation.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_Root.hxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_ErrorType.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCirc.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCirc2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCone.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeCylinder.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeDir.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeDir2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeElips.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeElips2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeHypr.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeHypr2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeLin.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeLin2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeMirror.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeMirror2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeParab.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeParab2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakePln.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeRotation.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeRotation2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeScale.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeScale2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeTranslation.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_MakeTranslation2d.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_Root.hxx">
+      <Filter>Header Files\gce</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_AbscissaPoint.lxx">
+      <Filter>Header Files\CPnts</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_MyGaussFunction.lxx">
+      <Filter>Header Files\CPnts</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_MyRootFunction.lxx">
+      <Filter>Header Files\CPnts</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\CPnts\CPnts_UniformDeflection.lxx">
+      <Filter>Header Files\CPnts</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Approx\Approx_SweepApproximation.lxx">
+      <Filter>Header Files\Approx</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\AppParCurves\AppParCurves_MultiPoint.lxx">
+      <Filter>Header Files\AppParCurves</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Curve2dTool.lxx">
+      <Filter>Header Files\Extrema</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_CurveTool.lxx">
+      <Filter>Header Files\Extrema</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_FuncExtCC.lxx">
+      <Filter>Header Files\Extrema</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_Point.lxx">
+      <Filter>Header Files\Extrema</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnSurf.lxx">
+      <Filter>Header Files\Extrema</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Extrema\Extrema_POnSurfParams.lxx">
+      <Filter>Header Files\Extrema</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_Int3Pln.lxx">
+      <Filter>Header Files\IntAna</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntConicQuad.lxx">
+      <Filter>Header Files\IntAna</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntLinTorus.lxx">
+      <Filter>Header Files\IntAna</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_IntQuadQuad.lxx">
+      <Filter>Header Files\IntAna</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna\IntAna_QuadQuadGeo.lxx">
+      <Filter>Header Files\IntAna</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_AnaIntersection.lxx">
+      <Filter>Header Files\IntAna2d</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\IntAna2d\IntAna2d_IntPoint.lxx">
+      <Filter>Header Files\IntAna2d</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomConvert\GeomConvert_CompBezierSurfacesToBSplineSurface.lxx">
+      <Filter>Header Files\GeomConvert</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\AdvApp2Var\AdvApp2Var_ApproxAFunc2Var.lxx">
+      <Filter>Header Files\AdvApp2Var</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Check2dBSplineCurve.lxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_CheckBSplineCurve.lxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_Interpolate.lxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GeomLib\GeomLib_MakeCurvefromApprox.lxx">
+      <Filter>Header Files\GeomLib</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GC\GC_Root.lxx">
+      <Filter>Header Files\GC</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\GCE2d\GCE2d_Root.lxx">
+      <Filter>Header Files\GCE2d</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\gce\gce_Root.lxx">
+      <Filter>Header Files\gce</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKGeomBase.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AdvApp2Var">
+      <UniqueIdentifier>{64FB488B-5385-36D2-96C4-79B4AC218119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppCont">
+      <UniqueIdentifier>{587E3442-1EF4-3972-ABAB-81C82F189478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppDef">
+      <UniqueIdentifier>{DECA0EBC-FE87-307D-B999-2F7CE44EDEC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppParCurves">
+      <UniqueIdentifier>{74D4B596-5593-3955-995B-0FE85623CE76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Approx">
+      <UniqueIdentifier>{6F78CF2A-716C-380F-ADEE-9EE530C50764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BndLib">
+      <UniqueIdentifier>{8D02CF71-0799-3A5D-A8EF-DCCE1EB7482A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPnts">
+      <UniqueIdentifier>{2A74FA27-8865-3A2D-8652-DF644C79C288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extrema">
+      <UniqueIdentifier>{E5D42F1F-54B7-326C-9AC3-4DC5199893A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FEmTool">
+      <UniqueIdentifier>{C852877E-6820-35DB-9DC9-21296DFA3B32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GC">
+      <UniqueIdentifier>{3EA8639F-5C45-3124-AE73-9C4B0638C343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GCE2d">
+      <UniqueIdentifier>{DD6ED057-1D9B-34E5-A047-D1044E321A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GCPnts">
+      <UniqueIdentifier>{929ED98B-0EF2-38C7-B4DC-648AABFBDBEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geom2dConvert">
+      <UniqueIdentifier>{DFE0317A-CF13-3888-B2A3-145E0A097AC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeomConvert">
+      <UniqueIdentifier>{F81B34AD-DA57-31BD-9082-F47DB05E2559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeomLib">
+      <UniqueIdentifier>{6320FF6D-8417-39EA-93CB-9DC5AD52EA8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeomProjLib">
+      <UniqueIdentifier>{A1D24278-2048-37BC-8399-F964234719F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeomTools">
+      <UniqueIdentifier>{F900A8D5-876B-3FD7-80D7-78DAFD898CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hermit">
+      <UniqueIdentifier>{B91D82E0-E57D-375A-835A-353A51D2A22E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntAna">
+      <UniqueIdentifier>{35B1DB5C-FDF5-3D1D-A73A-1863ABD8C683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntAna2d">
+      <UniqueIdentifier>{59C4570E-84A2-391A-B53C-5AA09734EE6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProjLib">
+      <UniqueIdentifier>{DB83F7EF-9E20-31C9-AB5E-4F2917936241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gce">
+      <UniqueIdentifier>{304D24BA-5477-3C8F-93B7-FD03728E3522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdvApp2Var">
+      <UniqueIdentifier>{54221BA6-4744-3A91-BDB2-496E05706267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppCont">
+      <UniqueIdentifier>{1FED27D8-6F8E-3B93-9480-1A2264BCA1F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppDef">
+      <UniqueIdentifier>{EE123E36-0B10-360A-8428-E4327237AA63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppParCurves">
+      <UniqueIdentifier>{C486112A-3DD3-344D-988C-E93B1A1F8721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Approx">
+      <UniqueIdentifier>{B2CA4272-F1A4-3733-BF7E-015E32CD3FD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BndLib">
+      <UniqueIdentifier>{B0553911-62BC-3834-9A06-7970E9A6D62C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPnts">
+      <UniqueIdentifier>{3A3836F2-9E6B-3ABB-81C3-EAF9609245E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extrema">
+      <UniqueIdentifier>{5EBAF025-FED7-3A95-A40C-E3939C65C3B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FEmTool">
+      <UniqueIdentifier>{93D0BBC6-9136-3312-A9F2-E0E4C4C8E04B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GC">
+      <UniqueIdentifier>{413C0EF4-DF1F-344D-BB6F-E467D014E042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GCE2d">
+      <UniqueIdentifier>{011A33C1-B54E-37D5-AF5B-6EF94229636D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GCPnts">
+      <UniqueIdentifier>{BFB5C66C-B303-33C4-87BA-C4BD12819E19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geom2dConvert">
+      <UniqueIdentifier>{9918685B-FD53-3E1D-B6BD-C5913559B608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeomConvert">
+      <UniqueIdentifier>{9FFA8320-5CAA-3F50-8FE6-B017A7658C48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeomLib">
+      <UniqueIdentifier>{24C43766-56AF-3FD9-8E82-1A6BA297F9DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeomProjLib">
+      <UniqueIdentifier>{C5C974D4-8F25-3DE3-B2CB-A1D79A2EB58B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeomTools">
+      <UniqueIdentifier>{0B3E8BBE-36A3-36EB-8415-89811B1B7413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hermit">
+      <UniqueIdentifier>{9340D2AF-CF63-34AC-B7AD-1CF9B6EF3191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntAna">
+      <UniqueIdentifier>{92A4E4A6-ADE2-34B7-A775-04F2933DB249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntAna2d">
+      <UniqueIdentifier>{DEF2F8E1-28B1-3708-8F7B-15E0B7E09821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProjLib">
+      <UniqueIdentifier>{A0E94A17-D176-3A9D-817B-27AE04D3C469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gce">
+      <UniqueIdentifier>{A7D2FFD8-9828-3CAC-970D-9C7130F1F97A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

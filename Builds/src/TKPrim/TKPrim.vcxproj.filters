@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Builder.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Cone.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Cylinder.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_FaceBuilder.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_GWedge.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_OneAxis.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Revolution.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Sphere.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Torus.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Wedge.cxx">
+      <Filter>Source Files\BRepPrim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Builder.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Iterator.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_NumLinearRegularSweep.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Prism.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Revol.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Rotation.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Tool.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Translation.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Trsf.cxx">
+      <Filter>Source Files\BRepSweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShape.cxx">
+      <Filter>Source Files\Sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShapeIterator.cxx">
+      <Filter>Source Files\Sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShapeTool.cxx">
+      <Filter>Source Files\Sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPreviewAPI\BRepPreviewAPI_MakeBox.cxx">
+      <Filter>Source Files\BRepPreviewAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeBox.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeCone.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeCylinder.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeHalfSpace.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeOneAxis.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakePrism.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeRevol.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeRevolution.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeSphere.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeTorus.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeWedge.cxx">
+      <Filter>Source Files\BRepPrimAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Builder.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Cone.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Cylinder.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Direction.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_FaceBuilder.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_GWedge.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_OneAxis.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Revolution.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Sphere.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Torus.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Wedge.hxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Builder.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Iterator.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_NumLinearRegularSweep.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Prism.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Revol.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Rotation.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Tool.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Translation.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Trsf.hxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShape.hxx">
+      <Filter>Header Files\Sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShapeIterator.hxx">
+      <Filter>Header Files\Sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShapeTool.hxx">
+      <Filter>Header Files\Sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPreviewAPI\BRepPreviewAPI_MakeBox.hxx">
+      <Filter>Header Files\BRepPreviewAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeBox.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeCone.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeCylinder.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeHalfSpace.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeOneAxis.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakePrism.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeRevol.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeRevolution.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeSphere.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeSweep.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeTorus.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrimAPI\BRepPrimAPI_MakeWedge.hxx">
+      <Filter>Header Files\BRepPrimAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepPrim\BRepPrim_Builder.lxx">
+      <Filter>Header Files\BRepPrim</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Builder.lxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepSweep\BRepSweep_Iterator.lxx">
+      <Filter>Header Files\BRepSweep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShape.lxx">
+      <Filter>Header Files\Sweep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Sweep\Sweep_NumShapeIterator.lxx">
+      <Filter>Header Files\Sweep</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKPrim.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepPreviewAPI">
+      <UniqueIdentifier>{F4D17F77-317B-317C-B0C9-B7B05B1C459A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepPrim">
+      <UniqueIdentifier>{EB9D8A4C-0F67-3C59-B673-071AC16371FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepPrimAPI">
+      <UniqueIdentifier>{B2DEECCE-A0ED-390F-96C5-2E19BBBB2033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BRepSweep">
+      <UniqueIdentifier>{F0102DF7-6F7E-3252-A11F-BC3DC3ED468B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sweep">
+      <UniqueIdentifier>{D3CBA41C-23ED-38F2-9DED-AA48F8963DB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepPreviewAPI">
+      <UniqueIdentifier>{6EFDC37E-1CF9-3B37-B07C-55D196B5703F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepPrim">
+      <UniqueIdentifier>{8394F47B-6137-3DAC-94C6-0267D06D46DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepPrimAPI">
+      <UniqueIdentifier>{B954F295-5CA6-3E7C-A55D-65D0C9B86D67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BRepSweep">
+      <UniqueIdentifier>{8E5670C3-6022-39C3-A73B-D2CE4CFD99AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sweep">
+      <UniqueIdentifier>{3DFD53D3-B25F-38DF-9DFA-568385D8172D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationContext.cxx">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationNode.cxx">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Provider.cxx">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Wrapper.cxx">
+      <Filter>Source Files\DE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationContext.hxx">
+      <Filter>Header Files\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationNode.hxx">
+      <Filter>Header Files\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Provider.hxx">
+      <Filter>Header Files\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Wrapper.hxx">
+      <Filter>Header Files\DE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXDE.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DE">
+      <UniqueIdentifier>{A4F6057A-4A2C-336A-B367-DEDE1E8A5062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DE">
+      <UniqueIdentifier>{63DFE2FA-96CB-332C-91B0-A4F054D67DA5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

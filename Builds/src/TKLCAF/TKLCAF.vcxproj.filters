@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Attribute.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDelta.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeIterator.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIDIterator.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIterator.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureMode.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureTool.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ComparisonTool.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyLabel.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyTool.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Data.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataSet.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnModification.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnRemoval.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Delta.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnAddition.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnForget.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnModification.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnRemoval.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnResume.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DerivedAttribute.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDFilter.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Label.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelNode.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Reference.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_RelocationTable.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_TagSource.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Tool.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Transaction.cxx">
+      <Filter>Source Files\TDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_AsciiString.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanList.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ByteArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ChildNodeIterator.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Comment.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Current.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericEmpty.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericExtString.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfByteArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfExtStringArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntPackedMap.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfRealArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Directory.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Expression.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringList.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringByte.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfInteger.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfReal.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringInteger.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringReal.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringString.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Integer.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerList.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntPackedMap.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Name.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NamedData.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NoteBook.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Real.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealList.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceArray.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceList.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Relation.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Tick.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_TreeNode.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_UAttribute.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Variable.cxx">
+      <Filter>Source Files\TDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Driver.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DriverTable.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Function.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_GraphNode.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_IFunction.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Iterator.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Logbook.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Scope.cxx">
+      <Filter>Source Files\TFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Application.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_ApplicationDelta.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_CompoundDelta.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Context.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Document.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Modified.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_MultiTransactionManager.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Owner.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_PathParser.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLink.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkIterator.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkRoot.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkTool.cxx">
+      <Filter>Source Files\TDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppStdL\AppStdL_Application.cxx">
+      <Filter>Source Files\AppStdL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Attribute.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeArray1.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDataMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDelta.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDeltaList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDoubleMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeIndexedMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeIterator.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeSequence.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIDIterator.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIterator.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureMode.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureTool.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ComparisonTool.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyLabel.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyTool.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Data.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataMapIteratorOfAttributeDataMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataMapIteratorOfLabelDataMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataMapIteratorOfLabelIntegerMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataSet.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnModification.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnRemoval.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Delta.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnAddition.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnForget.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnModification.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnRemoval.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnResume.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DerivedAttribute.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DoubleMapIteratorOfLabelDoubleMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_GUIDProgIDMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_HAllocator.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_HAttributeArray1.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDFilter.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Label.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelDataMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelDoubleMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelIndexedMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelIntegerMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelMapHasher.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelNode.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelNodePtr.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelSequence.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfAttributeDeltaList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfAttributeList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfDeltaList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfIDList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfLabelList.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_MapIteratorOfAttributeMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_MapIteratorOfIDMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_MapIteratorOfLabelMap.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Reference.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_RelocationTable.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_TagSource.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Tool.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Transaction.hxx">
+      <Filter>Header Files\TDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_AsciiString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanList.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ByteArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ChildNodeIterator.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Comment.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Current.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericEmpty.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericExtString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringByte.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringHArray1OfInteger.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringHArray1OfReal.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringReal.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfByteArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfExtStringArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntPackedMap.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfRealArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Directory.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Expression.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringList.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringByte.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfInteger.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfReal.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringInteger.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringReal.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HLabelArray1.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Integer.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerList.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntPackedMap.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_LabelArray1.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListIteratorOfListOfByte.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListIteratorOfListOfExtendedString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListOfByte.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListOfExtendedString.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Name.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NamedData.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NoteBook.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_PtrTreeNode.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Real.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealEnum.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealList.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceArray.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceList.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Relation.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Tick.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_TreeNode.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_UAttribute.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Variable.hxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Array1OfDataMapOfGUIDDriver.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapOfGUIDDriver.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapOfLabelListOfLabel.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DoubleMapOfIntegerLabel.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Driver.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DriverTable.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_ExecutionStatus.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Function.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_GraphNode.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_HArray1OfDataMapOfGUIDDriver.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_IFunction.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Iterator.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Logbook.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Scope.hxx">
+      <Filter>Header Files\TFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Application.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_ApplicationDelta.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_CompoundDelta.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Context.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_DataMapIteratorOfLabelIDMapDataMap.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Document.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_LabelIDMapDataMap.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Modified.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_MultiTransactionManager.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Owner.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_PathParser.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_SequenceOfApplicationDelta.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_SequenceOfDocument.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLink.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkIterator.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkPtr.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkRoot.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkTool.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_FormatVersion.hxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppStdL\AppStdL_Application.hxx">
+      <Filter>Header Files\AppStdL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Attribute.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIDIterator.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIterator.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureMode.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyLabel.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Data.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataSet.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Delta.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDFilter.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Label.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Transaction.lxx">
+      <Filter>Header Files\TDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_TreeNode.lxx">
+      <Filter>Header Files\TDataStd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Driver.lxx">
+      <Filter>Header Files\TFunction</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Logbook.lxx">
+      <Filter>Header Files\TFunction</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_ApplicationDelta.lxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Document.lxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_MultiTransactionManager.lxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLink.lxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkIterator.lxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkRoot.lxx">
+      <Filter>Header Files\TDocStd</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKLCAF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AppStdL">
+      <UniqueIdentifier>{5AEB22BE-5096-3164-8930-2C74ACBE6B21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TDF">
+      <UniqueIdentifier>{32E89D37-E538-3471-B7EF-9B198F603FE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TDataStd">
+      <UniqueIdentifier>{1B1861D2-8AD5-3548-A5EB-B7699607029B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TDocStd">
+      <UniqueIdentifier>{07DA1577-03A4-3590-9D51-51E35DED4BF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TFunction">
+      <UniqueIdentifier>{C57FAD7A-3406-3CA9-A28B-999AFB69361C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppStdL">
+      <UniqueIdentifier>{6814A478-77EF-31E7-AAD8-071AFEF7CFBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TDF">
+      <UniqueIdentifier>{89F215A6-6D63-33F6-99ED-2B26AF7C7E42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TDataStd">
+      <UniqueIdentifier>{F13B1847-8A04-3D4C-9F40-1433173B3E5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TDocStd">
+      <UniqueIdentifier>{55004907-CFBF-3F63-A8AE-E8E685E485EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TFunction">
+      <UniqueIdentifier>{AF6DA820-4E49-36FD-8E96-B492A81D7DAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

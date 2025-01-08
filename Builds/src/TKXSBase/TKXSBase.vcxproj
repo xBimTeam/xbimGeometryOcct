@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AF932EFA-4077-3B83-A629-62FB102C89CE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKXSBase</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKXSBase.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKXSBase</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKXSBase.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKXSBase</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKXSBase.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKXSBase</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKShHealing.lib;..\..\win64\vc14\lib\TKTopAlgo.lib;..\..\win64\vc14\lib\TKGeomAlgo.lib;..\..\win64\vc14\lib\TKBRep.lib;..\..\win64\vc14\lib\TKGeomBase.lib;..\..\win64\vc14\lib\TKG3d.lib;..\..\win64\vc14\lib\TKG2d.lib;..\..\win64\vc14\lib\TKMath.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKXSBase.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKXSBase.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKShHealing.lib;..\..\win64\vc14\libd\TKTopAlgo.lib;..\..\win64\vc14\libd\TKGeomAlgo.lib;..\..\win64\vc14\libd\TKBRep.lib;..\..\win64\vc14\libd\TKGeomBase.lib;..\..\win64\vc14\libd\TKG3d.lib;..\..\win64\vc14\libd\TKG2d.lib;..\..\win64\vc14\libd\TKMath.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKXSBase.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKXSBase.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKShHealing.lib;..\..\win64\vc14\libi\TKTopAlgo.lib;..\..\win64\vc14\libi\TKGeomAlgo.lib;..\..\win64\vc14\libi\TKBRep.lib;..\..\win64\vc14\libi\TKGeomBase.lib;..\..\win64\vc14\libi\TKG3d.lib;..\..\win64\vc14\libi\TKG2d.lib;..\..\win64\vc14\libi\TKMath.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKXSBase.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKXSBase.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_BitMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Category.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Check.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyControl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityCluster.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileParameter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FloatWriter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfGeneralLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfReaderLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Graph.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GraphContent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HGraph.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceModel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntVal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_LineBuffer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MapAsciiStringHasher.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MSG.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfGeneralLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfReaderLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReportEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareFlags.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignLabel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_STAT.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Static.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_StaticStandards.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_TypedValue.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_UndefinedContent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorDispatch.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfFinderProcess.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForFinder_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForTransient_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfTransientProcess.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Binder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_BinderOfTransientInteger.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DataInfo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DispatchControl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Finder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FinderProcess.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FindHasher.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForFinder_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForTransient_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MapContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MultipleBinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForFinder_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForTransient_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromModel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromTransient.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SimpleBinderOfTransient.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferDispatch.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferInput.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferOutput.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientListBinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientMapper_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientProcess.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_VoidBinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllConnected.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllShared.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Articulations.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Compare.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ConnectedComponants.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cumulate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cycles.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ExternalSources.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SCRoots.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_StrongComponants.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SubPartsIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Act.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Activator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_AppliedModifiers.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_BasicDumper.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_CheckCounter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextModif.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextWrite.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Dispatch.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispGlobal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerCount.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerFiles.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerOne.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerSignature.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_EditForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Editor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Functions.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GeneralModifier.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GraphCounter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_IntParam.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ListEditor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModelCopier.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifEditForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Modifier.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifReorder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PacketList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ParamEditor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectBase.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectCombine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectControl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDeduct.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDiff.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectEntityNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectErrorEntities.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExplore.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExtract.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectFlag.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIncorrectEntities.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectInList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIntersection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Selection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectionIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelEntities.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelRoots.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectPointed.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRange.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRootComps.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRoots.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectShared.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSharing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignature.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedShared.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedSharing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSuite.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnion.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnknownEntities.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionDumper.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionPilot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOut.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOutResult.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignAncestor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Signature.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignatureList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCategory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCounter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignMultiple.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignValidity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Transformer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TransformStandard.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkLibrary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkSession.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_BinderOfShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_OrientedShapeMapper_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeBinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeInfo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeListBinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeMapper_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_TransferResultInfo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_ConnectedShapes.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Controller.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_FuncShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Functions.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SelectForTransfer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SignTransferStatus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferReader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferWriter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Utils.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Vars.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_WorkSession.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Writer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_DefaultGeneral.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Described.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ECDescr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EDescr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EnumTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ESDescr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Field.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList1.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListD.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListN.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileProtocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileRecognizer_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FreeFormEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalFactors.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalNodeOfWriterLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_NodeOfWriterLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_PDescr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Plex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectArrReal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectInt.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectMember.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectNamed.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectReal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Simple.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepDumper.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepModel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepWriter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_UndefinedEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_WriterLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\lex.step.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\step.tab.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_ReadData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_Read.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileDescription.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileSchema.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileDescription.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileSchema.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_EditHeader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_MakeHeader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_Activator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FileModifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FloatFormat.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_ModelModifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_StepType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_WorkLibrary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_AlgoContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_ToolContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_AttrList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_CaseData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataInfo.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Element.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ElemHasher.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_IntVal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_MTHasher.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_RealVal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignText.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Stat.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Timer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TimerSentry.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TransientElem.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TypedValue.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Array1OfFileParameter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Array1OfHAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_BitMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Category.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Check.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckFailure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyControl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_DataMapOfTransientInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_DataState.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityCluster.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileParameter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FloatWriter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfGeneralLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfReaderLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Graph.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GraphContent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HArray1OfHAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HGraph.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HSequenceOfCheck.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IndexedMapOfAsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceMismatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntVal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_LineBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Macros.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MapAsciiStringHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MSG.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfGeneralLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfReaderLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReportEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SequenceOfCheck.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareFlags.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_STAT.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Static.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Statics.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_StaticSatisfies.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Translates.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_TypedValue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_UndefinedContent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ValueInterpret.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ValueSatisfies.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_VectorOfFileParameter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Version.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamList.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorDispatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfFinderProcess.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForFinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfTransientProcess.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Binder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_BinderOfTransientInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DataInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DispatchControl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Finder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FinderProcess.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FindHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_HSequenceOfBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_HSequenceOfFinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForFinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MapContainer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MultipleBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForFinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SequenceOfBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SequenceOfFinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SimpleBinderOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_StatusExec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_StatusResult.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferDeadLoop.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferDispatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferFailure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferInput.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferMapOfProcessForFinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferMapOfProcessForTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferOutput.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientListBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientMapper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientProcess.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_UndefMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_VoidBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllConnected.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllShared.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Articulations.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Compare.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ConnectedComponants.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cumulate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cycles.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ExternalSources.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SCRoots.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_StrongComponants.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SubPartsIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Act.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ActFunc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Activator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_AppliedModifiers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_BasicDumper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_CheckCounter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextModif.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextWrite.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Dispatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispGlobal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerCount.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerFiles.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerOne.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerSignature.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_EditForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Editor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_EditValue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Functions.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GeneralModifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GraphCounter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_HSeqOfSelection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_IntParam.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ListEditor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModelCopier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifEditForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Modifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifReorder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PacketList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ParamEditor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PrintCount.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PrintFail.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_RemainMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ReturnStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectBase.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectCombine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectControl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDeduct.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDiff.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectEntityNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectErrorEntities.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExplore.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExtract.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectFlag.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIncorrectEntities.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectInList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIntersection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Selection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectionIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelEntities.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelRoots.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectPointed.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRange.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRootComps.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRoots.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectShared.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSharing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignature.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedShared.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedSharing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSuite.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnknownEntities.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SequenceOfAppliedModifiers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SequenceOfGeneralModifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SequenceOfInterfaceModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionDumper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionPilot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOut.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOutResult.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignAncestor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Signature.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignatureList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCategory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCounter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignMultiple.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignValidity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Transformer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TransformStandard.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TSeqOfDispatch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TSeqOfSelection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkLibrary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkSession.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_BinderOfShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_HSequenceOfTransferResultInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_OrientedShapeMapper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_SequenceOfTransferResultInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeListBinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeMapper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_TransferResultInfo.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_TransferResultInfo.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_ConnectedShapes.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Controller.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_FuncShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Functions.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SelectForTransfer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SignTransferStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferReader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferWriter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Utils.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Vars.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_WorkSession.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Writer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Array1OfField.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_DefaultGeneral.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Described.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ECDescr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EDescr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EnumTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ESDescr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Field.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListD.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListN.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileProtocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileRecognizer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FreeFormEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalFactors.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalNodeOfWriterLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_HArray1OfField.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Logical.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_NodeOfWriterLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_PDescr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Plex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectArrReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectInt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectMember.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectNamed.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Simple.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepDumper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepWriter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_UndefinedEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_WriterLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\step.tab.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_ReadData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_Read.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\FlexLexer.h" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileDescription.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileSchema.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileDescription.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileSchema.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_EditHeader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_MakeHeader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_Activator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FileModifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FloatFormat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_ModelModifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_StepType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_WorkLibrary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_AlgoContainer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_Caller.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_ToolContainer.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_AlgoContainer.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_AttrList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_CaseData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapIteratorOfDataMapOfTimer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapOfShapeTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapOfTimer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Element.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ElemHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_HSequenceOfElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_IndexedDataMapOfShapeTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_IntVal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Macros.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_MTHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_RealVal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SequenceOfElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignText.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Stat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Timer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TimerSentry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TransientElem.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TypedValue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ValueInterpret.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ValueSatisfies.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ValueType.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_MTHasher.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Timer.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TimerSentry.lxx">
+    </None>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXSBase.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBRep\TKBRep.vcxproj">
+      <Project>{685E9983-BEB7-3CC2-9379-F489FF803CD5}</Project>
+      <Name>TKBRep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG2d\TKG2d.vcxproj">
+      <Project>{8A116F82-5414-31F2-95DA-8B5DC25105EE}</Project>
+      <Name>TKG2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG3d\TKG3d.vcxproj">
+      <Project>{EF204F9E-4354-3394-8240-7E20C7577C78}</Project>
+      <Name>TKG3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomAlgo\TKGeomAlgo.vcxproj">
+      <Project>{9CEEF9F3-145B-3253-A56B-34BBC67B6B15}</Project>
+      <Name>TKGeomAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomBase\TKGeomBase.vcxproj">
+      <Project>{A5B7C8A5-23F9-3C18-AFF8-D3549F46A599}</Project>
+      <Name>TKGeomBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKShHealing\TKShHealing.vcxproj">
+      <Project>{CC994EDA-8C98-3784-805B-3984D10F8199}</Project>
+      <Name>TKShHealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKTopAlgo\TKTopAlgo.vcxproj">
+      <Project>{A0937AF0-D5FD-34F5-BDB6-97D2C38A1F95}</Project>
+      <Name>TKTopAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

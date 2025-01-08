@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_Data.cxx">
+      <Filter>Source Files\HLRTopoBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DSFiller.cxx">
+      <Filter>Source Files\HLRTopoBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceData.cxx">
+      <Filter>Source Files\HLRTopoBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceIsoLiner.cxx">
+      <Filter>Source Files\HLRTopoBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_OutLiner.cxx">
+      <Filter>Source Files\HLRTopoBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_VData.cxx">
+      <Filter>Source Files\HLRTopoBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Algo.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_AreaLimit.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BCurveTool.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BSurfaceTool.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLProps_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Curve.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CurveTool.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Data.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeBuilder.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeData.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeFaceTool.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeIList.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeInterferenceTool.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceData.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceIterator.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Hider.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_HLRToShape.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_IntConicCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InternalAlgo.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Intersector.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyAlgo.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyHLRToShape.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeBounds.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeToHLR.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLProps_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Surface.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SurfaceTool.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCSFunctionOfInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheExactInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntConicCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheInterferenceOfInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntPCurvePCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonOfInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonToolOfInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronOfInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronToolOfInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheProjPCurOfCInter_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvExactInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf_0.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_VertexList.cxx">
+      <Filter>Source Files\HLRBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_BiPoint.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeIterator.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgesBlock.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeStatus.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Interference_0.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Intersection.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyAlgo.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyData.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalData.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalNode.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyShellData.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Projector.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_WiresBlock.cxx">
+      <Filter>Source Files\HLRAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAppli\HLRAppli_ReflectLines.cxx">
+      <Filter>Source Files\HLRAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Interval.cxx">
+      <Filter>Source Files\Intrv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Intervals.cxx">
+      <Filter>Source Files\Intrv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_TestInterference_0.cxx">
+      <Filter>Source Files\TopBas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TopCnx\TopCnx_EdgeFaceTransition.cxx">
+      <Filter>Source Files\TopCnx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ArcFunction.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ContAna.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Contour.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HContTool.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HCurve2dTool.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Line.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Point.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfFunction.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfProps.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWalking_0.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWLineOfTheIWalking_0.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ThePathPointOfTheSearch_0.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearch_0.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearchInside_0.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSegmentOfTheSearch_0.cxx">
+      <Filter>Source Files\Contap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_Data.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DataMapIteratorOfDataMapOfShapeFaceData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DataMapOfShapeFaceData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_DSFiller.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceIsoLiner.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_ListIteratorOfListOfVData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_ListOfVData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_MapOfShapeListOfVData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_OutLiner.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_VData.hxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Algo.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_AreaLimit.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Array1OfEData.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Array1OfFData.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BCurveTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BiPnt2D.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BiPoint.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BSurfaceTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLProps.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLPropsATool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Curve.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CurveTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Data.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeBuilder.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeData.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeFaceTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeIList.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeInterferenceTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceData.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceIterator.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Hider.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_HLRToShape.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_IntConicCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_InternalAlgo.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Intersector.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_LineTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListIteratorOfListOfBPnt2D.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListIteratorOfListOfBPoint.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListOfBPnt2D.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ListOfBPoint.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyAlgo.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyHLRToShape.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SeqOfShapeBounds.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeBounds.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeToHLR.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLProps.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLPropsATool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Surface.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SurfaceTool.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCSFunctionOfInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheExactInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntConicCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheInterferenceOfInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheIntPCurvePCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonOfInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolygonToolOfInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronOfInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ThePolyhedronToolOfInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheProjPCurOfCInter.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvExactInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_VertexList.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_TypeOfResultingEdge.hxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfPHDat.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfPINod.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfPISeg.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Array1OfTData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_BiPoint.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Coincidence.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeIterator.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgesBlock.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeStatus.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfPHDat.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfPINod.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfPISeg.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_HArray1OfTData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Interference.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_InterferenceList.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Intersection.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_ListIteratorOfInterferenceList.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_ListIteratorOfListOfBPoint.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_ListOfBPoint.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyAlgo.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyHidingData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalNode.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalSegment.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyMask.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyShellData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Projector.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_TriangleData.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_WiresBlock.hxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAppli\HLRAppli_ReflectLines.hxx">
+      <Filter>Header Files\HLRAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Interval.hxx">
+      <Filter>Header Files\Intrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Intervals.hxx">
+      <Filter>Header Files\Intrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Position.hxx">
+      <Filter>Header Files\Intrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_SequenceOfInterval.hxx">
+      <Filter>Header Files\Intrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_ListIteratorOfListOfTestInterference.hxx">
+      <Filter>Header Files\TopBas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_ListOfTestInterference.hxx">
+      <Filter>Header Files\TopBas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_TestInterference.hxx">
+      <Filter>Header Files\TopBas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TopCnx\TopCnx_EdgeFaceTransition.hxx">
+      <Filter>Header Files\TopCnx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ArcFunction.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ContAna.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Contour.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HContTool.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HCurve2dTool.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_IType.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Line.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Point.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SequenceOfIWLineOfTheIWalking.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SequenceOfPathPointOfTheSearch.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SequenceOfSegmentOfTheSearch.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfFunction.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfProps.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TFunction.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheHSequenceOfPoint.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWalking.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheIWLineOfTheIWalking.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ThePathPointOfTheSearch.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearch.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSearchInside.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSegmentOfTheSearch.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSequenceOfLine.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_TheSequenceOfPoint.hxx">
+      <Filter>Header Files\Contap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_Data.lxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_FaceData.lxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_OutLiner.lxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRTopoBRep\HLRTopoBRep_VData.lxx">
+      <Filter>Header Files\HLRTopoBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BCurveTool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_BSurfaceTool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CLPropsATool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Curve.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_CurveTool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Data.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeData.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_EdgeInterferenceTool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceData.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_FaceIterator.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_HLRToShape.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_LineTool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_PolyHLRToShape.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_ShapeBounds.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SLPropsATool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_Surface.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRBRep\HLRBRep_SurfaceTool.lxx">
+      <Filter>Header Files\HLRBRep</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_EdgeIterator.lxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Intersection.lxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyData.lxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_PolyInternalData.lxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\HLRAlgo\HLRAlgo_Projector.lxx">
+      <Filter>Header Files\HLRAlgo</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Interval.lxx">
+      <Filter>Header Files\Intrv</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Intrv\Intrv_Intervals.lxx">
+      <Filter>Header Files\Intrv</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TopBas\TopBas_Interference.lxx">
+      <Filter>Header Files\TopBas</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ArcFunction.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_ContAna.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Contour.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_HCurve2dTool.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Line.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_Point.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Contap\Contap_SurfFunction.lxx">
+      <Filter>Header Files\Contap</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKHLR.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Contap">
+      <UniqueIdentifier>{D9699556-92AC-3360-A22F-FBC651CB4F76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HLRAlgo">
+      <UniqueIdentifier>{4455A810-3707-375E-B986-E70B41A4C95C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HLRAppli">
+      <UniqueIdentifier>{71602A4B-6307-3504-B9B6-ECC678676177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HLRBRep">
+      <UniqueIdentifier>{CA3591E9-B0E1-3555-B3E0-1C48A42EC6A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HLRTopoBRep">
+      <UniqueIdentifier>{6AA69506-58D3-3CE9-95BF-1EEE6153522D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intrv">
+      <UniqueIdentifier>{F2DAE7FE-B8FF-319E-8998-C26D73708B20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopBas">
+      <UniqueIdentifier>{AA37E9F9-9E3D-3E71-869A-2823E5E0BA9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TopCnx">
+      <UniqueIdentifier>{688E419A-BD54-34DD-9295-B856934FB5A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Contap">
+      <UniqueIdentifier>{94E29E59-9963-3CBD-A4CE-D0FC7DA3B25D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLRAlgo">
+      <UniqueIdentifier>{875E004C-CD0C-315C-84B9-E1AF173C2EEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLRAppli">
+      <UniqueIdentifier>{5A94C9D9-A023-3865-9F00-B3438F2E16E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLRBRep">
+      <UniqueIdentifier>{7041447B-790C-31C6-9C3C-5AD7494A22D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HLRTopoBRep">
+      <UniqueIdentifier>{C412BFC2-C937-31E4-8DAE-20690191E245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Intrv">
+      <UniqueIdentifier>{37BFB6B0-F32D-362B-9025-71A47E8DC21A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopBas">
+      <UniqueIdentifier>{64603ED6-1F39-30C3-883C-02D620830460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TopCnx">
+      <UniqueIdentifier>{4E5F9938-C202-345B-B6A1-00F6EC84CDEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

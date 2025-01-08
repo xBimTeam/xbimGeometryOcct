@@ -196,17 +196,20 @@ FakesAssemblies/
 *.Dep
 *.Out
 FILES
-SharedFileVersionInfo.cs
-Xbim.Geometry.Engine/SharedFileVersionInfo.cpp
 *.opendb
 *.VC.db
+RelWithDebInfo/
 
 
 **/CMakeFiles
-/win32
-/inc
-/win64
-/OCCT*/
-/Install/
+CMakeCache.txt
+**/win32
+**/win64
+*.lib
+**/inc
+/Install/src/
 /ThirdParty/**/
-RelWithDebInfo/
+Install/custom.bat
+Builds/custom.bat
+
+/OCCT*/

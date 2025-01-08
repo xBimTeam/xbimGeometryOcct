@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75EA6BC8-F7AD-3132-A146-0529B92E1CA0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKLCAF</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKLCAF.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKLCAF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKLCAF.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKLCAF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKLCAF.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKLCAF</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__TDF_DLL;__TDataStd_DLL;__TFunction_DLL;__TDocStd_DLL;__AppStdL_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKLCAF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__TDF_DLL;__TDataStd_DLL;__TFunction_DLL;__TDocStd_DLL;__AppStdL_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKLCAF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKCDF.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKLCAF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKLCAF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__TDF_DLL;__TDataStd_DLL;__TFunction_DLL;__TDocStd_DLL;__AppStdL_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKLCAF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__TDF_DLL;__TDataStd_DLL;__TFunction_DLL;__TDocStd_DLL;__AppStdL_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKLCAF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKCDF.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKLCAF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKLCAF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__TDF_DLL;__TDataStd_DLL;__TFunction_DLL;__TDocStd_DLL;__AppStdL_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKLCAF_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__TDF_DLL;__TDataStd_DLL;__TFunction_DLL;__TDocStd_DLL;__AppStdL_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKLCAF_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKCDF.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKLCAF.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKLCAF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Attribute.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDelta.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIDIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureMode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ComparisonTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyLabel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Data.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnModification.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnRemoval.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Delta.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnAddition.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnForget.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnModification.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnRemoval.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnResume.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DerivedAttribute.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDFilter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Label.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Reference.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_RelocationTable.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_TagSource.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Tool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Transaction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_AsciiString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ByteArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ChildNodeIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Comment.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Current.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericEmpty.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericExtString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfByteArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfExtStringArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntPackedMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfRealArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Directory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Expression.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringByte.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfInteger.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfReal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringInteger.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringReal.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringString.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Integer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntPackedMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Name.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NamedData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NoteBook.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Real.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceArray.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Relation.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Tick.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_TreeNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_UAttribute.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Variable.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Driver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DriverTable.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Function.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_GraphNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_IFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Iterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Logbook.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Scope.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Application.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_ApplicationDelta.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_CompoundDelta.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Context.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Document.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Modified.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_MultiTransactionManager.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Owner.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_PathParser.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLink.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkIterator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkRoot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\AppStdL\AppStdL_Application.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Attribute.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDelta.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDeltaList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeDoubleMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeIndexedMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_AttributeSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIDIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ComparisonTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Data.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataMapIteratorOfAttributeDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataMapIteratorOfLabelDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataMapIteratorOfLabelIntegerMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnModification.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DefaultDeltaOnRemoval.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Delta.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnAddition.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnForget.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnModification.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnRemoval.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DeltaOnResume.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DerivedAttribute.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DoubleMapIteratorOfLabelDoubleMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_GUIDProgIDMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_HAllocator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_HAttributeArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Label.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelDoubleMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelIndexedMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelIntegerMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelMapHasher.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelNodePtr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_LabelSequence.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfAttributeDeltaList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfAttributeList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfDeltaList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfIDList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ListIteratorOfLabelList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_MapIteratorOfAttributeMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_MapIteratorOfIDMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_MapIteratorOfLabelMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Reference.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_RelocationTable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_TagSource.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Tool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Transaction.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Attribute.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIDIterator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ChildIterator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_ClosureMode.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_CopyLabel.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Data.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_DataSet.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Delta.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_IDFilter.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Label.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDF\TDF_Transaction.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_AsciiString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_BooleanList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ByteArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ChildNodeIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Comment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Current.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericEmpty.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_GenericExtString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringHArray1OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringHArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DataMapOfStringString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfByteArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfExtStringArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfIntPackedMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_DeltaOnModificationOfRealArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Directory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Expression.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ExtStringList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HDataMapOfStringString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_HLabelArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Integer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntegerList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_IntPackedMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_LabelArray1.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListIteratorOfListOfByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListIteratorOfListOfExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListOfByte.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ListOfExtendedString.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Name.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NamedData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_NoteBook.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_PtrTreeNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Real.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealEnum.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_RealList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_ReferenceList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Relation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Tick.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_TreeNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_UAttribute.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_Variable.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDataStd\TDataStd_TreeNode.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Array1OfDataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DataMapOfLabelListOfLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DoubleMapOfIntegerLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Driver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_DriverTable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_ExecutionStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Function.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_GraphNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_HArray1OfDataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_IFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Iterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Logbook.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Scope.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Driver.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TFunction\TFunction_Logbook.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Application.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_ApplicationDelta.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_CompoundDelta.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Context.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_DataMapIteratorOfLabelIDMapDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Document.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_LabelIDMapDataMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Modified.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_MultiTransactionManager.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Owner.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_PathParser.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_SequenceOfApplicationDelta.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_SequenceOfDocument.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLink.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkIterator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkPtr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkRoot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_FormatVersion.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_ApplicationDelta.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_Document.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_MultiTransactionManager.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLink.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkIterator.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TDocStd\TDocStd_XLinkRoot.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\AppStdL\AppStdL_Application.hxx" />
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKLCAF.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKCDF\TKCDF.vcxproj">
+      <Project>{A3D41FDD-26B7-37C8-B0B8-B0CA00921643}</Project>
+      <Name>TKCDF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

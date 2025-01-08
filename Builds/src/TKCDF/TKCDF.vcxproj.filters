@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Application.cxx">
+      <Filter>Source Files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Document.cxx">
+      <Filter>Source Files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MetaData.cxx">
+      <Filter>Source Files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Reference.cxx">
+      <Filter>Source Files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ReferenceIterator.cxx">
+      <Filter>Source Files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Document.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_DOMHeaderParser.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reader.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReaderFilter.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter_1.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reference.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReferenceIterator.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_RetrievalDriver.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_StorageDriver.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Writer.cxx">
+      <Filter>Source Files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Application.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Directory.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_DirectoryIterator.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_FWOSDriver.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriver.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriverFactory.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Store.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_StoreList.cxx">
+      <Filter>Source Files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\UTL\UTL.cxx">
+      <Filter>Source Files\UTL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Attr.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicAttribute.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicElement.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicNode.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicText.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharacterData.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharReference.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Document.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Element.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_LDOMImplementation.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_MemManager.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Node.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_NodeList.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_OSStream.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlReader.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlWriter.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMBasicString.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMParser.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMString.cxx">
+      <Filter>Source Files\LDOM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Application.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_CanCloseStatus.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_DataMapIteratorOfMetaDataLookUpTable.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Document.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_DocumentHasher.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_DocumentPointer.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListIteratorOfListOfDocument.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListIteratorOfListOfReferences.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListOfDocument.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ListOfReferences.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MapIteratorOfMapOfDocument.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MapOfDocument.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MetaData.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_MetaDataLookUpTable.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_NamesDirectory.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_Reference.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDM\CDM_ReferenceIterator.hxx">
+      <Filter>Header Files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_BaseDriverPointer.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Document.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_DOMHeaderParser.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_DriverError.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reader.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReaderFilter.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReaderStatus.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReadWriter_1.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reference.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_ReferenceIterator.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_RetrievalDriver.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_SequenceOfDocument.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_SequenceOfReference.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_StorageDriver.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_StoreStatus.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_TypeOfFileDriver.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Writer.hxx">
+      <Filter>Header Files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Application.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Directory.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_DirectoryIterator.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_FWOSDriver.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriver.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_MetaDataDriverFactory.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_Store.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_StoreList.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_StoreSetNameStatus.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_SubComponentStatus.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_TryStoreStatus.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\CDF\CDF_TypeOfActivation.hxx">
+      <Filter>Header Files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\UTL\UTL.hxx">
+      <Filter>Header Files\UTL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Attr.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicAttribute.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicElement.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicNode.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_BasicText.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CDATASection.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharacterData.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_CharReference.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Comment.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_DeclareSequence.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Document.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_DocumentType.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Element.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_LDOMImplementation.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_MemManager.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Node.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_NodeList.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_OSStream.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_Text.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlReader.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOM_XmlWriter.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMBasicString.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMParser.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LDOM\LDOMString.hxx">
+      <Filter>Header Files\LDOM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\PCDM\PCDM_Reader.lxx">
+      <Filter>Header Files\PCDM</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKCDF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CDF">
+      <UniqueIdentifier>{38E6AB81-D159-3BA3-B4F4-1D4E8E1DF5D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CDM">
+      <UniqueIdentifier>{B48E1EA9-23A4-3908-B55B-D77A628A7439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LDOM">
+      <UniqueIdentifier>{0CD56F18-D5CF-3650-BF91-369F5BC57586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PCDM">
+      <UniqueIdentifier>{6B446939-F72A-30EA-B1F4-914AEC67D6D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UTL">
+      <UniqueIdentifier>{11684407-654D-313A-95E4-947D139E27F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CDF">
+      <UniqueIdentifier>{5C8EC82C-307E-3C2D-8BFD-6F519B7B6C69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CDM">
+      <UniqueIdentifier>{9C2DF7BB-8452-3319-8F1E-AF9DDA289ECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LDOM">
+      <UniqueIdentifier>{7B9A6AE8-76D2-36E2-BFAF-E0AE8F08D9E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PCDM">
+      <UniqueIdentifier>{D5384770-9830-3985-8403-2128C8C6087E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UTL">
+      <UniqueIdentifier>{5B6ED4ED-684D-3F51-B802-DE79603EE35C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

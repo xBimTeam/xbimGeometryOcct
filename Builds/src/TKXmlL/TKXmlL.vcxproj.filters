@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers.cxx">
+      <Filter>Source Files\XmlLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source Files\XmlLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source Files\XmlLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_NamespaceDef.cxx">
+      <Filter>Source Files\XmlLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF.cxx">
+      <Filter>Source Files\XmlMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_ADriver.cxx">
+      <Filter>Source Files\XmlMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_ADriverTable.cxx">
+      <Filter>Source Files\XmlMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_ReferenceDriver.cxx">
+      <Filter>Source Files\XmlMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_TagSourceDriver.cxx">
+      <Filter>Source Files\XmlMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_DerivedDriver.cxx">
+      <Filter>Source Files\XmlMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_AsciiStringDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_BooleanArrayDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_BooleanListDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ByteArrayDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ExpressionDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ExtStringArrayDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ExtStringListDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntegerArrayDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntegerDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntegerListDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntPackedMapDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_NamedDataDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_GenericExtStringDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_RealArrayDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_RealDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_RealListDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ReferenceArrayDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ReferenceListDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_GenericEmptyDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_TreeNodeDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_UAttributeDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_VariableDriver.cxx">
+      <Filter>Source Files\XmlMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDocStd\XmlMDocStd.cxx">
+      <Filter>Source Files\XmlMDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDocStd\XmlMDocStd_XLinkDriver.cxx">
+      <Filter>Source Files\XmlMDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction.cxx">
+      <Filter>Source Files\XmlMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction_FunctionDriver.cxx">
+      <Filter>Source Files\XmlMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction_GraphNodeDriver.cxx">
+      <Filter>Source Files\XmlMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction_ScopeDriver.cxx">
+      <Filter>Source Files\XmlMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt.cxx">
+      <Filter>Source Files\XmlObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Array1.cxx">
+      <Filter>Source Files\XmlObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_GP.cxx">
+      <Filter>Source Files\XmlObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Persistent.cxx">
+      <Filter>Source Files\XmlObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_RRelocationTable.cxx">
+      <Filter>Source Files\XmlObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_SRelocationTable.cxx">
+      <Filter>Source Files\XmlObjMgt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers.hxx">
+      <Filter>Header Files\XmlLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header Files\XmlLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header Files\XmlLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_NamespaceDef.hxx">
+      <Filter>Header Files\XmlLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlLDrivers\XmlLDrivers_SequenceOfNamespaceDef.hxx">
+      <Filter>Header Files\XmlLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_ADriver.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_ADriverTable.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_DataMapIteratorOfMapOfDriver.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_DataMapIteratorOfTypeADriverMap.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_MapOfDriver.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_ReferenceDriver.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_TagSourceDriver.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_TypeADriverMap.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDF\XmlMDF_DerivedDriver.hxx">
+      <Filter>Header Files\XmlMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_AsciiStringDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_BooleanArrayDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_BooleanListDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ByteArrayDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ExpressionDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ExtStringArrayDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ExtStringListDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntegerArrayDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntegerDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntegerListDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_IntPackedMapDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_NamedDataDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_GenericExtStringDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_RealArrayDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_RealDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_RealListDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ReferenceArrayDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_ReferenceListDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_GenericEmptyDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_TreeNodeDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_UAttributeDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataStd\XmlMDataStd_VariableDriver.hxx">
+      <Filter>Header Files\XmlMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDocStd\XmlMDocStd.hxx">
+      <Filter>Header Files\XmlMDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDocStd\XmlMDocStd_XLinkDriver.hxx">
+      <Filter>Header Files\XmlMDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction.hxx">
+      <Filter>Header Files\XmlMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction_FunctionDriver.hxx">
+      <Filter>Header Files\XmlMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction_GraphNodeDriver.hxx">
+      <Filter>Header Files\XmlMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMFunction\XmlMFunction_ScopeDriver.hxx">
+      <Filter>Header Files\XmlMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Array1.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Document.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_DOMString.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Element.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_GP.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Persistent.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_RRelocationTable.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_SRelocationTable.hxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Array1.lxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlObjMgt\XmlObjMgt_Persistent.lxx">
+      <Filter>Header Files\XmlObjMgt</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXmlL.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlLDrivers">
+      <UniqueIdentifier>{515E7915-F218-32E3-8AAD-596BB6BDF182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlMDF">
+      <UniqueIdentifier>{5ADFFE7B-EE35-3A4E-886B-4230654F46E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlMDataStd">
+      <UniqueIdentifier>{6282A7FC-09F9-389E-B281-B9478D268FBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlMDocStd">
+      <UniqueIdentifier>{217A41B0-193D-3A9D-B057-68CB5836A981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlMFunction">
+      <UniqueIdentifier>{DA2BFEA9-F7CD-38BB-943D-79F0CD28633E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XmlObjMgt">
+      <UniqueIdentifier>{B539115A-494B-3232-B037-B9E0E70F0E5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XmlLDrivers">
+      <UniqueIdentifier>{9E29908E-65FD-30F5-B000-9C78308A0A66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XmlMDF">
+      <UniqueIdentifier>{191C483C-1E40-3C5C-9A35-F24FB49FEBD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XmlMDataStd">
+      <UniqueIdentifier>{508FF84C-DCCE-3A68-B034-42B700CA66BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XmlMDocStd">
+      <UniqueIdentifier>{D81552D6-E997-3F0F-BBA6-D16D243140A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XmlMFunction">
+      <UniqueIdentifier>{0AEAFE3F-05C0-3D95-9902-598EB00CD208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XmlObjMgt">
+      <UniqueIdentifier>{400EEECF-6B94-34BE-9CB8-C4D5A9D86B63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

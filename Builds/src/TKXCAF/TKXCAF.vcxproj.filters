@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFApp\XCAFApp_Application.cxx">
+      <Filter>Source Files\XCAFApp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumObject.cxx">
+      <Filter>Source Files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionObject.cxx">
+      <Filter>Source Files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceObject.cxx">
+      <Filter>Source Files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_Tool.cxx">
+      <Filter>Source Files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFNoteObjects\XCAFNoteObjects_NoteObject.cxx">
+      <Filter>Source Files\XCAFNoteObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyItemId.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyItemRef.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyIterator.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyGraph.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Area.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Centroid.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ClippingPlaneTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Color.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ColorTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Datum.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Dimension.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_GeomTolerance.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DimTol.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DimTolTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DocumentTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Editor.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_GraphNode.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_LayerTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_LengthUnit.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Location.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Material.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_MaterialTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Note.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NoteBalloon.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NoteComment.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NoteBinData.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NotesTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ShapeMapTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ShapeTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_View.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ViewTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_VisMaterial.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_VisMaterialTool.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Volume.cxx">
+      <Filter>Source Files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs.cxx">
+      <Filter>Source Files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_AISObject.cxx">
+      <Filter>Source Files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DocumentExplorer.cxx">
+      <Filter>Source Files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_Driver.cxx">
+      <Filter>Source Files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_Style.cxx">
+      <Filter>Source Files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_Texture.cxx">
+      <Filter>Source Files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFView\XCAFView_Object.cxx">
+      <Filter>Source Files\XCAFView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFApp\XCAFApp_Application.hxx">
+      <Filter>Header Files\XCAFApp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumObject.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionObject.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceObject.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_Tool.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumModifWithValue.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumSingleModif.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumTargetType.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionModif.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionFormVariance.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionGrade.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionQualifier.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionType.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceModif.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceType.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceTypeValue.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceMatReqModif.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceZoneModif.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionModifiersSequence.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceModifiersSequence.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumModifiersSequence.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumObjectSequence.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionObjectSequence.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceObjectSequence.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_DataMapOfToleranceDatum.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_ToleranceZoneAffectedPlane.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDimTolObjects\XCAFDimTolObjects_AngularQualifier.hxx">
+      <Filter>Header Files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFNoteObjects\XCAFNoteObjects_NoteObject.hxx">
+      <Filter>Header Files\XCAFNoteObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyItemId.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyItemRef.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyIterator.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyGraph.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_AssemblyTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_PartId.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Area.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Centroid.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ClippingPlaneTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Color.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ColorTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ColorType.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DataMapOfShapeLabel.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Datum.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Dimension.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_GeomTolerance.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DimTol.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DimTolTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_DocumentTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Editor.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_GraphNode.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_GraphNodeSequence.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_LayerTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_LengthUnit.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Location.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Material.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_MaterialTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Note.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NoteBalloon.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NoteComment.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NoteBinData.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_NotesTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ShapeMapTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ShapeTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_View.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_ViewTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_VisMaterial.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_VisMaterialCommon.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_VisMaterialPBR.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_VisMaterialTool.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFDoc\XCAFDoc_Volume.hxx">
+      <Filter>Header Files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_AISObject.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DataMapIteratorOfIndexedDataMapOfShapeStyle.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DataMapIteratorOfDataMapOfStyleShape.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_IndexedDataMapOfShapeStyle.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DataMapOfStyleShape.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DataMapOfStyleTransient.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DocumentExplorer.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DocumentIdIterator.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_DocumentNode.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_Driver.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_Style.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFPrs\XCAFPrs_Texture.hxx">
+      <Filter>Header Files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFView\XCAFView_Object.hxx">
+      <Filter>Header Files\XCAFView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XCAFView\XCAFView_ProjectionType.hxx">
+      <Filter>Header Files\XCAFView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXCAF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XCAFApp">
+      <UniqueIdentifier>{1197ABFE-C16F-3DBD-B9E9-A9E372270A40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XCAFDimTolObjects">
+      <UniqueIdentifier>{6C95612C-99D2-35E0-8564-203DACCBAEFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XCAFDoc">
+      <UniqueIdentifier>{A829109E-2E3D-3222-84E3-8DACEB7D2721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XCAFNoteObjects">
+      <UniqueIdentifier>{84418550-133E-303D-A0C1-537FF202FF2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XCAFPrs">
+      <UniqueIdentifier>{85F60B82-3A9D-39DD-9973-C1C6F861D97E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XCAFView">
+      <UniqueIdentifier>{69C52B0D-D955-3B07-9E73-A5D617422641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XCAFApp">
+      <UniqueIdentifier>{D96D967A-FB98-3C64-B795-5B4B21115109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XCAFDimTolObjects">
+      <UniqueIdentifier>{65417FF1-8CE5-312E-8355-54A43325CEF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XCAFDoc">
+      <UniqueIdentifier>{0106C41F-D542-3FDC-BF1B-D5BE4181D55E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XCAFNoteObjects">
+      <UniqueIdentifier>{12E4785E-125C-3083-B381-11855D80337C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XCAFPrs">
+      <UniqueIdentifier>{718C34E5-5498-3884-8E08-4ADBA89AA47A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XCAFView">
+      <UniqueIdentifier>{8AA4CA06-243E-3C45-9264-86FF0CDE5492}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

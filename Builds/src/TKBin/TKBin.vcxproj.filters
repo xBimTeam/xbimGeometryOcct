@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers.cxx">
+      <Filter>Source Files\BinDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source Files\BinDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source Files\BinDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_GeometryDriver.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PresentationDriver.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PositionDriver.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.cxx">
+      <Filter>Source Files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming.cxx">
+      <Filter>Source Files\BinMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamedShapeDriver.cxx">
+      <Filter>Source Files\BinMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamingDriver.cxx">
+      <Filter>Source Files\BinMNaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers.hxx">
+      <Filter>Header Files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header Files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header Files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_Marker.hxx">
+      <Filter>Header Files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_GeometryDriver.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PresentationDriver.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PositionDriver.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.hxx">
+      <Filter>Header Files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming.hxx">
+      <Filter>Header Files\BinMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamedShapeDriver.hxx">
+      <Filter>Header Files\BinMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamingDriver.hxx">
+      <Filter>Header Files\BinMNaming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamedShapeDriver.lxx">
+      <Filter>Header Files\BinMNaming</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKBin.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinDrivers">
+      <UniqueIdentifier>{EF669644-9AE5-3B3D-9CDC-F5EC10611657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMDataXtd">
+      <UniqueIdentifier>{DB3A5C28-6AC8-3D0A-A20F-573902C45838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMNaming">
+      <UniqueIdentifier>{26B1755C-2E45-3706-ACB5-8E970E532EFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinDrivers">
+      <UniqueIdentifier>{F0ADBED0-2E62-30BF-8D88-96D1C3203526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMDataXtd">
+      <UniqueIdentifier>{CFB26636-9F27-3DD0-A875-9232E415325A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMNaming">
+      <UniqueIdentifier>{C6809D3F-2577-33B9-8939-2960DBC02448}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers.cxx">
+      <Filter>Source Files\StdLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source Files\StdLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Collection.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Data.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Dependency.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Document.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray1.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray2.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HString.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_NamedData.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_TreeNode.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Value.cxx">
+      <Filter>Source Files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_Persistent.cxx">
+      <Filter>Source Files\StdObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_ReadData.cxx">
+      <Filter>Source Files\StdObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_WriteData.cxx">
+      <Filter>Source Files\StdObjMgt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers.hxx">
+      <Filter>Header Files\StdLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header Files\StdLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Collection.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Data.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Dependency.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Document.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Function.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray1.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray2.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HString.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_NamedData.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Real.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_TreeNode.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Value.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Variable.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Void.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_XLink.hxx">
+      <Filter>Header Files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_Attribute.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_MapOfInstantiators.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_Persistent.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_ReadData.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_WriteData.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_SharedObject.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_TransientPersistentMap.hxx">
+      <Filter>Header Files\StdObjMgt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKStdL.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdLDrivers">
+      <UniqueIdentifier>{D9F14EA5-A2AE-3AB4-9E8E-315200E03DF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdLPersistent">
+      <UniqueIdentifier>{63D2E324-8ECA-3CA5-A9F5-8DEED1A3AC99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StdObjMgt">
+      <UniqueIdentifier>{FBC97822-800A-3D79-AFA1-C0C575B437F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdLDrivers">
+      <UniqueIdentifier>{7EB23175-C9D0-3E59-BFB5-72812840B989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdLPersistent">
+      <UniqueIdentifier>{8E19B6D0-0A2C-3421-8066-4EEBE666C081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdObjMgt">
+      <UniqueIdentifier>{B118D520-8A8E-36B1-A9C6-2D80FC7286F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

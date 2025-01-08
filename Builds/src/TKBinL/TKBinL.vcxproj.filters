@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF.cxx">
+      <Filter>Source Files\BinMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ADriver.cxx">
+      <Filter>Source Files\BinMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ADriverTable.cxx">
+      <Filter>Source Files\BinMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ReferenceDriver.cxx">
+      <Filter>Source Files\BinMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_TagSourceDriver.cxx">
+      <Filter>Source Files\BinMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_DerivedDriver.cxx">
+      <Filter>Source Files\BinMDF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_AsciiStringDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_BooleanArrayDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_BooleanListDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ByteArrayDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ExpressionDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ExtStringArrayDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ExtStringListDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntegerArrayDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntegerDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntegerListDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntPackedMapDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_NamedDataDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_GenericExtStringDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_RealArrayDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_RealDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_RealListDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ReferenceArrayDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ReferenceListDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_GenericEmptyDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_TreeNodeDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_UAttributeDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_VariableDriver.cxx">
+      <Filter>Source Files\BinMDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction.cxx">
+      <Filter>Source Files\BinMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction_FunctionDriver.cxx">
+      <Filter>Source Files\BinMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction_GraphNodeDriver.cxx">
+      <Filter>Source Files\BinMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction_ScopeDriver.cxx">
+      <Filter>Source Files\BinMFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDocStd\BinMDocStd.cxx">
+      <Filter>Source Files\BinMDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDocStd\BinMDocStd_XLinkDriver.cxx">
+      <Filter>Source Files\BinMDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_Persistent.cxx">
+      <Filter>Source Files\BinObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_Position.cxx">
+      <Filter>Source Files\BinObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_RRelocationTable.cxx">
+      <Filter>Source Files\BinObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers.cxx">
+      <Filter>Source Files\BinLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source Files\BinLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_DocumentSection.cxx">
+      <Filter>Source Files\BinLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source Files\BinLDrivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ADriver.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ADriverTable.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_DataMapIteratorOfTypeADriverMap.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_DoubleMapIteratorOfTypeIdMap.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ReferenceDriver.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_StringIdMap.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_TagSourceDriver.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_TypeADriverMap.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_TypeIdMap.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_DerivedDriver.hxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_AsciiStringDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_BooleanArrayDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_BooleanListDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ByteArrayDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ExpressionDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ExtStringArrayDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ExtStringListDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntegerArrayDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntegerDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntegerListDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_IntPackedMapDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_NamedDataDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_GenericExtStringDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_RealArrayDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_RealDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_RealListDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ReferenceArrayDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_ReferenceListDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_GenericEmptyDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_TreeNodeDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_UAttributeDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataStd\BinMDataStd_VariableDriver.hxx">
+      <Filter>Header Files\BinMDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction.hxx">
+      <Filter>Header Files\BinMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction_FunctionDriver.hxx">
+      <Filter>Header Files\BinMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction_GraphNodeDriver.hxx">
+      <Filter>Header Files\BinMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMFunction\BinMFunction_ScopeDriver.hxx">
+      <Filter>Header Files\BinMFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDocStd\BinMDocStd.hxx">
+      <Filter>Header Files\BinMDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDocStd\BinMDocStd_XLinkDriver.hxx">
+      <Filter>Header Files\BinMDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_PByte.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_PChar.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_Persistent.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_PExtChar.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_PInteger.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_Position.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_PReal.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_PShortReal.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_RRelocationTable.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_SRelocationTable.hxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers.hxx">
+      <Filter>Header Files\BinLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header Files\BinLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_DocumentSection.hxx">
+      <Filter>Header Files\BinLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header Files\BinLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_Marker.hxx">
+      <Filter>Header Files\BinLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinLDrivers\BinLDrivers_VectorOfDocumentSection.hxx">
+      <Filter>Header Files\BinLDrivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ADriver.lxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDF\BinMDF_ADriverTable.lxx">
+      <Filter>Header Files\BinMDF</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BinObjMgt\BinObjMgt_Persistent.lxx">
+      <Filter>Header Files\BinObjMgt</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKBinL.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinLDrivers">
+      <UniqueIdentifier>{B4126FE6-4168-32F3-99F4-63AA089E266B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMDF">
+      <UniqueIdentifier>{8016CE6D-2025-342F-BD04-8AED37625781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMDataStd">
+      <UniqueIdentifier>{AB660382-2E19-3491-A28A-5746FA7975D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMDocStd">
+      <UniqueIdentifier>{D2780996-18AD-320B-A7C4-B6F9956936B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinMFunction">
+      <UniqueIdentifier>{9F4FC36A-8B94-3E68-A679-232E2534F7E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BinObjMgt">
+      <UniqueIdentifier>{B0A135C4-9992-375F-B735-47A4A1F4B19D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinLDrivers">
+      <UniqueIdentifier>{3DCC8FBF-4BEE-3BE5-A627-55B065D38245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMDF">
+      <UniqueIdentifier>{063002C1-3342-39FE-96E6-84779F5719CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMDataStd">
+      <UniqueIdentifier>{A165948E-D0F2-339E-A62A-712C7317007D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMDocStd">
+      <UniqueIdentifier>{E43FFD8A-F637-3056-85A3-D7A6CE2E33E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinMFunction">
+      <UniqueIdentifier>{0C0E82EA-5CDA-323A-B448-ED33FC9C8303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinObjMgt">
+      <UniqueIdentifier>{4BD0351C-05FA-39BF-AC3D-13EC1328DC05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

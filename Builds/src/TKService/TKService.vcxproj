@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31C26A06-0CC0-3530-B223-DBC97CD1D73B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKService</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKService.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKService</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKService.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKService</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKService.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKService</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Aspect_DLL;__Graphic3d_DLL;__Xw_DLL;__Image_DLL;__Media_DLL;__Wasm_DLL;__WNT_DLL;__Cocoa_DLL;__Font_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKService_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Aspect_DLL;__Graphic3d_DLL;__Xw_DLL;__Image_DLL;__Media_DLL;__Wasm_DLL;__WNT_DLL;__Cocoa_DLL;__Font_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKService_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKMath.lib;user32.lib;advapi32.lib;advapi32.lib;user32.lib;windowscodecs.lib;winmm.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKService.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKService.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__Aspect_DLL;__Graphic3d_DLL;__Xw_DLL;__Image_DLL;__Media_DLL;__Wasm_DLL;__WNT_DLL;__Cocoa_DLL;__Font_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKService_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__Aspect_DLL;__Graphic3d_DLL;__Xw_DLL;__Image_DLL;__Media_DLL;__Wasm_DLL;__WNT_DLL;__Cocoa_DLL;__Font_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKService_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKMath.lib;user32.lib;advapi32.lib;advapi32.lib;user32.lib;windowscodecs.lib;winmm.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKService.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKService.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Aspect_DLL;__Graphic3d_DLL;__Xw_DLL;__Image_DLL;__Media_DLL;__Wasm_DLL;__WNT_DLL;__Cocoa_DLL;__Font_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKService_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Aspect_DLL;__Graphic3d_DLL;__Xw_DLL;__Image_DLL;__Media_DLL;__Wasm_DLL;__WNT_DLL;__Cocoa_DLL;__Font_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKService_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKMath.lib;user32.lib;advapi32.lib;advapi32.lib;user32.lib;windowscodecs.lib;winmm.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKService.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKService.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Background.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_CircularGrid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_DisplayConnection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GenId.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GradientBackground.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Grid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_NeutralWindow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_OpenVRSession.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_RectangularGrid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_SkydomeBackground.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKeySet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Window.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowInputListener.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRSession.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPrimitives.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Aspects.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectFillArea3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectLine3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectMarker3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectText3d.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AttribBuffer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BSDF.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Buffer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Camera.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CameraTile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CLight.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ClipPlane.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CStructure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapOrder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapPacked.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapSeparate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CullingTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CView.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DataStructureManager.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStats.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriverFactory.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Group.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_HatchStyle.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PresentationAttributes.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_LightSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MarkerImage.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MaterialAspect.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTexture.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTextureSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PBRMaterial.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PolygonOffset.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderingParams.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderAttribute.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderManager.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderObject.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderProgram.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderVariable.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Structure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StructureManager.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Text.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1D.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dmanual.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dsegment.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2D.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2Dplane.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture3D.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureEnv.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureParams.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureRoot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureSet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPers.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPersScaledAbove.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vertex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ViewAffinity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Layer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Xw\Xw_Window.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_AlienPixMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_DDSParser.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Diff.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_SupportedFormats.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Texture.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_VideoRecorder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_BufferPool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_CodecContext.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_FormatContext.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Frame.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Packet.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_PlayerContext.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Scaler.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Timer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Wasm\Wasm_Window.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_HIDSpaceMouse.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_WClass.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_Window.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FontMgr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTFont.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTLibrary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_SystemFont.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_TextFormatter.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_AspectFillAreaDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_AspectLineDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_AspectMarkerDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Background.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_CircularGrid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_ColorSpace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Display.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_DisplayConnection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_DisplayConnectionDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Drawable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Eye.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_FBConfig.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_FillMethod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_FrustumLRBT.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GenId.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GradientBackground.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GradientFillMethod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GraphicDeviceDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GraphicsLibrary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Grid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GridDrawMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GridType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_NeutralWindow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_OpenVRSession.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Handle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_HatchStyle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_IdentDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_InteriorStyle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_PolygonOffsetMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_RectangularGrid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_RenderingContext.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_SequenceOfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_ScrollDelta.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_SkydomeBackground.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Touch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TouchMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TrackedDevicePose.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfColorScaleData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfColorScaleOrientation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfColorScalePosition.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfDeflection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfDisplayText.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfFacingModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfHighlightMethod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfMarker.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfResize.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfStyleText.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfTriedronPosition.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Units.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKey.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKeyFlags.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKeySet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WidthOfLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Window.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowInputListener.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XAtom.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRAction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRActionSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRActionType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRAnalogActionData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRDigitalActionData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRGenericAction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRHapticActionData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRPoseActionData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRSession.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRTrackedDeviceRole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AlphaMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayFlags.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPoints.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPolygons.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPolylines.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPrimitives.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfQuadrangles.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfQuadrangleStrips.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfSegments.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfTriangleFans.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfTriangles.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfTriangleStrips.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Aspects.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectFillArea3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectLine3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectMarker3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectText3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AttribBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BndBox3d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BndBox4d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BndBox4f.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BoundBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BSDF.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Buffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BufferRange.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BufferType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Camera.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CameraTile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CappingFlags.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CLight.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ClipPlane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CStructure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapOrder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapPacked.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapSeparate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapSide.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CullingTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CView.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DataStructureManager.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DiagnosticInfo.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DisplayPriority.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStats.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsCounter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsTimer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraduatedTrihedron.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriverFactory.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Group.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GroupAspect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GroupDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_HatchStyle.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PresentationAttributes.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_HorizontalTextAlignment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_IndexBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MutableIndexBuffer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_LevelOfTextureAnisotropy.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_LightSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapOfAspectsToAspects.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapIteratorOfMapOfStructure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapOfObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapOfStructure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MarkerImage.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Mat4.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Mat4d.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MaterialAspect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MaterialDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTexture.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTextureSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfMaterial.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTexture1D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTexture2D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTextureEnv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTexturePlane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NMapOfTransient.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PBRMaterial.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PolygonOffset.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PriorityDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderingMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderingParams.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderTransparentMethod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfGroup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfStructure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderAttribute.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderFlags.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderManager.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderProgram.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderVariable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StereoMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Structure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StructureDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StructureManager.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextPath.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Text.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dmanual.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dsegment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2Dmanual.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2Dplane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture3D.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureEnv.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureParams.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureRoot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureUnit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureSet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureSetBits.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ToneMappingMethod.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPersScaledAbove.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformUtils.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransModeFlags.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfAnswer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfBackfacingModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfBackground.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfConnection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfLightSource.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfLimit.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfMaterial.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfPrimitiveArray.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfReflection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfShaderObject.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfShadingModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfStructure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfTexture.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfTextureFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfTextureMode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfVisualization.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec2.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec3.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec4.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vertex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_VerticalTextAlignment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ViewAffinity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_WorldViewProjState.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Layer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ZLayerId.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ZLayerSettings.hxx" />
+    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderVariable.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Xw\Xw_Window.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_AlienPixMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Color.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_CompressedFormat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_CompressedPixMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_DDSParser.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Diff.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Format.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMapData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMapTypedData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_SupportedFormats.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Texture.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_VideoRecorder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_BufferPool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_CodecContext.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_FormatContext.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Frame.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Packet.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_PlayerContext.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Scaler.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Timer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_IFrameQueue.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Wasm\Wasm_Window.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_ClassDefinitionError.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_Dword.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_HIDSpaceMouse.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_OrientationType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_WClass.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_Window.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_WindowPtr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Cocoa\Cocoa_LocalPool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Cocoa\Cocoa_Window.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_BRepFont.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_BRepTextBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FontAspect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FontMgr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTFont.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTLibrary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_Hinting.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_NameOfFont.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_NListOfSystemFont.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_Rect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_StrictLevel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_SystemFont.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_TextFormatter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_UnicodeSubset.hxx" />
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKService.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
