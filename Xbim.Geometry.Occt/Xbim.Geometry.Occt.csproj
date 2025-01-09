@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <OcctBuildPath>$(SolutionDir)/Install/</OcctBuildPath>
-    <OcctBuildPath64>$(OcctBuildPath)win64/vc14</OcctBuildPath64>
-    <OcctBuildPath86>$(OcctBuildPath)win32/vc14</OcctBuildPath86>
+    <OcctBuildPath>$(SolutionDir)\Install/</OcctBuildPath>
+    <OcctBuildPath64>$(OcctBuildPath)win64\vc14</OcctBuildPath64>
+    <OcctBuildPath86>$(OcctBuildPath)win32\vc14</OcctBuildPath86>
     <IsPackable>true</IsPackable>
     <Title>Redistribution of the OCCT libraries required by Xbim Geometry engine</Title>
     <Authors>Open CASCADE. Compiled and packaged by Xbim Ltd</Authors>
@@ -16,11 +16,12 @@
     <PackageIcon>xbim-toolkit-icon.png</PackageIcon>
     <PackageTags>Xbim;Geometry;OCCT;OpenCascade</PackageTags>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
-    <FileVersion>7.7.1.0</FileVersion>
+    <FileVersion>7.7.0.1</FileVersion>
     <Version>7.7.1-beta</Version>
     <PackageLicenseExpression>LGPL-2.1-only WITH OCCT-exception-1.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>docs/Readme.md</PackageReadmeFile>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>full</DebugType>
@@ -37,7 +38,7 @@
   <ItemGroup>
 
 
-    <None Include="$(OcctBuildPath)inc/*.hxx" Exclude="$(OcctBuildPath)inc/AIS*;$(OcctBuildPath)inc\Vrml*">
+    <None Include="$(OcctBuildPath)inc\*" Exclude="$(OcctBuildPath)inc\AIS*;$(OcctBuildPath)inc\Vrml*">
       <Pack>true</Pack>
       <PackagePath>build\native\include\</PackagePath>
       <Link>include\%(FileName)%(Extension)</Link>

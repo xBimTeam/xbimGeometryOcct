@@ -33,17 +33,4 @@
 			</Link>
 		</ItemGroup>
 	</Target>
-	<ItemGroup Condition="$(PlatformTarget)=='x86'">
-		<None  Include="$(MSBuildThisFileDirectory)..\lib\native\v143\Win32\Release\*.dll">
-			<Visible>false</Visible>
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None >
-	</ItemGroup>
-
-	<ItemGroup Condition="$(PlatformTarget)=='x64'">
-		<None  Include="$(MSBuildThisFileDirectory)..\lib\native\v143\x64\Release\*.dll">
-			<Visible>false</Visible>
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None >
-	</ItemGroup>
 </Project>
