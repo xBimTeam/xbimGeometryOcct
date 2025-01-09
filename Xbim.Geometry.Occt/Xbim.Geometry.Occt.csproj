@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net472;net6.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -16,12 +16,13 @@
     <PackageIcon>xbim-toolkit-icon.png</PackageIcon>
     <PackageTags>Xbim;Geometry;OCCT;OpenCascade</PackageTags>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
-    <FileVersion>7.7.0.1</FileVersion>
-    <Version>7.7.1-beta</Version>
+    <FileVersion>7.7.0.2</FileVersion>
+    <Version>7.7.2-beta</Version>
     <PackageLicenseExpression>LGPL-2.1-only WITH OCCT-exception-1.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>docs/Readme.md</PackageReadmeFile>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>full</DebugType>
@@ -30,11 +31,68 @@
     <DebugType>full</DebugType>
   </PropertyGroup>
 
+  <!--This creates the nuget package-->
+  <PropertyGroup>
+    <TargetsForTfmSpecificContentInPackage>DeployOcctNativeFilesTransitively</TargetsForTfmSpecificContentInPackage>
+  </PropertyGroup>
 
+  <Target Name="DeployOcctNativeFilesTransitively">
+    
+    <ItemGroup>
+      <BuildTransitives Include="buildTransitive\$(TargetFramework)\Xbim.Geometry.Occt.targets">
+        <WinPlatform>buildTransitive/$(TargetFramework)</WinPlatform>
+      </BuildTransitives>
 
-  <ItemGroup>
-    <BaseNames Include="TKBO;TKBOOL;TKBRep;TKernel;TKFillet;TKG2d;TKG3d;TKGeomAlgo;TKGeomBase;TKMath;TKMesh;TKOffset;TKPrim;TKShHealing;TKTopAlgo;TKCAF;TKCDF;TKHLR;TKLCAF;TKV3d;TKVCAF;TKXCAF;TKService;TKXDESTEP;TKSTEPBase;TKSTEP;TKXSBase;TKSTEPAttr;TKSTEP209;TKRWMesh;TKBin;TKBinL;TKBinXCAF;TKFeat" />
+      <OcctNativePackageFile Include="@(BuildTransitives)">
+        <PackagePath>%(WinPlatform)/@(OcctNativePackageFile->'%(Filename)%(Extension)')</PackagePath>
+      </OcctNativePackageFile>
+      <TfmSpecificPackageFile Include="@(OcctNativePackageFile)"></TfmSpecificPackageFile>
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup Label="OCCLibs">
+    <!-- Foundation Classes -->
+    <BaseNames Include="TKernel"/>
+    <BaseNames Include="TKMath"/>
+    <!-- Application Framework -->
+    <BaseNames Include="TKBin"/>
+    <BaseNames Include="TKBinL"/>
+    <BaseNames Include="TKCAF"/>
+    <BaseNames Include="TKCDF"/>
+    <BaseNames Include="TKLCAF"/>
+    <BaseNames Include="TKVCAF"/>
+    <!-- Modeling Data -->
+    <BaseNames Include="TKBRep"/>
+    <BaseNames Include="TKG2d"/>
+    <BaseNames Include="TKG3d"/>
+    <BaseNames Include="TKGeomBase"/>
+    <!-- Modeling Algorithms -->
+    <BaseNames Include="TKBO"/>
+    <BaseNames Include="TKBOOL"/>
+    <BaseNames Include="TKFeat"/>
+    <BaseNames Include="TKFillet"/>
+    <BaseNames Include="TKGeomAlgo"/>
+    <BaseNames Include="TKHLR"/>
+    <BaseNames Include="TKMesh"/>
+    <BaseNames Include="TKOffset"/>
+    <BaseNames Include="TKPrim"/>
+    <BaseNames Include="TKShHealing"/>
+    <BaseNames Include="TKTopAlgo"/>
+    <BaseNames Include="TKRWMesh"/>
+    <!-- Data Exchange -->
+    <BaseNames Include="TKBinXCAF"/>
+    <BaseNames Include="TKSTEP"/>
+    <BaseNames Include="TKSTEP209"/>
+    <BaseNames Include="TKSTEPAttr"/>
+    <BaseNames Include="TKSTEPBase"/>
+    <BaseNames Include="TKXDESTEP"/>
+    <BaseNames Include="TKXCAF"/>
+    <BaseNames Include="TKXSBase"/>
+    <!-- Visualization -->
+    <BaseNames Include="TKService"/>
+    <BaseNames Include="TKV3d"/> 
   </ItemGroup>
+  
   <ItemGroup>
 
 
