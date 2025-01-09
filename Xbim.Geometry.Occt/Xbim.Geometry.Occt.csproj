@@ -8,7 +8,6 @@
     <OcctBuildPath>$(SolutionDir)\Install/</OcctBuildPath>
     <OcctBuildPath64>$(OcctBuildPath)win64\vc14</OcctBuildPath64>
     <OcctBuildPath86>$(OcctBuildPath)win32\vc14</OcctBuildPath86>
-    <IsPackable>true</IsPackable>
     <Title>Redistribution of the OCCT libraries required by Xbim Geometry engine</Title>
     <Authors>Open CASCADE. Compiled and packaged by Xbim Ltd</Authors>
     <Description>Redistribution of the Open CASCADE Technology (OCCT) libraries required by Xbim Geometry engine, supporting x86 and x64 platforms</Description>
@@ -16,23 +15,16 @@
     <PackageIcon>xbim-toolkit-icon.png</PackageIcon>
     <PackageTags>Xbim;Geometry;OCCT;OpenCascade</PackageTags>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
-    <FileVersion>7.7.0.2</FileVersion>
-    <Version>7.7.2-beta</Version>
+    <FileVersion>7.7.0.3</FileVersion>
+    <Version>7.7.3-beta</Version>
+    <IsPackable>true</IsPackable>
     <PackageLicenseExpression>LGPL-2.1-only WITH OCCT-exception-1.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageReadmeFile>docs/Readme.md</PackageReadmeFile>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://docs.xbim.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xBimTeam/xbimGeometryOcct</RepositoryUrl>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <LangVersion>10</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebugType>full</DebugType>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DebugType>full</DebugType>
-  </PropertyGroup>
-
-  <!--This creates the nuget package-->
-  <PropertyGroup>
     <TargetsForTfmSpecificContentInPackage>DeployOcctNativeFilesTransitively</TargetsForTfmSpecificContentInPackage>
   </PropertyGroup>
 
@@ -52,108 +44,112 @@
 
   <ItemGroup Label="OCCLibs">
     <!-- Foundation Classes -->
-    <BaseNames Include="TKernel"/>
-    <BaseNames Include="TKMath"/>
+    <BaseNames Include="TKernel" />
+    <BaseNames Include="TKMath" />
     <!-- Application Framework -->
-    <BaseNames Include="TKBin"/>
-    <BaseNames Include="TKBinL"/>
-    <BaseNames Include="TKCAF"/>
-    <BaseNames Include="TKCDF"/>
-    <BaseNames Include="TKLCAF"/>
-    <BaseNames Include="TKVCAF"/>
+    <BaseNames Include="TKBin" />
+    <BaseNames Include="TKBinL" />
+    <BaseNames Include="TKCAF" />
+    <BaseNames Include="TKCDF" />
+    <BaseNames Include="TKLCAF" />
+    <BaseNames Include="TKVCAF" />
     <!-- Modeling Data -->
-    <BaseNames Include="TKBRep"/>
-    <BaseNames Include="TKG2d"/>
-    <BaseNames Include="TKG3d"/>
-    <BaseNames Include="TKGeomBase"/>
+    <BaseNames Include="TKBRep" />
+    <BaseNames Include="TKG2d" />
+    <BaseNames Include="TKG3d" />
+    <BaseNames Include="TKGeomBase" />
     <!-- Modeling Algorithms -->
-    <BaseNames Include="TKBO"/>
-    <BaseNames Include="TKBOOL"/>
-    <BaseNames Include="TKFeat"/>
-    <BaseNames Include="TKFillet"/>
-    <BaseNames Include="TKGeomAlgo"/>
-    <BaseNames Include="TKHLR"/>
-    <BaseNames Include="TKMesh"/>
-    <BaseNames Include="TKOffset"/>
-    <BaseNames Include="TKPrim"/>
-    <BaseNames Include="TKShHealing"/>
-    <BaseNames Include="TKTopAlgo"/>
-    <BaseNames Include="TKRWMesh"/>
+    <BaseNames Include="TKBO" />
+    <BaseNames Include="TKBOOL" />
+    <BaseNames Include="TKFeat" />
+    <BaseNames Include="TKFillet" />
+    <BaseNames Include="TKGeomAlgo" />
+    <BaseNames Include="TKHLR" />
+    <BaseNames Include="TKMesh" />
+    <BaseNames Include="TKOffset" />
+    <BaseNames Include="TKPrim" />
+    <BaseNames Include="TKShHealing" />
+    <BaseNames Include="TKTopAlgo" />
+    <BaseNames Include="TKRWMesh" />
     <!-- Data Exchange -->
-    <BaseNames Include="TKBinXCAF"/>
-    <BaseNames Include="TKSTEP"/>
-    <BaseNames Include="TKSTEP209"/>
-    <BaseNames Include="TKSTEPAttr"/>
-    <BaseNames Include="TKSTEPBase"/>
-    <BaseNames Include="TKXDESTEP"/>
-    <BaseNames Include="TKXCAF"/>
-    <BaseNames Include="TKXSBase"/>
+    <BaseNames Include="TKBinXCAF" />
+    <BaseNames Include="TKSTEP" />
+    <BaseNames Include="TKSTEP209" />
+    <BaseNames Include="TKSTEPAttr" />
+    <BaseNames Include="TKSTEPBase" />
+    <BaseNames Include="TKXDESTEP" />
+    <BaseNames Include="TKXCAF" />
+    <BaseNames Include="TKXSBase" />
     <!-- Visualization -->
-    <BaseNames Include="TKService"/>
-    <BaseNames Include="TKV3d"/> 
+    <BaseNames Include="TKService" />
+    <BaseNames Include="TKV3d" /> 
   </ItemGroup>
   
   <ItemGroup>
-
-
-    <None Include="$(OcctBuildPath)inc\*" Exclude="$(OcctBuildPath)inc\AIS*;$(OcctBuildPath)inc\Vrml*">
+    <None Include="$(OcctBuildPath)inc\*" Exclude="$(OcctBuildPath)inc\AIS*;$(OcctBuildPath)inc\Vrml*" Label="Pack OCC Headers source">
       <Pack>true</Pack>
       <PackagePath>build\native\include\</PackagePath>
       <Link>include\%(FileName)%(Extension)</Link>
     </None>
-    <!--dll files-->
-    <None Include="@(BaseNames->'$(OcctBuildPath64)\bin\%(FileName).dll')">
+    <None Remove="buildTransitive\net472\Xbim.Geometry.Occt.targets" />
+    
+    <None Include="@(BaseNames->'$(OcctBuildPath64)\bin\%(FileName).dll')" Label="Pack OCC x64 DLLs">
       <Pack>true</Pack>
       <PackagePath>lib\native\v143\x64\Release\</PackagePath>
       <Link>win-x64\%(FileName)%(Extension)</Link>
     </None>
-    <!--<Content Include="@(BaseNames->'..\win64\vc14\bind\%(FileName).dll')">
-			<Pack>true</Pack>
-			<PackagePath>lib\native\v143\x64\Debug\</PackagePath>
-		</Content>-->
-
-    <None Include="@(BaseNames->'$(OcctBuildPath86)\bin\%(FileName).dll')">
-      <Pack>true</Pack>
-      <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
-      <Link>win-x86\%(FileName)%(Extension)</Link>
-    </None>
-
-    <!--<Content Include="@(LibNames->'..\win32\vc14\bind\%(FileName).dll')">
-			<Pack>true</Pack>
-			<PackagePath>lib\native\v143\x86\Debug\</PackagePath>
-		</Content>-->
-
-    <None Include="@(BaseNames->'$(OcctBuildPath64)\lib\%(FileName).lib')">
+    <None Include="@(BaseNames->'$(OcctBuildPath64)\lib\%(FileName).lib')" Label="Pack OCC x64 libs">
       <Pack>true</Pack>
       <PackagePath>lib\native\v143\x64\Release\</PackagePath>
       <Link>win-x64\%(FileName)%(Extension)</Link>
     </None>
-    <!--<Content Include="@(BaseNames->'$(OcctBuildPath64)\vc14\libd\%(FileName).lib')">
-			<Pack>true</Pack>
-			<PackagePath>lib\native\v143\x64\Debug\</PackagePath>
-		</Content>-->
 
-    <None Include="@(BaseNames->'$(OcctBuildPath86)\lib\%(FileName).lib')">
+    <None Include="@(BaseNames->'$(OcctBuildPath86)\bin\%(FileName).dll')" Label="Pack OCC x86 DLLs">
       <Pack>true</Pack>
       <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
       <Link>win-x86\%(FileName)%(Extension)</Link>
     </None>
-    <!--<Content Include="@(BaseNames->'..\win32\vc14\libd\%(FileName).lib')">
-			<Pack>true</Pack>
-			<PackagePath>lib\native\v143\x86\Debug\</PackagePath>
-		</Content>-->
+    <None Include="@(BaseNames->'$(OcctBuildPath86)\lib\%(FileName).lib')" Label="Pack OCC x86 libs">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
+      <Link>win-x86\%(FileName)%(Extension)</Link>
+    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\"></Folder>
+  
+  <ItemGroup Condition="'$(DeployDebugDlls)'!=''">
+    <!-- Should we want to deploy debug libs -->
+    <None Include="@(BaseNames->'$(OcctBuildPath64)\bind\%(FileName).dll')" Label="Pack OCC x64 DLLs">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\x64\Debug\</PackagePath>
+      <Link>win-x64\%(FileName)%(Extension)</Link>
+    </None>
+    <None Include="@(BaseNames->'$(OcctBuildPath64)\libd\%(FileName).lib')" Label="Pack OCC x64 libs">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\x64\Debug\</PackagePath>
+      <Link>win-x64\%(FileName)%(Extension)</Link>
+    </None>
+
+    <None Include="@(BaseNames->'$(OcctBuildPath86)\bind\%(FileName).dll')" Label="Pack OCC x86 DLLs">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\Win32\Debug\</PackagePath>
+      <Link>win-x86\%(FileName)%(Extension)</Link>
+    </None>
+    <None Include="@(BaseNames->'$(OcctBuildPath86)\libd\%(FileName).lib')" Label="Pack OCC x86 libs">
+      <Pack>true</Pack>
+      <PackagePath>lib\native\v143\Win32\Debug\</PackagePath>
+      <Link>win-x86\%(FileName)%(Extension)</Link>
+    </None>
+    
   </ItemGroup>
+
   <ItemGroup>
     <None Include="xbim-toolkit-icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="Readme.md">
+    <None Include="docs\Readme.md">
       <Pack>True</Pack>
-      <PackagePath>docs</PackagePath>
+      <PackagePath>\</PackagePath>
     </None>
     <None Include="Xbim.Geometry.Occt.targets">
       <Pack>True</Pack>
