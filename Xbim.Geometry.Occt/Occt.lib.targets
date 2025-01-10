@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- Set of all OCCT libraries we want to package and deploy to upstream targets. Shared by packaging and runtime deployment -->
+  <ItemGroup Label="OCCLibs">
+    <!-- Foundation Classes -->
+    <OcctLibraries Include="TKernel" />
+    <OcctLibraries Include="TKMath" />
+    <!-- Application Framework -->
+    <OcctLibraries Include="TKBin" />
+    <OcctLibraries Include="TKBinL" />
+    <OcctLibraries Include="TKCAF" />
+    <OcctLibraries Include="TKCDF" />
+    <OcctLibraries Include="TKLCAF" />
+    <OcctLibraries Include="TKVCAF" />
+    <!-- Modeling Data -->
+    <OcctLibraries Include="TKBRep" />
+    <OcctLibraries Include="TKG2d" />
+    <OcctLibraries Include="TKG3d" />
+    <OcctLibraries Include="TKGeomBase" />
+    <!-- Modeling Algorithms -->
+    <OcctLibraries Include="TKBO" />
+    <OcctLibraries Include="TKBOOL" />
+    <OcctLibraries Include="TKFeat" />
+    <OcctLibraries Include="TKFillet" />
+    <OcctLibraries Include="TKGeomAlgo" />
+    <OcctLibraries Include="TKHLR" />
+    <OcctLibraries Include="TKMesh" />
+    <OcctLibraries Include="TKOffset" />
+    <OcctLibraries Include="TKPrim" />
+    <OcctLibraries Include="TKShHealing" />
+    <OcctLibraries Include="TKTopAlgo" />
+    <OcctLibraries Include="TKRWMesh" />
+    <!-- Data Exchange -->
+    <OcctLibraries Include="TKBinXCAF" />
+    <OcctLibraries Include="TKSTEP" />
+    <OcctLibraries Include="TKSTEP209" />
+    <OcctLibraries Include="TKSTEPAttr" />
+    <OcctLibraries Include="TKSTEPBase" />
+    <OcctLibraries Include="TKXDESTEP" />
+    <OcctLibraries Include="TKXCAF" />
+    <OcctLibraries Include="TKXSBase" />
+    <!-- Visualization -->
+    <OcctLibraries Include="TKService" />
+    <OcctLibraries Include="TKV3d" />
+  </ItemGroup>
+</Project>

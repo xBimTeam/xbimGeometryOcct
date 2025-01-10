@@ -6,19 +6,19 @@ https://github.com/Azure/azure-functions-vs-build-sdk/issues/298
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Condition="'$(OS)' == 'Windows_NT' ">
-    <Content Include="$(MSBuildThisFileDirectory)..\..\lib\native\v143\Win32\Release\*.dll;">
+    <Content Include="$(MSBuildThisFileDirectory)..\..\lib\native\v143\win-x86\Release\*.dll;">
       <Link>$(XbimCustomBinPath)win-x86\%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Pack>false</Pack>
       <Visible>false</Visible>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)..\..\lib\native\v143\x64\Release\*.dll;">
+    <Content Include="$(MSBuildThisFileDirectory)..\..\lib\native\v143\win-x64\Release\*.dll;">
       <Link>$(XbimCustomBinPath)win-x64\%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Pack>false</Pack>
       <Visible>false</Visible>
     </Content>
   </ItemGroup>
-    <!-- TODO: ARM, Linux-->
- 
+  <!-- TODO: ARM, Linux-->
+
 </Project>

@@ -26,7 +26,10 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <LangVersion>10</LangVersion>
     <TargetsForTfmSpecificContentInPackage>DeployOcctNativeFilesTransitively</TargetsForTfmSpecificContentInPackage>
+    <OcctSkipHeaders>false</OcctSkipHeaders>
   </PropertyGroup>
+
+  <Import Project="./Occt.lib.targets"/>
 
   <Target Name="DeployOcctNativeFilesTransitively">
     
@@ -42,101 +45,65 @@
     </ItemGroup>
   </Target>
 
-  <ItemGroup Label="OCCLibs">
-    <!-- Foundation Classes -->
-    <BaseNames Include="TKernel" />
-    <BaseNames Include="TKMath" />
-    <!-- Application Framework -->
-    <BaseNames Include="TKBin" />
-    <BaseNames Include="TKBinL" />
-    <BaseNames Include="TKCAF" />
-    <BaseNames Include="TKCDF" />
-    <BaseNames Include="TKLCAF" />
-    <BaseNames Include="TKVCAF" />
-    <!-- Modeling Data -->
-    <BaseNames Include="TKBRep" />
-    <BaseNames Include="TKG2d" />
-    <BaseNames Include="TKG3d" />
-    <BaseNames Include="TKGeomBase" />
-    <!-- Modeling Algorithms -->
-    <BaseNames Include="TKBO" />
-    <BaseNames Include="TKBOOL" />
-    <BaseNames Include="TKFeat" />
-    <BaseNames Include="TKFillet" />
-    <BaseNames Include="TKGeomAlgo" />
-    <BaseNames Include="TKHLR" />
-    <BaseNames Include="TKMesh" />
-    <BaseNames Include="TKOffset" />
-    <BaseNames Include="TKPrim" />
-    <BaseNames Include="TKShHealing" />
-    <BaseNames Include="TKTopAlgo" />
-    <BaseNames Include="TKRWMesh" />
-    <!-- Data Exchange -->
-    <BaseNames Include="TKBinXCAF" />
-    <BaseNames Include="TKSTEP" />
-    <BaseNames Include="TKSTEP209" />
-    <BaseNames Include="TKSTEPAttr" />
-    <BaseNames Include="TKSTEPBase" />
-    <BaseNames Include="TKXDESTEP" />
-    <BaseNames Include="TKXCAF" />
-    <BaseNames Include="TKXSBase" />
-    <!-- Visualization -->
-    <BaseNames Include="TKService" />
-    <BaseNames Include="TKV3d" /> 
-  </ItemGroup>
+  
   
   <ItemGroup>
-    <None Include="$(OcctBuildPath)inc\*" Exclude="$(OcctBuildPath)inc\AIS*;$(OcctBuildPath)inc\Vrml*" Label="Pack OCC Headers source">
+    <None Include="./Occt.lib.targets" Label="Pack shared occt targets">
+      <Pack>true</Pack>
+      <PackagePath>build</PackagePath>
+    </None>
+
+    <None Include="$(OcctBuildPath)inc\*" Exclude="$(OcctBuildPath)inc\AIS*;$(OcctBuildPath)inc\Vrml*" Label="Pack OCC Headers source" Condition="'$(OcctSkipHeaders)'!='true'">
       <Pack>true</Pack>
       <PackagePath>build\native\include\</PackagePath>
       <Link>include\%(FileName)%(Extension)</Link>
     </None>
-    <None Remove="buildTransitive\net472\Xbim.Geometry.Occt.targets" />
     
-    <None Include="@(BaseNames->'$(OcctBuildPath64)\bin\%(FileName).dll')" Label="Pack OCC x64 DLLs">
+    
+    <None Include="@(OcctLibraries->'$(OcctBuildPath64)\bin\%(FileName).dll')" Label="Pack OCC x64 DLLs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\x64\Release\</PackagePath>
+      <PackagePath>lib\native\v143\win-x64\Release\</PackagePath>
       <Link>win-x64\%(FileName)%(Extension)</Link>
     </None>
-    <None Include="@(BaseNames->'$(OcctBuildPath64)\lib\%(FileName).lib')" Label="Pack OCC x64 libs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath64)\lib\%(FileName).lib')" Label="Pack OCC x64 libs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\x64\Release\</PackagePath>
+      <PackagePath>lib\native\v143\win-x64\Release\</PackagePath>
       <Link>win-x64\%(FileName)%(Extension)</Link>
     </None>
 
-    <None Include="@(BaseNames->'$(OcctBuildPath86)\bin\%(FileName).dll')" Label="Pack OCC x86 DLLs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath86)\bin\%(FileName).dll')" Label="Pack OCC x86 DLLs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
+      <PackagePath>lib\native\v143\win-x86\Release\</PackagePath>
       <Link>win-x86\%(FileName)%(Extension)</Link>
     </None>
-    <None Include="@(BaseNames->'$(OcctBuildPath86)\lib\%(FileName).lib')" Label="Pack OCC x86 libs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath86)\lib\%(FileName).lib')" Label="Pack OCC x86 libs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\Win32\Release\</PackagePath>
+      <PackagePath>lib\native\v143\win-x86\Release\</PackagePath>
       <Link>win-x86\%(FileName)%(Extension)</Link>
     </None>
   </ItemGroup>
   
   <ItemGroup Condition="'$(DeployDebugDlls)'!=''">
     <!-- Should we want to deploy debug libs -->
-    <None Include="@(BaseNames->'$(OcctBuildPath64)\bind\%(FileName).dll')" Label="Pack OCC x64 DLLs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath64)\bind\%(FileName).dll')" Label="Pack OCC x64 DLLs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\x64\Debug\</PackagePath>
+      <PackagePath>lib\native\v143\win-x64\Debug\</PackagePath>
       <Link>win-x64\%(FileName)%(Extension)</Link>
     </None>
-    <None Include="@(BaseNames->'$(OcctBuildPath64)\libd\%(FileName).lib')" Label="Pack OCC x64 libs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath64)\libd\%(FileName).lib')" Label="Pack OCC x64 libs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\x64\Debug\</PackagePath>
+      <PackagePath>lib\native\v143\win-x64\Debug\</PackagePath>
       <Link>win-x64\%(FileName)%(Extension)</Link>
     </None>
 
-    <None Include="@(BaseNames->'$(OcctBuildPath86)\bind\%(FileName).dll')" Label="Pack OCC x86 DLLs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath86)\bind\%(FileName).dll')" Label="Pack OCC x86 DLLs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\Win32\Debug\</PackagePath>
+      <PackagePath>lib\native\v143\win-x86\Debug\</PackagePath>
       <Link>win-x86\%(FileName)%(Extension)</Link>
     </None>
-    <None Include="@(BaseNames->'$(OcctBuildPath86)\libd\%(FileName).lib')" Label="Pack OCC x86 libs">
+    <None Include="@(OcctLibraries->'$(OcctBuildPath86)\libd\%(FileName).lib')" Label="Pack OCC x86 libs">
       <Pack>true</Pack>
-      <PackagePath>lib\native\v143\Win32\Debug\</PackagePath>
+      <PackagePath>lib\native\v143\win-x86\Debug\</PackagePath>
       <Link>win-x86\%(FileName)%(Extension)</Link>
     </None>
     

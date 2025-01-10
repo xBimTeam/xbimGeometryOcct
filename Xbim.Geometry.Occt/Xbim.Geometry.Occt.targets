@@ -8,15 +8,12 @@
 		</ClCompile>
 	</ItemDefinitionGroup>
 
-
-	<ItemGroup>
-		<BaseNames  Include="TKBO;TKBOOL;TKBRep;TKernel;TKFillet;TKG2d;TKG3d;TKGeomAlgo;TKGeomBase;TKMath;TKMesh;TKOffset;TKPrim;TKShHealing;TKTopAlgo;TKCAF;TKCDF;TKHLR;TKLCAF;TKV3d;TKVCAF;TKXCAF;TKService;TKXDESTEP;TKSTEPBase;TKSTEP;TKXSBase;TKSTEPAttr;TKSTEP209;TKRWMesh;TKBin;TKBinL;TKBinXCAF;TKFeat"/>
-	</ItemGroup>
+  <Import Project="./Occt.lib.targets"/>
 
 	<Target Name="BuildLibAndDllNames" AfterTargets="ComputeCLGeneratedLinkInputs">
 		<ItemGroup>
-			<LibNames Include="@(BaseNames->'%(FileName).lib')"/>
-			<DllNames Include="@(BaseNames->'%(FileName).dll')"/>
+			<LibNames Include="@(OcctLibraries->'%(FileName).lib')"/>
+			<DllNames Include="@(OcctLibraries->'%(FileName).dll')"/>
 			<Link>
 				<AdditionalDependencies>@(LibNames);%(Link.AdditionalDependencies)</AdditionalDependencies>
 			</Link>
@@ -24,12 +21,12 @@
 		<Message Text="PlatformTarget = $(PlatformTarget)" Importance = "High"></Message>
 		<ItemGroup Condition="$(PlatformTarget)=='x86'">
 			<Link>
-				<AdditionalLibraryDirectories >$(MSBuildThisFileDirectory)..\lib\native\v143\Win32\Release\;%(Link.AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+				<AdditionalLibraryDirectories >$(MSBuildThisFileDirectory)..\lib\native\v143\win-x86\Release\;%(Link.AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 			</Link>
 		</ItemGroup>
 		<ItemGroup Condition="$(PlatformTarget)=='x64'">
 			<Link>
-				<AdditionalLibraryDirectories >$(MSBuildThisFileDirectory)..\lib\native\v143\x64\Release\;%(Link.AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+				<AdditionalLibraryDirectories >$(MSBuildThisFileDirectory)..\lib\native\v143\win-x64\Release\;%(Link.AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 			</Link>
 		</ItemGroup>
 	</Target>
