@@ -40,7 +40,7 @@ new OCCT source.
 Run `xbim-configure.cmd` manually and open the cmake GUI to check all settings are as expected. Update `xbim-configure.cmd` as appropriate
 if there are new _cmake_ flags to set. Run `xbim-build-and-install-all-platforms.cmd` to build and compile all platforms into the _Install_ folder
 
-After OCCT has been built, review [Occt.libs.targets](./Xbim.Geometry.Occt/Occt.libs.targets) in case any new or deprecated OCCT libs have been added,removed
+After OCCT has been built, review [Occt.lib.targets](./Xbim.Geometry.Occt/Occt.lib.targets) in case any new or deprecated OCCT libs have been added,removed
 or renamed. Update the Xbim.Geometry.Occt package and version information.
 
 ## Package deployment / CI
