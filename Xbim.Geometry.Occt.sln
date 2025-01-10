@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{637044D3-54E6-4F86-95D1-099252D0828F}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
+		xbim-build-and-install-all-platforms.cmd = xbim-build-and-install-all-platforms.cmd
+		xbim-configure.cmd = xbim-configure.cmd
 	EndProjectSection
 EndProject
 Global

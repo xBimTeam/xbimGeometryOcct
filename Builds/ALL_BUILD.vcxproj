@@ -91,10 +91,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\ExpToCasExe\ExpToCasExe.vcxproj">
-      <Project>{C1928EBD-8D49-3D3F-939A-EF61C0653B06}</Project>
-      <Name>ExpToCasExe</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBO\TKBO.vcxproj">
       <Project>{00634628-9ECC-3F5F-AA97-ADED4EC2D993}</Project>
       <Name>TKBO</Name>
@@ -131,9 +127,41 @@
       <Project>{A3D41FDD-26B7-37C8-B0B8-B0CA00921643}</Project>
       <Name>TKCDF</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKExpress\TKExpress.vcxproj">
-      <Project>{1C77D2F9-0A4C-3CE6-B7AD-92018E8C110B}</Project>
-      <Name>TKExpress</Name>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDE\TKDE.vcxproj">
+      <Project>{169D636F-6474-3609-AB88-78766ED8807E}</Project>
+      <Name>TKDE</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDECascade\TKDECascade.vcxproj">
+      <Project>{B451D5C6-8B8B-3D3E-8956-F43670E7B655}</Project>
+      <Name>TKDECascade</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDEGLTF\TKDEGLTF.vcxproj">
+      <Project>{FF4CBB01-2846-3575-ABA2-76DF5204ADC6}</Project>
+      <Name>TKDEGLTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDEIGES\TKDEIGES.vcxproj">
+      <Project>{4EEA5DB9-4DC7-35B4-854B-CD701A3A539E}</Project>
+      <Name>TKDEIGES</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDEOBJ\TKDEOBJ.vcxproj">
+      <Project>{B132E4E1-EF51-3623-AF25-AD153213525A}</Project>
+      <Name>TKDEOBJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDEPLY\TKDEPLY.vcxproj">
+      <Project>{5966BBFA-C29D-3C53-82C4-EAA178A408D0}</Project>
+      <Name>TKDEPLY</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDESTEP\TKDESTEP.vcxproj">
+      <Project>{710F7072-F1D9-3800-A5CF-C74620C713AB}</Project>
+      <Name>TKDESTEP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDESTL\TKDESTL.vcxproj">
+      <Project>{02884543-1492-3175-AF17-0D9286996D3B}</Project>
+      <Name>TKDESTL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDEVRML\TKDEVRML.vcxproj">
+      <Project>{15D167C1-5525-34C2-9662-5E877BBA8769}</Project>
+      <Name>TKDEVRML</Name>
     </ProjectReference>
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKFeat\TKFeat.vcxproj">
       <Project>{D63E20F1-C7C0-3D67-835F-B0261674A238}</Project>
@@ -163,10 +191,6 @@
       <Project>{25078909-3DDD-3352-B48B-6BA98DA3672F}</Project>
       <Name>TKHLR</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKIGES\TKIGES.vcxproj">
-      <Project>{4F5CA08B-8EE7-3A63-A54A-FE8A2CC0DBA8}</Project>
-      <Name>TKIGES</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKLCAF\TKLCAF.vcxproj">
       <Project>{75EA6BC8-F7AD-3132-A146-0529B92E1CA0}</Project>
       <Name>TKLCAF</Name>
@@ -190,26 +214,6 @@
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKRWMesh\TKRWMesh.vcxproj">
       <Project>{B3A58114-4AB6-35F4-8B83-7FB013AEF4D2}</Project>
       <Name>TKRWMesh</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKSTEP\TKSTEP.vcxproj">
-      <Project>{BC0EDEBC-75B2-307C-85DA-B29329D25D05}</Project>
-      <Name>TKSTEP</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKSTEP209\TKSTEP209.vcxproj">
-      <Project>{2118A6B2-98B6-3291-93B1-A2FCD8202F12}</Project>
-      <Name>TKSTEP209</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKSTEPAttr\TKSTEPAttr.vcxproj">
-      <Project>{E920F590-A510-30EC-A20F-194DBD48D20B}</Project>
-      <Name>TKSTEPAttr</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKSTEPBase\TKSTEPBase.vcxproj">
-      <Project>{39B0442A-8F11-3E10-88A5-7AB44452340E}</Project>
-      <Name>TKSTEPBase</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKSTL\TKSTL.vcxproj">
-      <Project>{B29C7D58-3B12-39AC-A294-39492628E77D}</Project>
-      <Name>TKSTL</Name>
     </ProjectReference>
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKService\TKService.vcxproj">
       <Project>{31C26A06-0CC0-3530-B223-DBC97CD1D73B}</Project>
@@ -243,29 +247,9 @@
       <Project>{CA4762A9-29AE-3AC5-A281-0B3127B14AAB}</Project>
       <Name>TKVCAF</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKVRML\TKVRML.vcxproj">
-      <Project>{2E9179CB-C7F9-3C83-A5EE-3BD3A1340A09}</Project>
-      <Name>TKVRML</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXCAF\TKXCAF.vcxproj">
       <Project>{2E8BE0DA-F4CD-3E19-B457-D28D5EE7D62E}</Project>
       <Name>TKXCAF</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXDE\TKXDE.vcxproj">
-      <Project>{72164A1D-0864-33D7-A031-0EE1F9A5B9DD}</Project>
-      <Name>TKXDE</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXDECascade\TKXDECascade.vcxproj">
-      <Project>{02BB8D87-FF62-3885-9D00-21A871B7AFCC}</Project>
-      <Name>TKXDECascade</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXDEIGES\TKXDEIGES.vcxproj">
-      <Project>{72D726C6-14E4-31BA-98B0-C8749A5F2438}</Project>
-      <Name>TKXDEIGES</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXDESTEP\TKXDESTEP.vcxproj">
-      <Project>{8C0A1CD7-A2AE-3DFA-9F9D-6D05F47E6926}</Project>
-      <Name>TKXDESTEP</Name>
     </ProjectReference>
     <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXMesh\TKXMesh.vcxproj">
       <Project>{407D37A3-2030-3AAE-9D1A-C01306B54512}</Project>

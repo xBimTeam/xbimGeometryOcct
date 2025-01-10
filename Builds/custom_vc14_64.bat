@@ -14,6 +14,7 @@ if /I "%VCVER%" == "vc14" (
     set "TBB_DIR="
     set "VTK_DIR="
     set "FFMPEG_DIR="
+    set "JEMALLOC_DIR="
     set "OPENVR_DIR="
 
     if not "" == "" (
@@ -34,13 +35,13 @@ if /I "%VCVER%" == "vc14" (
     )
 
     set "CSF_OCCTIncludePath=C:/OCCT-Build/Builds/inc"
-    set "CSF_OCCTResourcePath=C:/OCCT-Build/OCCT-7_7_0/src"
-    set "CSF_OCCTDataPath=C:/OCCT-Build/OCCT-7_7_0/data"
-    set "CSF_OCCTSamplesPath=C:/OCCT-Build/OCCT-7_7_0/samples"
-    set "CSF_OCCTTestsPath=C:/OCCT-Build/OCCT-7_7_0/tests"
-    set "CSF_OCCTDocPath=C:/OCCT-Build/OCCT-7_7_0/doc"
+    set "CSF_OCCTResourcePath=C:/OCCT-Build/OCCT-7_8_0/src"
+    set "CSF_OCCTDataPath=C:/OCCT-Build/OCCT-7_8_0/data"
+    set "CSF_OCCTSamplesPath=C:/OCCT-Build/OCCT-7_8_0/samples"
+    set "CSF_OCCTTestsPath=C:/OCCT-Build/OCCT-7_8_0/tests"
+    set "CSF_OCCTDocPath=C:/OCCT-Build/OCCT-7_8_0/doc"
 
     rem for compatibility with external application using CASROOT
-    set "CASROOT=C:/OCCT-Build/OCCT-7_7_0"
+    set "CASROOT=C:/OCCT-Build/OCCT-7_8_0"
   ) 
 )

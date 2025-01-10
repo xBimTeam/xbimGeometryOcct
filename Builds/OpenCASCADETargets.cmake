@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS TKernel TKMath TKG2d TKG3d TKGeomBase TKBRep TKGeomAlgo TKTopAlgo TKPrim TKBO TKShHealing TKBool TKHLR TKFillet TKOffset TKFeat TKMesh TKXMesh TKCDF TKLCAF TKCAF TKBinL TKXmlL TKBin TKXml TKStdL TKStd TKTObj TKBinTObj TKXmlTObj TKVCAF TKService TKV3d TKXDE TKXSBase TKSTEPBase TKSTEPAttr TKSTEP209 TKSTEP TKIGES TKXCAF TKXDEIGES TKXDESTEP TKSTL TKVRML TKRWMesh TKXmlXCAF TKBinXCAF TKXDECascade TKExpress)
+foreach(_cmake_expected_target IN ITEMS TKernel TKMath TKG2d TKG3d TKGeomBase TKBRep TKGeomAlgo TKTopAlgo TKPrim TKBO TKShHealing TKBool TKHLR TKFillet TKOffset TKFeat TKMesh TKXMesh TKCDF TKLCAF TKCAF TKBinL TKXmlL TKBin TKXml TKStdL TKStd TKTObj TKBinTObj TKXmlTObj TKVCAF TKService TKV3d TKDE TKXSBase TKDESTEP TKXCAF TKDEIGES TKDESTL TKDEVRML TKRWMesh TKDECascade TKBinXCAF TKXmlXCAF TKDEOBJ TKDEGLTF TKDEPLY)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -277,10 +277,10 @@ set_target_properties(TKV3d PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKMath;TKernel;TKService;TKShHealing;TKTopAlgo;TKG2d;TKG3d;TKGeomBase;TKMesh;TKGeomAlgo;TKHLR;user32.lib;gdi32.lib;opengl32.lib"
 )
 
-# Create imported target TKXDE
-add_library(TKXDE SHARED IMPORTED)
+# Create imported target TKDE
+add_library(TKDE SHARED IMPORTED)
 
-set_target_properties(TKXDE PROPERTIES
+set_target_properties(TKDE PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKernel"
 )
 
@@ -291,39 +291,11 @@ set_target_properties(TKXSBase PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKernel;TKMath;TKG2d;TKG3d;TKTopAlgo;TKGeomBase;TKShHealing"
 )
 
-# Create imported target TKSTEPBase
-add_library(TKSTEPBase SHARED IMPORTED)
+# Create imported target TKDESTEP
+add_library(TKDESTEP SHARED IMPORTED)
 
-set_target_properties(TKSTEPBase PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKernel;TKXSBase;TKMath"
-)
-
-# Create imported target TKSTEPAttr
-add_library(TKSTEPAttr SHARED IMPORTED)
-
-set_target_properties(TKSTEPAttr PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKernel;TKXSBase;TKSTEPBase"
-)
-
-# Create imported target TKSTEP209
-add_library(TKSTEP209 SHARED IMPORTED)
-
-set_target_properties(TKSTEP209 PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKernel;TKXSBase;TKSTEPBase"
-)
-
-# Create imported target TKSTEP
-add_library(TKSTEP SHARED IMPORTED)
-
-set_target_properties(TKSTEP PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKernel;TKSTEPAttr;TKSTEP209;TKSTEPBase;TKBRep;TKMath;TKG2d;TKShHealing;TKTopAlgo;TKG3d;TKGeomBase;TKGeomAlgo;TKXSBase"
-)
-
-# Create imported target TKIGES
-add_library(TKIGES SHARED IMPORTED)
-
-set_target_properties(TKIGES PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKBRep;TKernel;TKMath;TKTopAlgo;TKShHealing;TKG2d;TKG3d;TKGeomBase;TKGeomAlgo;TKPrim;TKBool;TKXSBase"
+set_target_properties(TKDESTEP PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKDE;TKBRep;TKernel;TKMath;TKXSBase;TKTopAlgo;TKG2d;TKCAF;TKCDF;TKLCAF;TKG3d;TKXCAF;TKShHealing;TKernel;TKBRep;TKMath;TKG2d;TKShHealing;TKTopAlgo;TKG3d;TKGeomBase;TKGeomAlgo;TKXSBase"
 )
 
 # Create imported target TKXCAF
@@ -333,46 +305,39 @@ set_target_properties(TKXCAF PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKernel;TKMath;TKService;TKG2d;TKTopAlgo;TKV3d;TKCDF;TKLCAF;TKG3d;TKCAF;TKVCAF"
 )
 
-# Create imported target TKXDEIGES
-add_library(TKXDEIGES SHARED IMPORTED)
+# Create imported target TKDEIGES
+add_library(TKDEIGES SHARED IMPORTED)
 
-set_target_properties(TKXDEIGES PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKBRep;TKXDE;TKernel;TKMath;TKXSBase;TKCDF;TKLCAF;TKG2d;TKG3d;TKXCAF;TKIGES"
+set_target_properties(TKDEIGES PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKBRep;TKDE;TKernel;TKMath;TKTopAlgo;TKShHealing;TKXSBase;TKGeomBase;TKGeomAlgo;TKBool;TKPrim;TKCDF;TKLCAF;TKG2d;TKG3d;TKXCAF"
 )
 
-# Create imported target TKXDESTEP
-add_library(TKXDESTEP SHARED IMPORTED)
+# Create imported target TKDESTL
+add_library(TKDESTL SHARED IMPORTED)
 
-set_target_properties(TKXDESTEP PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKXDE;TKBRep;TKSTEPAttr;TKernel;TKMath;TKXSBase;TKTopAlgo;TKG2d;TKCAF;TKSTEPBase;TKCDF;TKLCAF;TKG3d;TKXCAF;TKSTEP;TKShHealing"
+set_target_properties(TKDESTL PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKDE;TKernel;TKMath;TKBRep;TKG2d;TKG3d;TKTopAlgo;TKLCAF;TKXCAF"
 )
 
-# Create imported target TKSTL
-add_library(TKSTL SHARED IMPORTED)
+# Create imported target TKDEVRML
+add_library(TKDEVRML SHARED IMPORTED)
 
-set_target_properties(TKSTL PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKXDE;TKernel;TKMath;TKBRep;TKG2d;TKG3d;TKTopAlgo;TKLCAF;TKXCAF"
-)
-
-# Create imported target TKVRML
-add_library(TKVRML SHARED IMPORTED)
-
-set_target_properties(TKVRML PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKBRep;TKXDE;TKTopAlgo;TKMath;TKGeomBase;TKernel;TKPrim;TKG2d;TKG3d;TKMesh;TKHLR;TKRWMesh;TKService;TKGeomAlgo;TKV3d;TKLCAF;TKXCAF;TKXSBase"
+set_target_properties(TKDEVRML PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKBRep;TKDE;TKTopAlgo;TKMath;TKGeomBase;TKernel;TKPrim;TKG2d;TKG3d;TKMesh;TKHLR;TKRWMesh;TKService;TKGeomAlgo;TKV3d;TKLCAF;TKXCAF;TKXSBase"
 )
 
 # Create imported target TKRWMesh
 add_library(TKRWMesh SHARED IMPORTED)
 
 set_target_properties(TKRWMesh PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKXDE;TKService"
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService"
 )
 
-# Create imported target TKXmlXCAF
-add_library(TKXmlXCAF SHARED IMPORTED)
+# Create imported target TKDECascade
+add_library(TKDECascade SHARED IMPORTED)
 
-set_target_properties(TKXmlXCAF PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKXmlL;TKBRep;TKCDF;TKMath;TKernel;TKService;TKG2d;TKGeomBase;TKCAF;TKG3d;TKLCAF;TKXCAF;TKXml"
+set_target_properties(TKDECascade PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKBin;TKBinL;TKBinTObj;TKBinXCAF;TKBRep;TKStd;TKXml;TKXmlL;TKXmlTObj;TKXmlXCAF;TKDE;TKernel;TKMath;TKLCAF;TKXCAF;TKStdL;TKCDF"
 )
 
 # Create imported target TKBinXCAF
@@ -382,18 +347,32 @@ set_target_properties(TKBinXCAF PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKXCAF;TKMath;TKService;TKernel;TKBinL;TKG2d;TKCAF;TKCDF;TKG3d;TKLCAF;TKBin"
 )
 
-# Create imported target TKXDECascade
-add_library(TKXDECascade SHARED IMPORTED)
+# Create imported target TKXmlXCAF
+add_library(TKXmlXCAF SHARED IMPORTED)
 
-set_target_properties(TKXDECascade PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKBin;TKBinL;TKBinTObj;TKBinXCAF;TKBRep;TKStd;TKXml;TKXmlL;TKXmlTObj;TKXmlXCAF;TKXDE;TKernel;TKMath;TKLCAF;TKXCAF;TKStdL;TKCDF"
+set_target_properties(TKXmlXCAF PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKXmlL;TKBRep;TKCDF;TKMath;TKernel;TKService;TKG2d;TKGeomBase;TKCAF;TKG3d;TKLCAF;TKXCAF;TKXml"
 )
 
-# Create imported target TKExpress
-add_library(TKExpress SHARED IMPORTED)
+# Create imported target TKDEOBJ
+add_library(TKDEOBJ SHARED IMPORTED)
 
-set_target_properties(TKExpress PROPERTIES
-  INTERFACE_LINK_LIBRARIES "TKernel"
+set_target_properties(TKDEOBJ PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService;TKRWMesh"
+)
+
+# Create imported target TKDEGLTF
+add_library(TKDEGLTF SHARED IMPORTED)
+
+set_target_properties(TKDEGLTF PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService;TKRWMesh"
+)
+
+# Create imported target TKDEPLY
+add_library(TKDEPLY SHARED IMPORTED)
+
+set_target_properties(TKDEPLY PROPERTIES
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService;TKRWMesh"
 )
 
 # Import target "TKernel" for configuration "Release"
@@ -627,11 +606,11 @@ set_target_properties(TKV3d PROPERTIES
   IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKV3d.dll"
   )
 
-# Import target "TKXDE" for configuration "Release"
-set_property(TARGET TKXDE APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDE PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKXDE.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXDE.dll"
+# Import target "TKDE" for configuration "Release"
+set_property(TARGET TKDE APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDE PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDE.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDE.dll"
   )
 
 # Import target "TKXSBase" for configuration "Release"
@@ -641,39 +620,11 @@ set_target_properties(TKXSBase PROPERTIES
   IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXSBase.dll"
   )
 
-# Import target "TKSTEPBase" for configuration "Release"
-set_property(TARGET TKSTEPBase APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEPBase PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKSTEPBase.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKSTEPBase.dll"
-  )
-
-# Import target "TKSTEPAttr" for configuration "Release"
-set_property(TARGET TKSTEPAttr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEPAttr PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKSTEPAttr.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKSTEPAttr.dll"
-  )
-
-# Import target "TKSTEP209" for configuration "Release"
-set_property(TARGET TKSTEP209 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEP209 PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKSTEP209.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKSTEP209.dll"
-  )
-
-# Import target "TKSTEP" for configuration "Release"
-set_property(TARGET TKSTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEP PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKSTEP.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKSTEP.dll"
-  )
-
-# Import target "TKIGES" for configuration "Release"
-set_property(TARGET TKIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKIGES PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKIGES.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKIGES.dll"
+# Import target "TKDESTEP" for configuration "Release"
+set_property(TARGET TKDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDESTEP PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDESTEP.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDESTEP.dll"
   )
 
 # Import target "TKXCAF" for configuration "Release"
@@ -683,32 +634,25 @@ set_target_properties(TKXCAF PROPERTIES
   IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXCAF.dll"
   )
 
-# Import target "TKXDEIGES" for configuration "Release"
-set_property(TARGET TKXDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDEIGES PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKXDEIGES.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXDEIGES.dll"
+# Import target "TKDEIGES" for configuration "Release"
+set_property(TARGET TKDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEIGES PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDEIGES.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDEIGES.dll"
   )
 
-# Import target "TKXDESTEP" for configuration "Release"
-set_property(TARGET TKXDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDESTEP PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKXDESTEP.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXDESTEP.dll"
+# Import target "TKDESTL" for configuration "Release"
+set_property(TARGET TKDESTL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDESTL PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDESTL.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDESTL.dll"
   )
 
-# Import target "TKSTL" for configuration "Release"
-set_property(TARGET TKSTL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTL PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKSTL.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKSTL.dll"
-  )
-
-# Import target "TKVRML" for configuration "Release"
-set_property(TARGET TKVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKVRML PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKVRML.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKVRML.dll"
+# Import target "TKDEVRML" for configuration "Release"
+set_property(TARGET TKDEVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEVRML PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDEVRML.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDEVRML.dll"
   )
 
 # Import target "TKRWMesh" for configuration "Release"
@@ -718,11 +662,11 @@ set_target_properties(TKRWMesh PROPERTIES
   IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKRWMesh.dll"
   )
 
-# Import target "TKXmlXCAF" for configuration "Release"
-set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXmlXCAF PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKXmlXCAF.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXmlXCAF.dll"
+# Import target "TKDECascade" for configuration "Release"
+set_property(TARGET TKDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDECascade PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDECascade.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDECascade.dll"
   )
 
 # Import target "TKBinXCAF" for configuration "Release"
@@ -732,18 +676,32 @@ set_target_properties(TKBinXCAF PROPERTIES
   IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKBinXCAF.dll"
   )
 
-# Import target "TKXDECascade" for configuration "Release"
-set_property(TARGET TKXDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDECascade PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKXDECascade.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXDECascade.dll"
+# Import target "TKXmlXCAF" for configuration "Release"
+set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKXmlXCAF PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKXmlXCAF.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKXmlXCAF.dll"
   )
 
-# Import target "TKExpress" for configuration "Release"
-set_property(TARGET TKExpress APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKExpress PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKExpress.lib"
-  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKExpress.dll"
+# Import target "TKDEOBJ" for configuration "Release"
+set_property(TARGET TKDEOBJ APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEOBJ PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDEOBJ.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDEOBJ.dll"
+  )
+
+# Import target "TKDEGLTF" for configuration "Release"
+set_property(TARGET TKDEGLTF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEGLTF PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDEGLTF.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDEGLTF.dll"
+  )
+
+# Import target "TKDEPLY" for configuration "Release"
+set_property(TARGET TKDEPLY APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEPLY PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "C:/OCCT-Build/Builds/win64/vc14/lib/TKDEPLY.lib"
+  IMPORTED_LOCATION_RELEASE "C:/OCCT-Build/Builds/win64/vc14/bin/TKDEPLY.dll"
   )
 
 # Import target "TKernel" for configuration "Debug"
@@ -977,11 +935,11 @@ set_target_properties(TKV3d PROPERTIES
   IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKV3d.dll"
   )
 
-# Import target "TKXDE" for configuration "Debug"
-set_property(TARGET TKXDE APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKXDE PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKXDE.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXDE.dll"
+# Import target "TKDE" for configuration "Debug"
+set_property(TARGET TKDE APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDE PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDE.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDE.dll"
   )
 
 # Import target "TKXSBase" for configuration "Debug"
@@ -991,39 +949,11 @@ set_target_properties(TKXSBase PROPERTIES
   IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXSBase.dll"
   )
 
-# Import target "TKSTEPBase" for configuration "Debug"
-set_property(TARGET TKSTEPBase APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKSTEPBase PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKSTEPBase.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKSTEPBase.dll"
-  )
-
-# Import target "TKSTEPAttr" for configuration "Debug"
-set_property(TARGET TKSTEPAttr APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKSTEPAttr PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKSTEPAttr.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKSTEPAttr.dll"
-  )
-
-# Import target "TKSTEP209" for configuration "Debug"
-set_property(TARGET TKSTEP209 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKSTEP209 PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKSTEP209.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKSTEP209.dll"
-  )
-
-# Import target "TKSTEP" for configuration "Debug"
-set_property(TARGET TKSTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKSTEP PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKSTEP.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKSTEP.dll"
-  )
-
-# Import target "TKIGES" for configuration "Debug"
-set_property(TARGET TKIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKIGES PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKIGES.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKIGES.dll"
+# Import target "TKDESTEP" for configuration "Debug"
+set_property(TARGET TKDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDESTEP PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDESTEP.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDESTEP.dll"
   )
 
 # Import target "TKXCAF" for configuration "Debug"
@@ -1033,32 +963,25 @@ set_target_properties(TKXCAF PROPERTIES
   IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXCAF.dll"
   )
 
-# Import target "TKXDEIGES" for configuration "Debug"
-set_property(TARGET TKXDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKXDEIGES PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKXDEIGES.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXDEIGES.dll"
+# Import target "TKDEIGES" for configuration "Debug"
+set_property(TARGET TKDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDEIGES PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDEIGES.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDEIGES.dll"
   )
 
-# Import target "TKXDESTEP" for configuration "Debug"
-set_property(TARGET TKXDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKXDESTEP PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKXDESTEP.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXDESTEP.dll"
+# Import target "TKDESTL" for configuration "Debug"
+set_property(TARGET TKDESTL APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDESTL PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDESTL.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDESTL.dll"
   )
 
-# Import target "TKSTL" for configuration "Debug"
-set_property(TARGET TKSTL APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKSTL PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKSTL.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKSTL.dll"
-  )
-
-# Import target "TKVRML" for configuration "Debug"
-set_property(TARGET TKVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKVRML PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKVRML.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKVRML.dll"
+# Import target "TKDEVRML" for configuration "Debug"
+set_property(TARGET TKDEVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDEVRML PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDEVRML.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDEVRML.dll"
   )
 
 # Import target "TKRWMesh" for configuration "Debug"
@@ -1068,11 +991,11 @@ set_target_properties(TKRWMesh PROPERTIES
   IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKRWMesh.dll"
   )
 
-# Import target "TKXmlXCAF" for configuration "Debug"
-set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKXmlXCAF PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKXmlXCAF.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXmlXCAF.dll"
+# Import target "TKDECascade" for configuration "Debug"
+set_property(TARGET TKDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDECascade PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDECascade.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDECascade.dll"
   )
 
 # Import target "TKBinXCAF" for configuration "Debug"
@@ -1082,18 +1005,32 @@ set_target_properties(TKBinXCAF PROPERTIES
   IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKBinXCAF.dll"
   )
 
-# Import target "TKXDECascade" for configuration "Debug"
-set_property(TARGET TKXDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKXDECascade PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKXDECascade.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXDECascade.dll"
+# Import target "TKXmlXCAF" for configuration "Debug"
+set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKXmlXCAF PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKXmlXCAF.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKXmlXCAF.dll"
   )
 
-# Import target "TKExpress" for configuration "Debug"
-set_property(TARGET TKExpress APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-set_target_properties(TKExpress PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKExpress.lib"
-  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKExpress.dll"
+# Import target "TKDEOBJ" for configuration "Debug"
+set_property(TARGET TKDEOBJ APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDEOBJ PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDEOBJ.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDEOBJ.dll"
+  )
+
+# Import target "TKDEGLTF" for configuration "Debug"
+set_property(TARGET TKDEGLTF APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDEGLTF PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDEGLTF.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDEGLTF.dll"
+  )
+
+# Import target "TKDEPLY" for configuration "Debug"
+set_property(TARGET TKDEPLY APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(TKDEPLY PROPERTIES
+  IMPORTED_IMPLIB_DEBUG "C:/OCCT-Build/Builds/win64/vc14/libd/TKDEPLY.lib"
+  IMPORTED_LOCATION_DEBUG "C:/OCCT-Build/Builds/win64/vc14/bind/TKDEPLY.dll"
   )
 
 # Import target "TKernel" for configuration "RelWithDebInfo"
@@ -1327,11 +1264,11 @@ set_target_properties(TKV3d PROPERTIES
   IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKV3d.dll"
   )
 
-# Import target "TKXDE" for configuration "RelWithDebInfo"
-set_property(TARGET TKXDE APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKXDE PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKXDE.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXDE.dll"
+# Import target "TKDE" for configuration "RelWithDebInfo"
+set_property(TARGET TKDE APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDE PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDE.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDE.dll"
   )
 
 # Import target "TKXSBase" for configuration "RelWithDebInfo"
@@ -1341,39 +1278,11 @@ set_target_properties(TKXSBase PROPERTIES
   IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXSBase.dll"
   )
 
-# Import target "TKSTEPBase" for configuration "RelWithDebInfo"
-set_property(TARGET TKSTEPBase APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKSTEPBase PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKSTEPBase.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKSTEPBase.dll"
-  )
-
-# Import target "TKSTEPAttr" for configuration "RelWithDebInfo"
-set_property(TARGET TKSTEPAttr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKSTEPAttr PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKSTEPAttr.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKSTEPAttr.dll"
-  )
-
-# Import target "TKSTEP209" for configuration "RelWithDebInfo"
-set_property(TARGET TKSTEP209 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKSTEP209 PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKSTEP209.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKSTEP209.dll"
-  )
-
-# Import target "TKSTEP" for configuration "RelWithDebInfo"
-set_property(TARGET TKSTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKSTEP PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKSTEP.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKSTEP.dll"
-  )
-
-# Import target "TKIGES" for configuration "RelWithDebInfo"
-set_property(TARGET TKIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKIGES PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKIGES.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKIGES.dll"
+# Import target "TKDESTEP" for configuration "RelWithDebInfo"
+set_property(TARGET TKDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDESTEP PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDESTEP.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDESTEP.dll"
   )
 
 # Import target "TKXCAF" for configuration "RelWithDebInfo"
@@ -1383,32 +1292,25 @@ set_target_properties(TKXCAF PROPERTIES
   IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXCAF.dll"
   )
 
-# Import target "TKXDEIGES" for configuration "RelWithDebInfo"
-set_property(TARGET TKXDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKXDEIGES PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKXDEIGES.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXDEIGES.dll"
+# Import target "TKDEIGES" for configuration "RelWithDebInfo"
+set_property(TARGET TKDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDEIGES PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDEIGES.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDEIGES.dll"
   )
 
-# Import target "TKXDESTEP" for configuration "RelWithDebInfo"
-set_property(TARGET TKXDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKXDESTEP PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKXDESTEP.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXDESTEP.dll"
+# Import target "TKDESTL" for configuration "RelWithDebInfo"
+set_property(TARGET TKDESTL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDESTL PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDESTL.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDESTL.dll"
   )
 
-# Import target "TKSTL" for configuration "RelWithDebInfo"
-set_property(TARGET TKSTL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKSTL PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKSTL.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKSTL.dll"
-  )
-
-# Import target "TKVRML" for configuration "RelWithDebInfo"
-set_property(TARGET TKVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKVRML PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKVRML.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKVRML.dll"
+# Import target "TKDEVRML" for configuration "RelWithDebInfo"
+set_property(TARGET TKDEVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDEVRML PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDEVRML.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDEVRML.dll"
   )
 
 # Import target "TKRWMesh" for configuration "RelWithDebInfo"
@@ -1418,11 +1320,11 @@ set_target_properties(TKRWMesh PROPERTIES
   IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKRWMesh.dll"
   )
 
-# Import target "TKXmlXCAF" for configuration "RelWithDebInfo"
-set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKXmlXCAF PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKXmlXCAF.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXmlXCAF.dll"
+# Import target "TKDECascade" for configuration "RelWithDebInfo"
+set_property(TARGET TKDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDECascade PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDECascade.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDECascade.dll"
   )
 
 # Import target "TKBinXCAF" for configuration "RelWithDebInfo"
@@ -1432,18 +1334,32 @@ set_target_properties(TKBinXCAF PROPERTIES
   IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKBinXCAF.dll"
   )
 
-# Import target "TKXDECascade" for configuration "RelWithDebInfo"
-set_property(TARGET TKXDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKXDECascade PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKXDECascade.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXDECascade.dll"
+# Import target "TKXmlXCAF" for configuration "RelWithDebInfo"
+set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKXmlXCAF PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKXmlXCAF.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKXmlXCAF.dll"
   )
 
-# Import target "TKExpress" for configuration "RelWithDebInfo"
-set_property(TARGET TKExpress APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(TKExpress PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKExpress.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKExpress.dll"
+# Import target "TKDEOBJ" for configuration "RelWithDebInfo"
+set_property(TARGET TKDEOBJ APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDEOBJ PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDEOBJ.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDEOBJ.dll"
+  )
+
+# Import target "TKDEGLTF" for configuration "RelWithDebInfo"
+set_property(TARGET TKDEGLTF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDEGLTF PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDEGLTF.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDEGLTF.dll"
+  )
+
+# Import target "TKDEPLY" for configuration "RelWithDebInfo"
+set_property(TARGET TKDEPLY APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(TKDEPLY PROPERTIES
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/libi/TKDEPLY.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/OCCT-Build/Builds/win64/vc14/bini/TKDEPLY.dll"
   )
 
 # This file does not depend on other imported targets which have
