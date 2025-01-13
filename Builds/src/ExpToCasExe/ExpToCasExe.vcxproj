@@ -220,10 +220,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExpToCasExe\lex.exptocas.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExpToCasExe\exptocas.tab.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\ExpToCasExe\ExpToCasExe.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\ExpToCasExe\exptocas.tab.hxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\ExpToCasExe\lex.exptocas.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\ExpToCasExe\exptocas.tab.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\ExpToCasExe\ExpToCasExe.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\ExpToCasExe\exptocas.tab.hxx" />
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\ExpToCasExe.rc" />
   </ItemGroup>
   <ItemGroup />

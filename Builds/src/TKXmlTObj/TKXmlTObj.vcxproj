@@ -221,22 +221,22 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.hxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.hxx" />
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXmlTObj.rc" />
   </ItemGroup>
   <ItemGroup />

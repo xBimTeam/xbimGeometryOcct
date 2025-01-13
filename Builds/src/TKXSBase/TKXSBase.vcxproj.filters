@@ -1,1793 +1,1793 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_BitMap.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_BitMap.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Category.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Category.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Check.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Check.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CheckIterator.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CheckTool.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyControl.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CopyControl.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyMap.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CopyMap.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CopyTool.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityCluster.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_EntityCluster.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_EntityIterator.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_EntityList.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileParameter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FileParameter.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FileReaderData.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FileReaderTool.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FloatWriter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FloatWriter.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GeneralLib_0.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralModule.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GeneralModule.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfGeneralLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GlobalNodeOfGeneralLib_0.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfReaderLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GlobalNodeOfReaderLib_0.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Graph.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Graph.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GraphContent.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GraphContent.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GTool.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HGraph.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_HGraph.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceModel.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_InterfaceModel.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntList.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntVal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntVal.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_LineBuffer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_LineBuffer.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MapAsciiStringHasher.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MapAsciiStringHasher.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MSG.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MSG.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfGeneralLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfGeneralLib_0.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfReaderLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfReaderLib_0.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ParamList.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ParamSet.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Protocol.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Protocol.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ReaderLib_0.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderModule.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ReaderModule.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReportEntity.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ReportEntity.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareFlags.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ShareFlags.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ShareTool.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignLabel.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_SignLabel.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignType.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_SignType.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_STAT.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_STAT.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Static.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Static.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_StaticStandards.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_StaticStandards.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_TypedValue.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_TypedValue.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_UndefinedContent.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_UndefinedContent.cxx">
       <Filter>Source Files\Interface</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorDispatch.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorDispatch.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfFinderProcess.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfFinderProcess.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForFinder_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfProcessForFinder_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForTransient_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfProcessForTransient_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfTransientProcess.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfTransientProcess.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Binder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_Binder.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_BinderOfTransientInteger.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_BinderOfTransientInteger.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DataInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_DataInfo.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DispatchControl.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_DispatchControl.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Finder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_Finder.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FinderProcess.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_FinderProcess.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FindHasher.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_FindHasher.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForFinder_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_IteratorOfProcessForFinder_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForTransient_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_IteratorOfProcessForTransient_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MapContainer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_MapContainer.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MultipleBinder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_MultipleBinder.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForFinder_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ProcessForFinder_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForTransient_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ProcessForTransient_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromModel.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ResultFromModel.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromTransient.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ResultFromTransient.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SimpleBinderOfTransient.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_SimpleBinderOfTransient.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferDispatch.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferDispatch.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferInput.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferInput.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferIterator.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferOutput.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferOutput.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientListBinder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransientListBinder.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientMapper_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransientMapper_0.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientProcess.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransientProcess.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_VoidBinder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_VoidBinder.cxx">
       <Filter>Source Files\Transfer</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllConnected.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_AllConnected.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllShared.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_AllShared.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Articulations.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Articulations.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Compare.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Compare.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ConnectedComponants.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_ConnectedComponants.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cumulate.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Cumulate.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cycles.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Cycles.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ExternalSources.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_ExternalSources.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SCRoots.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_SCRoots.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_StrongComponants.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_StrongComponants.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SubPartsIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_SubPartsIterator.cxx">
       <Filter>Source Files\IFGraph</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Act.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Act.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Activator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Activator.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_AppliedModifiers.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_AppliedModifiers.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_BasicDumper.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_BasicDumper.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_CheckCounter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_CheckCounter.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextModif.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ContextModif.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextWrite.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ContextWrite.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Dispatch.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Dispatch.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispGlobal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispGlobal.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerCount.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerCount.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerFiles.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerFiles.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerOne.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerOne.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerSignature.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerSignature.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_EditForm.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_EditForm.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Editor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Editor.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Functions.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Functions.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GeneralModifier.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_GeneralModifier.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GraphCounter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_GraphCounter.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_IntParam.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_IntParam.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ListEditor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ListEditor.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModelCopier.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ModelCopier.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifEditForm.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ModifEditForm.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Modifier.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Modifier.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifReorder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ModifReorder.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PacketList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_PacketList.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ParamEditor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ParamEditor.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectAnyList.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyType.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectAnyType.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectBase.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectBase.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectCombine.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectCombine.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectControl.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectControl.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDeduct.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectDeduct.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDiff.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectDiff.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectEntityNumber.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectEntityNumber.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectErrorEntities.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectErrorEntities.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExplore.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectExplore.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExtract.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectExtract.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectFlag.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectFlag.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIncorrectEntities.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectIncorrectEntities.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectInList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectInList.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIntersection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectIntersection.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Selection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Selection.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectionIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectionIterator.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelEntities.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectModelEntities.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelRoots.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectModelRoots.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectPointed.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectPointed.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRange.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectRange.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRootComps.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectRootComps.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRoots.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectRoots.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSent.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSent.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectShared.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectShared.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSharing.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSharing.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignature.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSignature.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedShared.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSignedShared.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedSharing.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSignedSharing.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSuite.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSuite.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectType.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectType.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnion.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectUnion.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnknownEntities.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectUnknownEntities.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionDumper.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SessionDumper.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionFile.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SessionFile.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionPilot.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SessionPilot.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOut.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ShareOut.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOutResult.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ShareOutResult.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignAncestor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignAncestor.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Signature.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Signature.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignatureList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignatureList.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCategory.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignCategory.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCounter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignCounter.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignMultiple.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignMultiple.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignType.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignType.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignValidity.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignValidity.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Transformer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Transformer.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TransformStandard.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_TransformStandard.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkLibrary.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_WorkLibrary.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkSession.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_WorkSession.cxx">
       <Filter>Source Files\IFSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_BinderOfShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_BinderOfShape.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_OrientedShapeMapper_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_OrientedShapeMapper_0.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_Reader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_Reader.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeBinder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeBinder.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeInfo.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeListBinder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeListBinder.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeMapper_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeMapper_0.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_TransferResultInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_TransferResultInfo.cxx">
       <Filter>Source Files\TransferBRep</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_ConnectedShapes.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_ConnectedShapes.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Controller.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Controller.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_FuncShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_FuncShape.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Functions.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Functions.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Reader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Reader.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SelectForTransfer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_SelectForTransfer.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SignTransferStatus.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_SignTransferStatus.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferReader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_TransferReader.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferWriter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_TransferWriter.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Utils.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Utils.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Vars.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Vars.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_WorkSession.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_WorkSession.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Writer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Writer.cxx">
       <Filter>Source Files\XSControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_DefaultGeneral.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_DefaultGeneral.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Described.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Described.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ECDescr.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ECDescr.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EDescr.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EDescr.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EnumTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EnumTool.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ESDescr.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ESDescr.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Field.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Field.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList1.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList1.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListD.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListD.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListN.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListN.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileProtocol.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileProtocol.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileRecognizer_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileRecognizer_0.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FreeFormEntity.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FreeFormEntity.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GeneralModule.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GeneralModule.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalFactors.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalFactors.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalNodeOfWriterLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalNodeOfWriterLib_0.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_NodeOfWriterLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_NodeOfWriterLib_0.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_PDescr.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_PDescr.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Plex.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Plex.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Protocol.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Protocol.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ReadWriteModule.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ReadWriteModule.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectArrReal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectArrReal.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectInt.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectInt.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectMember.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectMember.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectNamed.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectNamed.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectReal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectReal.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectType.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectType.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Simple.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Simple.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepDumper.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepDumper.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepModel.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepModel.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderData.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderTool.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepWriter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepWriter.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_UndefinedEntity.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_UndefinedEntity.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_WriterLib_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_WriterLib_0.cxx">
       <Filter>Source Files\StepData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\lex.step.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\lex.step.cxx">
       <Filter>Source Files\StepFile</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\step.tab.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\step.tab.cxx">
       <Filter>Source Files\StepFile</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_ReadData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_ReadData.cxx">
       <Filter>Source Files\StepFile</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_Read.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_Read.cxx">
       <Filter>Source Files\StepFile</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection.cxx">
       <Filter>Source Files\HeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileDescription.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileDescription.cxx">
       <Filter>Source Files\HeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileName.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileName.cxx">
       <Filter>Source Files\HeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileSchema.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileSchema.cxx">
       <Filter>Source Files\HeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_Protocol.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_Protocol.cxx">
       <Filter>Source Files\HeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection.cxx">
       <Filter>Source Files\RWHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_GeneralModule.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_GeneralModule.cxx">
       <Filter>Source Files\RWHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.cxx">
       <Filter>Source Files\RWHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileDescription.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileDescription.cxx">
       <Filter>Source Files\RWHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileName.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileName.cxx">
       <Filter>Source Files\RWHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileSchema.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileSchema.cxx">
       <Filter>Source Files\RWHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_EditHeader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_EditHeader.cxx">
       <Filter>Source Files\APIHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_MakeHeader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_MakeHeader.cxx">
       <Filter>Source Files\APIHeaderSection</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_Activator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_Activator.cxx">
       <Filter>Source Files\StepSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FileModifier_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FileModifier_0.cxx">
       <Filter>Source Files\StepSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FloatFormat.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FloatFormat.cxx">
       <Filter>Source Files\StepSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_ModelModifier_0.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_ModelModifier_0.cxx">
       <Filter>Source Files\StepSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_StepType.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_StepType.cxx">
       <Filter>Source Files\StepSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_WorkLibrary.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_WorkLibrary.cxx">
       <Filter>Source Files\StepSelect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo.cxx">
       <Filter>Source Files\XSAlgo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_AlgoContainer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_AlgoContainer.cxx">
       <Filter>Source Files\XSAlgo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_ToolContainer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_ToolContainer.cxx">
       <Filter>Source Files\XSAlgo</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_AttrList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_AttrList.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_CaseData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_CaseData.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataInfo.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Element.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Element.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ElemHasher.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ElemHasher.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_IntVal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_IntVal.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_MTHasher.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_MTHasher.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_RealVal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_RealVal.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignShape.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignText.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignText.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Stat.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Stat.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Timer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Timer.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TimerSentry.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TimerSentry.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TransientElem.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TransientElem.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TypedValue.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TypedValue.cxx">
       <Filter>Source Files\MoniTool</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Array1OfFileParameter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Array1OfFileParameter.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Array1OfHAsciiString.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Array1OfHAsciiString.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_BitMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_BitMap.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Category.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Category.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Check.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Check.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckFailure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CheckFailure.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CheckIterator.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckStatus.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CheckStatus.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CheckTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CheckTool.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyControl.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CopyControl.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CopyMap.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_CopyTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_CopyTool.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_DataMapOfTransientInteger.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_DataMapOfTransientInteger.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_DataState.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_DataState.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityCluster.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_EntityCluster.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_EntityIterator.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_EntityList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_EntityList.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileParameter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FileParameter.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FileReaderData.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FileReaderTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FileReaderTool.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_FloatWriter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_FloatWriter.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GeneralLib.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GeneralModule.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GeneralModule.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfGeneralLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GlobalNodeOfGeneralLib.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GlobalNodeOfReaderLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GlobalNodeOfReaderLib.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Graph.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Graph.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GraphContent.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GraphContent.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_GTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_GTool.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HArray1OfHAsciiString.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_HArray1OfHAsciiString.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HGraph.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_HGraph.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_HSequenceOfCheck.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_HSequenceOfCheck.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IndexedMapOfAsciiString.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IndexedMapOfAsciiString.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_InterfaceError.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceMismatch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_InterfaceMismatch.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_InterfaceModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_InterfaceModel.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntList.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_IntVal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntVal.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_LineBuffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_LineBuffer.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Macros.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Macros.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MapAsciiStringHasher.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MapAsciiStringHasher.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_MSG.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MSG.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfGeneralLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfGeneralLib.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_NodeOfReaderLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfReaderLib.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ParamList.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ParamSet.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ParamType.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Protocol.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Protocol.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ReaderLib.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReaderModule.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ReaderModule.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ReportEntity.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ReportEntity.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SequenceOfCheck.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_SequenceOfCheck.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareFlags.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ShareFlags.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ShareTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ShareTool.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignLabel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_SignLabel.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_SignType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_SignType.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_STAT.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_STAT.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Static.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Static.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Statics.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Statics.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_StaticSatisfies.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_StaticSatisfies.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Translates.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Translates.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_TypedValue.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_TypedValue.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_UndefinedContent.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_UndefinedContent.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ValueInterpret.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ValueInterpret.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ValueSatisfies.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ValueSatisfies.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_VectorOfFileParameter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_VectorOfFileParameter.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_Version.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Version.hxx">
       <Filter>Header Files\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorDispatch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorDispatch.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfFinderProcess.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfFinderProcess.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForFinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfProcessForFinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfProcessForTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfProcessForTransient.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ActorOfTransientProcess.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ActorOfTransientProcess.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Binder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_Binder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_BinderOfTransientInteger.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_BinderOfTransientInteger.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DataInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_DataInfo.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_DispatchControl.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_DispatchControl.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_Finder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_Finder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FinderProcess.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_FinderProcess.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_FindHasher.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_FindHasher.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_HSequenceOfBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_HSequenceOfBinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_HSequenceOfFinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_HSequenceOfFinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForFinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_IteratorOfProcessForFinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_IteratorOfProcessForTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_IteratorOfProcessForTransient.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MapContainer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_MapContainer.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_MultipleBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_MultipleBinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForFinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ProcessForFinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ProcessForTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ProcessForTransient.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ResultFromModel.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_ResultFromTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_ResultFromTransient.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SequenceOfBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_SequenceOfBinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SequenceOfFinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_SequenceOfFinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_SimpleBinderOfTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_SimpleBinderOfTransient.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_StatusExec.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_StatusExec.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_StatusResult.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_StatusResult.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferDeadLoop.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferDeadLoop.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferDispatch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferDispatch.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferFailure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferFailure.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferInput.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferInput.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferIterator.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferMapOfProcessForFinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferMapOfProcessForFinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferMapOfProcessForTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferMapOfProcessForTransient.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransferOutput.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransferOutput.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientListBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransientListBinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientMapper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransientMapper.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_TransientProcess.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_TransientProcess.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_UndefMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_UndefMode.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Transfer\Transfer_VoidBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_VoidBinder.hxx">
       <Filter>Header Files\Transfer</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllConnected.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_AllConnected.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_AllShared.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_AllShared.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Articulations.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Articulations.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Compare.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Compare.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ConnectedComponants.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_ConnectedComponants.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cumulate.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Cumulate.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_Cycles.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_Cycles.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_ExternalSources.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_ExternalSources.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SCRoots.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_SCRoots.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_StrongComponants.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_StrongComponants.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFGraph\IFGraph_SubPartsIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFGraph\IFGraph_SubPartsIterator.hxx">
       <Filter>Header Files\IFGraph</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Act.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Act.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ActFunc.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ActFunc.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Activator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Activator.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_AppliedModifiers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_AppliedModifiers.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_BasicDumper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_BasicDumper.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_CheckCounter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_CheckCounter.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextModif.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ContextModif.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ContextWrite.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ContextWrite.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Dispatch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Dispatch.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispGlobal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispGlobal.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerCount.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerCount.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerFiles.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerFiles.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerOne.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerOne.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_DispPerSignature.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_DispPerSignature.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_EditForm.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_EditForm.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Editor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Editor.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_EditValue.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_EditValue.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Functions.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Functions.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GeneralModifier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_GeneralModifier.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_GraphCounter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_GraphCounter.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_HSeqOfSelection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_HSeqOfSelection.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_IntParam.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_IntParam.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ListEditor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ListEditor.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModelCopier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ModelCopier.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifEditForm.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ModifEditForm.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Modifier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Modifier.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ModifReorder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ModifReorder.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PacketList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_PacketList.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ParamEditor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ParamEditor.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PrintCount.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_PrintCount.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_PrintFail.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_PrintFail.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_RemainMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_RemainMode.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ReturnStatus.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ReturnStatus.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectAnyList.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectAnyType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectAnyType.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectBase.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectBase.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectCombine.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectCombine.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectControl.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectControl.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDeduct.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectDeduct.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectDiff.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectDiff.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectEntityNumber.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectEntityNumber.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectErrorEntities.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectErrorEntities.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExplore.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectExplore.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectExtract.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectExtract.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectFlag.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectFlag.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIncorrectEntities.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectIncorrectEntities.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectInList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectInList.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectIntersection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectIntersection.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Selection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Selection.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectionIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectionIterator.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelEntities.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectModelEntities.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectModelRoots.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectModelRoots.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectPointed.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectPointed.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRange.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectRange.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRootComps.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectRootComps.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectRoots.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectRoots.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSent.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSent.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectShared.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectShared.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSharing.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSharing.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignature.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSignature.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedShared.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSignedShared.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSignedSharing.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSignedSharing.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectSuite.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectSuite.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectType.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnion.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectUnion.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SelectUnknownEntities.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SelectUnknownEntities.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SequenceOfAppliedModifiers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SequenceOfAppliedModifiers.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SequenceOfGeneralModifier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SequenceOfGeneralModifier.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SequenceOfInterfaceModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SequenceOfInterfaceModel.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionDumper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SessionDumper.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionFile.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SessionFile.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SessionPilot.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SessionPilot.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOut.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ShareOut.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_ShareOutResult.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_ShareOutResult.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignAncestor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignAncestor.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Signature.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Signature.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignatureList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignatureList.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCategory.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignCategory.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignCounter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignCounter.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignMultiple.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignMultiple.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignType.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_SignValidity.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_SignValidity.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_Transformer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_Transformer.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TransformStandard.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_TransformStandard.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TSeqOfDispatch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_TSeqOfDispatch.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_TSeqOfSelection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_TSeqOfSelection.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkLibrary.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_WorkLibrary.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IFSelect\IFSelect_WorkSession.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_WorkSession.hxx">
       <Filter>Header Files\IFSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_BinderOfShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_BinderOfShape.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_HSequenceOfTransferResultInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_HSequenceOfTransferResultInfo.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_OrientedShapeMapper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_OrientedShapeMapper.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_Reader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_Reader.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_SequenceOfTransferResultInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_SequenceOfTransferResultInfo.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeBinder.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeInfo.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeListBinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeListBinder.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_ShapeMapper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeMapper.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_TransferResultInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_TransferResultInfo.hxx">
       <Filter>Header Files\TransferBRep</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_ConnectedShapes.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_ConnectedShapes.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Controller.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Controller.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_FuncShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_FuncShape.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Functions.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Functions.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Reader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Reader.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SelectForTransfer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_SelectForTransfer.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_SignTransferStatus.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_SignTransferStatus.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferReader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_TransferReader.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_TransferWriter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_TransferWriter.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Utils.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Utils.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Vars.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Vars.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_WorkSession.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_WorkSession.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSControl\XSControl_Writer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Writer.hxx">
       <Filter>Header Files\XSControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Array1OfField.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Array1OfField.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_DefaultGeneral.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_DefaultGeneral.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Described.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Described.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ECDescr.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ECDescr.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EDescr.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EDescr.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_EnumTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EnumTool.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ESDescr.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ESDescr.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Field.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Field.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldList1.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList1.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListD.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListD.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FieldListN.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListN.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileProtocol.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileProtocol.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FileRecognizer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileRecognizer.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_FreeFormEntity.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FreeFormEntity.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GeneralModule.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GeneralModule.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalFactors.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalFactors.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_GlobalNodeOfWriterLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalNodeOfWriterLib.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_HArray1OfField.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_HArray1OfField.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Logical.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Logical.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_NodeOfWriterLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_NodeOfWriterLib.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_PDescr.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_PDescr.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Plex.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Plex.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Protocol.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Protocol.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_ReadWriteModule.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ReadWriteModule.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectArrReal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectArrReal.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectInt.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectInt.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectMember.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectMember.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectNamed.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectNamed.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectReal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectReal.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_SelectType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectType.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_Simple.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Simple.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepDumper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepDumper.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepModel.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderData.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepReaderTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderTool.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_StepWriter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepWriter.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_UndefinedEntity.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_UndefinedEntity.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepData\StepData_WriterLib.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_WriterLib.hxx">
       <Filter>Header Files\StepData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\step.tab.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\step.tab.hxx">
       <Filter>Header Files\StepFile</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_ReadData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_ReadData.hxx">
       <Filter>Header Files\StepFile</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\StepFile_Read.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_Read.hxx">
       <Filter>Header Files\StepFile</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepFile\FlexLexer.h">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\FlexLexer.h">
       <Filter>Header Files\StepFile</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection.hxx">
       <Filter>Header Files\HeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileDescription.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileDescription.hxx">
       <Filter>Header Files\HeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileName.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileName.hxx">
       <Filter>Header Files\HeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_FileSchema.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileSchema.hxx">
       <Filter>Header Files\HeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\HeaderSection\HeaderSection_Protocol.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_Protocol.hxx">
       <Filter>Header Files\HeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection.hxx">
       <Filter>Header Files\RWHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_GeneralModule.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_GeneralModule.hxx">
       <Filter>Header Files\RWHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.hxx">
       <Filter>Header Files\RWHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileDescription.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileDescription.hxx">
       <Filter>Header Files\RWHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileName.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileName.hxx">
       <Filter>Header Files\RWHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWHeaderSection\RWHeaderSection_RWFileSchema.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileSchema.hxx">
       <Filter>Header Files\RWHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_EditHeader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_EditHeader.hxx">
       <Filter>Header Files\APIHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\APIHeaderSection\APIHeaderSection_MakeHeader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_MakeHeader.hxx">
       <Filter>Header Files\APIHeaderSection</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_Activator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_Activator.hxx">
       <Filter>Header Files\StepSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FileModifier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FileModifier.hxx">
       <Filter>Header Files\StepSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_FloatFormat.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FloatFormat.hxx">
       <Filter>Header Files\StepSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_ModelModifier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_ModelModifier.hxx">
       <Filter>Header Files\StepSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_StepType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_StepType.hxx">
       <Filter>Header Files\StepSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StepSelect\StepSelect_WorkLibrary.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_WorkLibrary.hxx">
       <Filter>Header Files\StepSelect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo.hxx">
       <Filter>Header Files\XSAlgo</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_AlgoContainer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_AlgoContainer.hxx">
       <Filter>Header Files\XSAlgo</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_Caller.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_Caller.hxx">
       <Filter>Header Files\XSAlgo</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_ToolContainer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_ToolContainer.hxx">
       <Filter>Header Files\XSAlgo</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_AttrList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_AttrList.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_CaseData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_CaseData.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataInfo.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapIteratorOfDataMapOfTimer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataMapIteratorOfDataMapOfTimer.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapOfShapeTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataMapOfShapeTransient.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_DataMapOfTimer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataMapOfTimer.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Element.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Element.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ElemHasher.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ElemHasher.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_HSequenceOfElement.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_HSequenceOfElement.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_IndexedDataMapOfShapeTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_IndexedDataMapOfShapeTransient.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_IntVal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_IntVal.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Macros.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Macros.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_MTHasher.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_MTHasher.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_RealVal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_RealVal.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SequenceOfElement.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SequenceOfElement.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignShape.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_SignText.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignText.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Stat.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Stat.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Timer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Timer.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TimerSentry.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TimerSentry.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TransientElem.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TransientElem.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TypedValue.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TypedValue.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ValueInterpret.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ValueInterpret.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ValueSatisfies.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ValueSatisfies.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_ValueType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ValueType.hxx">
       <Filter>Header Files\MoniTool</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Interface\Interface_ParamList.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\Interface\Interface_ParamList.lxx">
       <Filter>Header Files\Interface</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\TransferBRep\TransferBRep_TransferResultInfo.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_TransferResultInfo.lxx">
       <Filter>Header Files\TransferBRep</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\XSAlgo\XSAlgo_AlgoContainer.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_AlgoContainer.lxx">
       <Filter>Header Files\XSAlgo</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_MTHasher.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_MTHasher.lxx">
       <Filter>Header Files\MoniTool</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_Timer.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Timer.lxx">
       <Filter>Header Files\MoniTool</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\MoniTool\MoniTool_TimerSentry.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TimerSentry.lxx">
       <Filter>Header Files\MoniTool</Filter>
     </None>
   </ItemGroup>

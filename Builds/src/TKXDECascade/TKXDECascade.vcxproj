@@ -221,14 +221,14 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_Provider.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_Provider.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_Provider.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_Provider.hxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_Provider.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_Provider.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_Provider.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_Provider.hxx" />
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXDECascade.rc" />
   </ItemGroup>
   <ItemGroup />

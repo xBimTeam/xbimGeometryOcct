@@ -1,119 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlXCAFDrivers\XmlXCAFDrivers.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlXCAFDrivers\XmlXCAFDrivers.cxx">
       <Filter>Source Files\XmlXCAFDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentRetrievalDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentRetrievalDriver.cxx">
       <Filter>Source Files\XmlXCAFDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentStorageDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentStorageDriver.cxx">
       <Filter>Source Files\XmlXCAFDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_AssemblyItemRefDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_AssemblyItemRefDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_CentroidDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_CentroidDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_ColorDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_ColorDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_DatumDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_DatumDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_DimTolDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_DimTolDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_GraphNodeDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_GraphNodeDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_LengthUnitDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_LengthUnitDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_LocationDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_LocationDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_MaterialDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_MaterialDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteCommentDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteCommentDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteBinDataDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteBinDataDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialToolDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialToolDriver.cxx">
       <Filter>Source Files\XmlMXCAFDoc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlXCAFDrivers\XmlXCAFDrivers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlXCAFDrivers\XmlXCAFDrivers.hxx">
       <Filter>Header Files\XmlXCAFDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentRetrievalDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentRetrievalDriver.hxx">
       <Filter>Header Files\XmlXCAFDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentStorageDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlXCAFDrivers\XmlXCAFDrivers_DocumentStorageDriver.hxx">
       <Filter>Header Files\XmlXCAFDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_AssemblyItemRefDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_AssemblyItemRefDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_CentroidDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_CentroidDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_ColorDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_ColorDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_DatumDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_DatumDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_DimTolDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_DimTolDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_GraphNodeDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_GraphNodeDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_LengthUnitDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_LengthUnitDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_LocationDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_LocationDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_MaterialDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_MaterialDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteCommentDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteCommentDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteBinDataDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_NoteBinDataDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialToolDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_VisMaterialToolDriver.hxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMXCAFDoc\XmlMXCAFDoc_LocationDriver.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\XmlMXCAFDoc\XmlMXCAFDoc_LocationDriver.lxx">
       <Filter>Header Files\XmlMXCAFDoc</Filter>
     </None>
   </ItemGroup>

@@ -1,525 +1,525 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_Curve.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_Curve.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_DeflectionCurve.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_DeflectionCurve.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_Drawer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_Drawer.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_HLRShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_HLRShape.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_IsoAspect.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_IsoAspect.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_LineAspect.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_LineAspect.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_PointAspect.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_PointAspect.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_Projector.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_Projector.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_ShadedShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_ShadedShape.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_ShadingAspect.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_ShadingAspect.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFDeflectionRestrictedFace.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFDeflectionRestrictedFace.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFDeflectionShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFDeflectionShape.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFRestrictedFace.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFRestrictedFace.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFShape.cxx">
       <Filter>Source Files\VrmlConverter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI.cxx">
       <Filter>Source Files\VrmlAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI_CafReader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI_CafReader.cxx">
       <Filter>Source Files\VrmlAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI_Writer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI_Writer.cxx">
       <Filter>Source Files\VrmlAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_AsciiText.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_AsciiText.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Cone.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Cone.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_ConfigurationNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_ConfigurationNode.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Coordinate3.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Coordinate3.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Cube.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Cube.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Cylinder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Cylinder.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_DirectionalLight.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_DirectionalLight.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_FontStyle.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_FontStyle.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Group.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Group.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_IndexedFaceSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_IndexedFaceSet.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_IndexedLineSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_IndexedLineSet.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Info.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Info.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Instancing.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Instancing.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_LOD.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_LOD.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Material.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Material.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_MaterialBinding.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_MaterialBinding.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_MatrixTransform.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_MatrixTransform.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Normal.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Normal.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_NormalBinding.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_NormalBinding.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_OrthographicCamera.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_OrthographicCamera.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_PerspectiveCamera.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_PerspectiveCamera.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_PointLight.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_PointLight.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_PointSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_PointSet.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Provider.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Provider.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Rotation.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Rotation.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Scale.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Scale.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Separator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Separator.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SFImage.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SFImage.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SFRotation.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SFRotation.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_ShapeHints.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_ShapeHints.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Sphere.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Sphere.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SpotLight.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SpotLight.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Switch.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Switch.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Texture2.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Texture2.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Texture2Transform.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Texture2Transform.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_TextureCoordinate2.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_TextureCoordinate2.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Transform.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Transform.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_TransformSeparator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_TransformSeparator.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Translation.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Translation.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_WWWAnchor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_WWWAnchor.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_WWWInline.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_WWWInline.cxx">
       <Filter>Source Files\Vrml</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Geometry.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Geometry.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Group.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Group.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_IndexedFaceSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_IndexedFaceSet.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_IndexedLineSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_IndexedLineSet.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Material.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Material.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Node.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Node.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Scene.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Scene.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ShapeConvert.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ShapeConvert.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_WorldInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_WorldInfo.cxx">
       <Filter>Source Files\VrmlData</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_Curve.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_Curve.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_DeflectionCurve.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_DeflectionCurve.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_Drawer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_Drawer.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_HLRShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_HLRShape.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_IsoAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_IsoAspect.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_LineAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_LineAspect.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_PointAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_PointAspect.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_Projector.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_Projector.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_ShadedShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_ShadedShape.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_ShadingAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_ShadingAspect.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_TypeOfCamera.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_TypeOfCamera.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_TypeOfLight.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_TypeOfLight.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFDeflectionRestrictedFace.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFDeflectionRestrictedFace.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFDeflectionShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFDeflectionShape.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFRestrictedFace.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFRestrictedFace.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlConverter\VrmlConverter_WFShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlConverter\VrmlConverter_WFShape.hxx">
       <Filter>Header Files\VrmlConverter</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI.hxx">
       <Filter>Header Files\VrmlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI_CafReader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI_CafReader.hxx">
       <Filter>Header Files\VrmlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI_RepresentationOfShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI_RepresentationOfShape.hxx">
       <Filter>Header Files\VrmlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlAPI\VrmlAPI_Writer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlAPI\VrmlAPI_Writer.hxx">
       <Filter>Header Files\VrmlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_AsciiText.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_AsciiText.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_AsciiTextJustification.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_AsciiTextJustification.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Cone.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Cone.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_ConeParts.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_ConeParts.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_ConfigurationNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_ConfigurationNode.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Coordinate3.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Coordinate3.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Cube.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Cube.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Cylinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Cylinder.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_CylinderParts.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_CylinderParts.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_DirectionalLight.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_DirectionalLight.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_FaceType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_FaceType.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_FontStyle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_FontStyle.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_FontStyleFamily.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_FontStyleFamily.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_FontStyleStyle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_FontStyleStyle.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Group.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Group.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_IndexedFaceSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_IndexedFaceSet.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_IndexedLineSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_IndexedLineSet.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Info.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Info.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Instancing.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Instancing.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_LOD.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_LOD.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Material.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Material.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_MaterialBinding.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_MaterialBinding.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_MaterialBindingAndNormalBinding.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_MaterialBindingAndNormalBinding.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_MatrixTransform.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_MatrixTransform.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Normal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Normal.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_NormalBinding.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_NormalBinding.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_OrthographicCamera.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_OrthographicCamera.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_PerspectiveCamera.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_PerspectiveCamera.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_PointLight.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_PointLight.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_PointSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_PointSet.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Provider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Provider.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Rotation.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Rotation.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Scale.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Scale.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Separator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Separator.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SeparatorRenderCulling.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SeparatorRenderCulling.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SFImage.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SFImage.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SFImageNumber.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SFImageNumber.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SFRotation.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SFRotation.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_ShapeHints.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_ShapeHints.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_ShapeType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_ShapeType.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Sphere.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Sphere.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_SpotLight.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_SpotLight.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Switch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Switch.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Texture2.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Texture2.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Texture2Transform.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Texture2Transform.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Texture2Wrap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Texture2Wrap.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_TextureCoordinate2.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_TextureCoordinate2.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Transform.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Transform.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_TransformSeparator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_TransformSeparator.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_Translation.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_Translation.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_VertexOrdering.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_VertexOrdering.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_WWWAnchor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_WWWAnchor.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_WWWAnchorMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_WWWAnchorMap.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Vrml\Vrml_WWWInline.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Vrml\Vrml_WWWInline.hxx">
       <Filter>Header Files\Vrml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Appearance.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Appearance.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ArrayVec3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ArrayVec3d.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Box.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Box.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Color.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Color.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Cone.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Cone.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Coordinate.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Coordinate.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Cylinder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Cylinder.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_DataMapOfShapeAppearance.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_DataMapOfShapeAppearance.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ErrorStatus.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ErrorStatus.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Faceted.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Faceted.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Geometry.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Geometry.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Group.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Group.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ImageTexture.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ImageTexture.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_InBuffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_InBuffer.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_IndexedFaceSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_IndexedFaceSet.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_IndexedLineSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_IndexedLineSet.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ListOfNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ListOfNode.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_MapOfNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_MapOfNode.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Material.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Material.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Node.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Node.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Normal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Normal.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Scene.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Scene.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ShapeConvert.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ShapeConvert.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_ShapeNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_ShapeNode.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Sphere.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Sphere.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_Texture.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_Texture.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_TextureCoordinate.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_TextureCoordinate.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_TextureTransform.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_TextureTransform.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_UnknownNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_UnknownNode.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\VrmlData\VrmlData_WorldInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\VrmlData\VrmlData_WorldInfo.hxx">
       <Filter>Header Files\VrmlData</Filter>
     </ClInclude>
   </ItemGroup>

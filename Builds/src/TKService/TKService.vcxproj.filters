@@ -1,1100 +1,1100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Background.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Background.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_CircularGrid.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_CircularGrid.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_DisplayConnection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_DisplayConnection.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GenId.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GenId.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GradientBackground.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GradientBackground.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Grid.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Grid.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_NeutralWindow.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_NeutralWindow.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_OpenVRSession.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_OpenVRSession.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_RectangularGrid.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_RectangularGrid.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_SkydomeBackground.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_SkydomeBackground.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKeySet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_VKeySet.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Window.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Window.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowInputListener.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_WindowInputListener.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRSession.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRSession.cxx">
       <Filter>Source Files\Aspect</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPrimitives.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfPrimitives.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Aspects.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Aspects.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectFillArea3d.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectFillArea3d.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectLine3d.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectLine3d.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectMarker3d.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectMarker3d.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectText3d.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectText3d.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AttribBuffer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AttribBuffer.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BSDF.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BSDF.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Buffer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Buffer.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BvhCStructureSet.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Camera.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Camera.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CameraTile.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CameraTile.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CLight.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CLight.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ClipPlane.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ClipPlane.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CStructure.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CStructure.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMap.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMap.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapOrder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapOrder.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapPacked.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapPacked.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapSeparate.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapSeparate.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CullingTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CullingTool.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CView.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CView.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DataStructureManager.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_DataStructureManager.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStats.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_FrameStats.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_FrameStatsData.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GraphicDriver.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriverFactory.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GraphicDriverFactory.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Group.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Group.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_HatchStyle.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_HatchStyle.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PresentationAttributes.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PresentationAttributes.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_LightSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_LightSet.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MarkerImage.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MarkerImage.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MaterialAspect.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MaterialAspect.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTexture.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MediaTexture.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTextureSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MediaTextureSet.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PBRMaterial.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PBRMaterial.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PolygonOffset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PolygonOffset.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderingParams.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_RenderingParams.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderAttribute.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderAttribute.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderManager.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderManager.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderObject.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderObject.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderProgram.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderProgram.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderVariable.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderVariable.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Structure.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Structure.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StructureManager.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_StructureManager.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Text.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Text.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1D.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture1D.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dmanual.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture1Dmanual.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dsegment.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture1Dsegment.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2D.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture2D.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2Dplane.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture2Dplane.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture3D.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture3D.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureEnv.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureEnv.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureMap.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureMap.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureParams.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureParams.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureRoot.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureRoot.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureSet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureSet.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPers.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TransformPers.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPersScaledAbove.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TransformPersScaledAbove.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vertex.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Vertex.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ViewAffinity.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ViewAffinity.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Layer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Layer.cxx">
       <Filter>Source Files\Graphic3d</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Xw\Xw_Window.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Xw\Xw_Window.cxx">
       <Filter>Source Files\Xw</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_AlienPixMap.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_AlienPixMap.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_DDSParser.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_DDSParser.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Diff.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_Diff.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMap.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_PixMap.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_SupportedFormats.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_SupportedFormats.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Texture.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_Texture.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_VideoRecorder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Image\Image_VideoRecorder.cxx">
       <Filter>Source Files\Image</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_BufferPool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_BufferPool.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_CodecContext.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_CodecContext.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_FormatContext.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_FormatContext.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Frame.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_Frame.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Packet.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_Packet.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_PlayerContext.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_PlayerContext.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Scaler.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_Scaler.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Timer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Media\Media_Timer.cxx">
       <Filter>Source Files\Media</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Wasm\Wasm_Window.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Wasm\Wasm_Window.cxx">
       <Filter>Source Files\Wasm</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_HIDSpaceMouse.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\WNT\WNT_HIDSpaceMouse.cxx">
       <Filter>Source Files\WNT</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_WClass.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\WNT\WNT_WClass.cxx">
       <Filter>Source Files\WNT</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_Window.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\WNT\WNT_Window.cxx">
       <Filter>Source Files\WNT</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FontMgr.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Font\Font_FontMgr.cxx">
       <Filter>Source Files\Font</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTFont.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Font\Font_FTFont.cxx">
       <Filter>Source Files\Font</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTLibrary.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Font\Font_FTLibrary.cxx">
       <Filter>Source Files\Font</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_SystemFont.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Font\Font_SystemFont.cxx">
       <Filter>Source Files\Font</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_TextFormatter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Font\Font_TextFormatter.cxx">
       <Filter>Source Files\Font</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_AspectFillAreaDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_AspectFillAreaDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_AspectLineDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_AspectLineDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_AspectMarkerDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_AspectMarkerDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Background.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Background.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_CircularGrid.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_CircularGrid.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_ColorSpace.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_ColorSpace.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Display.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Display.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_DisplayConnection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_DisplayConnection.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_DisplayConnectionDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_DisplayConnectionDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Drawable.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Drawable.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Eye.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Eye.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_FBConfig.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_FBConfig.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_FillMethod.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_FillMethod.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_FrustumLRBT.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_FrustumLRBT.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GenId.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GenId.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GradientBackground.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GradientBackground.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GradientFillMethod.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GradientFillMethod.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GraphicDeviceDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GraphicDeviceDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GraphicsLibrary.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GraphicsLibrary.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Grid.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Grid.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GridDrawMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GridDrawMode.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_GridType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_GridType.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_NeutralWindow.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_NeutralWindow.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_OpenVRSession.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_OpenVRSession.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Handle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Handle.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_HatchStyle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_HatchStyle.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_IdentDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_IdentDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_InteriorStyle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_InteriorStyle.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_PolygonOffsetMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_PolygonOffsetMode.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_RectangularGrid.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_RectangularGrid.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_RenderingContext.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_RenderingContext.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_SequenceOfColor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_SequenceOfColor.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_ScrollDelta.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_ScrollDelta.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_SkydomeBackground.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_SkydomeBackground.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Touch.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Touch.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TouchMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TouchMap.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TrackedDevicePose.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TrackedDevicePose.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfColorScaleData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfColorScaleData.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfColorScaleOrientation.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfColorScaleOrientation.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfColorScalePosition.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfColorScalePosition.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfDeflection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfDeflection.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfDisplayText.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfDisplayText.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfFacingModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfFacingModel.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfHighlightMethod.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfHighlightMethod.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfLine.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfLine.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfMarker.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfMarker.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfResize.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfResize.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfStyleText.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfStyleText.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_TypeOfTriedronPosition.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_TypeOfTriedronPosition.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Units.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Units.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKey.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_VKey.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKeyFlags.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_VKeyFlags.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_VKeySet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_VKeySet.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WidthOfLine.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_WidthOfLine.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_Window.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_Window.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_WindowDefinitionError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_WindowError.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_WindowInputListener.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_WindowInputListener.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XAtom.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XAtom.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRAction.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRAction.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRActionSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRActionSet.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRActionType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRActionType.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRAnalogActionData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRAnalogActionData.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRDigitalActionData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRDigitalActionData.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRGenericAction.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRGenericAction.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRHapticActionData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRHapticActionData.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRPoseActionData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRPoseActionData.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRSession.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRSession.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Aspect\Aspect_XRTrackedDeviceRole.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Aspect\Aspect_XRTrackedDeviceRole.hxx">
       <Filter>Header Files\Aspect</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AlphaMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AlphaMode.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayFlags.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayFlags.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPoints.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfPoints.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPolygons.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfPolygons.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPolylines.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfPolylines.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfPrimitives.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfPrimitives.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfQuadrangles.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfQuadrangles.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfQuadrangleStrips.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfQuadrangleStrips.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfSegments.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfSegments.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfTriangleFans.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfTriangleFans.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfTriangles.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfTriangles.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ArrayOfTriangleStrips.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ArrayOfTriangleStrips.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Aspects.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Aspects.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectFillArea3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectFillArea3d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectLine3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectLine3d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectMarker3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectMarker3d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AspectText3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AspectText3d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_AttribBuffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_AttribBuffer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BndBox3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BndBox3d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BndBox4d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BndBox4d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BndBox4f.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BndBox4f.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BoundBuffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BoundBuffer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BSDF.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BSDF.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Buffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Buffer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BufferRange.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BufferRange.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BufferType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BufferType.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BvhCStructureSet.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Camera.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Camera.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CameraTile.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CameraTile.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CappingFlags.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CappingFlags.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CLight.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CLight.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ClipPlane.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ClipPlane.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CStructure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CStructure.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMap.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapOrder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapOrder.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapPacked.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapPacked.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapSeparate.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapSeparate.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CubeMapSide.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CubeMapSide.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CullingTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CullingTool.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_CView.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_CView.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DataStructureManager.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_DataStructureManager.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DiagnosticInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_DiagnosticInfo.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_DisplayPriority.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_DisplayPriority.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStats.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_FrameStats.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsCounter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_FrameStatsCounter.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_FrameStatsData.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_FrameStatsTimer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_FrameStatsTimer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraduatedTrihedron.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GraduatedTrihedron.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GraphicDriver.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GraphicDriverFactory.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GraphicDriverFactory.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Group.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Group.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GroupAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GroupAspect.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_GroupDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_GroupDefinitionError.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_HatchStyle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_HatchStyle.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PresentationAttributes.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PresentationAttributes.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_HorizontalTextAlignment.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_HorizontalTextAlignment.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_IndexBuffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_IndexBuffer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MutableIndexBuffer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MutableIndexBuffer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_LevelOfTextureAnisotropy.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_LevelOfTextureAnisotropy.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_LightSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_LightSet.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapOfAspectsToAspects.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MapOfAspectsToAspects.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapIteratorOfMapOfStructure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MapIteratorOfMapOfStructure.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapOfObject.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MapOfObject.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MapOfStructure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MapOfStructure.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MarkerImage.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MarkerImage.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Mat4.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Mat4.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Mat4d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Mat4d.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MaterialAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MaterialAspect.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MaterialDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MaterialDefinitionError.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTexture.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MediaTexture.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_MediaTextureSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_MediaTextureSet.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfMaterial.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_NameOfMaterial.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTexture1D.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_NameOfTexture1D.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTexture2D.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_NameOfTexture2D.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTextureEnv.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_NameOfTextureEnv.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NameOfTexturePlane.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_NameOfTexturePlane.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_NMapOfTransient.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_NMapOfTransient.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PBRMaterial.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PBRMaterial.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PolygonOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PolygonOffset.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_PriorityDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_PriorityDefinitionError.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderingMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_RenderingMode.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderingParams.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_RenderingParams.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_RenderTransparentMethod.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_RenderTransparentMethod.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfGroup.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_SequenceOfGroup.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_SequenceOfStructure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_SequenceOfStructure.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderAttribute.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderAttribute.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderFlags.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderFlags.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderManager.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderManager.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderObject.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderObject.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderProgram.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderProgram.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderVariable.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderVariable.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StereoMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_StereoMode.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Structure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Structure.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StructureDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_StructureDefinitionError.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_StructureManager.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_StructureManager.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextPath.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextPath.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Text.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Text.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1D.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture1D.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dmanual.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture1Dmanual.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture1Dsegment.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture1Dsegment.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2D.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture2D.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2Dmanual.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture2Dmanual.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture2Dplane.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture2Dplane.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Texture3D.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Texture3D.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureEnv.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureEnv.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureMap.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureParams.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureParams.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureRoot.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureRoot.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureUnit.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureUnit.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureSet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureSet.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TextureSetBits.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TextureSetBits.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ToneMappingMethod.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ToneMappingMethod.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TransformPers.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformPersScaledAbove.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TransformPersScaledAbove.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransformUtils.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TransformUtils.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TransModeFlags.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TransModeFlags.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfAnswer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfAnswer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfBackfacingModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfBackfacingModel.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfBackground.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfBackground.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfConnection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfConnection.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfLightSource.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfLightSource.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfLimit.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfLimit.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfMaterial.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfMaterial.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfPrimitiveArray.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfPrimitiveArray.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfReflection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfReflection.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfShaderObject.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfShaderObject.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfShadingModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfShadingModel.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfStructure.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfStructure.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfTexture.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfTexture.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfTextureFilter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfTextureFilter.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfTextureMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfTextureMode.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_TypeOfVisualization.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_TypeOfVisualization.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Vec.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec2.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Vec2.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec3.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Vec3.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vec4.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Vec4.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Vertex.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Vertex.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_VerticalTextAlignment.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_VerticalTextAlignment.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ViewAffinity.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ViewAffinity.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_WorldViewProjState.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_WorldViewProjState.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_Layer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_Layer.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ZLayerId.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ZLayerId.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ZLayerSettings.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ZLayerSettings.hxx">
       <Filter>Header Files\Graphic3d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Xw\Xw_Window.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Xw\Xw_Window.hxx">
       <Filter>Header Files\Xw</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_AlienPixMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_AlienPixMap.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Color.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_Color.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_CompressedFormat.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_CompressedFormat.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_CompressedPixMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_CompressedPixMap.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_DDSParser.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_DDSParser.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Diff.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_Diff.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Format.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_Format.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_PixMap.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMapData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_PixMapData.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_PixMapTypedData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_PixMapTypedData.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_SupportedFormats.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_SupportedFormats.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_Texture.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_Texture.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Image\Image_VideoRecorder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Image\Image_VideoRecorder.hxx">
       <Filter>Header Files\Image</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_BufferPool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_BufferPool.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_CodecContext.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_CodecContext.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_FormatContext.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_FormatContext.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Frame.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_Frame.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Packet.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_Packet.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_PlayerContext.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_PlayerContext.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Scaler.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_Scaler.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_Timer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_Timer.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Media\Media_IFrameQueue.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Media\Media_IFrameQueue.hxx">
       <Filter>Header Files\Media</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Wasm\Wasm_Window.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Wasm\Wasm_Window.hxx">
       <Filter>Header Files\Wasm</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_ClassDefinitionError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_ClassDefinitionError.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_Dword.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_Dword.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_HIDSpaceMouse.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_HIDSpaceMouse.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_OrientationType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_OrientationType.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_WClass.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_WClass.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_Window.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_Window.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\WNT\WNT_WindowPtr.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\WNT\WNT_WindowPtr.hxx">
       <Filter>Header Files\WNT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Cocoa\Cocoa_LocalPool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Cocoa\Cocoa_LocalPool.hxx">
       <Filter>Header Files\Cocoa</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Cocoa\Cocoa_Window.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Cocoa\Cocoa_Window.hxx">
       <Filter>Header Files\Cocoa</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_BRepFont.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_BRepFont.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_BRepTextBuilder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_BRepTextBuilder.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FontAspect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_FontAspect.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FontMgr.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_FontMgr.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTFont.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_FTFont.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_FTLibrary.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_FTLibrary.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_Hinting.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_Hinting.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_NameOfFont.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_NameOfFont.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_NListOfSystemFont.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_NListOfSystemFont.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_Rect.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_Rect.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_StrictLevel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_StrictLevel.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_SystemFont.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_SystemFont.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_TextFormatter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_TextFormatter.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Font\Font_UnicodeSubset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Font\Font_UnicodeSubset.hxx">
       <Filter>Header Files\Font</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\Graphic3d\Graphic3d_ShaderVariable.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\Graphic3d\Graphic3d_ShaderVariable.lxx">
       <Filter>Header Files\Graphic3d</Filter>
     </None>
   </ItemGroup>

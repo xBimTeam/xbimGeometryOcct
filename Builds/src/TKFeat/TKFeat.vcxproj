@@ -221,128 +221,128 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildWires.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CSIntersector.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CurveShapeIntersector.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DPrism.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdges.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdgesInFace.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GeneratedShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Generator.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GluedShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Gluer.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_LinearForm.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Pipe.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Prism.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Revol.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_RevolutionForm.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitDrafts.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Spliter.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_WiresOnShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Builder.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Form.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Gluer.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeCylindricalHole.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeDPrism.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeLinearForm.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePipe.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePrism.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevol.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevolutionForm.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_RibSlot.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_SplitShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_trace.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildWires.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CSIntersector.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CurveShapeIntersector.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DataMapIteratorOfDataMapOfShapePnt.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DataMapOfShapePnt.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_DPrism.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdges.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdgesInFace.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GeneratedShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Generator.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_GluedShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Gluer.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_LinearForm.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Operation.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Pipe.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_PntFace.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Prism.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Revol.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_RevolutionForm.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SequenceOfCirc.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SequenceOfLin.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SequenceOfPntFace.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitDrafts.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Spliter.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_WiresOnShape.hxx" />
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_BuildShape.lxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_BuildShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_BuildWires.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_CSIntersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_CurveShapeIntersector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_DPrism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_FindEdges.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_FindEdgesInFace.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_GeneratedShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Generator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_GluedShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Gluer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_LinearForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Pipe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Prism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Revol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_RevolutionForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SplitDrafts.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Spliter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SplitShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_WiresOnShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Builder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Form.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Gluer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeCylindricalHole.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeDPrism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeLinearForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakePipe.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakePrism.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeRevol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeRevolutionForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_RibSlot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_SplitShape.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_trace.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_BuildShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_BuildWires.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_CSIntersector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_CurveShapeIntersector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_DataMapIteratorOfDataMapOfShapePnt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_DataMapOfShapePnt.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_DPrism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_FindEdges.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_FindEdgesInFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_GeneratedShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Generator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_GluedShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Gluer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_LinearForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Operation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Pipe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_PntFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Prism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Revol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_RevolutionForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SequenceOfCirc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SequenceOfLin.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SequenceOfPntFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SplitDrafts.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Spliter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SplitShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_WiresOnShape.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_BuildShape.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CSIntersector.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_CSIntersector.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_CurveShapeIntersector.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_CurveShapeIntersector.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdges.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_FindEdges.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_FindEdgesInFace.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_FindEdgesInFace.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Generator.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Generator.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Gluer.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Gluer.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_LinearForm.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_LinearForm.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Pipe.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Pipe.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_Spliter.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_Spliter.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_SplitShape.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_SplitShape.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\LocOpe\LocOpe_WiresOnShape.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\LocOpe\LocOpe_WiresOnShape.lxx">
     </None>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Builder.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Form.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Gluer.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeCylindricalHole.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeDPrism.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeLinearForm.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePipe.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePrism.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevol.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevolutionForm.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_PerfSelection.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_RibSlot.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_SplitShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Status.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_StatusError.hxx" />
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Form.lxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Builder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Form.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Gluer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeCylindricalHole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeDPrism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeLinearForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakePipe.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakePrism.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeRevol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeRevolutionForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_PerfSelection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_RibSlot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_SplitShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Status.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_StatusError.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Form.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_Gluer.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_Gluer.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeCylindricalHole.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeCylindricalHole.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeLinearForm.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeLinearForm.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePipe.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakePipe.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakePrism.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakePrism.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevol.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeRevol.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_MakeRevolutionForm.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_MakeRevolutionForm.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_RibSlot.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_RibSlot.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepFeat\BRepFeat_SplitShape.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepFeat\BRepFeat_SplitShape.lxx">
     </None>
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKFeat.rc" />
   </ItemGroup>

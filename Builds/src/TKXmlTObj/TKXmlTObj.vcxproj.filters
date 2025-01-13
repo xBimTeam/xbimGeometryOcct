@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.cxx">
       <Filter>Source Files\XmlTObjDrivers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.hxx">
       <Filter>Header Files\XmlTObjDrivers</Filter>
     </ClInclude>
   </ItemGroup>

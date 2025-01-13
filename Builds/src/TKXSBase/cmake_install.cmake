@@ -1,4 +1,4 @@
-# Install script for directory: C:/OCCT-Build/OCCT-7_7_0/src/TKXSBase
+# Install script for directory: C:/OCCT-Build/OCCT/src/TKXSBase
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -221,35 +221,35 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlDrivers\XmlDrivers.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlDrivers\XmlDrivers_DocumentRetrievalDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlDrivers\XmlDrivers_DocumentStorageDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_ConstraintDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_GeometryDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_PatternStdDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_PositionDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_PresentationDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_TriangulationDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_NamedShapeDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_NamingDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_Shape1.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlDrivers\XmlDrivers.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlDrivers\XmlDrivers_DocumentRetrievalDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlDrivers\XmlDrivers_DocumentStorageDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_ConstraintDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_GeometryDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_PatternStdDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_PositionDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_PresentationDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMDataXtd\XmlMDataXtd_TriangulationDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_NamedShapeDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_NamingDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_Shape1.hxx" />
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\XmlMNaming\XmlMNaming_NamedShapeDriver.lxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlDrivers\XmlDrivers.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlDrivers\XmlDrivers_DocumentRetrievalDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlDrivers\XmlDrivers_DocumentStorageDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_ConstraintDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_GeometryDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_PatternStdDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_PositionDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_PresentationDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_TriangulationDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_NamedShapeDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_NamingDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_Shape1.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlDrivers\XmlDrivers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlDrivers\XmlDrivers_DocumentRetrievalDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlDrivers\XmlDrivers_DocumentStorageDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_ConstraintDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_GeometryDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_PatternStdDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_PositionDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_PresentationDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMDataXtd\XmlMDataXtd_TriangulationDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_NamedShapeDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_NamingDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_Shape1.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\XmlMNaming\XmlMNaming_NamedShapeDriver.lxx">
     </None>
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXml.rc" />
   </ItemGroup>

@@ -1,269 +1,269 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_DraftAngle.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_DraftAngle.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_FindContigousEdges.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_FindContigousEdges.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeDraft.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeDraft.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeEvolved.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeEvolved.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeFilling.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeFilling.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffset.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffsetShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffsetShape.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakePipe.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakePipe.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakePipeShell.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakePipeShell.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeThickSolid.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeThickSolid.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MiddlePath.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MiddlePath.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_NormalProjection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_NormalProjection.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_ThruSections.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_ThruSections.cxx">
       <Filter>Source Files\BRepOffsetAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Draft\Draft.cxx">
       <Filter>Source Files\Draft</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_EdgeInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Draft\Draft_EdgeInfo.cxx">
       <Filter>Source Files\Draft</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_FaceInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Draft\Draft_FaceInfo.cxx">
       <Filter>Source Files\Draft</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_Modification.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Draft\Draft_Modification.cxx">
       <Filter>Source Files\Draft</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_Modification_1.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Draft\Draft_Modification_1.cxx">
       <Filter>Source Files\Draft</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_VertexInfo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Draft\Draft_VertexInfo.cxx">
       <Filter>Source Files\Draft</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Analyse.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Analyse.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Inter2d.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Inter2d.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Inter3d.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Inter3d.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Interval.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Interval.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeLoops.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeLoops.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeOffset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeOffset.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeOffset_1.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeOffset_1.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeSimpleOffset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeSimpleOffset.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Offset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Offset.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_SimpleOffset.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_SimpleOffset.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Tool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Tool.cxx">
       <Filter>Source Files\BRepOffset</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_Blend.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_Blend.cxx">
       <Filter>Source Files\BiTgte</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_CurveOnEdge.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_CurveOnEdge.cxx">
       <Filter>Source Files\BiTgte</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_CurveOnVertex.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_CurveOnVertex.cxx">
       <Filter>Source Files\BiTgte</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_DraftAngle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_DraftAngle.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_FindContigousEdges.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_FindContigousEdges.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeDraft.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeDraft.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeEvolved.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeEvolved.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeFilling.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeFilling.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffset.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffsetShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeOffsetShape.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakePipe.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakePipe.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakePipeShell.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakePipeShell.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MakeThickSolid.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MakeThickSolid.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_MiddlePath.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_MiddlePath.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_NormalProjection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_NormalProjection.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_SequenceOfSequenceOfReal.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_SequenceOfSequenceOfReal.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_SequenceOfSequenceOfShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_SequenceOfSequenceOfShape.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_Sewing.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_Sewing.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffsetAPI\BRepOffsetAPI_ThruSections.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffsetAPI\BRepOffsetAPI_ThruSections.hxx">
       <Filter>Header Files\BRepOffsetAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_IndexedDataMapOfEdgeEdgeInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_IndexedDataMapOfEdgeEdgeInfo.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_IndexedDataMapOfFaceFaceInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_IndexedDataMapOfFaceFaceInfo.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_IndexedDataMapOfVertexVertexInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_IndexedDataMapOfVertexVertexInfo.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_EdgeInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_EdgeInfo.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_ErrorStatus.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_ErrorStatus.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_FaceInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_FaceInfo.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_Modification.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_Modification.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\Draft\Draft_VertexInfo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Draft\Draft_VertexInfo.hxx">
       <Filter>Header Files\Draft</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Analyse.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Analyse.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_DataMapOfShapeListOfInterval.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_DataMapOfShapeListOfInterval.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_DataMapOfShapeMapOfShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_DataMapOfShapeMapOfShape.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_DataMapOfShapeOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_DataMapOfShapeOffset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Error.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Error.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Inter2d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Inter2d.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Inter3d.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Inter3d.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Interval.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Interval.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_ListIteratorOfListOfInterval.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_ListIteratorOfListOfInterval.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_ListOfInterval.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_ListOfInterval.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeLoops.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeLoops.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeOffset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_MakeSimpleOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_MakeSimpleOffset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Mode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Mode.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Offset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Offset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_SimpleOffset.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_SimpleOffset.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Status.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Status.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Tool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Tool.hxx">
       <Filter>Header Files\BRepOffset</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_Blend.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_Blend.hxx">
       <Filter>Header Files\BiTgte</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_ContactType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_ContactType.hxx">
       <Filter>Header Files\BiTgte</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_CurveOnEdge.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_CurveOnEdge.hxx">
       <Filter>Header Files\BiTgte</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BiTgte\BiTgte_CurveOnVertex.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BiTgte\BiTgte_CurveOnVertex.hxx">
       <Filter>Header Files\BiTgte</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Interval.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Interval.lxx">
       <Filter>Header Files\BRepOffset</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepOffset\BRepOffset_Offset.lxx">
+    <None Include="C:\OCCT-Build\OCCT\src\BRepOffset\BRepOffset_Offset.lxx">
       <Filter>Header Files\BRepOffset</Filter>
     </None>
   </ItemGroup>

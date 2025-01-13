@@ -1,471 +1,471 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Curve.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Curve.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Edge.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Edge.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Face.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Face.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Model.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Model.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_ParametersList.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_ParametersList.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_PCurve.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_PCurve.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Shape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Shape.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_TessellatedShape.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_TessellatedShape.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Wire.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Wire.cxx">
       <Filter>Source Files\IMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_Context.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_Context.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_CurveTessellator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_CurveTessellator.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshAlgo.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshAlgoFactory.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshAlgoFactory.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshBuilder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshBuilder.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ModelAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ModelAlgo.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ModelBuilder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ModelBuilder.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ShapeExplorer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ShapeExplorer.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ShapeVisitor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ShapeVisitor.cxx">
       <Filter>Source Files\IMeshTools</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Curve.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Curve.cxx">
       <Filter>Source Files\BRepMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Edge.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Edge.cxx">
       <Filter>Source Files\BRepMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Face.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Face.cxx">
       <Filter>Source Files\BRepMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Model.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Model.cxx">
       <Filter>Source Files\BRepMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_PCurve.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_PCurve.cxx">
       <Filter>Source Files\BRepMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Wire.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Wire.cxx">
       <Filter>Source Files\BRepMeshData</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_BaseMeshAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_BaseMeshAlgo.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ConstrainedBaseMeshAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ConstrainedBaseMeshAlgo.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CircleTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CircleTool.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Classifier.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Classifier.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ConeRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ConeRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Context.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Context.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CurveTessellator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CurveTessellator.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CylinderRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CylinderRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DataStructureOfDelaun.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DataStructureOfDelaun.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DefaultRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DefaultRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Deflection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Deflection.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Delaun.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Delaun.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelaunayBaseMeshAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelaunayBaseMeshAlgo.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DiscretFactory.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DiscretFactory.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DiscretRoot.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DiscretRoot.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_EdgeDiscret.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_EdgeDiscret.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_EdgeTessellationExtractor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_EdgeTessellationExtractor.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ExtrusionRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ExtrusionRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_FaceChecker.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_FaceChecker.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_FaceDiscret.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_FaceDiscret.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_GeomTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_GeomTool.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_IncrementalMesh.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_IncrementalMesh.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_MeshAlgoFactory.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_MeshAlgoFactory.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_MeshTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_MeshTool.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelBuilder.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelBuilder.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelHealer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelHealer.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelPostProcessor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelPostProcessor.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelPreProcessor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelPreProcessor.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_NURBSRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_NURBSRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_SelectorOfDataStructureOfDelaun.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_SelectorOfDataStructureOfDelaun.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ShapeTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ShapeTool.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ShapeVisitor.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ShapeVisitor.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_SphereRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_SphereRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_TorusRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_TorusRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_UndefinedRangeSplitter.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_UndefinedRangeSplitter.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_VertexTool.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_VertexTool.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CustomBaseMeshAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CustomBaseMeshAlgo.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\delabella.cpp">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\delabella.cpp">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelabellaBaseMeshAlgo.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelabellaBaseMeshAlgo.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelabellaMeshAlgoFactory.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelabellaMeshAlgoFactory.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Triangulator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Triangulator.cxx">
       <Filter>Source Files\BRepMesh</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Curve.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Curve.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Edge.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Edge.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Face.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Face.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Model.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Model.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_ParametersList.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_ParametersList.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_ParametersListArrayAdaptor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_ParametersListArrayAdaptor.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_PCurve.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_PCurve.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Shape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Shape.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Status.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Status.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_StatusOwner.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_StatusOwner.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_TessellatedShape.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_TessellatedShape.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Types.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Types.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshData\IMeshData_Wire.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshData\IMeshData_Wire.hxx">
       <Filter>Header Files\IMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_Context.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_Context.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_CurveTessellator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_CurveTessellator.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshAlgo.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshAlgoFactory.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshAlgoFactory.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshAlgoType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshAlgoType.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_MeshBuilder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_MeshBuilder.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ModelAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ModelAlgo.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ModelBuilder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ModelBuilder.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_Parameters.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_Parameters.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ShapeExplorer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ShapeExplorer.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IMeshTools\IMeshTools_ShapeVisitor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IMeshTools\IMeshTools_ShapeVisitor.hxx">
       <Filter>Header Files\IMeshTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Curve.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Curve.hxx">
       <Filter>Header Files\BRepMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Edge.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Edge.hxx">
       <Filter>Header Files\BRepMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Face.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Face.hxx">
       <Filter>Header Files\BRepMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Model.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Model.hxx">
       <Filter>Header Files\BRepMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_PCurve.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_PCurve.hxx">
       <Filter>Header Files\BRepMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMeshData\BRepMeshData_Wire.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMeshData\BRepMeshData_Wire.hxx">
       <Filter>Header Files\BRepMeshData</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_BaseMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_BaseMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ConstrainedBaseMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ConstrainedBaseMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_BoundaryParamsRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_BoundaryParamsRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Circle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Circle.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CircleInspector.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CircleInspector.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CircleTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CircleTool.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Classifier.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Classifier.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ConeRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ConeRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Context.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Context.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CurveTessellator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CurveTessellator.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CylinderRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CylinderRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DataStructureOfDelaun.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DataStructureOfDelaun.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DefaultRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DefaultRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Deflection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Deflection.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DegreeOfFreedom.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DegreeOfFreedom.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Delaun.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Delaun.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelaunayBaseMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelaunayBaseMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelaunayDeflectionControlMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelaunayDeflectionControlMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelaunayNodeInsertionMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelaunayNodeInsertionMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DiscretFactory.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DiscretFactory.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DiscretRoot.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DiscretRoot.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Edge.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Edge.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_EdgeDiscret.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_EdgeDiscret.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_EdgeParameterProvider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_EdgeParameterProvider.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_EdgeTessellationExtractor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_EdgeTessellationExtractor.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ExtrusionRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ExtrusionRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_FaceChecker.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_FaceChecker.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_FaceDiscret.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_FaceDiscret.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_FactoryError.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_FactoryError.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_FastDiscret.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_FastDiscret.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_GeomTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_GeomTool.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_IncrementalMesh.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_IncrementalMesh.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_MeshAlgoFactory.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_MeshAlgoFactory.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_MeshTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_MeshTool.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelBuilder.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelBuilder.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelHealer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelHealer.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelPostProcessor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelPostProcessor.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ModelPreProcessor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ModelPreProcessor.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_NURBSRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_NURBSRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_NodeInsertionMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_NodeInsertionMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_OrientedEdge.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_OrientedEdge.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_PairOfIndex.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_PairOfIndex.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_PluginEntryType.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_PluginEntryType.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_PluginMacro.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_PluginMacro.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_SelectorOfDataStructureOfDelaun.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_SelectorOfDataStructureOfDelaun.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ShapeTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ShapeTool.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_ShapeVisitor.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_ShapeVisitor.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_SphereRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_SphereRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_TorusRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_TorusRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Triangle.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Triangle.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_UndefinedRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_UndefinedRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_UVParamRangeSplitter.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_UVParamRangeSplitter.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Vertex.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Vertex.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_VertexInspector.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_VertexInspector.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_VertexTool.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_VertexTool.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CustomBaseMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CustomBaseMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_CustomDelaunayBaseMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_CustomDelaunayBaseMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelabellaBaseMeshAlgo.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelabellaBaseMeshAlgo.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_DelabellaMeshAlgoFactory.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_DelabellaMeshAlgoFactory.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BRepMesh\BRepMesh_Triangulator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepMesh\BRepMesh_Triangulator.hxx">
       <Filter>Header Files\BRepMesh</Filter>
     </ClInclude>
   </ItemGroup>

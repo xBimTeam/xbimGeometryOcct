@@ -1,141 +1,141 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Application.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Application.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Assistant.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Assistant.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_CheckModel.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_CheckModel.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_HiddenPartition.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_HiddenPartition.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_LabelIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_LabelIterator.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Model.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Model.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_ModelIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_ModelIterator.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Object.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Object.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_ObjectIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_ObjectIterator.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_OcafObjectIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_OcafObjectIterator.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Partition.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Partition.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Persistence.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Persistence.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_ReferenceIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_ReferenceIterator.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_SequenceIterator.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_SequenceIterator.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TIntSparseArray.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TIntSparseArray.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TModel.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TModel.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TNameContainer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TNameContainer.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TObject.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TObject.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TReference.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TReference.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TXYZ.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TXYZ.cxx">
       <Filter>Source Files\TObj</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Application.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Application.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Assistant.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Assistant.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_CheckModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_CheckModel.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Common.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Common.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Container.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Container.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_DeletingMode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_DeletingMode.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_HiddenPartition.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_HiddenPartition.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_LabelIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_LabelIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Model.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Model.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_ModelIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_ModelIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Object.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Object.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_ObjectIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_ObjectIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_OcafObjectIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_OcafObjectIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Partition.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Partition.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_Persistence.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Persistence.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_ReferenceIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_ReferenceIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_SequenceIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_SequenceIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_SequenceOfIterator.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_SequenceOfIterator.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_SequenceOfObject.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_SequenceOfObject.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TIntSparseArray.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TIntSparseArray.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TModel.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TModel.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TNameContainer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TNameContainer.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TObject.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TObject.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TReference.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TReference.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\TObj\TObj_TXYZ.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_TXYZ.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
   </ItemGroup>

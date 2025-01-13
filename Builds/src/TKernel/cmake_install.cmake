@@ -1,4 +1,4 @@
-# Install script for directory: C:/OCCT-Build/OCCT-7_7_0/src/TKernel
+# Install script for directory: C:/OCCT-Build/OCCT/src/TKernel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl.cxx">
       <Filter>Source Files\IGESCAFControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.cxx">
       <Filter>Source Files\IGESCAFControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Provider.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Provider.cxx">
       <Filter>Source Files\IGESCAFControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Reader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Reader.cxx">
       <Filter>Source Files\IGESCAFControl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Writer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Writer.cxx">
       <Filter>Source Files\IGESCAFControl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl.hxx">
       <Filter>Header Files\IGESCAFControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.hxx">
       <Filter>Header Files\IGESCAFControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Provider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Provider.hxx">
       <Filter>Header Files\IGESCAFControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Reader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Reader.hxx">
       <Filter>Header Files\IGESCAFControl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\IGESCAFControl\IGESCAFControl_Writer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Writer.hxx">
       <Filter>Header Files\IGESCAFControl</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationContext.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationContext.cxx">
       <Filter>Source Files\DE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationNode.cxx">
       <Filter>Source Files\DE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Provider.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_Provider.cxx">
       <Filter>Source Files\DE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Wrapper.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_Wrapper.cxx">
       <Filter>Source Files\DE</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationContext.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationContext.hxx">
       <Filter>Header Files\DE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationNode.hxx">
       <Filter>Header Files\DE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Provider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_Provider.hxx">
       <Filter>Header Files\DE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Wrapper.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_Wrapper.hxx">
       <Filter>Header Files\DE</Filter>
     </ClInclude>
   </ItemGroup>

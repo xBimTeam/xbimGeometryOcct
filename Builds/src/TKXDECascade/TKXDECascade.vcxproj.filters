@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.cxx">
       <Filter>Source Files\DEBRepCascade</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_Provider.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_Provider.cxx">
       <Filter>Source Files\DEBRepCascade</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.cxx">
       <Filter>Source Files\DEXCAFCascade</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_Provider.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_Provider.cxx">
       <Filter>Source Files\DEXCAFCascade</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.hxx">
       <Filter>Header Files\DEBRepCascade</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEBRepCascade\DEBRepCascade_Provider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_Provider.hxx">
       <Filter>Header Files\DEBRepCascade</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.hxx">
       <Filter>Header Files\DEXCAFCascade</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DEXCAFCascade\DEXCAFCascade_Provider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_Provider.hxx">
       <Filter>Header Files\DEXCAFCascade</Filter>
     </ClInclude>
   </ItemGroup>

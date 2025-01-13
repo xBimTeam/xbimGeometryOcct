@@ -221,34 +221,34 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentStorageDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_GeometryDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PresentationDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PositionDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamedShapeDriver.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamingDriver.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_DocumentStorageDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinDrivers\BinDrivers_Marker.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_GeometryDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PresentationDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_PositionDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamedShapeDriver.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamingDriver.hxx" />
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\BinMNaming\BinMNaming_NamedShapeDriver.lxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers_DocumentStorageDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_GeometryDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_PresentationDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_PositionDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming_NamedShapeDriver.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming_NamingDriver.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers_DocumentStorageDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinDrivers\BinDrivers_Marker.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_GeometryDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_PresentationDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_PositionDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming_NamedShapeDriver.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming_NamingDriver.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\BinMNaming\BinMNaming_NamedShapeDriver.lxx">
     </None>
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKBin.rc" />
   </ItemGroup>

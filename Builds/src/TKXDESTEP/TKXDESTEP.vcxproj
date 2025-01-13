@@ -221,35 +221,35 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ActorWrite.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ConfigurationNode.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Controller.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ExternFile.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_GDTProperty.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Provider.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Reader.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Writer.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ActorWrite.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ConfigurationNode.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Controller.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapOfLabelExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapOfLabelShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapOfPDExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapOfSDRExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapOfShapePD.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_DataMapOfShapeSDR.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ExternFile.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_GDTProperty.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Provider.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Reader.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_Writer.hxx" />
-    <None Include="C:\OCCT-Build\OCCT-7_7_0\src\STEPCAFControl\STEPCAFControl_ExternFile.lxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ActorWrite.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ConfigurationNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Controller.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ExternFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_GDTProperty.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Provider.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Writer.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ActorWrite.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ConfigurationNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Controller.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapOfLabelExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapOfLabelShape.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapOfPDExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapOfSDRExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapOfShapePD.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_DataMapOfShapeSDR.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ExternFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_GDTProperty.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Provider.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_Writer.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\STEPCAFControl\STEPCAFControl_ExternFile.lxx">
     </None>
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXDESTEP.rc" />
   </ItemGroup>

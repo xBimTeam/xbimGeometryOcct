@@ -9,7 +9,7 @@ rem Usage: xbim-build-and-install-all-platforms.cmd
 
 rem Config
 rem Path to the master OCCT version as downloaded from https://dev.opencascade.org/release
-set "OCCT_SOURCEDIR=OCCT-7_7_0"
+set "OCCT_SOURCEDIR=OCCT"
 
 rem Path to Binaries folder (used by each platform)
 set "OCCT_BUILDDIR=Builds"

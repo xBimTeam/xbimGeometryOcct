@@ -221,14 +221,14 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationContext.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationNode.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Provider.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Wrapper.cxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationContext.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_ConfigurationNode.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Provider.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\DE\DE_Wrapper.hxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationContext.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_Provider.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DE\DE_Wrapper.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationContext.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_ConfigurationNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_Provider.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DE\DE_Wrapper.hxx" />
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKXDE.rc" />
   </ItemGroup>
   <ItemGroup />

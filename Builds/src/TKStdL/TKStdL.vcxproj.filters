@@ -1,129 +1,129 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLDrivers\StdLDrivers.cxx">
       <Filter>Source Files\StdLDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.cxx">
       <Filter>Source Files\StdLDrivers</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Collection.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Collection.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Data.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Data.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Dependency.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Dependency.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Document.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Document.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray1.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_HArray1.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray2.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_HArray2.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HString.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_HString.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_NamedData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_NamedData.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_TreeNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_TreeNode.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Value.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Value.cxx">
       <Filter>Source Files\StdLPersistent</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_Persistent.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_Persistent.cxx">
       <Filter>Source Files\StdObjMgt</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_ReadData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_ReadData.cxx">
       <Filter>Source Files\StdObjMgt</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_WriteData.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_WriteData.cxx">
       <Filter>Source Files\StdObjMgt</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLDrivers\StdLDrivers.hxx">
       <Filter>Header Files\StdLDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.hxx">
       <Filter>Header Files\StdLDrivers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Collection.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Collection.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Data.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Data.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Dependency.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Dependency.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Document.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Document.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Function.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Function.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray1.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_HArray1.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HArray2.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_HArray2.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_HString.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_HString.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_NamedData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_NamedData.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Real.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Real.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_TreeNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_TreeNode.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Value.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Value.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Variable.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Variable.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_Void.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_Void.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdLPersistent\StdLPersistent_XLink.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdLPersistent\StdLPersistent_XLink.hxx">
       <Filter>Header Files\StdLPersistent</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_Attribute.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_Attribute.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_MapOfInstantiators.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_MapOfInstantiators.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_Persistent.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_Persistent.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_ReadData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_ReadData.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_WriteData.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_WriteData.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_SharedObject.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_SharedObject.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StdObjMgt\StdObjMgt_TransientPersistentMap.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StdObjMgt\StdObjMgt_TransientPersistentMap.hxx">
       <Filter>Header Files\StdObjMgt</Filter>
     </ClInclude>
   </ItemGroup>

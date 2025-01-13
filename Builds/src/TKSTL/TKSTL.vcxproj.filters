@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StlAPI\StlAPI.cxx">
       <Filter>Source Files\StlAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Reader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StlAPI\StlAPI_Reader.cxx">
       <Filter>Source Files\StlAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Writer.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\StlAPI\StlAPI_Writer.cxx">
       <Filter>Source Files\StlAPI</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl.cxx">
       <Filter>Source Files\RWStl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Reader.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl_Reader.cxx">
       <Filter>Source Files\RWStl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_ConfigurationNode.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl_ConfigurationNode.cxx">
       <Filter>Source Files\RWStl</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Provider.cxx">
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl_Provider.cxx">
       <Filter>Source Files\RWStl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StlAPI\StlAPI.hxx">
       <Filter>Header Files\StlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Reader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StlAPI\StlAPI_Reader.hxx">
       <Filter>Header Files\StlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\StlAPI\StlAPI_Writer.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\StlAPI\StlAPI_Writer.hxx">
       <Filter>Header Files\StlAPI</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl.hxx">
       <Filter>Header Files\RWStl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Reader.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl_Reader.hxx">
       <Filter>Header Files\RWStl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_ConfigurationNode.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl_ConfigurationNode.hxx">
       <Filter>Header Files\RWStl</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT-7_7_0\src\RWStl\RWStl_Provider.hxx">
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWStl\RWStl_Provider.hxx">
       <Filter>Header Files\RWStl</Filter>
     </ClInclude>
   </ItemGroup>
