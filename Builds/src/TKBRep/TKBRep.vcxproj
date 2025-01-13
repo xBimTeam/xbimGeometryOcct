@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -331,19 +329,7 @@
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Builder.lxx">
     </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Compound.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_CompSolid.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Edge.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Face.lxx">
-    </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_HShape.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Shell.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Solid.lxx">
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_TCompound.lxx">
     </None>
@@ -360,10 +346,6 @@
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_TVertex.lxx">
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_TWire.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Vertex.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Wire.lxx">
     </None>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopExp\TopExp.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopExp\TopExp_Explorer.hxx" />
@@ -414,14 +396,9 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_MapOfOrientedShape.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_MapOfShape.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_MutexForShapeProvider.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_OrientedShapeMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_SequenceOfShape.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_ShapeMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_ShapeSet.hxx" />
-    <None Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_OrientedShapeMapHasher.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_ShapeMapHasher.lxx">
-    </None>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRep\BRep_Builder.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRep\BRep_Curve3D.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRep\BRep_CurveOn2Surfaces.hxx" />

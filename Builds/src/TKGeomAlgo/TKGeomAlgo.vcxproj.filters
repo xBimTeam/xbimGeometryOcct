@@ -2376,9 +2376,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_Couple.hxx">
       <Filter>Header Files\IntPolyh</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_CoupleMapHasher.hxx">
-      <Filter>Header Files\IntPolyh</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_Edge.hxx">
       <Filter>Header Files\IntPolyh</Filter>
     </ClInclude>

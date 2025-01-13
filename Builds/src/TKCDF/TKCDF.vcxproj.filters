@@ -150,9 +150,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_Document.hxx">
       <Filter>Header Files\CDM</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_DocumentHasher.hxx">
-      <Filter>Header Files\CDM</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_DocumentPointer.hxx">
       <Filter>Header Files\CDM</Filter>
     </ClInclude>

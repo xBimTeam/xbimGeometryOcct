@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -270,7 +268,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_CanCloseStatus.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_DataMapIteratorOfMetaDataLookUpTable.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_Document.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_DocumentHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_DocumentPointer.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_ListIteratorOfListOfDocument.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\CDM\CDM_ListIteratorOfListOfReferences.hxx" />

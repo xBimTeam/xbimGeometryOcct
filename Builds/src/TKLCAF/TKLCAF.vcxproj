@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -366,7 +364,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelIntegerMap.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelList.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelMap.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelNode.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelNodePtr.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelSequence.hxx" />

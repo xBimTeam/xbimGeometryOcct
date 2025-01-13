@@ -1,0 +1,1295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4EEA5DB9-4DC7-35B4-854B-CD701A3A539E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>TKDEIGES</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OCCT-Build\Builds\win64\vc14\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKDEIGES.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TKDEIGES</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OCCT-Build\Builds\win64\vc14\bind\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKDEIGES.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TKDEIGES</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OCCT-Build\Builds\win64\vc14\bini\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKDEIGES.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TKDEIGES</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__IGESCAFControl_DLL;__IGESData_DLL;__IGESFile_DLL;__IGESBasic_DLL;__IGESGraph_DLL;__IGESGeom_DLL;__IGESDimen_DLL;__IGESDraw_DLL;__IGESSolid_DLL;__IGESDefs_DLL;__IGESAppli_DLL;__IGESConvGeom_DLL;__IGESSelect_DLL;__IGESToBRep_DLL;__GeomToIGES_DLL;__Geom2dToIGES_DLL;__BRepToIGES_DLL;__BRepToIGESBRep_DLL;__IGESControl_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKDEIGES_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__IGESCAFControl_DLL;__IGESData_DLL;__IGESFile_DLL;__IGESBasic_DLL;__IGESGraph_DLL;__IGESGeom_DLL;__IGESDimen_DLL;__IGESDraw_DLL;__IGESSolid_DLL;__IGESDefs_DLL;__IGESAppli_DLL;__IGESConvGeom_DLL;__IGESSelect_DLL;__IGESToBRep_DLL;__GeomToIGES_DLL;__Geom2dToIGES_DLL;__BRepToIGES_DLL;__BRepToIGESBRep_DLL;__IGESControl_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKDEIGES_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\lib\TKDE.lib;..\..\win64\vc14\lib\TKXSBase.lib;..\..\win64\vc14\lib\TKBool.lib;..\..\win64\vc14\lib\TKXCAF.lib;..\..\win64\vc14\lib\TKVCAF.lib;..\..\win64\vc14\lib\TKV3d.lib;..\..\win64\vc14\lib\TKService.lib;windowscodecs.lib;winmm.lib;..\..\win64\vc14\lib\TKMesh.lib;..\..\win64\vc14\lib\TKHLR.lib;opengl32.lib;..\..\win64\vc14\lib\TKCAF.lib;..\..\win64\vc14\lib\TKLCAF.lib;..\..\win64\vc14\lib\TKCDF.lib;..\..\win64\vc14\lib\TKBO.lib;..\..\win64\vc14\lib\TKShHealing.lib;..\..\win64\vc14\lib\TKPrim.lib;..\..\win64\vc14\lib\TKTopAlgo.lib;..\..\win64\vc14\lib\TKGeomAlgo.lib;..\..\win64\vc14\lib\TKBRep.lib;..\..\win64\vc14\lib\TKGeomBase.lib;..\..\win64\vc14\lib\TKG3d.lib;..\..\win64\vc14\lib\TKG2d.lib;..\..\win64\vc14\lib\TKMath.lib;..\..\win64\vc14\lib\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/lib/TKDEIGES.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bin/TKDEIGES.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__IGESCAFControl_DLL;__IGESData_DLL;__IGESFile_DLL;__IGESBasic_DLL;__IGESGraph_DLL;__IGESGeom_DLL;__IGESDimen_DLL;__IGESDraw_DLL;__IGESSolid_DLL;__IGESDefs_DLL;__IGESAppli_DLL;__IGESConvGeom_DLL;__IGESSelect_DLL;__IGESToBRep_DLL;__GeomToIGES_DLL;__Geom2dToIGES_DLL;__BRepToIGES_DLL;__BRepToIGESBRep_DLL;__IGESControl_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKDEIGES_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__IGESCAFControl_DLL;__IGESData_DLL;__IGESFile_DLL;__IGESBasic_DLL;__IGESGraph_DLL;__IGESGeom_DLL;__IGESDimen_DLL;__IGESDraw_DLL;__IGESSolid_DLL;__IGESDefs_DLL;__IGESAppli_DLL;__IGESConvGeom_DLL;__IGESSelect_DLL;__IGESToBRep_DLL;__GeomToIGES_DLL;__Geom2dToIGES_DLL;__BRepToIGES_DLL;__BRepToIGESBRep_DLL;__IGESControl_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKDEIGES_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libd\TKDE.lib;..\..\win64\vc14\libd\TKXSBase.lib;..\..\win64\vc14\libd\TKBool.lib;..\..\win64\vc14\libd\TKXCAF.lib;..\..\win64\vc14\libd\TKVCAF.lib;..\..\win64\vc14\libd\TKV3d.lib;..\..\win64\vc14\libd\TKService.lib;windowscodecs.lib;winmm.lib;..\..\win64\vc14\libd\TKMesh.lib;..\..\win64\vc14\libd\TKHLR.lib;opengl32.lib;..\..\win64\vc14\libd\TKCAF.lib;..\..\win64\vc14\libd\TKLCAF.lib;..\..\win64\vc14\libd\TKCDF.lib;..\..\win64\vc14\libd\TKBO.lib;..\..\win64\vc14\libd\TKShHealing.lib;..\..\win64\vc14\libd\TKPrim.lib;..\..\win64\vc14\libd\TKTopAlgo.lib;..\..\win64\vc14\libd\TKGeomAlgo.lib;..\..\win64\vc14\libd\TKBRep.lib;..\..\win64\vc14\libd\TKGeomBase.lib;..\..\win64\vc14\libd\TKG3d.lib;..\..\win64\vc14\libd\TKG2d.lib;..\..\win64\vc14\libd\TKMath.lib;..\..\win64\vc14\libd\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libd/TKDEIGES.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bind/TKDEIGES.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__IGESCAFControl_DLL;__IGESData_DLL;__IGESFile_DLL;__IGESBasic_DLL;__IGESGraph_DLL;__IGESGeom_DLL;__IGESDimen_DLL;__IGESDraw_DLL;__IGESSolid_DLL;__IGESDefs_DLL;__IGESAppli_DLL;__IGESConvGeom_DLL;__IGESSelect_DLL;__IGESToBRep_DLL;__GeomToIGES_DLL;__Geom2dToIGES_DLL;__BRepToIGES_DLL;__BRepToIGESBRep_DLL;__IGESControl_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKDEIGES_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__IGESCAFControl_DLL;__IGESData_DLL;__IGESFile_DLL;__IGESBasic_DLL;__IGESGraph_DLL;__IGESGeom_DLL;__IGESDimen_DLL;__IGESDraw_DLL;__IGESSolid_DLL;__IGESDefs_DLL;__IGESAppli_DLL;__IGESConvGeom_DLL;__IGESSelect_DLL;__IGESToBRep_DLL;__GeomToIGES_DLL;__Geom2dToIGES_DLL;__BRepToIGES_DLL;__BRepToIGESBRep_DLL;__IGESControl_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKDEIGES_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\win64\vc14\libi\TKDE.lib;..\..\win64\vc14\libi\TKXSBase.lib;..\..\win64\vc14\libi\TKBool.lib;..\..\win64\vc14\libi\TKXCAF.lib;..\..\win64\vc14\libi\TKVCAF.lib;..\..\win64\vc14\libi\TKV3d.lib;..\..\win64\vc14\libi\TKService.lib;windowscodecs.lib;winmm.lib;..\..\win64\vc14\libi\TKMesh.lib;..\..\win64\vc14\libi\TKHLR.lib;opengl32.lib;..\..\win64\vc14\libi\TKCAF.lib;..\..\win64\vc14\libi\TKLCAF.lib;..\..\win64\vc14\libi\TKCDF.lib;..\..\win64\vc14\libi\TKBO.lib;..\..\win64\vc14\libi\TKShHealing.lib;..\..\win64\vc14\libi\TKPrim.lib;..\..\win64\vc14\libi\TKTopAlgo.lib;..\..\win64\vc14\libi\TKGeomAlgo.lib;..\..\win64\vc14\libi\TKBRep.lib;..\..\win64\vc14\libi\TKGeomBase.lib;..\..\win64\vc14\libi\TKG3d.lib;..\..\win64\vc14\libi\TKG2d.lib;..\..\win64\vc14\libi\TKMath.lib;..\..\win64\vc14\libi\TKernel.lib;advapi32.lib;gdi32.lib;user32.lib;wsock32.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OCCT-Build/Builds/win64/vc14/libi/TKDEIGES.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OCCT-Build/Builds/win64/vc14/bini/TKDEIGES.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Provider.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Writer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_BasicEditor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ColorEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefaultGeneral.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefaultSpecific.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefSwitch.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DirChecker.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DirPart.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_FileProtocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_FileRecognizer_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_FreeFormatEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GlobalNodeOfSpecificLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GlobalNodeOfWriterLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GlobalSection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESDumper.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESModel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESReaderData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESReaderTool.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESWriter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_LabelDisplayEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_LevelListEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_LineFontEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_NameEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_NodeOfSpecificLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_NodeOfWriterLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ParamCursor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ParamReader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_SingleParentEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_SpecificLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ToolLocation.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_TransfEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_UndefinedEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ViewKindEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_WriterLib_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESFile\analiges.c" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESFile\IGESFile_Read.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESFile\igesread.c" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESFile\liriges.c" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESFile\structiges.c" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_AssocGroupType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalReferenceFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefFileIndex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefFileName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefLibName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Group.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_GroupWithoutBackP.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfIGESEntity_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfInteger_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfReal_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXY_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXYZ_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Hierarchy.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Name.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_OrderedGroup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_OrderedGroupWithoutBackP.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SingleParent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SingularSubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SubfigureDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolAssocGroupType.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalReferenceFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefFile.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefFileIndex.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefFileName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefLibName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolGroup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolGroupWithoutBackP.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolHierarchy.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolOrderedGroup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolOrderedGroupWithoutBackP.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolSingleParent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolSingularSubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolSubfigureDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Color.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_DefinitionLevel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_DrawingSize.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_DrawingUnits.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_HighLight.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_IntercharacterSpacing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_LineFontDefPattern.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_LineFontDefTemplate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_LineFontPredefined.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_NominalSize.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Pick.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_TextDisplayTemplate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_TextFontDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolColor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolDefinitionLevel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolDrawingSize.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolDrawingUnits.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolHighLight.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolIntercharacterSpacing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolLineFontDefPattern.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolLineFontDefTemplate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolLineFontPredefined.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolNominalSize.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolPick.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolTextDisplayTemplate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolTextFontDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolUniformRectGrid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_UniformRectGrid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Boundary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_BoundedSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_BSplineCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_BSplineSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CircularArc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CompositeCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ConicArc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CopiousData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CurveOnSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Direction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Flash.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Line.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_OffsetCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_OffsetSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Plane.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Point.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_RuledSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SplineCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SplineSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SurfaceOfRevolution.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_TabulatedCylinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBoundary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBoundedSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBSplineCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBSplineSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCircularArc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCompositeCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolConicArc.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCopiousData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCurveOnSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolDirection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolFlash.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolLine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolOffsetCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolOffsetSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolPlane.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolRuledSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolSplineCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolSplineSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolSurfaceOfRevolution.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolTabulatedCylinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolTransformationMatrix.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolTrimmedSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_TransformationMatrix.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_TrimmedSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_AngularDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_BasicDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_CenterLine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_CurveDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DiameterDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionDisplayData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionedGeometry.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionTolerance.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionUnits.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_FlagNote.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralLabel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralNote.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralSymbol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_LeaderArrow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_LinearDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_NewDimensionedGeometry.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_NewGeneralNote.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_OrdinateDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_PointDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_RadiusDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_Section.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_SectionedArea.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolAngularDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolBasicDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolCenterLine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolCurveDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDiameterDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionDisplayData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionedGeometry.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionTolerance.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionUnits.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolFlagNote.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolGeneralLabel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolGeneralNote.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolGeneralSymbol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolLeaderArrow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolLinearDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolNewDimensionedGeometry.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolNewGeneralNote.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolOrdinateDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolPointDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolRadiusDimension.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolSection.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolSectionedArea.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolWitnessLine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_WitnessLine.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_CircArraySubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ConnectPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Drawing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_DrawingWithRotation.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_LabelDisplay.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_NetworkSubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_NetworkSubfigureDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_PerspectiveView.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Planar.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_RectArraySubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_SegmentedViewsVisible.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolCircArraySubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolConnectPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolDrawing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolDrawingWithRotation.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolLabelDisplay.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolNetworkSubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolNetworkSubfigureDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolPerspectiveView.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolPlanar.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolRectArraySubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolSegmentedViewsVisible.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolView.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolViewsVisible.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolViewsVisibleWithAttr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_View.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ViewsVisible.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ViewsVisibleWithAttr.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Block.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_BooleanTree.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ConeFrustum.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ConicalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Cylinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_CylindricalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_EdgeList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Ellipsoid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Face.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Loop.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ManifoldSolid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_PlaneSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_RightAngularWedge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SelectedComponent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Shell.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidAssembly.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidInstance.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidOfLinearExtrusion.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidOfRevolution.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Sphere.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SphericalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolBlock.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolBooleanTree.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolConeFrustum.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolConicalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolCylinder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolCylindricalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolEdgeList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolEllipsoid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolFace.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolLoop.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolManifoldSolid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolPlaneSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolRightAngularWedge.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSelectedComponent.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolShell.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidAssembly.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidInstance.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidOfLinearExtrusion.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidOfRevolution.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSphere.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSphericalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolToroidalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolTorus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolVertexList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_TopoBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToroidalSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Torus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_VertexList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_AssociativityDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_AttributeDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_AttributeTable.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_GenericData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_HArray1OfHArray1OfTextDisplayTemplate_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_MacroDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_TabularData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolAssociativityDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolAttributeDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolAttributeTable.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolGenericData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolMacroDef.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolTabularData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolUnitsData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_UnitsData.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_DrilledHole.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ElementResults.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_FiniteElement.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Flow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_FlowLineSpec.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_GeneralModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_LevelFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_LevelToPWBLayerMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_LineWidening.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_NodalConstraint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_NodalDisplAndRot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_NodalResults.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Node.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PartNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PinNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PipingFlow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Protocol.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PWBArtworkStackup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PWBDrilledHole.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ReadWriteModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ReferenceDesignator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_RegionRestriction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_SpecificModule.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolDrilledHole.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolElementResults.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolFiniteElement.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolFlow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolFlowLineSpec.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolLevelFunction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolLevelToPWBLayerMap.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolLineWidening.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNodalConstraint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNodalDisplAndRot.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNodalResults.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNode.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPartNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPinNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPipingFlow.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPWBArtworkStackup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPWBDrilledHole.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolReferenceDesignator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolRegionRestriction.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESConvGeom\IGESConvGeom.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESConvGeom\IGESConvGeom_GeomBuilder.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_Activator.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_AddFileComment.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_AddGroup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_AutoCorrect.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ChangeLevelList.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ChangeLevelNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ComputeStatus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_CounterOfLevelNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_DispPerDrawing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_DispPerSingleView.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_Dumper.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_EditDirPart.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_EditHeader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_FileModifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_FloatFormat.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_IGESName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_IGESTypeForm.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ModelModifier_0.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_RebuildDrawings.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_RebuildGroups.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_RemoveCurves.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectBasicGeom.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectBypassGroup.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectBypassSubfigure.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectDrawingFrom.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectFaces.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectFromDrawing.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectFromSingleView.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectLevelNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectPCurves.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectSingleViewFrom.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectSubordinate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectVisibleStatus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SetGlobalParameter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SetLabel.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SetVersion5.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SignColor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SignLevelNumber.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SignStatus.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SplineToBSpline.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_UpdateCreationDate.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_UpdateFileName.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_UpdateLastChange.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ViewSorter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_WorkLibrary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_Actor.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_AlgoContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_BasicCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_BasicSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_BRepEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_CurveAndSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_IGESBoundary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_ToolContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_TopoCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_TopoSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomSurface.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomVector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dCurve.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dEntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dPoint.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dVector.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BREntity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BRShell.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BRSolid.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BRWire.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\BRepToIGESBRep\BRepToIGESBRep_Entity.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_ActorWrite.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_AlgoContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Controller.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_IGESBoundary.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Reader.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_ToolContainer.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Writer.cxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Provider.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESCAFControl\IGESCAFControl_Writer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_Array1OfDirPart.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_Array1OfIGESEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_BasicEditor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ColorEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefaultGeneral.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefaultSpecific.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefSwitch.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DefType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DirChecker.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_DirPart.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_Dump.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_FileProtocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_FileRecognizer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_FreeFormatEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GlobalNodeOfSpecificLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GlobalNodeOfWriterLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_GlobalSection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_HArray1OfIGESEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESDumper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESModel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESReaderData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESReaderTool.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_IGESWriter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_LabelDisplayEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_LevelListEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_LineFontEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_NameEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_NodeOfSpecificLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_NodeOfWriterLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ParamCursor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ParamReader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ReadStage.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_SingleParentEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_SpecificLib.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_Status.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ToolLocation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_TransfEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_UndefinedEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ViewKindEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_WriterLib.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\IGESData\IGESData_ParamCursor.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESFile\IGESFile_Read.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESFile\igesread.h" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Array1OfLineFontEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Array2OfHArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_AssocGroupType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalReferenceFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefFileIndex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefFileName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefLibName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ExternalRefName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Group.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_GroupWithoutBackP.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfIGESEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfInteger.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXY.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXYZ.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray1OfLineFontEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_HArray2OfHArray1OfReal.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Hierarchy.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Name.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_OrderedGroup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_OrderedGroupWithoutBackP.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SingleParent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SingularSubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_SubfigureDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolAssocGroupType.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalReferenceFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefFile.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefFileIndex.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefFileName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefLibName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolExternalRefName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolGroup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolGroupWithoutBackP.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolHierarchy.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolOrderedGroup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolOrderedGroupWithoutBackP.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolSingleParent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolSingularSubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESBasic\IGESBasic_ToolSubfigureDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Array1OfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Array1OfTextDisplayTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Array1OfTextFontDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Color.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_DefinitionLevel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_DrawingSize.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_DrawingUnits.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_HArray1OfColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_HArray1OfTextDisplayTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_HArray1OfTextFontDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_HighLight.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_IntercharacterSpacing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_LineFontDefPattern.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_LineFontDefTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_LineFontPredefined.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_NominalSize.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Pick.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_TextDisplayTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_TextFontDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolDefinitionLevel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolDrawingSize.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolDrawingUnits.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolHighLight.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolIntercharacterSpacing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolLineFontDefPattern.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolLineFontDefTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolLineFontPredefined.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolNominalSize.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolPick.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolTextDisplayTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolTextFontDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_ToolUniformRectGrid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGraph\IGESGraph_UniformRectGrid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Array1OfBoundary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Array1OfCurveOnSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Array1OfTransformationMatrix.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Boundary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_BoundedSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_BSplineCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_BSplineSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CircularArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CompositeCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ConicArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CopiousData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_CurveOnSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Direction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Flash.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_HArray1OfBoundary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_HArray1OfCurveOnSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_HArray1OfTransformationMatrix.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Line.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_OffsetCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_OffsetSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Plane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Point.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_RuledSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SplineCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SplineSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_SurfaceOfRevolution.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_TabulatedCylinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBoundary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBoundedSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBSplineCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolBSplineSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCircularArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCompositeCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolConicArc.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCopiousData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolCurveOnSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolDirection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolFlash.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolOffsetCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolOffsetSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolPlane.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolRuledSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolSplineCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolSplineSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolSurfaceOfRevolution.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolTabulatedCylinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolTransformationMatrix.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_ToolTrimmedSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_TransformationMatrix.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESGeom\IGESGeom_TrimmedSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_AngularDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_Array1OfGeneralNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_Array1OfLeaderArrow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_BasicDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_CenterLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_CurveDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DiameterDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionDisplayData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionedGeometry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionTolerance.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_DimensionUnits.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_FlagNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_GeneralSymbol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_HArray1OfGeneralNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_HArray1OfLeaderArrow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_LeaderArrow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_LinearDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_NewDimensionedGeometry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_NewGeneralNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_OrdinateDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_PointDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_RadiusDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_Section.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_SectionedArea.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolAngularDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolBasicDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolCenterLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolCurveDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDiameterDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionDisplayData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionedGeometry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionTolerance.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolDimensionUnits.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolFlagNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolGeneralLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolGeneralNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolGeneralSymbol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolLeaderArrow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolLinearDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolNewDimensionedGeometry.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolNewGeneralNote.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolOrdinateDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolPointDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolRadiusDimension.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolSection.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolSectionedArea.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_ToolWitnessLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDimen\IGESDimen_WitnessLine.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Array1OfConnectPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Array1OfViewKindEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_CircArraySubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ConnectPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Drawing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_DrawingWithRotation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_HArray1OfConnectPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_HArray1OfViewKindEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_LabelDisplay.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_NetworkSubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_NetworkSubfigureDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_PerspectiveView.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Planar.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_RectArraySubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_SegmentedViewsVisible.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolCircArraySubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolConnectPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolDrawing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolDrawingWithRotation.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolLabelDisplay.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolNetworkSubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolNetworkSubfigureDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolPerspectiveView.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolPlanar.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolRectArraySubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolSegmentedViewsVisible.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolView.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolViewsVisible.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ToolViewsVisibleWithAttr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_View.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ViewsVisible.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDraw\IGESDraw_ViewsVisibleWithAttr.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Array1OfFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Array1OfLoop.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Array1OfShell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Array1OfVertexList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Block.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_BooleanTree.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ConeFrustum.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ConicalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Cylinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_CylindricalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_EdgeList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Ellipsoid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Face.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_HArray1OfFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_HArray1OfLoop.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_HArray1OfShell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_HArray1OfVertexList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Loop.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ManifoldSolid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_PlaneSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_RightAngularWedge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SelectedComponent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Shell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidAssembly.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidInstance.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidOfLinearExtrusion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SolidOfRevolution.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Sphere.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_SphericalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolBlock.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolBooleanTree.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolConeFrustum.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolConicalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolCylinder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolCylindricalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolEdgeList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolEllipsoid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolFace.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolLoop.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolManifoldSolid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolPlaneSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolRightAngularWedge.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSelectedComponent.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolShell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidAssembly.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidInstance.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidOfLinearExtrusion.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSolidOfRevolution.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSphere.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolSphericalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolToroidalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolTorus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToolVertexList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_TopoBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_ToroidalSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_Torus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSolid\IGESSolid_VertexList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_Array1OfTabularData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_AssociativityDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_AttributeDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_AttributeTable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_GenericData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_HArray1OfTabularData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_MacroDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_TabularData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolAssociativityDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolAttributeDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolAttributeTable.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolGenericData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolMacroDef.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolTabularData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_ToolUnitsData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESDefs\IGESDefs_UnitsData.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Array1OfFiniteElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Array1OfFlow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Array1OfNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_DrilledHole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ElementResults.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_FiniteElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Flow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_FlowLineSpec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_GeneralModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_HArray1OfFiniteElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_HArray1OfFlow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_HArray1OfNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_LevelFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_LevelToPWBLayerMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_LineWidening.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_NodalConstraint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_NodalDisplAndRot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_NodalResults.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Node.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PartNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PinNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PipingFlow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_Protocol.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PWBArtworkStackup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_PWBDrilledHole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ReadWriteModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ReferenceDesignator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_RegionRestriction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_SpecificModule.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolDrilledHole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolElementResults.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolFiniteElement.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolFlow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolFlowLineSpec.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolLevelFunction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolLevelToPWBLayerMap.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolLineWidening.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNodalConstraint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNodalDisplAndRot.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNodalResults.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolNode.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPartNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPinNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPipingFlow.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPWBArtworkStackup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolPWBDrilledHole.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolReferenceDesignator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESAppli\IGESAppli_ToolRegionRestriction.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESConvGeom\IGESConvGeom.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESConvGeom\IGESConvGeom_GeomBuilder.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_Activator.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_AddFileComment.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_AddGroup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_AutoCorrect.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ChangeLevelList.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ChangeLevelNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ComputeStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_CounterOfLevelNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_DispPerDrawing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_DispPerSingleView.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_Dumper.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_EditDirPart.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_EditHeader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_FileModifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_FloatFormat.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_IGESName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_IGESTypeForm.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ModelModifier.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_RebuildDrawings.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_RebuildGroups.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_RemoveCurves.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectBasicGeom.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectBypassGroup.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectBypassSubfigure.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectDrawingFrom.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectFaces.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectFromDrawing.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectFromSingleView.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectLevelNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectPCurves.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectSingleViewFrom.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectSubordinate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SelectVisibleStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SetGlobalParameter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SetLabel.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SetVersion5.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SignColor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SignLevelNumber.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SignStatus.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_SplineToBSpline.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_UpdateCreationDate.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_UpdateFileName.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_UpdateLastChange.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_ViewSorter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESSelect\IGESSelect_WorkLibrary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_Actor.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_AlgoContainer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_BasicCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_BasicSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_BRepEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_CurveAndSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_IGESBoundary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_ToolContainer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_TopoCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_TopoSurface.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_AlgoContainer.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_CurveAndSurface.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT\src\IGESToBRep\IGESToBRep_IGESBoundary.lxx">
+    </None>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomSurface.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\GeomToIGES\GeomToIGES_GeomVector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dCurve.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dEntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dPoint.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\Geom2dToIGES\Geom2dToIGES_Geom2dVector.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BREntity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BRShell.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BRSolid.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepToIGES\BRepToIGES_BRWire.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepToIGESBRep\BRepToIGESBRep_Entity.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_ActorWrite.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_AlgoContainer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Controller.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_IGESBoundary.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Reader.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_ToolContainer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Writer.hxx" />
+    <None Include="C:\OCCT-Build\OCCT\src\IGESControl\IGESControl_Reader.lxx">
+    </None>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKDEIGES.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBO\TKBO.vcxproj">
+      <Project>{00634628-9ECC-3F5F-AA97-ADED4EC2D993}</Project>
+      <Name>TKBO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBRep\TKBRep.vcxproj">
+      <Project>{685E9983-BEB7-3CC2-9379-F489FF803CD5}</Project>
+      <Name>TKBRep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKBool\TKBool.vcxproj">
+      <Project>{DD5C66DD-8254-3222-AD9C-37CBC03216D4}</Project>
+      <Name>TKBool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKCAF\TKCAF.vcxproj">
+      <Project>{1659BD35-39FE-3B51-A5E6-6FDB7C79160B}</Project>
+      <Name>TKCAF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKCDF\TKCDF.vcxproj">
+      <Project>{A3D41FDD-26B7-37C8-B0B8-B0CA00921643}</Project>
+      <Name>TKCDF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKDE\TKDE.vcxproj">
+      <Project>{169D636F-6474-3609-AB88-78766ED8807E}</Project>
+      <Name>TKDE</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG2d\TKG2d.vcxproj">
+      <Project>{8A116F82-5414-31F2-95DA-8B5DC25105EE}</Project>
+      <Name>TKG2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKG3d\TKG3d.vcxproj">
+      <Project>{EF204F9E-4354-3394-8240-7E20C7577C78}</Project>
+      <Name>TKG3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomAlgo\TKGeomAlgo.vcxproj">
+      <Project>{9CEEF9F3-145B-3253-A56B-34BBC67B6B15}</Project>
+      <Name>TKGeomAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKGeomBase\TKGeomBase.vcxproj">
+      <Project>{A5B7C8A5-23F9-3C18-AFF8-D3549F46A599}</Project>
+      <Name>TKGeomBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKHLR\TKHLR.vcxproj">
+      <Project>{25078909-3DDD-3352-B48B-6BA98DA3672F}</Project>
+      <Name>TKHLR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKLCAF\TKLCAF.vcxproj">
+      <Project>{75EA6BC8-F7AD-3132-A146-0529B92E1CA0}</Project>
+      <Name>TKLCAF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMath\TKMath.vcxproj">
+      <Project>{3DB9B702-A815-3AAA-AD26-49E79937A596}</Project>
+      <Name>TKMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKMesh\TKMesh.vcxproj">
+      <Project>{6AA8C7BB-0521-36D3-816E-5F48C3392555}</Project>
+      <Name>TKMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKPrim\TKPrim.vcxproj">
+      <Project>{C2CF74F5-6901-3727-B82E-616B15D46E06}</Project>
+      <Name>TKPrim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKService\TKService.vcxproj">
+      <Project>{31C26A06-0CC0-3530-B223-DBC97CD1D73B}</Project>
+      <Name>TKService</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKShHealing\TKShHealing.vcxproj">
+      <Project>{CC994EDA-8C98-3784-805B-3984D10F8199}</Project>
+      <Name>TKShHealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKTopAlgo\TKTopAlgo.vcxproj">
+      <Project>{A0937AF0-D5FD-34F5-BDB6-97D2C38A1F95}</Project>
+      <Name>TKTopAlgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKV3d\TKV3d.vcxproj">
+      <Project>{8D32ECCB-B273-37E8-873C-E5AD5489F8F8}</Project>
+      <Name>TKV3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKVCAF\TKVCAF.vcxproj">
+      <Project>{CA4762A9-29AE-3AC5-A281-0B3127B14AAB}</Project>
+      <Name>TKVCAF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXCAF\TKXCAF.vcxproj">
+      <Project>{2E8BE0DA-F4CD-3E19-B457-D28D5EE7D62E}</Project>
+      <Name>TKXCAF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKXSBase\TKXSBase.vcxproj">
+      <Project>{AF932EFA-4077-3B83-A629-62FB102C89CE}</Project>
+      <Name>TKXSBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\OCCT-Build\Builds\src\TKernel\TKernel.vcxproj">
+      <Project>{89A49687-B696-32B2-92EA-33FCF035DDBB}</Project>
+      <Name>TKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

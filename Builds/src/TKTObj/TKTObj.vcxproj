@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -244,7 +242,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Application.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Assistant.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_CheckModel.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Common.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Container.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_DeletingMode.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_HiddenPartition.hxx" />

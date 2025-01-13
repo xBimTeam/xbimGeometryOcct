@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,18 +85,17 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";TKXSBase_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";TKXSBase_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -141,12 +139,12 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";TKXSBase_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";TKXSBase_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -190,12 +188,12 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";TKXSBase_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__StepData_DLL;__StepFile_DLL;__HeaderSection_DLL;__RWHeaderSection_DLL;__APIHeaderSection_DLL;__StepSelect_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKXSBase_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;__Interface_DLL;__Transfer_DLL;__IFGraph_DLL;__IFSelect_DLL;__TransferBRep_DLL;__XSControl_DLL;__XSAlgo_DLL;__LibCtl_DLL;__MoniTool_DLL;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";TKXSBase_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\OCCT-Build\Builds\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -248,7 +246,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntList.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntVal.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_LineBuffer.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MapAsciiStringHasher.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MSG.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfGeneralLib_0.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfReaderLib_0.cxx" />
@@ -278,7 +275,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_DispatchControl.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_Finder.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_FinderProcess.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_FindHasher.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_IteratorOfProcessForFinder_0.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_IteratorOfProcessForTransient_0.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\Transfer\Transfer_MapContainer.cxx" />
@@ -386,7 +382,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\IFSelect\IFSelect_WorkSession.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_BinderOfShape.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_OrientedShapeMapper_0.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_Reader.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeBinder.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeInfo.cxx" />
@@ -407,66 +402,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Vars.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_WorkSession.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Writer.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_DefaultGeneral.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Described.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ECDescr.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EDescr.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EnumTool.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ESDescr.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Field.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList1.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListD.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListN.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileProtocol.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileRecognizer_0.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FreeFormEntity.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GeneralModule.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalFactors.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalNodeOfWriterLib_0.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_NodeOfWriterLib_0.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_PDescr.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Plex.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Protocol.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ReadWriteModule.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectArrReal.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectInt.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectMember.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectNamed.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectReal.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectType.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Simple.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepDumper.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepModel.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderData.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderTool.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepWriter.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_UndefinedEntity.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepData\StepData_WriterLib_0.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\lex.step.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\step.tab.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_ReadData.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_Read.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileDescription.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileName.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileSchema.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_Protocol.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_GeneralModule.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileDescription.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileName.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileSchema.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_EditHeader.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_MakeHeader.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_Activator.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FileModifier_0.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FloatFormat.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_ModelModifier_0.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_StepType.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_WorkLibrary.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_AlgoContainer.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_ToolContainer.cxx" />
@@ -474,9 +409,7 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_CaseData.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataInfo.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Element.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ElemHasher.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_IntVal.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_MTHasher.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_RealVal.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignShape.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignText.cxx" />
@@ -525,7 +458,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_IntVal.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_LineBuffer.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_Macros.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MapAsciiStringHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_MSG.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfGeneralLib.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Interface\Interface_NodeOfReaderLib.hxx" />
@@ -697,7 +629,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_BinderOfShape.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_HSequenceOfTransferResultInfo.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_OrientedShapeMapper.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_Reader.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_SequenceOfTransferResultInfo.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TransferBRep\TransferBRep_ShapeBinder.hxx" />
@@ -721,69 +652,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Vars.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_WorkSession.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\XSControl\XSControl_Writer.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Array1OfField.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_DefaultGeneral.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Described.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ECDescr.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EDescr.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_EnumTool.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ESDescr.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Field.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldList1.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListD.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FieldListN.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileProtocol.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FileRecognizer.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_FreeFormEntity.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GeneralModule.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalFactors.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_GlobalNodeOfWriterLib.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_HArray1OfField.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Logical.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_NodeOfWriterLib.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_PDescr.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Plex.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Protocol.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_ReadWriteModule.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectArrReal.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectInt.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectMember.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectNamed.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectReal.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_SelectType.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_Simple.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepDumper.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepModel.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderData.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepReaderTool.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_StepWriter.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_UndefinedEntity.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepData\StepData_WriterLib.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\step.tab.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_ReadData.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\StepFile_Read.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepFile\FlexLexer.h" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileDescription.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileName.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_FileSchema.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\HeaderSection\HeaderSection_Protocol.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_GeneralModule.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_ReadWriteModule.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileDescription.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileName.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWHeaderSection\RWHeaderSection_RWFileSchema.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_EditHeader.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\APIHeaderSection\APIHeaderSection_MakeHeader.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_Activator.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FileModifier.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_FloatFormat.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_ModelModifier.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_StepType.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\StepSelect\StepSelect_WorkLibrary.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_AlgoContainer.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\XSAlgo\XSAlgo_Caller.hxx" />
@@ -798,12 +666,10 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataMapOfShapeTransient.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_DataMapOfTimer.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Element.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ElemHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_HSequenceOfElement.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_IndexedDataMapOfShapeTransient.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_IntVal.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Macros.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_MTHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_RealVal.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SequenceOfElement.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_SignShape.hxx" />
@@ -816,8 +682,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ValueInterpret.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ValueSatisfies.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_ValueType.hxx" />
-    <None Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_MTHasher.lxx">
-    </None>
     <None Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_Timer.lxx">
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\MoniTool\MoniTool_TimerSentry.lxx">

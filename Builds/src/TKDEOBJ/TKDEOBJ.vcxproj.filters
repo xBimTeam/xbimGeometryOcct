@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_CafReader.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_CafWriter.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_ConfigurationNode.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_MtlReader.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_ObjMaterialMap.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_ObjWriterContext.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_Provider.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_Reader.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_TriangulationReader.cxx">
+      <Filter>Source Files\RWObj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_CafReader.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_CafWriter.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_ConfigurationNode.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_Material.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_MtlReader.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_ObjMaterialMap.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_ObjWriterContext.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_Provider.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_Reader.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_SubMesh.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_SubMeshReason.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_Tools.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWObj\RWObj_TriangulationReader.hxx">
+      <Filter>Header Files\RWObj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKDEOBJ.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWObj">
+      <UniqueIdentifier>{4A3B0EDA-E2BD-3F16-80FC-49F6FCC85023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWObj">
+      <UniqueIdentifier>{8988DF18-D30F-3ABD-B7FF-F9C3A4EB03AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -1212,7 +1210,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_ArrayOfTangentZones.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_ArrayOfTriangles.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_Couple.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_CoupleMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_Edge.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_Intersection.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntPolyh\IntPolyh_ListOfCouples.hxx" />

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_CafReader.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_CafWriter.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_ConfigurationNode.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfJsonParser.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfLatePrimitiveArray.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfMaterialMap.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_Provider.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_TriangulationReader.cxx">
+      <Filter>Source Files\RWGltf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_CafReader.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_CafWriter.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_ConfigurationNode.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_DracoParameters.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfAccessor.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfAccessorCompType.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfAccessorLayout.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfAlphaMode.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfArrayType.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfBufferView.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfBufferViewTarget.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfFace.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfJsonParser.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfLatePrimitiveArray.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfMaterialMap.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfOStreamWriter.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfPrimArrayData.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfPrimitiveMode.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfRootElement.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_GltfSceneNodeMap.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_MaterialCommon.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_MaterialMetallicRoughness.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_Provider.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_TriangulationReader.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWGltf\RWGltf_WriterTrsfFormat.hxx">
+      <Filter>Header Files\RWGltf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKDEGLTF.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWGltf">
+      <UniqueIdentifier>{1B8F4C5A-E76B-3AE8-8BF7-02691CC83576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWGltf">
+      <UniqueIdentifier>{365232E3-552D-3CA0-92D0-FA7E7FE1F8F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

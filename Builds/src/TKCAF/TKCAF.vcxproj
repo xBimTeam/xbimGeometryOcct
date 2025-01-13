@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -295,7 +293,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_MapOfNamedShape.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_Name.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NamedShape.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NamedShapeHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NameType.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_Naming.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NamingTool.hxx" />

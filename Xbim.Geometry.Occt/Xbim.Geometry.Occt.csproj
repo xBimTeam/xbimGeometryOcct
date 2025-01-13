@@ -15,8 +15,8 @@
     <PackageIcon>xbim-toolkit-icon.png</PackageIcon>
     <PackageTags>Xbim;Geometry;OCCT;OpenCascade</PackageTags>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
-    <FileVersion>7.7.0.4</FileVersion>
-    <Version>7.7.0</Version>
+    <FileVersion>7.8.0.0</FileVersion>
+    <Version>7.8.0-beta.0.1</Version>
     <IsPackable>true</IsPackable>
     <PackageLicenseExpression>LGPL-2.1-only WITH OCCT-exception-1.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

@@ -468,9 +468,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_MutexForShapeProvider.hxx">
       <Filter>Header Files\TopTools</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_OrientedShapeMapHasher.hxx">
-      <Filter>Header Files\TopTools</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_SequenceOfShape.hxx">
       <Filter>Header Files\TopTools</Filter>
     </ClInclude>
@@ -686,25 +683,7 @@
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Builder.lxx">
       <Filter>Header Files\TopoDS</Filter>
     </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Compound.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_CompSolid.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Edge.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Face.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_HShape.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Shell.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Solid.lxx">
       <Filter>Header Files\TopoDS</Filter>
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_TCompound.lxx">
@@ -730,18 +709,6 @@
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_TWire.lxx">
       <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Vertex.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopoDS\TopoDS_Wire.lxx">
-      <Filter>Header Files\TopoDS</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_OrientedShapeMapHasher.lxx">
-      <Filter>Header Files\TopTools</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\TopTools\TopTools_ShapeMapHasher.lxx">
-      <Filter>Header Files\TopTools</Filter>
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\BRep\BRep_Builder.lxx">
       <Filter>Header Files\BRep</Filter>

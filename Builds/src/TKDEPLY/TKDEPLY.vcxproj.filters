@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_CafWriter.cxx">
+      <Filter>Source Files\RWPly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_ConfigurationNode.cxx">
+      <Filter>Source Files\RWPly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_PlyWriterContext.cxx">
+      <Filter>Source Files\RWPly</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_Provider.cxx">
+      <Filter>Source Files\RWPly</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_CafWriter.hxx">
+      <Filter>Header Files\RWPly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_ConfigurationNode.hxx">
+      <Filter>Header Files\RWPly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_PlyWriterContext.hxx">
+      <Filter>Header Files\RWPly</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\RWPly\RWPly_Provider.hxx">
+      <Filter>Header Files\RWPly</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKDEPLY.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RWPly">
+      <UniqueIdentifier>{81D9245A-FB53-3748-A43D-6B5C2C5911DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RWPly">
+      <UniqueIdentifier>{203A7F65-F75B-39E0-B707-925266A31ECC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

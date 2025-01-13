@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -327,11 +325,13 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\PrsMgr\PrsMgr_Presentation.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\PrsMgr\PrsMgr_PresentationManager.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Animation.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationAxisRotation.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationCamera.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationObject.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AttributeFilter.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Axis.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BadEdgeFilter.cxx" />
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BaseAnimationObject.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_C0RegularityFilter.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_CameraFrustum.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Circle.cxx" />
@@ -606,11 +606,13 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Animation.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationTimer.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationAxisRotation.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationCamera.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationObject.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AttributeFilter.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Axis.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BadEdgeFilter.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BaseAnimationObject.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_C0RegularityFilter.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_CameraFrustum.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Circle.hxx" />

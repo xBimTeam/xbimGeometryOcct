@@ -85,9 +85,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Householder.cxx">
       <Filter>Source Files\math</Filter>
     </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_IntegerVector.cxx">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Jacobi.cxx">
       <Filter>Source Files\math</Filter>
     </ClCompile>
@@ -131,9 +128,6 @@
       <Filter>Source Files\math</Filter>
     </ClCompile>
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Uzawa.cxx">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Vector.cxx">
       <Filter>Source Files\math</Filter>
     </ClCompile>
     <ClCompile Include="C:\OCCT-Build\OCCT\src\ElCLib\ElCLib.cxx">
@@ -799,6 +793,9 @@
       <Filter>Header Files\math</Filter>
     </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_ValueAndWeight.hxx">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_VectorBase.hxx">
       <Filter>Header Files\math</Filter>
     </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_Vector.hxx">
@@ -1479,9 +1476,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_MapIteratorOfMapOfLocation.hxx">
       <Filter>Header Files\TopLoc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_MapLocationHasher.hxx">
-      <Filter>Header Files\TopLoc</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_MapOfLocation.hxx">
       <Filter>Header Files\TopLoc</Filter>
     </ClInclude>
@@ -1821,6 +1815,9 @@
       <Filter>Header Files\math</Filter>
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\math\math_Uzawa.lxx">
+      <Filter>Header Files\math</Filter>
+    </None>
+    <None Include="C:\OCCT-Build\OCCT\src\math\math_VectorBase.lxx">
       <Filter>Header Files\math</Filter>
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\ElCLib\ElCLib.lxx">

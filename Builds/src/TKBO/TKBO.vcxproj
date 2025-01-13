@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -320,8 +318,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_Curve.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_CurveRangeLocalizeData.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_CurveRangeSample.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_CurveRangeSampleMapHasher.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_DataMapIteratorOfDataMapOfCurveSampleBox.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_DataMapOfCurveSampleBox.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_DataMapOfSurfaceSampleBox.hxx" />
@@ -352,7 +348,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_ShrunkRange.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_SurfaceRangeLocalizeData.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_SurfaceRangeSample.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_SurfaceRangeSampleMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_Tools.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_TopolTool.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\IntTools\IntTools_WLineTool.hxx" />
@@ -397,7 +392,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_MapOfPaveBlock.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_Pave.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PaveBlock.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PaveMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PDS.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PIterator.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PIteratorSI.hxx" />
@@ -423,7 +417,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_VectorOfPoint.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_VectorOfShapeInfo.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_Pair.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PairMapHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_MapOfPair.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_VectorOfPair.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_VectorOfVectorOfPair.hxx" />
@@ -436,8 +429,6 @@
     <None Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_IndexRange.lxx">
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_Pave.lxx">
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_PaveMapHasher.lxx">
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\BOPDS\BOPDS_Point.lxx">
     </None>
@@ -503,9 +494,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPTools\BOPTools_PairSelector.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPTools\BOPTools_Parallel.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPTools\BOPTools_Set.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\BOPTools\BOPTools_SetMapHasher.hxx" />
-    <None Include="C:\OCCT-Build\OCCT\src\BOPTools\BOPTools_SetMapHasher.lxx">
-    </None>
     <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKBO.rc" />
   </ItemGroup>
   <ItemGroup />

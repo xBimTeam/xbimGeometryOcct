@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -426,15 +424,12 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_DataMapOfIntegerPnt2d.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_DataMapOfIntegerSequenceOfConnexion.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_DataMapOfIntegerVec2d.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_MapBiIntHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_Mat2d.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_MiniPath.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_SequenceOfConnexion.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_SequenceOfSequenceOfCurve.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_SequenceOfSequenceOfGeometry.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_Tool2d.hxx" />
-    <None Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_MapBiIntHasher.lxx">
-    </None>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Bisector\Bisector.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Bisector\Bisector_Bisec.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\Bisector\Bisector_BisecAna.hxx" />

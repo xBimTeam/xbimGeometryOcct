@@ -600,9 +600,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_DataMapOfIntegerVec2d.hxx">
       <Filter>Header Files\MAT2d</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_MapBiIntHasher.hxx">
-      <Filter>Header Files\MAT2d</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_Mat2d.hxx">
       <Filter>Header Files\MAT2d</Filter>
     </ClInclude>
@@ -1138,9 +1135,6 @@
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\MAT\MAT_TListNode.lxx">
       <Filter>Header Files\MAT</Filter>
-    </None>
-    <None Include="C:\OCCT-Build\OCCT\src\MAT2d\MAT2d_MapBiIntHasher.lxx">
-      <Filter>Header Files\MAT2d</Filter>
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\BRepClass\BRepClass_Edge.lxx">
       <Filter>Header Files\BRepClass</Filter>

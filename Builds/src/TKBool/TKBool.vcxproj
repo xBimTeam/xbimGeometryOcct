@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -770,6 +768,7 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_SequenceOfSection.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_ShapeLaw.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_Sweep.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_ThruSectionErrorStatus.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_TransitionStyle.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_TrimEdgeTool.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_TrimShellCorner.hxx" />

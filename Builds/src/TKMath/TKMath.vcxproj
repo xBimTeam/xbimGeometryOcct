@@ -78,7 +78,6 @@
       <DisableSpecificWarnings>26812</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -86,7 +85,6 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <StringPooling>true</StringPooling>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
@@ -249,7 +247,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_GaussSingleIntegration.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_GlobOptMin.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Householder.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_IntegerVector.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Jacobi.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Kronrod.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_KronrodSingleIntegration.cxx" />
@@ -265,7 +262,6 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_SVD.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_TrigonometricFunctionRoots.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Uzawa.cxx" />
-    <ClCompile Include="C:\OCCT-Build\OCCT\src\math\math_Vector.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\ElCLib\ElCLib.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\ElSLib\ElSLib.cxx" />
     <ClCompile Include="C:\OCCT-Build\OCCT\src\BSplCLib\BSplCLib.cxx" />
@@ -487,6 +483,7 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_TrigonometricEquationFunction.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_Uzawa.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_ValueAndWeight.hxx" />
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_VectorBase.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\math\math_Vector.hxx" />
     <None Include="C:\OCCT-Build\OCCT\src\math\math_BFGS.lxx">
     </None>
@@ -541,6 +538,8 @@
     <None Include="C:\OCCT-Build\OCCT\src\math\math_TrigonometricFunctionRoots.lxx">
     </None>
     <None Include="C:\OCCT-Build\OCCT\src\math\math_Uzawa.lxx">
+    </None>
+    <None Include="C:\OCCT-Build\OCCT\src\math\math_VectorBase.lxx">
     </None>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\ElCLib\ElCLib.hxx" />
     <None Include="C:\OCCT-Build\OCCT\src\ElCLib\ElCLib.lxx">
@@ -791,7 +790,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_ItemLocation.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_Location.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_MapIteratorOfMapOfLocation.hxx" />
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_MapLocationHasher.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_MapOfLocation.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_SListNodeOfItemLocation.hxx" />
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TopLoc\TopLoc_SListOfItemLocation.hxx" />

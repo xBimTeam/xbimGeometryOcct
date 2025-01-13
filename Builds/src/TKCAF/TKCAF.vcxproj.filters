@@ -219,9 +219,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NamedShape.hxx">
       <Filter>Header Files\TNaming</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NamedShapeHasher.hxx">
-      <Filter>Header Files\TNaming</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TNaming\TNaming_NameType.hxx">
       <Filter>Header Files\TNaming</Filter>
     </ClInclude>

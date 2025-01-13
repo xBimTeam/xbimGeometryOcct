@@ -72,9 +72,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_CheckModel.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Common.hxx">
-      <Filter>Header Files\TObj</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TObj\TObj_Container.hxx">
       <Filter>Header Files\TObj</Filter>
     </ClInclude>

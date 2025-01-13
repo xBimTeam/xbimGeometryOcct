@@ -1620,6 +1620,9 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_Sweep.hxx">
       <Filter>Header Files\BRepFill</Filter>
     </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_ThruSectionErrorStatus.hxx">
+      <Filter>Header Files\BRepFill</Filter>
+    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\BRepFill\BRepFill_TransitionStyle.hxx">
       <Filter>Header Files\BRepFill</Filter>
     </ClInclude>

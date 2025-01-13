@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS TKXDE TKXSBase TKSTEPBase TKSTEPAttr TKSTEP209 TKSTEP TKIGES TKXCAF TKXDEIGES TKXDESTEP TKSTL TKVRML TKRWMesh TKXmlXCAF TKBinXCAF TKXDECascade TKExpress)
+foreach(_cmake_expected_target IN ITEMS TKDE TKXSBase TKDESTEP TKXCAF TKDEIGES TKDESTL TKDEVRML TKRWMesh TKDECascade TKBinXCAF TKXmlXCAF TKDEOBJ TKDEGLTF TKDEPLY)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -53,10 +53,10 @@ if(_IMPORT_PREFIX STREQUAL "/")
   set(_IMPORT_PREFIX "")
 endif()
 
-# Create imported target TKXDE
-add_library(TKXDE SHARED IMPORTED)
+# Create imported target TKDE
+add_library(TKDE SHARED IMPORTED)
 
-set_target_properties(TKXDE PROPERTIES
+set_target_properties(TKDE PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
   INTERFACE_LINK_LIBRARIES "TKernel"
 )
@@ -69,44 +69,12 @@ set_target_properties(TKXSBase PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKernel;TKMath;TKG2d;TKG3d;TKTopAlgo;TKGeomBase;TKShHealing"
 )
 
-# Create imported target TKSTEPBase
-add_library(TKSTEPBase SHARED IMPORTED)
+# Create imported target TKDESTEP
+add_library(TKDESTEP SHARED IMPORTED)
 
-set_target_properties(TKSTEPBase PROPERTIES
+set_target_properties(TKDESTEP PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKernel;TKXSBase;TKMath"
-)
-
-# Create imported target TKSTEPAttr
-add_library(TKSTEPAttr SHARED IMPORTED)
-
-set_target_properties(TKSTEPAttr PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKernel;TKXSBase;TKSTEPBase"
-)
-
-# Create imported target TKSTEP209
-add_library(TKSTEP209 SHARED IMPORTED)
-
-set_target_properties(TKSTEP209 PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKernel;TKXSBase;TKSTEPBase"
-)
-
-# Create imported target TKSTEP
-add_library(TKSTEP SHARED IMPORTED)
-
-set_target_properties(TKSTEP PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKernel;TKSTEPAttr;TKSTEP209;TKSTEPBase;TKBRep;TKMath;TKG2d;TKShHealing;TKTopAlgo;TKG3d;TKGeomBase;TKGeomAlgo;TKXSBase"
-)
-
-# Create imported target TKIGES
-add_library(TKIGES SHARED IMPORTED)
-
-set_target_properties(TKIGES PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKBRep;TKernel;TKMath;TKTopAlgo;TKShHealing;TKG2d;TKG3d;TKGeomBase;TKGeomAlgo;TKPrim;TKBool;TKXSBase"
+  INTERFACE_LINK_LIBRARIES "TKDE;TKBRep;TKernel;TKMath;TKXSBase;TKTopAlgo;TKG2d;TKCAF;TKCDF;TKLCAF;TKG3d;TKXCAF;TKShHealing;TKernel;TKBRep;TKMath;TKG2d;TKShHealing;TKTopAlgo;TKG3d;TKGeomBase;TKGeomAlgo;TKXSBase"
 )
 
 # Create imported target TKXCAF
@@ -117,36 +85,28 @@ set_target_properties(TKXCAF PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKernel;TKMath;TKService;TKG2d;TKTopAlgo;TKV3d;TKCDF;TKLCAF;TKG3d;TKCAF;TKVCAF"
 )
 
-# Create imported target TKXDEIGES
-add_library(TKXDEIGES SHARED IMPORTED)
+# Create imported target TKDEIGES
+add_library(TKDEIGES SHARED IMPORTED)
 
-set_target_properties(TKXDEIGES PROPERTIES
+set_target_properties(TKDEIGES PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKBRep;TKXDE;TKernel;TKMath;TKXSBase;TKCDF;TKLCAF;TKG2d;TKG3d;TKXCAF;TKIGES"
+  INTERFACE_LINK_LIBRARIES "TKBRep;TKDE;TKernel;TKMath;TKTopAlgo;TKShHealing;TKXSBase;TKGeomBase;TKGeomAlgo;TKBool;TKPrim;TKCDF;TKLCAF;TKG2d;TKG3d;TKXCAF"
 )
 
-# Create imported target TKXDESTEP
-add_library(TKXDESTEP SHARED IMPORTED)
+# Create imported target TKDESTL
+add_library(TKDESTL SHARED IMPORTED)
 
-set_target_properties(TKXDESTEP PROPERTIES
+set_target_properties(TKDESTL PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKXDE;TKBRep;TKSTEPAttr;TKernel;TKMath;TKXSBase;TKTopAlgo;TKG2d;TKCAF;TKSTEPBase;TKCDF;TKLCAF;TKG3d;TKXCAF;TKSTEP;TKShHealing"
+  INTERFACE_LINK_LIBRARIES "TKDE;TKernel;TKMath;TKBRep;TKG2d;TKG3d;TKTopAlgo;TKLCAF;TKXCAF"
 )
 
-# Create imported target TKSTL
-add_library(TKSTL SHARED IMPORTED)
+# Create imported target TKDEVRML
+add_library(TKDEVRML SHARED IMPORTED)
 
-set_target_properties(TKSTL PROPERTIES
+set_target_properties(TKDEVRML PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKXDE;TKernel;TKMath;TKBRep;TKG2d;TKG3d;TKTopAlgo;TKLCAF;TKXCAF"
-)
-
-# Create imported target TKVRML
-add_library(TKVRML SHARED IMPORTED)
-
-set_target_properties(TKVRML PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKBRep;TKXDE;TKTopAlgo;TKMath;TKGeomBase;TKernel;TKPrim;TKG2d;TKG3d;TKMesh;TKHLR;TKRWMesh;TKService;TKGeomAlgo;TKV3d;TKLCAF;TKXCAF;TKXSBase"
+  INTERFACE_LINK_LIBRARIES "TKBRep;TKDE;TKTopAlgo;TKMath;TKGeomBase;TKernel;TKPrim;TKG2d;TKG3d;TKMesh;TKHLR;TKRWMesh;TKService;TKGeomAlgo;TKV3d;TKLCAF;TKXCAF;TKXSBase"
 )
 
 # Create imported target TKRWMesh
@@ -154,15 +114,15 @@ add_library(TKRWMesh SHARED IMPORTED)
 
 set_target_properties(TKRWMesh PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKXDE;TKService"
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService"
 )
 
-# Create imported target TKXmlXCAF
-add_library(TKXmlXCAF SHARED IMPORTED)
+# Create imported target TKDECascade
+add_library(TKDECascade SHARED IMPORTED)
 
-set_target_properties(TKXmlXCAF PROPERTIES
+set_target_properties(TKDECascade PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKXmlL;TKBRep;TKCDF;TKMath;TKernel;TKService;TKG2d;TKGeomBase;TKCAF;TKG3d;TKLCAF;TKXCAF;TKXml"
+  INTERFACE_LINK_LIBRARIES "TKBin;TKBinL;TKBinTObj;TKBinXCAF;TKBRep;TKStd;TKXml;TKXmlL;TKXmlTObj;TKXmlXCAF;TKDE;TKernel;TKMath;TKLCAF;TKXCAF;TKStdL;TKCDF"
 )
 
 # Create imported target TKBinXCAF
@@ -173,20 +133,36 @@ set_target_properties(TKBinXCAF PROPERTIES
   INTERFACE_LINK_LIBRARIES "TKBRep;TKXCAF;TKMath;TKService;TKernel;TKBinL;TKG2d;TKCAF;TKCDF;TKG3d;TKLCAF;TKBin"
 )
 
-# Create imported target TKXDECascade
-add_library(TKXDECascade SHARED IMPORTED)
+# Create imported target TKXmlXCAF
+add_library(TKXmlXCAF SHARED IMPORTED)
 
-set_target_properties(TKXDECascade PROPERTIES
+set_target_properties(TKXmlXCAF PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKBin;TKBinL;TKBinTObj;TKBinXCAF;TKBRep;TKStd;TKXml;TKXmlL;TKXmlTObj;TKXmlXCAF;TKXDE;TKernel;TKMath;TKLCAF;TKXCAF;TKStdL;TKCDF"
+  INTERFACE_LINK_LIBRARIES "TKXmlL;TKBRep;TKCDF;TKMath;TKernel;TKService;TKG2d;TKGeomBase;TKCAF;TKG3d;TKLCAF;TKXCAF;TKXml"
 )
 
-# Create imported target TKExpress
-add_library(TKExpress SHARED IMPORTED)
+# Create imported target TKDEOBJ
+add_library(TKDEOBJ SHARED IMPORTED)
 
-set_target_properties(TKExpress PROPERTIES
+set_target_properties(TKDEOBJ PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
-  INTERFACE_LINK_LIBRARIES "TKernel"
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService;TKRWMesh"
+)
+
+# Create imported target TKDEGLTF
+add_library(TKDEGLTF SHARED IMPORTED)
+
+set_target_properties(TKDEGLTF PROPERTIES
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService;TKRWMesh"
+)
+
+# Create imported target TKDEPLY
+add_library(TKDEPLY SHARED IMPORTED)
+
+set_target_properties(TKDEPLY PROPERTIES
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/inc"
+  INTERFACE_LINK_LIBRARIES "TKernel;TKMath;TKMesh;TKXCAF;TKLCAF;TKV3d;TKBRep;TKG3d;TKDE;TKService;TKRWMesh"
 )
 
 # Load information for each installed configuration.
@@ -228,7 +204,7 @@ unset(_cmake_import_check_targets)
 # Make sure the targets which have been exported in some other
 # export set exist.
 unset(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets)
-foreach(_target "TKernel" "TKBRep" "TKMath" "TKG2d" "TKG3d" "TKTopAlgo" "TKGeomBase" "TKShHealing" "TKGeomAlgo" "TKPrim" "TKBool" "TKService" "TKV3d" "TKCDF" "TKLCAF" "TKCAF" "TKVCAF" "TKMesh" "TKHLR" "TKXmlL" "TKXml" "TKBinL" "TKBin" "TKBinTObj" "TKStd" "TKXmlTObj" "TKStdL" )
+foreach(_target "TKernel" "TKBRep" "TKMath" "TKG2d" "TKG3d" "TKTopAlgo" "TKGeomBase" "TKShHealing" "TKCAF" "TKCDF" "TKLCAF" "TKGeomAlgo" "TKService" "TKV3d" "TKVCAF" "TKBool" "TKPrim" "TKMesh" "TKHLR" "TKBin" "TKBinL" "TKBinTObj" "TKStd" "TKXml" "TKXmlL" "TKXmlTObj" "TKStdL" )
   if(NOT TARGET "${_target}" )
     set(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets "${${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets} ${_target}")
   endif()

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.cxx">
+      <Filter>Source Files\DEBRepCascade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_Provider.cxx">
+      <Filter>Source Files\DEBRepCascade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.cxx">
+      <Filter>Source Files\DEXCAFCascade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_Provider.cxx">
+      <Filter>Source Files\DEXCAFCascade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.hxx">
+      <Filter>Header Files\DEBRepCascade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEBRepCascade\DEBRepCascade_Provider.hxx">
+      <Filter>Header Files\DEBRepCascade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.hxx">
+      <Filter>Header Files\DEXCAFCascade</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\DEXCAFCascade\DEXCAFCascade_Provider.hxx">
+      <Filter>Header Files\DEXCAFCascade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\OCCT-Build\Builds\resources\TKDECascade.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58292C4-2438-3ADD-B6A2-25E7E59560E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DEBRepCascade">
+      <UniqueIdentifier>{5F626168-D7AE-3D36-BAA6-34D361DCDF17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DEXCAFCascade">
+      <UniqueIdentifier>{CAA03280-882D-3D0C-A502-8F7958C31BE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9802520C-19DB-3B97-9E72-2556095EDE50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DEBRepCascade">
+      <UniqueIdentifier>{1D775B50-3ED0-347B-98FD-6365FA99D6DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DEXCAFCascade">
+      <UniqueIdentifier>{1571C0F8-4885-314E-A5E5-99D262390892}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

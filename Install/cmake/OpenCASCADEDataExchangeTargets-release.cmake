@@ -5,15 +5,15 @@
 # Commands may need to know the format version.
 set(CMAKE_IMPORT_FILE_VERSION 1)
 
-# Import target "TKXDE" for configuration "Release"
-set_property(TARGET TKXDE APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDE PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDE.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDE.dll"
+# Import target "TKDE" for configuration "Release"
+set_property(TARGET TKDE APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDE PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDE.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDE.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKXDE )
-list(APPEND _cmake_import_check_files_for_TKXDE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDE.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDE.dll" )
+list(APPEND _cmake_import_check_targets TKDE )
+list(APPEND _cmake_import_check_files_for_TKDE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDE.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDE.dll" )
 
 # Import target "TKXSBase" for configuration "Release"
 set_property(TARGET TKXSBase APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
@@ -25,55 +25,15 @@ set_target_properties(TKXSBase PROPERTIES
 list(APPEND _cmake_import_check_targets TKXSBase )
 list(APPEND _cmake_import_check_files_for_TKXSBase "${_IMPORT_PREFIX}/win64/vc14/lib/TKXSBase.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXSBase.dll" )
 
-# Import target "TKSTEPBase" for configuration "Release"
-set_property(TARGET TKSTEPBase APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEPBase PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEPBase.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEPBase.dll"
+# Import target "TKDESTEP" for configuration "Release"
+set_property(TARGET TKDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDESTEP PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDESTEP.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDESTEP.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKSTEPBase )
-list(APPEND _cmake_import_check_files_for_TKSTEPBase "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEPBase.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEPBase.dll" )
-
-# Import target "TKSTEPAttr" for configuration "Release"
-set_property(TARGET TKSTEPAttr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEPAttr PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEPAttr.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEPAttr.dll"
-  )
-
-list(APPEND _cmake_import_check_targets TKSTEPAttr )
-list(APPEND _cmake_import_check_files_for_TKSTEPAttr "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEPAttr.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEPAttr.dll" )
-
-# Import target "TKSTEP209" for configuration "Release"
-set_property(TARGET TKSTEP209 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEP209 PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEP209.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEP209.dll"
-  )
-
-list(APPEND _cmake_import_check_targets TKSTEP209 )
-list(APPEND _cmake_import_check_files_for_TKSTEP209 "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEP209.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEP209.dll" )
-
-# Import target "TKSTEP" for configuration "Release"
-set_property(TARGET TKSTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTEP PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEP.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEP.dll"
-  )
-
-list(APPEND _cmake_import_check_targets TKSTEP )
-list(APPEND _cmake_import_check_files_for_TKSTEP "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTEP.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTEP.dll" )
-
-# Import target "TKIGES" for configuration "Release"
-set_property(TARGET TKIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKIGES PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKIGES.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKIGES.dll"
-  )
-
-list(APPEND _cmake_import_check_targets TKIGES )
-list(APPEND _cmake_import_check_files_for_TKIGES "${_IMPORT_PREFIX}/win64/vc14/lib/TKIGES.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKIGES.dll" )
+list(APPEND _cmake_import_check_targets TKDESTEP )
+list(APPEND _cmake_import_check_files_for_TKDESTEP "${_IMPORT_PREFIX}/win64/vc14/lib/TKDESTEP.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDESTEP.dll" )
 
 # Import target "TKXCAF" for configuration "Release"
 set_property(TARGET TKXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
@@ -85,45 +45,35 @@ set_target_properties(TKXCAF PROPERTIES
 list(APPEND _cmake_import_check_targets TKXCAF )
 list(APPEND _cmake_import_check_files_for_TKXCAF "${_IMPORT_PREFIX}/win64/vc14/lib/TKXCAF.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXCAF.dll" )
 
-# Import target "TKXDEIGES" for configuration "Release"
-set_property(TARGET TKXDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDEIGES PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDEIGES.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDEIGES.dll"
+# Import target "TKDEIGES" for configuration "Release"
+set_property(TARGET TKDEIGES APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEIGES PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEIGES.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEIGES.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKXDEIGES )
-list(APPEND _cmake_import_check_files_for_TKXDEIGES "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDEIGES.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDEIGES.dll" )
+list(APPEND _cmake_import_check_targets TKDEIGES )
+list(APPEND _cmake_import_check_files_for_TKDEIGES "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEIGES.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEIGES.dll" )
 
-# Import target "TKXDESTEP" for configuration "Release"
-set_property(TARGET TKXDESTEP APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDESTEP PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDESTEP.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDESTEP.dll"
+# Import target "TKDESTL" for configuration "Release"
+set_property(TARGET TKDESTL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDESTL PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDESTL.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDESTL.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKXDESTEP )
-list(APPEND _cmake_import_check_files_for_TKXDESTEP "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDESTEP.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDESTEP.dll" )
+list(APPEND _cmake_import_check_targets TKDESTL )
+list(APPEND _cmake_import_check_files_for_TKDESTL "${_IMPORT_PREFIX}/win64/vc14/lib/TKDESTL.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDESTL.dll" )
 
-# Import target "TKSTL" for configuration "Release"
-set_property(TARGET TKSTL APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKSTL PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTL.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTL.dll"
+# Import target "TKDEVRML" for configuration "Release"
+set_property(TARGET TKDEVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEVRML PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEVRML.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEVRML.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKSTL )
-list(APPEND _cmake_import_check_files_for_TKSTL "${_IMPORT_PREFIX}/win64/vc14/lib/TKSTL.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKSTL.dll" )
-
-# Import target "TKVRML" for configuration "Release"
-set_property(TARGET TKVRML APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKVRML PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKVRML.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKVRML.dll"
-  )
-
-list(APPEND _cmake_import_check_targets TKVRML )
-list(APPEND _cmake_import_check_files_for_TKVRML "${_IMPORT_PREFIX}/win64/vc14/lib/TKVRML.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKVRML.dll" )
+list(APPEND _cmake_import_check_targets TKDEVRML )
+list(APPEND _cmake_import_check_files_for_TKDEVRML "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEVRML.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEVRML.dll" )
 
 # Import target "TKRWMesh" for configuration "Release"
 set_property(TARGET TKRWMesh APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
@@ -135,15 +85,15 @@ set_target_properties(TKRWMesh PROPERTIES
 list(APPEND _cmake_import_check_targets TKRWMesh )
 list(APPEND _cmake_import_check_files_for_TKRWMesh "${_IMPORT_PREFIX}/win64/vc14/lib/TKRWMesh.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKRWMesh.dll" )
 
-# Import target "TKXmlXCAF" for configuration "Release"
-set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXmlXCAF PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXmlXCAF.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKXmlXCAF.dll"
+# Import target "TKDECascade" for configuration "Release"
+set_property(TARGET TKDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDECascade PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDECascade.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDECascade.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKXmlXCAF )
-list(APPEND _cmake_import_check_files_for_TKXmlXCAF "${_IMPORT_PREFIX}/win64/vc14/lib/TKXmlXCAF.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXmlXCAF.dll" )
+list(APPEND _cmake_import_check_targets TKDECascade )
+list(APPEND _cmake_import_check_files_for_TKDECascade "${_IMPORT_PREFIX}/win64/vc14/lib/TKDECascade.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDECascade.dll" )
 
 # Import target "TKBinXCAF" for configuration "Release"
 set_property(TARGET TKBinXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
@@ -155,25 +105,45 @@ set_target_properties(TKBinXCAF PROPERTIES
 list(APPEND _cmake_import_check_targets TKBinXCAF )
 list(APPEND _cmake_import_check_files_for_TKBinXCAF "${_IMPORT_PREFIX}/win64/vc14/lib/TKBinXCAF.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKBinXCAF.dll" )
 
-# Import target "TKXDECascade" for configuration "Release"
-set_property(TARGET TKXDECascade APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKXDECascade PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDECascade.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDECascade.dll"
+# Import target "TKXmlXCAF" for configuration "Release"
+set_property(TARGET TKXmlXCAF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKXmlXCAF PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKXmlXCAF.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKXmlXCAF.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKXDECascade )
-list(APPEND _cmake_import_check_files_for_TKXDECascade "${_IMPORT_PREFIX}/win64/vc14/lib/TKXDECascade.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXDECascade.dll" )
+list(APPEND _cmake_import_check_targets TKXmlXCAF )
+list(APPEND _cmake_import_check_files_for_TKXmlXCAF "${_IMPORT_PREFIX}/win64/vc14/lib/TKXmlXCAF.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKXmlXCAF.dll" )
 
-# Import target "TKExpress" for configuration "Release"
-set_property(TARGET TKExpress APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(TKExpress PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKExpress.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKExpress.dll"
+# Import target "TKDEOBJ" for configuration "Release"
+set_property(TARGET TKDEOBJ APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEOBJ PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEOBJ.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEOBJ.dll"
   )
 
-list(APPEND _cmake_import_check_targets TKExpress )
-list(APPEND _cmake_import_check_files_for_TKExpress "${_IMPORT_PREFIX}/win64/vc14/lib/TKExpress.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKExpress.dll" )
+list(APPEND _cmake_import_check_targets TKDEOBJ )
+list(APPEND _cmake_import_check_files_for_TKDEOBJ "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEOBJ.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEOBJ.dll" )
+
+# Import target "TKDEGLTF" for configuration "Release"
+set_property(TARGET TKDEGLTF APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEGLTF PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEGLTF.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEGLTF.dll"
+  )
+
+list(APPEND _cmake_import_check_targets TKDEGLTF )
+list(APPEND _cmake_import_check_files_for_TKDEGLTF "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEGLTF.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEGLTF.dll" )
+
+# Import target "TKDEPLY" for configuration "Release"
+set_property(TARGET TKDEPLY APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(TKDEPLY PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEPLY.lib"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEPLY.dll"
+  )
+
+list(APPEND _cmake_import_check_targets TKDEPLY )
+list(APPEND _cmake_import_check_files_for_TKDEPLY "${_IMPORT_PREFIX}/win64/vc14/lib/TKDEPLY.lib" "${_IMPORT_PREFIX}/win64/vc14/bin/TKDEPLY.dll" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

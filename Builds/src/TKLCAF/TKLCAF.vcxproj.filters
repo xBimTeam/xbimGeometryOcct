@@ -438,9 +438,6 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelMap.hxx">
       <Filter>Header Files\TDF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelMapHasher.hxx">
-      <Filter>Header Files\TDF</Filter>
-    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\TDF\TDF_LabelNode.hxx">
       <Filter>Header Files\TDF</Filter>
     </ClInclude>

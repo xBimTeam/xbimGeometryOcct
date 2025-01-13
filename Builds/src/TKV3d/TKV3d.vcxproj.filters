@@ -319,6 +319,9 @@
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_Animation.cxx">
       <Filter>Source Files\AIS</Filter>
     </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationAxisRotation.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationCamera.cxx">
       <Filter>Source Files\AIS</Filter>
     </ClCompile>
@@ -332,6 +335,9 @@
       <Filter>Source Files\AIS</Filter>
     </ClCompile>
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BadEdgeFilter.cxx">
+      <Filter>Source Files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BaseAnimationObject.cxx">
       <Filter>Source Files\AIS</Filter>
     </ClCompile>
     <ClCompile Include="C:\OCCT-Build\OCCT\src\AIS\AIS_C0RegularityFilter.cxx">
@@ -1152,6 +1158,9 @@
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationTimer.hxx">
       <Filter>Header Files\AIS</Filter>
     </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationAxisRotation.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_AnimationCamera.hxx">
       <Filter>Header Files\AIS</Filter>
     </ClInclude>
@@ -1165,6 +1174,9 @@
       <Filter>Header Files\AIS</Filter>
     </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BadEdgeFilter.hxx">
+      <Filter>Header Files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_BaseAnimationObject.hxx">
       <Filter>Header Files\AIS</Filter>
     </ClInclude>
     <ClInclude Include="C:\OCCT-Build\OCCT\src\AIS\AIS_C0RegularityFilter.hxx">
