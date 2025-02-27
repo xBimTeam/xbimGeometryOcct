@@ -1,6 +1,6 @@
 # Xbim.Geometry.Occt
 
-This Nuget package contains Open CASCADE 7.8.0 libraries used by xbim Geometry Engine v6+ which are dynamically linked into
+This Nuget package contains Open CASCADE 7.8.1 libraries used by xbim Geometry Engine v6+ which are dynamically linked into
 the xbim software.
 
 ## Copyright

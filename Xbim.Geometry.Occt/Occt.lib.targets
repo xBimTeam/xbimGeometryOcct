@@ -34,10 +34,6 @@
     <!-- Data Exchange -->
     <OcctLibraries Include="TKBinXCAF" />
     <OcctLibraries Include="TKDESTEP" />
-    <!--<OcctLibraries Include="TKSTEP209" />-->
-    <!--<OcctLibraries Include="TKSTEPAttr" />-->
-    <!--<OcctLibraries Include="TKDESTEPBase" /-->
-    <!--<OcctLibraries Include="TKXDESTEP" />-->
     <OcctLibraries Include="TKXCAF" />
     <OcctLibraries Include="TKXSBase" />
     <!-- Visualization -->
