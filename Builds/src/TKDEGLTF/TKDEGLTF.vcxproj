@@ -20,7 +20,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FF4CBB01-2846-3575-ABA2-76DF5204ADC6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>TKDEGLTF</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
